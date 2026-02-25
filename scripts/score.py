@@ -33,7 +33,10 @@ DEALBREAKER_PATTERNS = [
     r"cannot sponsor",
     r"will not sponsor",
     r"does not sponsor",
+    r"does not provide visa sponsorship",
     r"authorized to work without sponsorship",
+    r"work in the u\.?s\.? on an ongoing basis without sponsorship",
+    r"ongoing basis without sponsorship",
     r"must be authorized to work",
     r"without the need for sponsorship",
     r"must be (a )?(us|u\.s\.) citizen",
@@ -43,15 +46,18 @@ DEALBREAKER_PATTERNS = [
     r"security clearance required",
     r"top secret",
     r"secret clearance",
+    r"legally authorized to work in the u\.?s\.? on an ongoing basis without",
 ]
 
 DEALBREAKER_EMPLOYERS = [
     r"credit union",
-    r"k-12",
+    r"\bk-12\b",
+    r"k12 school",
     r"school district",
     r"elementary school",
     r"middle school",
-    r"high school",
+    r"\bhigh school district\b",
+    r"\bk-12 education\b",
 ]
 
 SENIOR_PATTERNS = [
@@ -84,6 +90,20 @@ def load_json(path: str, default=None):
 
 def has_dealbreaker(job: dict) -> tuple[bool, str]:
     """Return (True, reason) if the job has a dealbreaker, else (False, '')."""
+    # First check the pre-populated sponsorship_flags field
+    flags = job.get("sponsorship_flags", [])
+    if flags:
+        for flag in flags:
+            flag_lower = flag.lower()
+            if any(kw in flag_lower for kw in [
+                "no sponsorship", "does not sponsor", "without sponsorship",
+                "does not provide visa sponsorship", "legally authorized",
+                "not a u.s. citizen", "citizenship required",
+                "not eligible for university-sponsored", "not eligible for",
+                "university-sponsored work authorization",
+            ]):
+                return True, f"Sponsorship flag: {flag}"
+
     text = (job.get("description", "") + " " + job.get("title", "")).lower()
     url = job.get("url", "").lower()
     combined = text + " " + url
