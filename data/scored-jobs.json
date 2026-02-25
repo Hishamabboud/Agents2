@@ -19,11 +19,7 @@
       "+4.0 skills match (python, flask, sql, postgresql, postgres)",
       "+2 experience level match (6 yrs)",
       "+1 salary listed and \u2265$70k ($80,000 - $105,000)"
-    ],
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/johns-hopkins-university-software-engineer-ii.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md",
-    "app_id": "20260225_MD_johns-hopkins_software-engineer-ii",
-    "app_dir": "output/applications/20260225_MD_johns-hopkins_software-engineer-ii"
+    ]
   },
   {
     "id": "b2c3d4e5f6a1",
@@ -45,11 +41,7 @@
       "+4.0 skills match (python, flask, c#, asp.net, .net)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($85,000 - $110,000)"
-    ],
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/university-of-michigan-full-stack-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md",
-    "app_id": "20260225_MI_univ-michigan_full-stack-developer",
-    "app_dir": "output/applications/20260225_MI_univ-michigan_full-stack-developer"
+    ]
   },
   {
     "id": "c3d4e5f6a1b2",
@@ -71,11 +63,7 @@
       "+4.0 skills match (python, sql, postgresql, postgres, sql server)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($90,000 - $120,000)"
-    ],
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/mayo-clinic-data-engineer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md",
-    "app_id": "20260225_MN_mayo-clinic_data-engineer",
-    "app_dir": "output/applications/20260225_MN_mayo-clinic_data-engineer"
+    ]
   },
   {
     "id": "f6a1b2c3d4e5",
@@ -97,11 +85,7 @@
       "+4.0 skills match (python, flask, sql, postgresql, postgres)",
       "+2 experience level match (6 yrs)",
       "+1 salary listed and \u2265$70k ($95,000 - $125,000)"
-    ],
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/stanford-university-python-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/stanford-university-python-developer.md",
-    "app_id": "20260225_CA_stanford_python-developer",
-    "app_dir": "output/applications/20260225_CA_stanford_python-developer"
+    ]
   },
   {
     "id": "d4e5f6a1b2c3",
@@ -160,9 +144,7 @@
       "+3.5 skills match (python, javascript, react, sql, git)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($156,864 - $191,724)"
-    ],
-    "app_id": "20260225_CA_lbl_full-stack-engineer-python",
-    "app_dir": "output/applications/20260225_CA_lbl_full-stack-engineer-python"
+    ]
   },
   {
     "id": "lbl-7359",
@@ -184,9 +166,7 @@
       "+2.5 skills match (python, sql, restful, git, ci/cd)",
       "+2 experience level match (2 yrs)",
       "+1 salary listed and \u2265$70k ($105,000 - $161,000)"
-    ],
-    "app_id": "20260225_CA_lbl_data-access-engineer",
-    "app_dir": "output/applications/20260225_CA_lbl_data-access-engineer"
+    ]
   },
   {
     "id": "lbl-7320",
@@ -208,9 +188,7 @@
       "+3.5 skills match (python, javascript, sql, postgresql, postgres)",
       "+2 experience level match (5 yrs)",
       "+1 salary listed and \u2265$70k ($131,760 - $161,064)"
-    ],
-    "app_id": "20260225_CA_lbl_data-science-engineer",
-    "app_dir": "output/applications/20260225_CA_lbl_data-science-engineer"
+    ]
   },
   {
     "id": "lbl-7221",
@@ -232,9 +210,7 @@
       "+4.0 skills match (python, sql, postgresql, postgres, mysql)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($153,492 - $213,660)"
-    ],
-    "app_id": "20260225_CA_lbl-nersc_software-api-engineer",
-    "app_dir": "output/applications/20260225_CA_lbl-nersc_software-api-engineer"
+    ]
   },
   {
     "id": "lbl-7378-skip",
@@ -356,9 +332,7 @@
       "+4.0 skills match (python, c#, asp.net, .net, javascript)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($80,000 - $100,000)"
-    ],
-    "app_id": "20260225_TN_vumc_software-developer-iii",
-    "app_dir": "output/applications/20260225_TN_vumc_software-developer-iii"
+    ]
   },
   {
     "id": "emory-ga-001",
@@ -380,9 +354,7 @@
       "+4.0 skills match (python, vue, vue.js, react, angular)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($90,000 - $115,000)"
-    ],
-    "app_id": "20260225_GA_emory_full-stack-developer-ai",
-    "app_dir": "output/applications/20260225_GA_emory_full-stack-developer-ai"
+    ]
   },
   {
     "id": "csu-co-001",
@@ -404,9 +376,7 @@
       "+2.0 skills match (python, rest api, git, agile)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($70,000 - $95,000)"
-    ],
-    "app_id": "20260225_CO_csu-cira_awips-software-engineer",
-    "app_dir": "output/applications/20260225_CO_csu-cira_awips-software-engineer"
+    ]
   },
   {
     "id": "childrensmercy-mo-001",
@@ -428,9 +398,7 @@
       "+2.0 skills match (c#, .net, sql, git)",
       "+2 experience level match (2 yrs)",
       "+1 salary listed and \u2265$70k ($70,000 - $85,000)"
-    ],
-    "app_id": "20260225_MO_childrens-mercy_software-engineer",
-    "app_dir": "output/applications/20260225_MO_childrens-mercy_software-engineer"
+    ]
   },
   {
     "id": "umt-mt-001",
@@ -452,9 +420,7 @@
       "+4.0 skills match (python, c#, .net, php, javascript)",
       "+1 no specific experience requirement stated",
       "-1 salary below $70k ($55,000 - $75,000)"
-    ],
-    "app_id": "20260225_MT_univ-montana_it-applications-developer",
-    "app_dir": "output/applications/20260225_MT_univ-montana_it-applications-developer"
+    ]
   },
   {
     "id": "mt-gov-26140520",
@@ -476,9 +442,7 @@
       "+2.5 skills match (.net, sql, sql server, agile, etl)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($83,720 - $88,712)"
-    ],
-    "app_id": "20260225_MT_mt-board-crime-control_data-warehouse-architect",
-    "app_dir": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect"
+    ]
   },
   {
     "id": "mt-gov-26140488",
@@ -566,9 +530,7 @@
       "+2.5 skills match (python, .net, sql, git, docker)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($86,952 - $127,192)"
-    ],
-    "app_id": "20260225_CO_cu-anschutz_it-data-scientist",
-    "app_dir": "output/applications/20260225_CO_cu-anschutz_it-data-scientist"
+    ]
   },
   {
     "id": "cu-taleo-38876",
@@ -590,9 +552,7 @@
       "+1.5 skills match (.net, sql, data model)",
       "+1 no specific experience requirement stated",
       "+1 salary listed and \u2265$70k ($90,000 - $100,247)"
-    ],
-    "app_id": "20260225_CO_cu-anschutz_senior-bi-developer",
-    "app_dir": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer"
+    ]
   },
   {
     "id": "cu-taleo-38443",
