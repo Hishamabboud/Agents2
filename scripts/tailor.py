@@ -147,15 +147,15 @@ ORIGINAL RESUME:
 
 INSTRUCTIONS:
 1. Mirror EXACT keywords from the job description for ATS optimization
-2. Reorder the Technical Skills section to match the job's requirements first
-3. Adjust bullet points to emphasize the most relevant experience
-4. Keep the resume to ONE PAGE maximum (~400 words)
+2. Reorganize the Technical Skills section into labeled categories relevant to this job (e.g. "Database Management:", "Programming Languages:", "Project Coordination:", etc.) - put the most relevant categories first
+3. Rewrite and expand bullet points to emphasize the most relevant experience - make them detailed and specific, matching the language of the job description
+4. Include ALL bullet points - do NOT shrink or truncate the resume. More detail is better. The resume should be comprehensive and thorough.
 5. Do NOT fabricate any experience, skills, or qualifications not in the original
 6. Do NOT mention H-1B, visa status, or sponsorship
 7. Keep Mohamad's real contact info and education unchanged
 8. Output ONLY the tailored resume in markdown, no commentary
 
-OUTPUT: A tailored resume in markdown format."""
+OUTPUT: A comprehensive tailored resume in markdown format."""
     return call_claude(prompt)
 
 
@@ -185,15 +185,15 @@ COVER LETTER TEMPLATE/GUIDELINES:
 {template}
 
 INSTRUCTIONS:
-1. Write a 500-600 word cover letter in simple, human language
-2. NO corporate jargon - write like a real person
-3. Connect authentically to the organization's mission
-4. Mirror exact keywords from the job description
-5. Reference relevant projects: KCD EDI system, KidsCloset acquisition, KC Sports Directory, College Basketball Experience
-6. Mention C#/ASP.NET and SQL Server work for 400+ banking clients if relevant
-{"7. Mention brother is a physician and sister is a psychologist - genuine healthcare passion" if is_healthcare else ""}
-8. Do NOT mention H-1B, visa status, OPT, or sponsorship
-9. End with: Best regards, Mohamad Abboud
+1. Write a 500-650 word cover letter in simple, human language - NO corporate jargon
+2. Use EXACTLY 4 paragraphs plus a closing line, following the template structure precisely
+3. Paragraph 1: Why passionate about this specific role and organization. Connect to their mission. {"Mention brother is a physician and sister is a psychologist - grew up around healthcare conversations and understand what accurate data means for clinical decisions." if is_healthcare else "Connect personally and authentically to what this organization does."}
+4. Paragraph 2: Tekkii experience - walk through specific relevant work in detail, mirror job description language
+5. Paragraph 3: Allied Engineering Group experience + master's thesis (pneumonia detection app) if relevant to role
+6. Paragraph 4: Why drawn to THIS specific organization and role. What excites you about contributing there. CRITICAL: Do NOT mention current city, current state, where you live now, or willingness to relocate. Focus only on passion for the job.
+7. Closing: "Thank you for considering my application. I would love to discuss how my [skills] can contribute to [company]'s [mission]."
+8. Sign off: Sincerely, Mohamad Abboud
+9. Do NOT mention H-1B, visa status, OPT, or sponsorship
 10. Output ONLY the cover letter, no commentary
 
 OUTPUT: The complete cover letter."""
