@@ -102,26 +102,37 @@ def make_app_id(job: dict) -> str:
     return f"{company_slug}_{role_slug}_{url_hash}"
 
 
+def _get_anthropic_client():
+    """Build an Anthropic client using whichever auth is available."""
+    import anthropic
+
+    # Prefer explicit API key
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return anthropic.Anthropic()
+
+    # Claude Code injects a session ingress token via a file path env var
+    token_file = os.environ.get("CLAUDE_SESSION_INGRESS_TOKEN_FILE", "")
+    if token_file and os.path.exists(token_file):
+        try:
+            with open(token_file) as f:
+                token = f.read().strip()
+            if token:
+                return anthropic.Anthropic(auth_token=token)
+        except IOError:
+            pass
+
+    # Last resort: let the SDK raise its own auth error
+    return anthropic.Anthropic()
+
+
 def call_claude(prompt: str) -> str:
     """
-    Call Claude via claude CLI subprocess.
-    Falls back to Anthropic Python SDK if CLI unavailable.
+    Call Claude via the Anthropic SDK.
+    Uses ANTHROPIC_API_KEY if set, otherwise falls back to the
+    Claude Code session ingress token (CLAUDE_SESSION_INGRESS_TOKEN_FILE).
     """
     try:
-        result = subprocess.run(
-            ["claude", "-p", prompt],
-            capture_output=True,
-            text=True,
-            timeout=120,
-        )
-        if result.returncode == 0 and result.stdout.strip():
-            return result.stdout.strip()
-    except (FileNotFoundError, subprocess.TimeoutExpired):
-        pass
-
-    try:
-        import anthropic
-        client = anthropic.Anthropic()
+        client = _get_anthropic_client()
         message = client.messages.create(
             model="claude-sonnet-4-6",
             max_tokens=2048,
