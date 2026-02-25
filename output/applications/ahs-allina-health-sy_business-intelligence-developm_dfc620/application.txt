@@ -1,0 +1,65 @@
+Business Intelligence Development Analyst Senior at AHS Allina Health System
+https://allina.wd5.myworkdayjobs.com/external/job/Brooklyn-Center-Receivable-Services/Business-Intelligence-Development-Analyst-Senior_R-0069381
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Business Intelligence Development Analyst Senior role at Allina Health because your mission to provide exceptional, whole-person care is something I find genuinely meaningful, not just as a professional goal but as someone who grew up around healthcare every day. My brother is a physician and my sister is a psychologist, and those dinner-table conversations about patient outcomes and care decisions taught me early on that the data behind healthcare has real consequences for real people. That shapes how I approach every BI solution I build. Accurate, trustworthy data is not just a technical requirement; it is how you support the people making decisions that affect patients.
+
+At Tekkii, I worked across the full data lifecycle, from designing and maintaining SQL databases in PostgreSQL, SQL Server, and MySQL, to building complex queries, stored procedures, and automated reporting solutions that gave business stakeholders clear, actionable insights. I built an EDI processing system from scratch for Kansas City Drayage, automating logistics data exchange and eliminating time-consuming manual workflows entirely. I also led the backend and database transformation of KidsCloset.biz, redesigning the data layer in a way that directly contributed to the platform's successful acquisition. For the KC Sports Directory, I built and structured the underlying database to support a community-wide platform backed by the Kansas City Royals Foundation and Kansas City Healthy Lifestyles Collaborative. Throughout all of this, I worked closely with business stakeholders to translate their reporting needs into scalable technical solutions, which is exactly what this role calls for.
+
+Before Tekkii, I worked as a software engineer at Allied Engineering Group, where I designed SQL Server schemas, wrote optimized queries, and built custom reports supporting data analysis for more than 400 financial institutions across more than 40 countries. That environment pushed me to think carefully about data integrity and performance at scale, since any inconsistency in a high-volume SWIFT transaction database had immediate downstream consequences. I also completed a Master of Science in Computer Science at the University of Missouri-Kansas City, where my graduate work included building a pneumonia detection application using Python and medical imaging data, which deepened both my technical toolkit and my appreciation for how data-driven tools can support clinical and healthcare environments.
+
+What draws me specifically to Allina Health is the combination of meaningful mission and serious technical work. The chance to design executive-level BI tools, build data models that integrate financial and operational data, and help leadership make better decisions inside a not-for-profit health system is exactly the kind of work I want to be doing. Allina's commitment to whole-person care resonates with how I think about building technology: the end goal is always the person on the other side of the data, whether that is a patient, a clinician, or an operations leader trying to do their job well. I would be proud to contribute to that.
+
+Thank you for considering my application. I would love to discuss how my SQL development, BI design, and data modeling experience can contribute to Allina Health's mission of delivering exceptional care supported by reliable, insightful data.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+BI and Data Modeling: SQL (PostgreSQL, SQL Server, MySQL), Data Modeling, ETL Pipelines, Data Transformation, Query Optimization, Stored Procedures, T-SQL, Data Validation, Reporting
+Analytics and Visualization: Data Analysis, KPI Reporting, Data Visualization, Microsoft Excel, Microsoft Access, Forecasting, Executive Reporting
+Development and Automation: Python, C#, JavaScript, REST APIs, Flask, ASP.NET, CI/CD, Docker, Git/GitHub
+Systems and Infrastructure: Database Design, Server Administration, Performance Optimization, Data Quality and Governance, Data Migration
+Project and Stakeholder Support: Requirements Gathering, Stakeholder Communication, Process Improvement, User Training, Technical Documentation, Agile/Scrum
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Led design and development of SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, security, and optimized performance at the application and database level.
+- Collaborated with cross-functional stakeholders to define reporting requirements, translating business data needs into scalable BI solutions aligned with organizational goals.
+- Created complex SQL queries, stored procedures, and automated reporting solutions that tracked key performance indicators and supported high-impact business decisions.
+- Enforced standards for data validation and reconciliation through regular audits and validation rules, maintaining trust and reliability in reporting tools.
+- Designed BI tools to assist with the analysis of complex data models, enabling trending analysis and forecasting of financial and operational outcomes.
+- Managed data migration projects between systems, verifying accuracy and ensuring business continuity with minimal disruption to operations.
+- Built automated EDI data capture and exchange workflows, eliminating manual processing and streamlining operational data management.
+- Communicated with operations leaders to determine specific business requirements, delivering technical solutions aligned with organizational and reporting objectives.
+- Developed RESTful APIs integrating third-party services and built application integrations supporting data exchange across multiple business platforms.
+- Trained end users on database systems and reporting tools, producing documentation that supported independent troubleshooting and effective data use.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for 400+ financial institutions across 40+ countries.
+- Generated custom reports and data visualizations based on client-defined requirements, delivering insights in accessible formats that supported business decision-making.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving data inconsistencies to ensure reliable information.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions tailored to their operational needs.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted operations and business continuity for banking clients worldwide.
+- Provided technical support and training to end users on database functionality, reporting tools, and data access workflows.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Pneumonia Detection App: Built deep learning application for medical image analysis using Python.

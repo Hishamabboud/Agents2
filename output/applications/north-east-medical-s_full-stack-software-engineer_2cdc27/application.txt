@@ -1,0 +1,73 @@
+FULL STACK SOFTWARE ENGINEER at NORTH EAST MEDICAL SERVICES
+https://www.paycomonline.net/v4/ats/web.php/portal/6E954C497BEB1CC1EFFCD161606A4897/jobs/101263
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Full Stack Software Engineer role at North East Medical Services because building software that directly improves patient outcomes is exactly the kind of work I want to be doing. My brother is a physician and my sister is a psychologist, so I grew up around conversations about patient care, clinical workflows, and what happens when information is wrong or hard to access. That background shaped how I approach technical work. I do not just think about whether the code runs; I think about who is depending on it and what is at stake if it fails.
+
+At Tekkii, I worked across the full stack on projects that required both careful database design and clean front-end experiences. I built a RESTful API layer integrating third-party services including PayPal, SendGrid, and OneSignal, and I developed the backend and database architecture for KidsCloset.biz, a transformation substantial enough that the platform was successfully acquired. I also built an automated EDI capture and sending system for Kansas City Drayage from scratch, replacing manual logistics workflows entirely. On the front end, I worked with React and Vue.js to build interfaces that real users had to navigate comfortably, and I used Git throughout for version control and collaborated within agile teams using tools like ClickUp to manage sprints and delivery. I have experience designing and consuming RESTful APIs, deploying applications, and writing the SQL queries and stored procedures that keep the data layer reliable.
+
+Before Tekkii, I worked as a Software Engineer at Allied Engineering Group, where I designed SQL Server schemas, wrote optimized queries, and produced custom reports for more than 400 financial institutions across more than 40 countries. That role taught me how to keep data accurate and consistent under real pressure, where a bad record in a SWIFT transaction database has consequences felt across borders. I also earned a Master of Science in Computer Science from the University of Missouri-Kansas City, and for my capstone project I built a pneumonia detection application using Python and medical imaging data. Working on that project gave me a concrete sense of what thoughtful, careful software design looks like in a healthcare context, where precision genuinely matters.
+
+NEMS stands out to me because the mission is not abstract. The organization exists to serve communities that often face real barriers to quality healthcare, and the technology team plays a direct role in making care more accessible and experiences better for both patients and staff. The idea of building scalable, reliable systems that clinicians and patients actually depend on every day is meaningful work, and I am excited by the opportunity to take ownership of projects end to end and collaborate across clinical, operations, and technology teams to get things right. I would be proud to contribute here.
+
+Thank you for considering my application. I would love to discuss how my full stack development experience and commitment to building software that genuinely serves people can contribute to North East Medical Services' mission of delivering excellent, equitable care.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Languages and Frameworks: JavaScript, TypeScript, Python, PHP, Java (familiar), React, Vue.js, Angular, ASP.NET, Flask, Bootstrap, HTML, CSS
+
+APIs and Architecture: RESTful API Design and Integration, Third-Party Service Integration, Distributed Systems, Scalable Application Development
+
+Database and Data: SQL (PostgreSQL, SQL Server, MySQL), Database Design, Query Optimization, Stored Procedures, Data Modeling, ETL Pipelines, Data Migration
+
+Development Practices: Git/GitHub, Docker, CI/CD, Agile/Scrum, Unit and Integration Testing, Code Quality, System Testing, Quality Assurance
+
+Cloud and Infrastructure: AWS (familiar), SiteGround, Cloudways, SSH, Server Administration, FTP
+
+Project and Communication: Requirements Gathering, Stakeholder Communication, Technical Documentation, User Training, Process Improvement
+
+Experience
+
+Full Stack Software Engineer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Built and deployed full stack web applications across the entire stack using JavaScript, React, and RESTful APIs, optimizing for speed, scale, and positive user experiences.
+- Designed and integrated RESTful APIs connecting third-party services including PayPal, SendGrid, and OneSignal, enabling end-to-end system functionality across multiple production applications.
+- Assumed ownership of projects from conceptualization to deployment, leading architecture decisions, implementation, and release for multiple client-facing applications.
+- Developed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, accuracy, and accessibility across enterprise business applications.
+- Built automated EDI capture and transmission features for a logistics platform, eliminating manual workflows and improving operational scale and reliability.
+- Transformed the KidsCloset.biz e-commerce platform backend and database layer, delivering a production application of sufficient quality to support the platform's successful acquisition.
+- Wrote complex SQL queries, stored procedures, and automated reporting solutions that delivered actionable insights to business stakeholders.
+- Implemented data validation rules and conducted regular data audits to maintain high standards of data quality across all managed systems.
+- Collaborated with cross-functional stakeholders to gather requirements, translating business objectives into technical specifications and delivering aligned solutions.
+- Communicated complex technical concepts clearly to non-technical clients and end users, ensuring shared understanding of requirements, progress, and outcomes.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, identifying and resolving inconsistencies to ensure reliable information for production operations.
+- Monitored SQL and application logs to identify and resolve errors, ensuring high uptime and uninterrupted service for banking clients worldwide.
+- Built and delivered custom reports and data visualizations based on client requirements, presenting information in formats that directly supported business decision-making.
+- Collaborated with clients to gather data and reporting requirements, documented business processes, and delivered database solutions tailored to operational needs.
+- Provided technical support and training to end users on database tools and reporting systems, improving client self-sufficiency and reducing support overhead.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python.

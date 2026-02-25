@@ -1,0 +1,65 @@
+Senior Salesforce Developer at HFMS HF Management Services, LLC
+https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/New-York-NY/Senior-Salesforce-Developer_R021593
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Senior Salesforce Developer role at Healthfirst because I genuinely care about the work that health plans do for the people who depend on them most. Growing up with a physician for a brother and a psychologist for a sister, I spent a lot of time around conversations about patient care, and I came to understand early on that the systems behind healthcare matter just as much as the people delivering it. That background shapes how I approach technical work: I think about who is on the other end of the data, and I take seriously what it means to build something that actually works.
+
+At Tekkii, I designed, developed, and maintained complex applications across a range of industries, which gave me deep practice in building reliable systems from the ground up. I built the EDI capture and sending system for Kansas City Drayage entirely from scratch, automating logistics data exchange that had previously been handled manually. I also led the backend and database transformation of KidsCloset.biz, rebuilding the platform's architecture and data layer in a way that made it stable and scalable enough to be acquired. Beyond those projects, I developed RESTful API integrations with third-party services, maintained CI/CD workflows using Git, and collaborated directly with stakeholders to translate business needs into working technical solutions. These are exactly the kinds of skills this role calls for: designing systems that hold up under real demands and delivering solutions that serve real users.
+
+Before Tekkii, I worked as a Software Engineer at Allied Engineering Group, where I built and maintained SQL Server databases supporting SWIFT transaction processing for more than 400 financial institutions across 40 countries. I wrote optimized queries and stored procedures, generated custom reports for clients, and kept high-volume data accurate and consistent across systems where errors had real consequences. That experience taught me how to work in high-stakes environments where data integrity is not optional. I also hold a Master of Science in Computer Science from the University of Missouri-Kansas City, where I built a pneumonia detection application using Python and medical imaging data. Working on that project reinforced how meaningful technology can be when it is applied carefully and well in a healthcare context.
+
+What draws me to Healthfirst specifically is that this is a not-for-profit health plan focused on underserved communities in New York. That mission means something to me. The Salesforce work described in this role, building and maintaining solutions across Sales Cloud, Community Cloud, and Field Service Lightning, is meaningful precisely because it supports the people and processes that connect members to care. I want to bring my experience in enterprise application development, API integration, and DevOps practices to a team where the work genuinely matters.
+
+Thank you for considering my application. I would love to discuss how my Salesforce development experience and commitment to building reliable, human-centered systems can contribute to Healthfirst's mission of making quality healthcare accessible to the people who need it most.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Salesforce and CRM: REST APIs, SOAP APIs, Custom Application Design, Enterprise-Grade Solutions, Role Hierarchies, Sharing Rules, Profiles, Permission Sets
+Development and Programming: JavaScript, Python, C#, PHP, HTML, CSS, Lightning Web Components (LWC), SOQL
+Frameworks and Tools: Vue.js, React, Angular, ASP.NET, Flask, Bootstrap
+DevOps and Version Control: Git/GitHub, CI/CD Pipelines, Docker, Agile/Scrum, Deployment Management
+Database and Integration: SQL (PostgreSQL, SQL Server, MySQL), REST APIs, ETL Pipelines, Data Migration, Query Optimization, Stored Procedures
+Project and Documentation: Requirements Gathering, User Stories, Technical Documentation, Stakeholder Communication, User Training, Quality Assurance
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and developed custom enterprise-grade applications, analyzing requirements and delivering solutions aligned with complex business logic and functionality.
+- Built and maintained integrations between systems using REST APIs, including authentication and error handling for third-party services such as PayPal, SendGrid, and OneSignal.
+- Developed unit tests and implemented code coverage practices to accurately validate business logic and application functionality.
+- Designed and enforced data visibility requirements by configuring validation rules, access controls, and role-based data structures across multiple business applications.
+- Participated in developing specifications including user stories and technical designs, translating stakeholder requirements into actionable development tasks.
+- Managed environment deployments applying version control best practices using Git and CI/CD methodologies to execute reliable, repeatable releases.
+- Documented designs, issues, solutions, and tips to support team knowledge sharing and streamline onboarding and troubleshooting.
+- Built automated EDI capture and sending features, eliminating manual processing workflows and optimizing data exchange for logistics operations.
+- Designed, developed, and deployed custom solutions including an interactive display integration and a sports directory database, delivering functional applications end to end.
+- Trained end users on systems and reporting tools, creating guides that supported independent troubleshooting and effective platform adoption.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed and developed software solutions supporting data analysis and reporting for 400+ financial institutions across 40+ countries.
+- Solved complex issues by analyzing SQL Server logs, identifying root causes, and recommending and implementing fixes to ensure uninterrupted operations.
+- Built and maintained integrations between systems, monitoring high-volume SWIFT transaction databases and resolving data inconsistencies.
+- Created custom reports and data visualizations by gathering client requirements and delivering solutions tailored to specific operational needs.
+- Documented business processes, system designs, and technical solutions to support accurate implementation and team continuity.
+- Provided technical support and training to end users, fostering effective use of database tools and reporting systems.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development

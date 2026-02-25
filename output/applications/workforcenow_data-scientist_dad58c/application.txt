@@ -1,0 +1,65 @@
+Data Scientist at Workforcenow
+https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=014dfa20-d261-4f83-8d77-5edb4e15f0f8&jobId=587228
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Data Scientist role at the CDC Foundation's Workforce Acceleration Initiative because the chance to use data science to directly improve public health outcomes is exactly the kind of work I want to be doing. My brother is a physician and my sister is a psychologist, so I grew up around conversations about patient outcomes, population health, and the real consequences of bad or missing information. That upbringing shaped how seriously I take data quality and how much I care about getting the analysis right, not just technically, but in ways that actually help people make better decisions.
+
+At Tekkii, I spent three years building and maintaining data systems that had to be accurate, reliable, and useful to non-technical stakeholders. I designed and managed databases across PostgreSQL, SQL Server, and MySQL, wrote complex queries and stored procedures, and built automated reporting pipelines that turned raw data into actionable insights for decision makers. For Kansas City Drayage, I built an EDI processing system from scratch that automated logistics data exchange and eliminated manual workflows entirely. I also led the backend and database transformation of KidsCloset.biz, a project that ultimately resulted in the platform's successful acquisition, and built the KC Sports Directory database, a community-facing project supported by the Kansas City Royals Foundation. Throughout all of this, I got very good at translating complex technical work into plain language for clients and stakeholders, which I know matters just as much as the analysis itself.
+
+Before Tekkii, I worked as a Software Engineer at Allied Engineering Group, where I designed SQL Server schemas and wrote optimized queries supporting data analysis for more than 400 financial institutions across more than 40 countries. I maintained data integrity across high-volume transaction databases, built custom reports for clients with varying technical backgrounds, and learned how to work carefully within strict data governance and accuracy requirements. During my Master of Science in Computer Science at the University of Missouri-Kansas City, I built a pneumonia detection application using Python and deep learning on medical imaging data. That project brought together everything I care about, machine learning, real-world health data, and the idea that a well-built model can have a meaningful impact on someone's life.
+
+What draws me to this specific role is the opportunity to apply statistical and machine learning methods to public health surveillance and population health measurement, work that has direct consequences for communities across Illinois. I am genuinely excited about collaborating with epidemiologists and public health professionals to make sure the analysis reflects the real-world context, not just the numbers on a screen. Contributing to a mission focused on strengthening the nation's public health infrastructure feels like exactly the right place to put this work to use.
+
+Thank you for considering my application. I would love to discuss how my data science, machine learning, and data systems experience can contribute to the CDC Foundation's mission of building stronger, more data-driven public health agencies.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Data Science and Machine Learning: Python, Deep Learning, Predictive Modeling, Statistical Analysis, Machine Learning, AI Methods, Model Validation, Algorithmic Optimization
+Data Management and Governance: SQL (PostgreSQL, SQL Server, MySQL), ETL Pipelines, Data Quality and Validation, Data Modeling, Data Integrity, Privacy Compliance, Disclosure Avoidance
+Analytics and Visualization: Data Analysis, Dashboards, Reporting, Data Transformation, Microsoft Excel, Microsoft Access, Actionable Insights
+Software and Development: Flask, REST APIs, Git/GitHub, Docker, CI/CD, C#, JavaScript, ASP.NET
+Collaboration and Communication: Stakeholder Communication, Requirements Gathering, Documentation, User Training, Process Improvement
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, accuracy, and accessibility for reporting and analytical workflows.
+- Developed complex SQL queries, stored procedures, and custom reports to extract and analyze multi-source datasets, delivering actionable insights to business stakeholders.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving inconsistent records to maintain reliable, analysis-ready datasets.
+- Built automated reporting solutions that translated complex analytical results into clear, decision-ready outputs for non-technical audiences.
+- Coordinated data migration projects, verifying accuracy and ensuring seamless transitions with minimal disruption to operations.
+- Developed RESTful APIs integrating third-party services, supporting data exchange and interoperability across systems.
+- Collaborated with stakeholders to gather requirements for database enhancements, translating business needs into technical specifications and analytic solutions.
+- Trained end users on database systems and reporting tools, creating documentation that improved data literacy and independent use.
+- Communicated complex technical concepts in plain language to clients, ensuring clear understanding of analytic outputs, assumptions, and limitations.
+- Applied deep learning methods to build a pneumonia detection application for medical image analysis, demonstrating experience with AI-based predictive modeling.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving data inconsistencies to ensure reliable information.
+- Created custom reports and data visualizations tailored to client requirements, delivering information in accessible formats that supported decision-making.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted analytical operations for clients worldwide.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions aligned with operational needs.
+- Provided technical support and training to end users, helping them effectively use reporting tools to access and interpret their data.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Capstone: Pneumonia Detection App, a deep learning application for medical image analysis built with Python.

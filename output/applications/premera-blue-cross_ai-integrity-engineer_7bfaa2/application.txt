@@ -1,0 +1,71 @@
+AI Integrity Engineer at Premera Blue Cross
+https://premera.wd5.myworkdayjobs.com/premera/job/Telecommuter/AI-Integrity-Engineer_R28666
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the AI Integrity Engineer role at Premera Blue Cross because securing AI systems in healthcare is exactly the kind of work that feels genuinely important to me. My brother is a physician and my sister is a psychologist, so I grew up around real healthcare conversations at the dinner table. That background shaped how I think about data and systems: when something goes wrong in healthcare technology, real people feel it. Working at a company whose mission is to make healthcare work better for its members is something I care about deeply.
+
+At Tekkii, I worked hands-on with data pipelines, APIs, and system security across several production applications. I built automated EDI capture and sending features for Kansas City Drayage from scratch, which required tight data validation controls and reliable integration between external systems and internal databases. I also led the backend and database transformation for KidsCloset.biz, which included securing the application layer, improving data integrity, and overhauling the underlying architecture well enough that the platform was successfully acquired. For the KC Sports Directory, I designed the database and built REST APIs that connected multiple data sources safely and cleanly. Across all of these projects, I was building CI/CD pipelines, managing Docker containers, scanning dependencies, and partnering with stakeholders to make sure what we shipped was both functional and trustworthy.
+
+At Allied Engineering Group, I worked with SQL Server databases supporting over 400 financial institutions across more than 40 countries, mostly in the SWIFT transaction space where data accuracy is not optional. I wrote optimized queries and stored procedures, monitored logs for anomalies, and helped clients understand their data in plain language. That experience taught me how to think about risk in high-stakes systems, how to spot data inconsistencies before they become real problems, and how to communicate clearly across technical and non-technical teams. During my master's program at UMKC, I also built a pneumonia detection application using Python and deep learning on medical imaging data, which connects directly to AI integrity work: building a model responsibly means thinking carefully about data quality, validation, and the real-world consequences of getting it wrong.
+
+What excites me most about this role is the specific challenge of securing AI pipelines and agentic workflows in a healthcare context. Prompt injection, data poisoning, and model integrity issues are not abstract concerns here; they affect decisions that touch people's health coverage and care. I want to help build the guardrails and security controls that make AI systems at Premera trustworthy and safe, and I think my background in data integrity, application security, and building reliable pipelines gives me a real foundation to contribute to that work from day one.
+
+Thank you for considering my application. I would love to discuss how my experience in secure data pipelines, application security, and AI development can contribute to Premera Blue Cross's mission of making healthcare work better for the people who depend on it.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+
+AI & Application Security: Secure AI Pipelines, RAG Pipeline Security, Prompt Injection Mitigation, Guardrails, Vulnerability Remediation, SAST & DAST, Threat Modeling, Secure Supply Chain, Dependency Scanning
+
+Cloud & Infrastructure: Docker, CI/CD Pipelines, REST APIs, Server Administration, SSH, SiteGround, Cloudways
+
+Programming & Frameworks: Python, C#, JavaScript, PHP, Flask, ASP.NET, Vue.js, React, Angular
+
+Data & Database Management: SQL (PostgreSQL, SQL Server, MySQL), ETL Pipelines, Data Modeling, Query Optimization, Stored Procedures, Data Quality & Validation
+
+Development Tools & Practices: Git/GitHub, Agile/Scrum, Requirements Gathering, Documentation, Stakeholder Communication
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and maintained secure data pipelines across PostgreSQL, SQL Server, and MySQL, enforcing data integrity and access controls for multiple enterprise applications.
+- Implemented CI/CD pipeline controls to detect and remediate vulnerabilities in codebases and containerized services early in the development lifecycle.
+- Managed artifact and dependency scanning within deployment workflows, ensuring secure supply chain integrity across third-party integrations.
+- Developed RESTful APIs with scoped authentication and authorization boundaries, integrating third-party services including PayPal, SendGrid, and OneSignal.
+- Built automated ETL and EDI pipelines with validation and data-access controls, eliminating manual processing workflows and reducing data-leakage risk.
+- Enforced data quality through validation rules, regular audits, and remediation of inconsistent records across enterprise database systems.
+- Collaborated cross-functionally with engineering and business stakeholders to gather requirements, translating them into secure technical specifications.
+- Coordinated data migration projects with integrity verification steps, ensuring seamless transitions and minimal disruption to operations.
+- Transformed the KidsCloset.biz e-commerce platform backend and database layer, contributing directly to the platform's successful acquisition.
+- Authored technical documentation and trained end users on database systems, reporting tools, and secure data access procedures.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server schemas and optimized stored procedures supporting secure data analysis for 400-plus financial institutions across 40-plus countries.
+- Maintained data accuracy and integrity across high-volume SWIFT transaction databases, identifying and resolving data inconsistencies through regular quality checks.
+- Monitored SQL and application logs to detect and resolve errors, ensuring uninterrupted and secure operations for global banking clients.
+- Delivered custom reports and data visualizations tailored to client requirements, supporting business decision making across international operations.
+- Gathered data requirements from clients, documented business processes, and delivered database solutions aligned with operational and compliance needs.
+- Provided technical support and training to end users on database functionality, reporting tools, and secure data access practices.
+
+Education
+
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python.

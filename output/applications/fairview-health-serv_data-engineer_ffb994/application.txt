@@ -1,0 +1,75 @@
+Data Engineer at Fairview Health Services
+https://careers.fairview.org/jobs/164003?lang=en-us
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Data Engineer role at Fairview Health Services because I want to use my data engineering skills to support work that genuinely improves patient care and advances healthcare research. My brother is a physician and my sister is a psychologist, so I grew up hearing about the real-world stakes of healthcare decisions, and that shaped how seriously I take data accuracy and reliability. When the data is wrong, real people are affected, and that belief drives everything I do as an engineer.
+
+At Tekkii, I built and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, designing ETL pipelines, writing stored procedures, and delivering automated reporting solutions for business stakeholders. I built an EDI capture and sending system from scratch for Kansas City Drayage, which replaced manual logistics data workflows with a reliable, automated exchange process. I also led the backend and database transformation for KidsCloset.biz, restructuring the data layer and application architecture in a way that directly contributed to the platform's acquisition. For KC Sports Directory, I designed and managed the underlying database supporting community sports data in partnership with organizations like the Kansas City Royals Foundation. Across all of these projects, I was responsible for data quality, validation, and making sure the information stakeholders depended on was clean and trustworthy.
+
+At Allied Engineering Group, I designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for more than 400 financial institutions across more than 40 countries. I maintained data integrity across high-volume SWIFT transaction databases, conducted regular quality audits, and built custom reports that helped clients make sense of their data. That experience taught me how to work carefully with sensitive, high-stakes data at scale, and how to communicate technical findings clearly to non-technical audiences. During my Master's program at the University of Missouri-Kansas City, I built a pneumonia detection application using Python and deep learning on medical imaging data, which gave me direct experience applying data tools to healthcare problems and reinforced my interest in supporting clinical research with good data infrastructure.
+
+Fairview's work sits right at the intersection of healthcare delivery and research, and that is exactly where I want to contribute. The chance to support the partnership with a major academic institution, help build out the data warehouse and data marts, and work with Epic data models like Caboodle and Clarity is genuinely exciting to me. I care about healthcare data because I understand from my family what it means when clinicians and researchers have the right information at the right time, and I would love to be part of the team making that possible at Fairview.
+
+Thank you for considering my application. I would love to discuss how my experience in data engineering, ETL pipeline development, and healthcare data work can contribute to Fairview Health Services' mission of supporting excellent care and meaningful research.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+
+Data Engineering and ETL: ETL Pipelines, Data Migration, Data Transformation, Data Integration, Data Modeling, ETL Flow Dashboards, Data Pipeline Monitoring, Data Validation, Data Quality
+
+Database Management: SQL Server, PostgreSQL, MySQL, Oracle (SQL mappings), Microsoft Access, Query Optimization, Stored Procedures, T-SQL, RDBMS, Database Design
+
+Programming Languages: Python, C#, JavaScript, PHP
+
+Data Visualization and Reporting: Power BI, Report Generation, Data Analysis, Microsoft Excel, Interactive Dashboards
+
+Frameworks and Development Tools: Flask, ASP.NET, REST APIs, Git/GitHub, Docker, CI/CD, Agile/Scrum
+
+Cloud and Infrastructure: Server Administration, SSH, SiteGround, Cloudways
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and maintained enterprise SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, data quality, and accessibility for reporting and analytics.
+- Developed and implemented ETL pipelines for data acquisition, restructuring, and transformation across multiple business applications.
+- Performed data migration projects between systems, validating accuracy and ensuring seamless transitions with minimal disruption to enterprise operations.
+- Created complex SQL queries, stored procedures, and custom reports to extract and present data for business stakeholders, supporting data-driven decision making.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving inconsistent records to maintain reliable datasets.
+- Built automated ETL data capture and integration features, streamlining data exchange and eliminating manual processing workflows.
+- Developed RESTful APIs integrating third-party services, translating business requirements into long-term technical data solutions aligned with organizational goals.
+- Coordinated data integration projects by gathering stakeholder requirements, documenting business processes, and delivering solutions aligned with enterprise data strategies.
+- Trained end users on database systems and reporting tools, creating documentation and guides to support data literacy and independent troubleshooting.
+- Communicated complex technical concepts clearly to clients and stakeholders, ensuring alignment on data requirements and project progress.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting data validation checks and resolving data inconsistencies to ensure reliable enterprise data.
+- Created custom data visualizations and reports based on client-specific requirements, delivering actionable insights in accessible formats to support business decision making.
+- Provided technical support and end-user training on database functionality and reporting tools, improving data accessibility across client organizations.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions tailored to their operational needs.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted data operations for clients worldwide.
+
+Education
+
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Pneumonia Detection App: Built deep learning application for medical image analysis using Python.

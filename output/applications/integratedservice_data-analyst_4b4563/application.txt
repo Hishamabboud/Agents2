@@ -1,0 +1,65 @@
+Data Analyst at Integratedservice
+https://integratedservice.hrmdirect.com/employment/view.php?req=3647455
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Data Analyst role at Integrated Services for Behavioral Health because your mission of meeting people where they are and connecting them to real behavioral health support is exactly the kind of work I want my skills to serve. My brother is a physician and my sister is a psychologist, so I grew up around conversations about patient care, treatment outcomes, and why the details matter. That background shaped how I think about data work, because behind every row in a database is a real person, and getting the numbers right has genuine consequences. Joining a team where data directly informs behavioral health and integrated care decisions feels meaningful to me in a way that goes beyond the technical work itself.
+
+At Tekkii, I built and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, writing complex queries, stored procedures, and automated reports that gave business stakeholders the insights they needed to make decisions. I managed data quality initiatives by setting up validation rules, running regular audits, and cleaning inconsistent records, which is exactly the kind of work your job description calls out around identifying data quality issues and resolving discrepancies. I also coordinated data migration projects between systems, making sure records transferred accurately and operations continued without disruption. For the KC Sports Directory, I designed and built a community-focused database that made local sports resources accessible and searchable. Across all of these projects, I worked closely with stakeholders to understand what they needed from their data and then translated that into reports and tools they could actually use.
+
+At Allied Engineering Group, I designed SQL Server schemas, wrote optimized queries, and produced custom reports supporting data analysis for over 400 financial institutions across more than 40 countries. I maintained accuracy and integrity across high-volume transaction databases, conducting regular quality checks and resolving inconsistencies before they affected downstream reporting. That experience taught me how to work carefully with sensitive data at scale and communicate findings clearly to clients with very different levels of technical background. My graduate work at the University of Missouri-Kansas City reinforced those skills further, and my capstone project involved building a pneumonia detection application using Python and medical imaging data, which deepened my understanding of how data analysis directly supports better health outcomes.
+
+What draws me to ISBH specifically is that your work sits at the intersection of community care and accountable, evidence-based practice. I am genuinely excited about the idea of building dashboards and performance reports that help your teams see what is working, where gaps exist, and how to serve people better. Contributing to regulatory reporting for bodies like SAMHSA and ODBH while also supporting internal quality improvement is exactly the kind of dual-purpose data work I find most engaging. I would be proud to bring my technical skills to an organization doing this kind of work.
+
+Thank you for considering my application. I would love to discuss how my experience in data analysis, reporting, and quality management can contribute to Integrated Services for Behavioral Health's mission of helping people access the care and support they need.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Data Analysis and Reporting: SQL (PostgreSQL, SQL Server, MySQL), ETL Pipelines, Data Transformation, Data Quality and Validation, Report Generation, Data Modeling, Dashboard Development, Microsoft Excel, Microsoft Access
+Programming and Scripting: Python, C#, JavaScript, PHP
+Frameworks and Visualization Tools: Flask, ASP.NET, Vue.js, React, Data Visualization, REST APIs
+Project and Compliance Support: HIPAA Data Privacy, Documentation, Requirements Gathering, Stakeholder Communication, Process Improvement, User Training
+Development and Infrastructure: Git/GitHub, Docker, CI/CD, Agile/Scrum, Server Administration
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Collected, cleaned, and analyzed data from multiple systems to support internal reporting and data-driven decision making for business stakeholders.
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data accuracy, integrity, and accessibility for operational and performance reporting.
+- Developed complex SQL queries, stored procedures, and custom reports to extract and present key metrics, providing actionable insights to support strategic planning.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving data discrepancies to maintain reliable and accurate databases.
+- Built and maintained automated reporting solutions and dashboards that communicated trends and outcomes to leadership and program teams.
+- Collaborated with stakeholders to define reporting requirements, translating business needs into technical specifications aligned with organizational goals.
+- Coordinated data migration projects between systems, verifying accuracy and ensuring seamless transitions with minimal disruption to operations.
+- Trained end users on database systems and reporting tools, creating documentation and guides to help staff interpret and use data effectively for program management.
+- Developed RESTful APIs integrating third-party services, supporting data exchange and eliminating manual processing workflows across multiple platforms.
+- Communicated complex data findings in plain language to clients and end users, ensuring clear understanding of data insights and reporting outcomes.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated performance reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving data inconsistencies to ensure reliable information for decision making.
+- Created custom reports and data visualizations based on client requirements, delivering key operational metrics in accessible formats to support business decision making.
+- Monitored system and application logs to identify and resolve data errors, ensuring uninterrupted and accurate reporting for clients worldwide.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions tailored to operational and reporting needs.
+- Provided technical support and training to end users, helping staff understand database functionality and use reporting tools to access and interpret their data.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python.

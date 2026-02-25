@@ -1,0 +1,71 @@
+Sr. Business Intelligence Developer at Henryford
+https://henryford.referrals.selectminds.com/jobs/sr-business-intelligence-developer-123375
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Senior Business Intelligence Developer role at Henry Ford Health because I genuinely believe that the right data, presented clearly, can change patient outcomes and help clinicians make better decisions every day. My brother is a physician and my sister is a psychologist, so I grew up around healthcare conversations at the dinner table. That background shaped how I think about data work: it is never just numbers on a screen, it is information that real people depend on to do their jobs well and to help patients.
+
+At Tekkii, I built and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, wrote complex queries and stored procedures, and developed custom reports that gave business stakeholders clear, actionable information. I designed and automated ETL pipelines and reporting solutions that translated raw data into insights leaders could actually use, which maps directly to what this role calls for. For Kansas City Drayage, I built an EDI capture and processing system from scratch, eliminating manual workflows and making logistics data reliable and timely. I also transformed the backend and database layer for KidsCloset.biz, a project that ended in a successful acquisition, and built the KC Sports Directory database to support a community sports initiative backed by the Kansas City Royals Foundation. Across all of these projects, I worked closely with stakeholders to gather requirements, translated business needs into technical solutions, and trained end users so they could get real value from the tools we built together.
+
+At Allied Engineering Group, I designed SQL Server schemas, optimized queries, and generated reports supporting data analysis for more than 400 financial institutions across more than 40 countries. I maintained data accuracy across high-volume SWIFT transaction databases, built custom data visualizations based on client requirements, and provided ongoing training and documentation so users could navigate the tools confidently. That experience, working at scale with high-stakes data where errors had real consequences, taught me how important data quality and clear reporting truly are. During my master's program at the University of Missouri-Kansas City, I built a pneumonia detection application using Python and deep learning on medical imaging data, which deepened both my technical foundation in data modeling and machine learning and my appreciation for how technology can contribute meaningfully in a clinical context.
+
+Henry Ford Health's commitment to improving community health through better data and smarter decision-making is exactly the kind of work I want to be part of. The role's focus on telling stories with data, serving physicians and clinical leaders, and building a data-driven culture across the health system is what excites me most. I want to help clinical and operational teams understand their data more clearly, make better decisions faster, and ultimately deliver better care to the communities Henry Ford serves.
+
+Thank you for considering my application. I would love to discuss how my experience in SQL development, data visualization, ETL pipelines, and healthcare-relevant data work can contribute to Henry Ford Health's mission of building a stronger, more data-informed health system.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+
+BI Development and Data Visualization: Power BI, Tableau, QlikSense, Data Visualization, Advanced Excel, Report Generation, Ad-Hoc Reporting, Trend Analysis
+
+Data and Analytics: SQL (PostgreSQL, SQL Server, MySQL, T-SQL), ETL Process, Data Modeling, Data Preprocessing, Data Analytics, Query Optimization, Stored Procedures, Data Quality and Validation
+
+Programming and Scripting: Python, JavaScript, C#, PHP, Machine Learning, REST APIs, Flask, ASP.NET
+
+Project and Stakeholder Coordination: Requirements Gathering, Stakeholder Communication, User Training, Process Improvement, Documentation, Agile/Scrum
+
+Experience
+
+Sr. Business Intelligence Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Created complex SQL scripts using optimized query techniques on complex data tables to extract, analyze, and present actionable insights for business decision making.
+- Designed and maintained ETL pipelines across PostgreSQL, SQL Server, and MySQL, ensuring data integrity and accessibility for BI development and reporting.
+- Developed ad-hoc and automated reports translating raw data into clear data visualizations that helped leaders make actionable decisions.
+- Managed data quality initiatives by implementing validation rules, conducting audits, and preprocessing inconsistent records to maintain reliable data for analytics.
+- Gathered detailed requirements by interviewing users and operational stakeholders, translating business needs into data solutions aligned with strategic goals.
+- Served as a liaison between analytics and business leaders, consulting on metrics, report design, and data modeling to support clinical and operational goals.
+- Coordinated data migration projects between systems, verifying accuracy and ensuring seamless transitions with minimal disruption to business operations.
+- Documented process flows and monitored them for accuracy and quality, standardizing reporting procedures across the organization.
+- Provided end-user training on reporting tools and database systems, creating guides that helped stakeholders independently access and interpret their data.
+- Communicated complex data insights in plain language to customers at all levels, including executives and external stakeholders, supporting data-driven culture.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized stored procedures to support data analysis and report generation for 400+ financial institutions across 40+ countries.
+- Generated custom reports and data visualizations for clients based on specific requirements, delivering information in accessible formats supporting business decision making.
+- Maintained data accuracy and integrity across high-volume transaction databases, identifying and resolving data inconsistencies to ensure reliable analytics.
+- Collaborated with clients to gather data requirements, documented process flows, and delivered database solutions tailored to operational needs.
+- Provided end-user training and technical support, helping stakeholders understand reporting tools and effectively access their data.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted data operations for clients worldwide.
+
+Education
+
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python, applying machine learning and data preprocessing techniques.

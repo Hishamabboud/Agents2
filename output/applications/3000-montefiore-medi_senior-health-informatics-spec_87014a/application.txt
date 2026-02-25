@@ -1,0 +1,69 @@
+Senior Health Informatics Specialist at 3000 Montefiore Medical Center
+https://montefiore.wd12.myworkdayjobs.com/mmc/job/Senior-Health-Informatics-Specialist_JR228656
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Senior Health Informatics Specialist role at Montefiore Medical Center because your commitment to improving health outcomes for underserved communities is exactly the kind of work I want my skills to support. My brother is a physician and my sister is a psychologist, so I grew up around conversations about patient care, clinical decision making, and what it actually costs when data is wrong or missing. That background shaped how I think about this work. For me, clean, accurate, well-structured data is not just a technical goal. It is something that directly affects real people.
+
+At Tekkii, I designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, writing complex queries and stored procedures to extract and present data for business stakeholders. I built automated reporting solutions that helped teams make faster, more confident decisions, and I led data quality initiatives that included regular audits, validation rules, and cleaning inconsistent records. I also built EDI processing features for Kansas City Drayage from the ground up, automating logistics data exchange that had previously been handled manually, and I transformed the backend database layer for KidsCloset.biz, work that contributed directly to the platform's successful acquisition. Across all of these projects, I was also the person translating technical work into plain language for clients and end users, which I think matters a lot in a clinical setting where non-technical stakeholders need to trust and understand the data they are acting on.
+
+At Allied Engineering Group, I designed SQL Server database schemas and wrote optimized queries supporting data analysis for over 400 financial institutions across more than 40 countries, maintaining accuracy and integrity across high-volume transaction data where errors had serious downstream consequences. I created custom reports and visualizations tailored to each client's specific needs, and I provided training and support to help end users actually get value from the tools we built. On the academic side, my master's work at the University of Missouri-Kansas City included building a pneumonia detection application using Python and medical imaging data, applying deep learning to a real clinical problem. That project gave me direct experience applying machine learning and data analysis to healthcare data, which maps closely to what this role asks for in terms of Python, NLP, and working with unstructured clinical datasets.
+
+What draws me to Montefiore specifically is the depth and seriousness of your data analytics work. The combination of SQL reporting, Python-based machine learning, REDCap research instruments, and interactive visualizations in SAP WebIntelligence is exactly the kind of full-spectrum informatics environment where I want to grow and contribute. I care about preventative care, chronic illness management, and reproductive health equity, and knowing that the data work here directly shapes outcomes for those patient populations makes this role feel meaningful in a way that goes beyond the technical challenge. I would be proud to bring my skills to a team doing work at this level.
+
+Thank you for considering my application. I would love to discuss how my experience in SQL, Python, and healthcare data analytics can contribute to Montefiore Medical Center's mission of improving health outcomes for the communities you serve.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Data Analytics and Health Informatics: SQL (PostgreSQL, SQL Server, MySQL), Python, Data Mining, Data Modeling, Descriptive and Inferential Statistics, Natural Language Processing, Machine Learning, ETL Pipelines, REST API Web Services
+
+Database and Query Development: Complex SQL Query Writing, Stored Procedures, Query Optimization, T-SQL, Data Quality and Validation, Data Transformation, Data Modeling
+
+Visualization and Reporting: Data Visualization, Interactive Reports, Dynamic Data Reports, Microsoft Office Suite (Excel, Access, Word, PowerPoint), Report Generation
+
+Development and Collaboration Tools: Git, CI/CD, Docker, Flask, REST APIs, Agile/Scrum, Code Review, ClickUp
+
+Programming and Application Development: Python, C#, JavaScript, PHP, HTML, CSS, ASP.NET, Vue.js, React
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Wrote and maintained complex SQL queries, stored procedures, and custom reports across PostgreSQL, SQL Server, and MySQL to support data-driven decision making for multiple business applications.
+- Developed RESTful APIs and integrated third-party web services using Python and REST API web services to automate data collection and transform raw data for analysis.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving inconsistent records to ensure accurate and reliable datasets.
+- Applied data modeling and data transformation techniques during migration projects, verifying accuracy and maintaining data integrity across enterprise systems.
+- Built automated data exchange workflows by designing EDI capture and sending features, eliminating manual processing and improving operational efficiency.
+- Conducted code reviews of junior developers and delivered constructive feedback using version control platforms, ensuring adherence to coding standards.
+- Collaborated with stakeholders to gather data requirements and translate business needs into technical specifications for database enhancements and reporting solutions.
+- Created automated reporting solutions that extracted and analyzed healthcare and business data to provide actionable insights for decision making.
+- Trained end users on database systems and reporting tools, producing documentation and guides to support independent data access and troubleshooting.
+- Developed and deployed backend database layers for client platforms, improving data organization, accessibility, and overall system performance.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving data inconsistencies to ensure reliable information.
+- Created custom data visualizations and reports tailored to client requirements, delivering information in accessible formats that supported operational decision making.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted database operations for global banking clients.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions aligned with their operational needs.
+- Provided technical support and training to end users on database functionality and reporting tools to improve data utilization.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python.
