@@ -1,0 +1,11 @@
+# Manual Job URL List
+# Add one job URL per line
+# Agent will process these first before searching
+# Lines starting with # are comments and will be skipped
+
+# Example URLs - replace with real job postings:
+# https://careers.jhu.edu/job/12345/software-engineer
+# https://jobs.stanford.edu/detail/xyz123
+# https://www.usajobs.gov/job/678910
+
+# Add your job URLs below this line:

@@ -1,0 +1,20 @@
+# Target Organizations for Job Search (Secondary Method)
+# Agent will search these career pages for matching roles
+# Lines starting with # are comments
+
+# Universities
+https://jobs.stanford.edu
+https://careers.jhu.edu
+https://careers.harvard.edu
+https://employment.columbia.edu
+https://jobs.umich.edu
+https://hr.mit.edu/careers
+
+# Government
+https://www.usajobs.gov
+
+# University Hospitals & Nonprofits
+https://www.redcross.org/about-us/careers
+https://careers.mayoclinic.org
+
+# Add more organizations below:
