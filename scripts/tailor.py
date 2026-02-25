@@ -2,9 +2,13 @@
 """
 tailor.py - Resume & Cover Letter Generator
 
-For each qualified job in scored-jobs.json, generates a tailored resume
-and cover letter using Claude (via subprocess claude CLI or Anthropic API).
-Saves to output/tailored-resumes/ and output/cover-letters/.
+For each qualified job in scored-jobs.json, generates a tailored resume and
+cover letter. Saves both into a single per-job directory:
+  output/applications/{app_id}/resume.md
+  output/applications/{app_id}/cover-letter.md
+
+App ID format: YYYYMMDD_{state}_{company-slug}_{role-slug}
+  e.g. 20260225_CA_stanford_python-developer
 """
 
 import json
@@ -13,15 +17,36 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCORED_JOBS_FILE = os.path.join(BASE_DIR, "data", "scored-jobs.json")
 RESUME_FILE = os.path.join(BASE_DIR, "profile", "resume.md")
 COVER_LETTER_TEMPLATE_FILE = os.path.join(BASE_DIR, "profile", "cover-letter-template.md")
-PREFERENCES_FILE = os.path.join(BASE_DIR, "profile", "preferences.md")
-RESUME_OUTPUT_DIR = os.path.join(BASE_DIR, "output", "tailored-resumes")
-COVER_LETTER_OUTPUT_DIR = os.path.join(BASE_DIR, "output", "cover-letters")
+APPLICATIONS_OUTPUT_DIR = os.path.join(BASE_DIR, "output", "applications")
+
+# State abbreviation lookup (city/region hints → state code)
+STATE_HINTS = {
+    "montana": "MT", "mt": "MT", "missoula": "MT", "bozeman": "MT", "billings": "MT", "helena": "MT",
+    "california": "CA", "ca": "CA", "stanford": "CA", "berkeley": "CA", "los angeles": "CA",
+    "san francisco": "CA", "san diego": "CA", "sacramento": "CA", "pasadena": "CA",
+    "missouri": "MO", "mo": "MO", "columbia": "MO", "st. louis": "MO", "st louis": "MO",
+    "kansas city": "MO",
+    "kansas": "KS", "ks": "KS", "lawrence": "KS", "manhattan": "KS", "wichita": "KS",
+    "tennessee": "TN", "tn": "TN", "nashville": "TN", "knoxville": "TN", "memphis": "TN",
+    "colorado": "CO", "co": "CO", "denver": "CO", "boulder": "CO", "fort collins": "CO",
+    "aurora": "CO",
+    "maryland": "MD", "md": "MD", "baltimore": "MD", "bethesda": "MD",
+    "michigan": "MI", "mi": "MI", "ann arbor": "MI",
+    "minnesota": "MN", "mn": "MN", "rochester": "MN", "st. paul": "MN", "minneapolis": "MN",
+    "new york": "NY", "ny": "NY",
+    "washington": "WA", "wa": "WA", "seattle": "WA",
+    "massachusetts": "MA", "ma": "MA", "boston": "MA", "cambridge": "MA",
+    "illinois": "IL", "il": "IL", "chicago": "IL",
+    "texas": "TX", "tx": "TX", "austin": "TX", "houston": "TX", "dallas": "TX",
+    "remote": "REMOTE",
+}
 
 
 def load_json(path: str, default=None):
@@ -44,20 +69,41 @@ def read_file(path: str) -> str:
         return ""
 
 
-def safe_filename(company: str, title: str) -> str:
-    """Create a safe filename from company and title."""
-    name = f"{company}-{title}"
-    name = re.sub(r"[^\w\s-]", "", name)
-    name = re.sub(r"\s+", "-", name.strip())
-    return name[:80].lower()
+def slugify(text: str, max_len: int = 30) -> str:
+    """Convert text to a URL/filesystem-safe slug."""
+    text = text.lower().strip()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"[\s_]+", "-", text)
+    text = re.sub(r"-+", "-", text).strip("-")
+    return text[:max_len]
+
+
+def detect_state(location: str, url: str) -> str:
+    """Detect US state from job location string or URL."""
+    combined = (location + " " + url).lower()
+    for hint, code in STATE_HINTS.items():
+        if hint in combined:
+            return code
+    return "USA"
+
+
+def make_app_id(job: dict) -> str:
+    """
+    Build a unique application directory ID:
+    YYYYMMDD_{STATE}_{company-slug}_{role-slug}
+    """
+    date_str = datetime.now().strftime("%Y%m%d")
+    state = detect_state(job.get("location", ""), job.get("url", ""))
+    company_slug = slugify(job.get("company", "unknown"), max_len=20)
+    role_slug = slugify(job.get("title", "role"), max_len=25)
+    return f"{date_str}_{state}_{company_slug}_{role_slug}"
 
 
 def call_claude(prompt: str) -> str:
     """
-    Call Claude via the claude CLI subprocess.
+    Call Claude via claude CLI subprocess.
     Falls back to Anthropic Python SDK if CLI unavailable.
     """
-    # Try claude CLI first
     try:
         result = subprocess.run(
             ["claude", "-p", prompt],
@@ -67,13 +113,9 @@ def call_claude(prompt: str) -> str:
         )
         if result.returncode == 0 and result.stdout.strip():
             return result.stdout.strip()
-        print(f"  [WARN] claude CLI returned code {result.returncode}", file=sys.stderr)
-        if result.stderr:
-            print(f"  [WARN] stderr: {result.stderr[:200]}", file=sys.stderr)
-    except (FileNotFoundError, subprocess.TimeoutExpired) as e:
-        print(f"  [WARN] claude CLI error: {e}", file=sys.stderr)
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
 
-    # Fallback: Anthropic Python SDK
     try:
         import anthropic
         client = anthropic.Anthropic()
@@ -84,12 +126,11 @@ def call_claude(prompt: str) -> str:
         )
         return message.content[0].text
     except Exception as e:
-        print(f"  [ERROR] Anthropic SDK also failed: {e}", file=sys.stderr)
+        print(f"  [ERROR] Claude unavailable: {e}", file=sys.stderr)
         return ""
 
 
 def generate_tailored_resume(job: dict, resume: str) -> str:
-    """Generate a tailored resume for the given job."""
     job_desc = job.get("description", "")[:3000]
     title = job.get("title", "")
     company = job.get("company", "")
@@ -115,18 +156,15 @@ INSTRUCTIONS:
 8. Output ONLY the tailored resume in markdown, no commentary
 
 OUTPUT: A tailored resume in markdown format."""
-
     return call_claude(prompt)
 
 
 def generate_cover_letter(job: dict, resume: str, template: str) -> str:
-    """Generate a tailored cover letter for the given job."""
     job_desc = job.get("description", "")[:3000]
     title = job.get("title", "")
     company = job.get("company", "")
     url = job.get("url", "")
 
-    # Detect if healthcare-related
     is_healthcare = any(
         kw in (job_desc + company + title).lower()
         for kw in ["hospital", "health", "medical", "clinic", "patient", "clinical"]
@@ -153,24 +191,18 @@ INSTRUCTIONS:
 4. Mirror exact keywords from the job description
 5. Reference relevant projects: KCD EDI system, KidsCloset acquisition, KC Sports Directory, College Basketball Experience
 6. Mention C#/ASP.NET and SQL Server work for 400+ banking clients if relevant
-{f"7. Mention brother is a physician and sister is a psychologist - genuine healthcare passion" if is_healthcare else ""}
+{"7. Mention brother is a physician and sister is a psychologist - genuine healthcare passion" if is_healthcare else ""}
 8. Do NOT mention H-1B, visa status, OPT, or sponsorship
 9. End with: Best regards, Mohamad Abboud
 10. Output ONLY the cover letter, no commentary
 
 OUTPUT: The complete cover letter."""
-
     return call_claude(prompt)
-
-
-def update_scored_jobs(scored_jobs: list) -> None:
-    """Write updated scored jobs back to file."""
-    with open(SCORED_JOBS_FILE, "w") as f:
-        json.dump(scored_jobs, f, indent=2)
 
 
 def main():
     print("=== Phase 3: Resume & Cover Letter Generation ===", flush=True)
+    print(f"Output directory: output/applications/{{app_id}}/", flush=True)
 
     scored_jobs = load_json(SCORED_JOBS_FILE)
     qualified = [j for j in scored_jobs if j.get("status") == "qualified"]
@@ -186,9 +218,7 @@ def main():
         print("[ERROR] Could not read profile/resume.md")
         return 1
 
-    Path(RESUME_OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-    Path(COVER_LETTER_OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-
+    Path(APPLICATIONS_OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     generated = 0
 
     for i, job in enumerate(scored_jobs):
@@ -197,56 +227,63 @@ def main():
 
         title = job.get("title", "unknown")
         company = job.get("company", "unknown")
-        fname = safe_filename(company, title)
 
-        resume_path = os.path.join(RESUME_OUTPUT_DIR, f"{fname}.md")
-        cover_letter_path = os.path.join(COVER_LETTER_OUTPUT_DIR, f"{fname}.md")
+        # Use existing app_id if already assigned, otherwise generate one
+        app_id = job.get("app_id") or make_app_id(job)
+        app_dir = os.path.join(APPLICATIONS_OUTPUT_DIR, app_id)
+        resume_path = os.path.join(app_dir, "resume.md")
+        cover_letter_path = os.path.join(app_dir, "cover-letter.md")
 
-        # Skip if already generated
+        # Skip if both files already exist
         if os.path.exists(resume_path) and os.path.exists(cover_letter_path):
-            print(f"  SKIP (already generated): {title} @ {company}")
-            # Make sure file paths are recorded
+            print(f"  SKIP (already generated): [{app_id}] {title} @ {company}")
+            scored_jobs[i]["app_id"] = app_id
+            scored_jobs[i]["app_dir"] = app_dir
             scored_jobs[i]["resume_file"] = resume_path
             scored_jobs[i]["cover_letter_file"] = cover_letter_path
             continue
 
-        print(f"\n  Generating materials for: {title} @ {company} (score: {job.get('score')})")
+        print(f"\n  [{app_id}]")
+        print(f"  {title} @ {company} (score: {job.get('score')})")
+        Path(app_dir).mkdir(parents=True, exist_ok=True)
 
         # Generate tailored resume
         print("    -> Tailoring resume ...", flush=True)
         tailored_resume = generate_tailored_resume(job, resume)
         if not tailored_resume:
-            print(f"    [ERROR] Failed to generate resume for {title} @ {company}")
+            print(f"    [ERROR] Failed to generate resume")
             continue
 
         with open(resume_path, "w") as f:
             f.write(tailored_resume)
-        print(f"    -> Resume saved: {resume_path}")
+        print(f"    -> resume.md saved")
 
         # Generate cover letter
         print("    -> Writing cover letter ...", flush=True)
         cover_letter = generate_cover_letter(job, resume, template)
         if not cover_letter:
-            print(f"    [ERROR] Failed to generate cover letter for {title} @ {company}")
+            print(f"    [ERROR] Failed to generate cover letter")
             continue
 
         with open(cover_letter_path, "w") as f:
             f.write(cover_letter)
-        print(f"    -> Cover letter saved: {cover_letter_path}")
+        print(f"    -> cover-letter.md saved")
 
-        # Update the job record with file paths
+        scored_jobs[i]["app_id"] = app_id
+        scored_jobs[i]["app_dir"] = app_dir
         scored_jobs[i]["resume_file"] = resume_path
         scored_jobs[i]["cover_letter_file"] = cover_letter_path
         generated += 1
 
-        # Rate-limit between Claude calls
         if i < len(scored_jobs) - 1:
-            time.sleep(5)
+            time.sleep(3)
 
     # Save updated records
-    update_scored_jobs(scored_jobs)
+    with open(SCORED_JOBS_FILE, "w") as f:
+        json.dump(scored_jobs, f, indent=2)
 
     print(f"\n[DONE] Generated materials for {generated} job(s).")
+    print(f"       Application packages in: output/applications/")
     return 0
 
 

@@ -13,7 +13,10 @@
     "cover_letter_file": "/home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md",
     "screenshot": "",
     "notes": "Playwright not available. Apply manually at: https://careers.jhu.edu/job/software-engineer-ii-112345. Resume: /home/user/Agents2/output/tailored-resumes/johns-hopkins-university-software-engineer-ii.md. Cover letter: /home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md.",
-    "response": "pending"
+    "response": "pending",
+    "title": "Software Engineer II",
+    "app_id": "20260225_MD_johns-hopkins_software-engineer-ii",
+    "app_dir": "output/applications/20260225_MD_johns-hopkins_software-engineer-ii"
   },
   {
     "id": "f1f5e031-759b-4506-ad2c-c42b08d27d7f",
@@ -29,7 +32,10 @@
     "cover_letter_file": "/home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md",
     "screenshot": "",
     "notes": "Playwright not available. Apply manually at: https://jobs.umich.edu/full-stack-developer-98765. Resume: /home/user/Agents2/output/tailored-resumes/university-of-michigan-full-stack-developer.md. Cover letter: /home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md.",
-    "response": "pending"
+    "response": "pending",
+    "title": "Full Stack Developer",
+    "app_id": "20260225_MI_univ-michigan_full-stack-developer",
+    "app_dir": "output/applications/20260225_MI_univ-michigan_full-stack-developer"
   },
   {
     "id": "eec6ef74-8a29-4261-bef0-e86fb3bb9ecc",
@@ -45,7 +51,10 @@
     "cover_letter_file": "/home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md",
     "screenshot": "",
     "notes": "Playwright not available. Apply manually at: https://careers.mayoclinic.org/data-engineer-445566. Resume: /home/user/Agents2/output/tailored-resumes/mayo-clinic-data-engineer.md. Cover letter: /home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md.",
-    "response": "pending"
+    "response": "pending",
+    "title": "Data Engineer",
+    "app_id": "20260225_MN_mayo-clinic_data-engineer",
+    "app_dir": "output/applications/20260225_MN_mayo-clinic_data-engineer"
   },
   {
     "id": "bcd54d24-8c39-4be2-b168-d50479ea3e0b",
@@ -61,6 +70,189 @@
     "cover_letter_file": "/home/user/Agents2/output/cover-letters/stanford-university-python-developer.md",
     "screenshot": "",
     "notes": "Playwright not available. Apply manually at: https://jobs.stanford.edu/python-developer-334455. Resume: /home/user/Agents2/output/tailored-resumes/stanford-university-python-developer.md. Cover letter: /home/user/Agents2/output/cover-letters/stanford-university-python-developer.md.",
-    "response": "pending"
+    "response": "pending",
+    "title": "Python Developer",
+    "app_id": "20260225_CA_stanford_python-developer",
+    "app_dir": "output/applications/20260225_CA_stanford_python-developer"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory",
+    "title": "Full Stack Engineer (Python Focused)",
+    "location": "Bay Area, CA (Hybrid/Remote)",
+    "url": "https://jobs.lbl.gov/jobs/full-stack-engineer-python-focused-7372",
+    "app_id": "20260225_CA_lbl_full-stack-engineer-python",
+    "app_dir": "output/applications/20260225_CA_lbl_full-stack-engineer-python",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CA_lbl_full-stack-engineer-python/resume.md",
+      "cover_letter": "output/applications/20260225_CA_lbl_full-stack-engineer-python/cover-letter.md"
+    },
+    "notes": "Apply via jobs.lbl.gov"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory",
+    "title": "Data Access Engineer",
+    "location": "Bay Area, CA (Hybrid)",
+    "url": "https://jobs.lbl.gov/jobs/data-access-engineer-7359",
+    "app_id": "20260225_CA_lbl_data-access-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl_data-access-engineer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CA_lbl_data-access-engineer/resume.md",
+      "cover_letter": "output/applications/20260225_CA_lbl_data-access-engineer/cover-letter.md"
+    },
+    "notes": "PRIORITY: Priority deadline Feb 27, 2026! Apply via jobs.lbl.gov"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory",
+    "title": "Data Science Engineer",
+    "location": "Bay Area, CA (Hybrid)",
+    "url": "https://jobs.lbl.gov/jobs/data-science-engineer-7320",
+    "app_id": "20260225_CA_lbl_data-science-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl_data-science-engineer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CA_lbl_data-science-engineer/resume.md",
+      "cover_letter": "output/applications/20260225_CA_lbl_data-science-engineer/cover-letter.md"
+    },
+    "notes": "Apply via jobs.lbl.gov"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (NERSC)",
+    "title": "Software / API Engineer",
+    "location": "Bay Area, CA (Hybrid)",
+    "url": "https://jobs.lbl.gov/jobs/software-api-engineer-7221",
+    "app_id": "20260225_CA_lbl-nersc_software-api-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl-nersc_software-api-engineer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CA_lbl-nersc_software-api-engineer/resume.md",
+      "cover_letter": "output/applications/20260225_CA_lbl-nersc_software-api-engineer/cover-letter.md"
+    },
+    "notes": "Apply via jobs.lbl.gov"
+  },
+  {
+    "company": "Vanderbilt University Medical Center",
+    "title": "Software Developer III",
+    "location": "Nashville, TN (Hybrid)",
+    "url": "https://recruit.vumc.org/jobs/software-developer-iii",
+    "app_id": "20260225_TN_vumc_software-developer-iii",
+    "app_dir": "output/applications/20260225_TN_vumc_software-developer-iii",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_TN_vumc_software-developer-iii/resume.md",
+      "cover_letter": "output/applications/20260225_TN_vumc_software-developer-iii/cover-letter.md"
+    },
+    "notes": "Apply via VUMC careers portal"
+  },
+  {
+    "company": "Emory University",
+    "title": "Full Stack Developer - University Data & AI",
+    "location": "Atlanta, GA (Hybrid)",
+    "url": "https://staff-emory.icims.com/jobs/131911/full-stack-developer/job",
+    "app_id": "20260225_GA_emory_full-stack-developer-ai",
+    "app_dir": "output/applications/20260225_GA_emory_full-stack-developer-ai",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_GA_emory_full-stack-developer-ai/resume.md",
+      "cover_letter": "output/applications/20260225_GA_emory_full-stack-developer-ai/cover-letter.md"
+    },
+    "notes": "Apply via iCIMS (staff-emory.icims.com). Note: GA residency required - discuss relocation"
+  },
+  {
+    "company": "Colorado State University - CIRA",
+    "title": "AWIPS II Software Engineer",
+    "location": "Fort Collins, CO (Remote eligible)",
+    "url": "https://jobs.colostate.edu/postings/cira-awips-software-engineer",
+    "app_id": "20260225_CO_csu-cira_awips-software-engineer",
+    "app_dir": "output/applications/20260225_CO_csu-cira_awips-software-engineer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CO_csu-cira_awips-software-engineer/resume.md",
+      "cover_letter": "output/applications/20260225_CO_csu-cira_awips-software-engineer/cover-letter.md"
+    },
+    "notes": "Apply via CSU jobs portal"
+  },
+  {
+    "company": "Children's Mercy Kansas City",
+    "title": "Software Engineer - Research Informatics",
+    "location": "Kansas City, MO (Remote eligible)",
+    "url": "https://jobs.childrensmercy.org/postings/software-engineer-research-informatics",
+    "app_id": "20260225_MO_childrens-mercy_software-engineer",
+    "app_dir": "output/applications/20260225_MO_childrens-mercy_software-engineer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_MO_childrens-mercy_software-engineer/resume.md",
+      "cover_letter": "output/applications/20260225_MO_childrens-mercy_software-engineer/cover-letter.md"
+    },
+    "notes": "Apply via Children's Mercy careers portal"
+  },
+  {
+    "company": "University of Montana",
+    "title": "IT Applications Developer",
+    "location": "Missoula, MT (Hybrid)",
+    "url": "https://careers.umt.edu/jobs/it-applications-developer",
+    "app_id": "20260225_MT_univ-montana_it-applications-developer",
+    "app_dir": "output/applications/20260225_MT_univ-montana_it-applications-developer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_MT_univ-montana_it-applications-developer/resume.md",
+      "cover_letter": "output/applications/20260225_MT_univ-montana_it-applications-developer/cover-letter.md"
+    },
+    "notes": "Apply via UMT careers portal"
+  },
+  {
+    "company": "Montana Board of Crime Control (State of Montana)",
+    "title": "Data Warehouse Architect",
+    "location": "Helena, MT",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26140520",
+    "app_id": "20260225_MT_mt-board-crime-control_data-warehouse-architect",
+    "app_dir": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/resume.md",
+      "cover_letter": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/cover-letter.md"
+    },
+    "notes": "Apply via mtstatejobs.taleo.net"
+  },
+  {
+    "company": "University of Colorado Anschutz Medical Campus",
+    "title": "I.T. Data Scientist (Senior/Principal)",
+    "location": "Aurora, CO (Hybrid)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38881",
+    "app_id": "20260225_CO_cu-anschutz_it-data-scientist",
+    "app_dir": "output/applications/20260225_CO_cu-anschutz_it-data-scientist",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/resume.md",
+      "cover_letter": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/cover-letter.md"
+    },
+    "notes": "Apply via CU Taleo portal"
+  },
+  {
+    "company": "University of Colorado Anschutz Medical Campus (Health Data Compass)",
+    "title": "Senior BI Developer",
+    "location": "Aurora, CO (Hybrid)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38876",
+    "app_id": "20260225_CO_cu-anschutz_senior-bi-developer",
+    "app_dir": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer",
+    "date_applied": "2026-02-25",
+    "status": "manual_required",
+    "materials": {
+      "resume": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/resume.md",
+      "cover_letter": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/cover-letter.md"
+    },
+    "notes": "Deadline: March 30, 2026. Apply via CU Taleo portal"
   }
 ]
