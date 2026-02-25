@@ -11,6 +11,7 @@ App ID format: YYYYMMDD_{state}_{company-slug}_{role-slug}
   e.g. 20260225_CA_stanford_python-developer
 """
 
+import hashlib
 import json
 import os
 import re
@@ -90,13 +91,15 @@ def detect_state(location: str, url: str) -> str:
 def make_app_id(job: dict) -> str:
     """
     Build a unique application directory ID:
-    YYYYMMDD_{STATE}_{company-slug}_{role-slug}
+    {company-slug}_{role-slug}_{6-char-url-hash}
+
+    The URL hash ensures uniqueness even when company+title are identical
+    (e.g. two JHU "Software Engineer II" postings).
     """
-    date_str = datetime.now().strftime("%Y%m%d")
-    state = detect_state(job.get("location", ""), job.get("url", ""))
     company_slug = slugify(job.get("company", "unknown"), max_len=20)
-    role_slug = slugify(job.get("title", "role"), max_len=25)
-    return f"{date_str}_{state}_{company_slug}_{role_slug}"
+    role_slug = slugify(job.get("title", "role"), max_len=30)
+    url_hash = hashlib.md5(job.get("url", "").encode()).hexdigest()[:6]
+    return f"{company_slug}_{role_slug}_{url_hash}"
 
 
 def call_claude(prompt: str) -> str:
@@ -246,6 +249,22 @@ def main():
         print(f"\n  [{app_id}]")
         print(f"  {title} @ {company} (score: {job.get('score')})")
         Path(app_dir).mkdir(parents=True, exist_ok=True)
+
+        # Write job-info.md with link and metadata
+        job_info_path = os.path.join(app_dir, "job-info.md")
+        score_reasons = "\n".join(f"- {r}" for r in job.get("score_reasons", []))
+        job_info_content = f"""# {title}
+
+**Company:** {company}
+**Location:** {job.get('location', 'N/A')}
+**Score:** {job.get('score')}/10
+**URL:** {job.get('url', '')}
+
+## Score Breakdown
+{score_reasons if score_reasons else '- N/A'}
+"""
+        with open(job_info_path, "w") as f:
+            f.write(job_info_content)
 
         # Generate tailored resume
         print("    -> Tailoring resume ...", flush=True)
