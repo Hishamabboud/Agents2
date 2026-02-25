@@ -19,7 +19,7 @@ from pathlib import Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCORED_JOBS_FILE = os.path.join(BASE_DIR, "data", "scored-jobs.json")
 APPLICATIONS_FILE = os.path.join(BASE_DIR, "data", "applications.json")
-SCREENSHOTS_DIR = os.path.join(BASE_DIR, "output", "screenshots")
+APPLICATIONS_OUTPUT_DIR = os.path.join(BASE_DIR, "output", "applications")
 
 # Candidate details from preferences.md
 CANDIDATE = {
@@ -104,9 +104,10 @@ def apply_via_playwright(job: dict) -> dict:
     cover_letter_file = job.get("cover_letter_file", "")
     cover_letter_text = read_file(cover_letter_file)
 
-    Path(SCREENSHOTS_DIR).mkdir(parents=True, exist_ok=True)
-    fname = re.sub(r"[^\w-]", "-", f"{job.get('company', 'unknown')}-{job.get('title', 'role')}")[:60]
-    screenshot_path = os.path.join(SCREENSHOTS_DIR, f"{fname}.png")
+    # Screenshot goes into the per-job app directory
+    app_dir = job.get("app_dir", os.path.join(APPLICATIONS_OUTPUT_DIR, job.get("app_id", "unknown")))
+    Path(app_dir).mkdir(parents=True, exist_ok=True)
+    screenshot_path = os.path.join(app_dir, "screenshot.png")
 
     try:
         from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
@@ -239,8 +240,12 @@ def log_application(job: dict, apply_result: dict) -> None:
     if job.get("url", "") in existing_urls:
         return
 
+    app_id = job.get("app_id", "")
+    app_dir = job.get("app_dir", apply_result.get("app_dir", ""))
     record = {
         "id": str(uuid.uuid4()),
+        "app_id": app_id,
+        "app_dir": app_dir,
         "company": job.get("company", ""),
         "role": job.get("title", ""),
         "url": job.get("url", ""),
@@ -249,8 +254,7 @@ def log_application(job: dict, apply_result: dict) -> None:
         "date_applied": datetime.now().strftime("%Y-%m-%d"),
         "score": job.get("score", 0),
         "status": apply_result.get("status", "unknown"),
-        "resume_file": job.get("resume_file", ""),
-        "cover_letter_file": job.get("cover_letter_file", ""),
+        "materials": f"output/applications/{app_id}/" if app_id else "",
         "screenshot": apply_result.get("screenshot", ""),
         "notes": apply_result.get("notes", ""),
         "response": "pending",
@@ -297,17 +301,19 @@ def main():
         print(f"  ATS: {ats}")
         print(f"  Score: {job.get('score')}")
 
+        app_id = job.get("app_id", "unknown")
+        app_dir = job.get("app_dir", os.path.join(APPLICATIONS_OUTPUT_DIR, app_id))
+
         if has_playwright:
             result = apply_via_playwright(job)
         else:
-            Path(SCREENSHOTS_DIR).mkdir(parents=True, exist_ok=True)
             result = {
                 "status": "manual_required",
                 "screenshot": "",
+                "app_dir": app_dir,
                 "notes": (
                     f"Playwright not available. Apply manually at: {url}. "
-                    f"Resume: {job.get('resume_file', 'N/A')}. "
-                    f"Cover letter: {job.get('cover_letter_file', 'N/A')}."
+                    f"Materials in: output/applications/{app_id}/"
                 ),
             }
 

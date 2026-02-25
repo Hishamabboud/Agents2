@@ -21,7 +21,9 @@
       "+1 salary listed and \u2265$70k ($80,000 - $105,000)"
     ],
     "resume_file": "/home/user/Agents2/output/tailored-resumes/johns-hopkins-university-software-engineer-ii.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md"
+    "cover_letter_file": "/home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md",
+    "app_id": "20260225_MD_johns-hopkins_software-engineer-ii",
+    "app_dir": "output/applications/20260225_MD_johns-hopkins_software-engineer-ii"
   },
   {
     "id": "b2c3d4e5f6a1",
@@ -45,7 +47,9 @@
       "+1 salary listed and \u2265$70k ($85,000 - $110,000)"
     ],
     "resume_file": "/home/user/Agents2/output/tailored-resumes/university-of-michigan-full-stack-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md"
+    "cover_letter_file": "/home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md",
+    "app_id": "20260225_MI_univ-michigan_full-stack-developer",
+    "app_dir": "output/applications/20260225_MI_univ-michigan_full-stack-developer"
   },
   {
     "id": "c3d4e5f6a1b2",
@@ -69,44 +73,9 @@
       "+1 salary listed and \u2265$70k ($90,000 - $120,000)"
     ],
     "resume_file": "/home/user/Agents2/output/tailored-resumes/mayo-clinic-data-engineer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md"
-  },
-  {
-    "id": "d4e5f6a1b2c3",
-    "title": "IT Application Developer",
-    "company": "Federal Reserve Bank",
-    "location": "Minneapolis, MN",
-    "url": "https://www.federalreservejobs.org/application-developer-776655",
-    "description": "The Federal Reserve Bank of Minneapolis is seeking an IT Application Developer to join our enterprise application team.\n\nRequirements:\n- Must be a US citizen or permanent resident\n- No sponsorship available for this position\n- 5+ years of C# and ASP.NET development experience\n\nSalary: $95,000 - $115,000",
-    "date_posted": "2026-02-21",
-    "salary": "$95,000 - $115,000",
-    "cap_exempt_likely": false,
-    "sponsorship_flags": [
-      "must be (a )?(us|u\\.s\\.) citizen",
-      "no sponsorship"
-    ],
-    "source": "seeded-demo",
-    "score": 0,
-    "status": "skipped",
-    "skip_reason": "Dealbreaker phrase: no sponsorship",
-    "score_reasons": []
-  },
-  {
-    "id": "e5f6a1b2c3d4",
-    "title": "Senior Backend Developer",
-    "company": "National Institutes of Health",
-    "location": "Bethesda, MD (Remote)",
-    "url": "https://jobs.nih.gov/senior-backend-developer-889900",
-    "description": "The National Institutes of Health (NIH) seeks a Senior Backend Developer to support biomedical research data systems.\n\nResponsibilities:\n- Develop Python-based backend services and REST APIs\n- Maintain and optimize PostgreSQL and MySQL databases\n- Build ETL pipelines for research data integration\n- Work with Docker and CI/CD in an Agile environment\n\nRequirements:\n- 10+ years of software development experience\n- Expert Python and SQL skills\n- Principal-level or senior staff engineer expected\n\nNIH is a federal agency and equal opportunity employer.\nSalary: $110,000 - $145,000",
-    "date_posted": "2026-02-20",
-    "salary": "$110,000 - $145,000",
-    "cap_exempt_likely": true,
-    "sponsorship_flags": [],
-    "source": "seeded-demo",
-    "score": 0,
-    "status": "skipped",
-    "skip_reason": "Over-leveled: \\bstaff\\s+(software|engineer|developer)",
-    "score_reasons": []
+    "cover_letter_file": "/home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md",
+    "app_id": "20260225_MN_mayo-clinic_data-engineer",
+    "app_dir": "output/applications/20260225_MN_mayo-clinic_data-engineer"
   },
   {
     "id": "f6a1b2c3d4e5",
@@ -130,6 +99,651 @@
       "+1 salary listed and \u2265$70k ($95,000 - $125,000)"
     ],
     "resume_file": "/home/user/Agents2/output/tailored-resumes/stanford-university-python-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/stanford-university-python-developer.md"
+    "cover_letter_file": "/home/user/Agents2/output/cover-letters/stanford-university-python-developer.md",
+    "app_id": "20260225_CA_stanford_python-developer",
+    "app_dir": "output/applications/20260225_CA_stanford_python-developer"
+  },
+  {
+    "id": "d4e5f6a1b2c3",
+    "title": "IT Application Developer",
+    "company": "Federal Reserve Bank",
+    "location": "Minneapolis, MN",
+    "url": "https://www.federalreservejobs.org/application-developer-776655",
+    "description": "The Federal Reserve Bank of Minneapolis is seeking an IT Application Developer to join our enterprise application team.\n\nRequirements:\n- Must be a US citizen or permanent resident\n- No sponsorship available for this position\n- 5+ years of C# and ASP.NET development experience\n\nSalary: $95,000 - $115,000",
+    "date_posted": "2026-02-21",
+    "salary": "$95,000 - $115,000",
+    "cap_exempt_likely": false,
+    "sponsorship_flags": [
+      "must be (a )?(us|u\\.s\\.) citizen",
+      "no sponsorship"
+    ],
+    "source": "seeded-demo",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: no sponsorship",
+    "score_reasons": []
+  },
+  {
+    "id": "e5f6a1b2c3d4",
+    "title": "Senior Backend Developer",
+    "company": "National Institutes of Health",
+    "location": "Bethesda, MD (Remote)",
+    "url": "https://jobs.nih.gov/senior-backend-developer-889900",
+    "description": "The National Institutes of Health (NIH) seeks a Senior Backend Developer to support biomedical research data systems.\n\nResponsibilities:\n- Develop Python-based backend services and REST APIs\n- Maintain and optimize PostgreSQL and MySQL databases\n- Build ETL pipelines for research data integration\n- Work with Docker and CI/CD in an Agile environment\n\nRequirements:\n- 10+ years of software development experience\n- Expert Python and SQL skills\n- Principal-level or senior staff engineer expected\n\nNIH is a federal agency and equal opportunity employer.\nSalary: $110,000 - $145,000",
+    "date_posted": "2026-02-20",
+    "salary": "$110,000 - $145,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "seeded-demo",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Over-leveled: \\bstaff\\s+(software|engineer|developer)",
+    "score_reasons": []
+  },
+  {
+    "id": "lbl-7372",
+    "title": "Full Stack Engineer (Python Focused)",
+    "company": "Lawrence Berkeley National Laboratory",
+    "location": "Bay Area, California (Hybrid/Remote within US)",
+    "url": "https://jobs.lbl.gov/jobs/full-stack-engineer-python-focused-7372",
+    "description": "ESnet (Energy Sciences Network) at Lawrence Berkeley National Laboratory seeks a Full Stack Engineer with Python focus. Build and maintain full-stack web applications supporting scientific networking infrastructure.\n\nRequired:\n- Python and JavaScript development\n- Linux development skills\n- Web APIs (GraphQL, REST, SOAP)\n- Data structures and algorithms\n\nDesired:\n- Django, SQLAlchemy, FastAPI frameworks\n- ReactJS/NextJS\n- Git/GitHub version control\n- Agile/Scrum methodologies\n\nRequirements: Bachelor's degree + 8 years related experience, or advanced degree + 6 years. Work must be performed within the United States. 2-year term appointment with extension/conversion potential.\n\nSalary: $156,864 - $191,724 (full range: $139,440 - $235,308)",
+    "date_posted": "2026-02-25",
+    "salary": "$156,864 - $191,724",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "lbl-search-2026-02-25",
+    "score": 8.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+3.5 skills match (python, javascript, react, sql, git)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($156,864 - $191,724)"
+    ],
+    "app_id": "20260225_CA_lbl_full-stack-engineer-python",
+    "app_dir": "output/applications/20260225_CA_lbl_full-stack-engineer-python"
+  },
+  {
+    "id": "lbl-7359",
+    "title": "Data Access Engineer",
+    "company": "Lawrence Berkeley National Laboratory",
+    "location": "Bay Area, California (Hybrid, within 150 miles of Berkeley)",
+    "url": "https://jobs.lbl.gov/jobs/data-access-engineer-7359",
+    "description": "Materials Sciences Division at LBNL seeks a Data Access Engineer to modernize APIs and Python client libraries for the Materials Project platform.\n\nRequired:\n- Python (object-oriented)\n- RESTful APIs\n- MongoDB (NoSQL databases)\n- Git/GitHub\n\nDesired:\n- FastAPI, Starlette, or Pydantic\n- AWS services (S3, Boto3)\n- PyPI Python packaging\n- MkDocs\n- Datadog monitoring\n- CI/CD pipelines (GitHub Actions)\n\nLevel 1: Bachelor's + 2 years experience. Level 2: Bachelor's + 5 years or Master's + 3 years. 1-year term appointment with possible extension or conversion to Career appointment. Priority deadline: February 27, 2026.\n\nSalary: Level 1 $105,000-$128,000; Level 2 $132,000-$161,000",
+    "date_posted": "2026-02-25",
+    "salary": "$105,000 - $161,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "lbl-search-2026-02-25",
+    "score": 8.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+2.5 skills match (python, sql, restful, git, ci/cd)",
+      "+2 experience level match (2 yrs)",
+      "+1 salary listed and \u2265$70k ($105,000 - $161,000)"
+    ],
+    "app_id": "20260225_CA_lbl_data-access-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl_data-access-engineer"
+  },
+  {
+    "id": "lbl-7320",
+    "title": "Data Science Engineer",
+    "company": "Lawrence Berkeley National Laboratory",
+    "location": "Bay Area, California (On-site or Hybrid, must work within US)",
+    "url": "https://jobs.lbl.gov/jobs/data-science-engineer-7320",
+    "description": "Computational Biosciences Group at LBNL seeks a Data Science Engineer for scientific data management and analysis tools.\n\nRequired:\n- Python, C++, or JavaScript programming\n- Git version control and CI systems (GitHub/GitLab)\n- Machine learning, data management, or scientific data analysis experience\n\nDesired:\n- HDF5, Zarr, MongoDB, PostgreSQL, MySQL, Redis\n- Neurodata Without Borders, LinkML ecosystems\n- Parallel compute (cloud, HPC, containerization, MPI, OpenMP, CUDA)\n- Web-based GUIs or APIs for scientific data analysis\n\nBachelor's degree in Computer Science, Data Science, or related field. Minimum 5 years experience. 2-year term appointment with possible extension/conversion to Career.\n\nSalary: $131,760 - $161,064 (full range: $117,132 - $197,676)",
+    "date_posted": "2026-02-25",
+    "salary": "$131,760 - $161,064",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "lbl-search-2026-02-25",
+    "score": 9.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+3.5 skills match (python, javascript, sql, postgresql, postgres)",
+      "+2 experience level match (5 yrs)",
+      "+1 salary listed and \u2265$70k ($131,760 - $161,064)"
+    ],
+    "app_id": "20260225_CA_lbl_data-science-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl_data-science-engineer"
+  },
+  {
+    "id": "lbl-7221",
+    "title": "Software / API Engineer",
+    "company": "Lawrence Berkeley National Laboratory (NERSC)",
+    "location": "Bay Area, California (Hybrid, within 150 miles of Berkeley)",
+    "url": "https://jobs.lbl.gov/jobs/software-api-engineer-7221",
+    "description": "National Energy Research Scientific Computing Center (NERSC) at LBNL seeks a Software/API Engineer to build software and API solutions for HPC systems.\n\nRequired:\n- C, shell, and Python programming\n- Git, runners, and complex CI/CD pipelines\n- AI/ML tools and services development\n- MongoDB, MySQL, or PostgreSQL\n- Docker or Kubernetes\n- Linux systems administration\n- OpenAPI and other API frameworks (Level 4 only)\n\nLevel 3: Bachelor's + 8 years (Master's + 6 years). Level 4: Bachelor's + 12 years (Master's + 8 years). Substantial on-site presence required.\n\nSalary: Level 3 $153,492-$187,596; Level 4 $174,804-$213,660",
+    "date_posted": "2026-02-25",
+    "salary": "$153,492 - $213,660",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "lbl-search-2026-02-25",
+    "score": 9.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+4.0 skills match (python, sql, postgresql, postgres, mysql)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($153,492 - $213,660)"
+    ],
+    "app_id": "20260225_CA_lbl-nersc_software-api-engineer",
+    "app_dir": "output/applications/20260225_CA_lbl-nersc_software-api-engineer"
+  },
+  {
+    "id": "lbl-7378-skip",
+    "title": "Senior Scientific Data Platform Engineer (Joint Genome Institute)",
+    "company": "Lawrence Berkeley National Laboratory",
+    "location": "Bay Area, California (On-site)",
+    "url": "https://jobs.lbl.gov/jobs/senior-scientific-data-platform-engineer-joint-genome-institute-7378",
+    "description": "JGI at LBNL seeks a Senior Scientific Data Platform Engineer for data lakehouse infrastructure.\n\nRequired: ETL/ELT tools, Python (Pandas, PySpark), Advanced SQL, Data Lakehouse environments.\nDesired: Dremio, Spark, Parquet, Iceberg, genomics domain knowledge.\n\nMinimum 8 years experience. Start date April 1, 2026. 2-year term.\n\nSalary: $139,440 - $174,312\n\nSPONSORSHIP NOTE: 'Applicants must be legally authorized to work in the United States. Berkeley Lab does not provide visa sponsorship for this position.'",
+    "date_posted": "2026-02-25",
+    "salary": "$139,440 - $174,312",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "does not provide visa sponsorship",
+      "legally authorized to work"
+    ],
+    "source": "lbl-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: does not provide visa sponsorship",
+    "score_reasons": []
+  },
+  {
+    "id": "lbl-7181-skip",
+    "title": "Dev Ops Engineer",
+    "company": "Lawrence Berkeley National Laboratory (NERSC)",
+    "location": "Bay Area, California",
+    "url": "https://jobs.lbl.gov/jobs/dev-ops-engineer-7181",
+    "description": "NERSC at LBNL seeks a DevOps Engineer for HPC operations.\n\nRequired: Linux systems programming, C, Bourne shell, Python3, HPC or cloud environment experience.\nDesired: Kubernetes, Terraform/Ansible, Rust/Go, GitLab/GitHub CI/CD, Slurm, Grafana/Prometheus.\n\nLevel 3: $146,184-$178,668; Level 4: $166,476-$203,484.\n\nSPONSORSHIP NOTE: 'Any hiring decision may depend in part on Berkeley Lab's ability to obtain or rely on federal government authorizations as required, if you are not a U.S. citizen, lawful permanent resident, asylee, refugee, or other qualifying protected individual.'",
+    "date_posted": "2026-02-25",
+    "salary": "$146,184 - $203,484",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "federal government authorizations",
+      "not a U.S. citizen"
+    ],
+    "source": "lbl-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: not a U.S. citizen",
+    "score_reasons": []
+  },
+  {
+    "id": "kstate-skip-o365",
+    "title": "Office 365 IT Engineer",
+    "company": "Kansas State University",
+    "location": "Manhattan, KS (On-site)",
+    "url": "https://careers.k-state.edu/jobs/office-365-it-engineer-manhattan-kansas-united-states",
+    "description": "K-State seeks an Office 365 IT Engineer for Microsoft 365 administration.\n\nRequired: Microsoft 365 services, Azure AD/Entra ID, PowerShell scripting.\nDesired: Azure/AWS, Terraform, CloudFormation, Ansible, Azure Automation, GitHub Actions, CI/CD.\n\nSalary: $70,000-$85,000\n\nSPONSORSHIP NOTE: 'Candidates must be legally authorized to work in the U.S. on an ongoing basis without sponsorship.'",
+    "date_posted": "2026-02-25",
+    "salary": "$70,000 - $85,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "without sponsorship",
+      "legally authorized to work in the U.S."
+    ],
+    "source": "kstate-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: without sponsorship",
+    "score_reasons": []
+  },
+  {
+    "id": "kstate-skip-itadmin",
+    "title": "IT Administrator",
+    "company": "Kansas State University",
+    "location": "Manhattan, KS (On-site)",
+    "url": "https://careers.k-state.edu/jobs/it-administrator-manhattan-kansas-united-states-906e6e7d-f8bc-4ee7-ae0e-85d500ff94b2",
+    "description": "K-State seeks an IT Administrator for systems administration.\n\nRequired: Windows, macOS, Linux, AWS/Azure, networking, database administration.\nSalary: $61,591-$80,073\n\nSPONSORSHIP NOTE: 'Candidates must be legally authorized to work in the U.S. on an ongoing basis without sponsorship.'",
+    "date_posted": "2026-02-25",
+    "salary": "$61,591 - $80,073",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "without sponsorship",
+      "legally authorized to work in the U.S."
+    ],
+    "source": "kstate-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: without sponsorship",
+    "score_reasons": []
+  },
+  {
+    "id": "kstate-skip-erp",
+    "title": "Student ERP Systems Manager",
+    "company": "Kansas State University",
+    "location": "Remote (KS)",
+    "url": "https://careers.k-state.edu/jobs/student-erp-systems-manager-other-kansas-united-states",
+    "description": "K-State seeks a Student ERP Systems Manager for Oracle Campus Solutions/PeopleSoft administration.\n\nRequired: Oracle BI Publisher, SQL, Tableau, Oracle Campus Solutions/PeopleSoft, PeopleCode, SQR, APIs.\nSalary: $70,835-$80,000\n\nSPONSORSHIP NOTE: 'Candidates must be legally authorized to work in the U.S. on an ongoing basis without sponsorship.'",
+    "date_posted": "2026-02-25",
+    "salary": "$70,835 - $80,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "without sponsorship",
+      "legally authorized to work in the U.S."
+    ],
+    "source": "kstate-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: without sponsorship",
+    "score_reasons": []
+  },
+  {
+    "id": "vumc-tn-001",
+    "title": "Software Developer III",
+    "company": "Vanderbilt University Medical Center",
+    "location": "Nashville, TN (Hybrid)",
+    "url": "https://ecsr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=software+developer",
+    "description": "Vanderbilt University Medical Center (VUMC) is seeking a Software Developer III to join our IT development team. VUMC is a world-class academic medical center and nonprofit healthcare organization.\n\nResponsibilities:\n- Design, develop, and maintain web applications and backend services supporting clinical and administrative systems\n- Build and maintain RESTful APIs and system integrations\n- Develop and optimize SQL Server and PostgreSQL databases and stored procedures\n- Collaborate in an Agile/Scrum development environment\n- Mentor junior developers and participate in code reviews\n\nRequired:\n- Bachelor's degree in Computer Science or related field\n- 4+ years of software development experience\n- Proficiency in C# / ASP.NET or Java or Python\n- Strong SQL and database design skills\n- Experience with REST API development\n- Git version control\n\nPreferred:\n- Healthcare IT or EHR system experience\n- Azure cloud platform experience\n- JavaScript framework experience (React, Angular, or Vue.js)\n- Docker and CI/CD experience\n\nSalary: $80,000 - $100,000\n\nVUMC is an equal opportunity employer and does not discriminate on the basis of national origin or citizenship status.",
+    "date_posted": "2026-02-25",
+    "salary": "$80,000 - $100,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "research-2026-02-25",
+    "score": 9.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+4.0 skills match (python, c#, asp.net, .net, javascript)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($80,000 - $100,000)"
+    ],
+    "app_id": "20260225_TN_vumc_software-developer-iii",
+    "app_dir": "output/applications/20260225_TN_vumc_software-developer-iii"
+  },
+  {
+    "id": "emory-ga-001",
+    "title": "Full Stack Developer - University Data & AI",
+    "company": "Emory University",
+    "location": "Atlanta, GA (Hybrid - Georgia residency required)",
+    "url": "https://staff-emory.icims.com/jobs/131911/full-stack-developer---university-data-&-ai---office-of-information-technology-(oit)/job",
+    "description": "Emory University's Office of Information Technology (OIT) is seeking a Full Stack Developer for the University Data Office. Emory is a private research university and nonprofit institution.\n\nResponsibilities:\n- Design and develop data-driven applications for the Unified Data Platform (UDP)\n- Build scalable, secure full stack web applications using Python/Django and front-end frameworks\n- Collaborate with agile teams, clients, and stakeholders\n- Mentor junior staff and stay updated with latest technologies\n- Integrate with relational databases and RESTful APIs\n\nRequired:\n- Bachelor's degree in Computer Science or related field\n- 4 years of web application development experience\n- Required skills: Ruby-on-Rails, Python/Django, Java/Spring, front-end development, relational databases\n- Object Oriented Design principles and N-tier architecture\n\nPreferred:\n- Vue.js, React, or Angular front-end experience\n- PostgreSQL or MySQL\n- Docker and CI/CD pipelines\n- Agile/Scrum methodology\n\nJob Number: 140935\nWork Type: Hybrid (must reside in Georgia)\n\nEmory University is an equal opportunity employer. We value diversity and are committed to a policy of equal opportunity without regard to national origin.",
+    "date_posted": "2026-02-25",
+    "salary": "$90,000 - $115,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "research-2026-02-25",
+    "score": 9.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+4.0 skills match (python, vue, vue.js, react, angular)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($90,000 - $115,000)"
+    ],
+    "app_id": "20260225_GA_emory_full-stack-developer-ai",
+    "app_dir": "output/applications/20260225_GA_emory_full-stack-developer-ai"
+  },
+  {
+    "id": "csu-co-001",
+    "title": "AWIPS II Software Engineer",
+    "company": "Colorado State University - CIRA",
+    "location": "Fort Collins, CO (Remote eligible)",
+    "url": "https://jobs.colostate.edu/postings/168902",
+    "description": "The Cooperative Institute for Research in the Atmosphere (CIRA) at Colorado State University seeks an AWIPS II Software Engineer. CIRA is a cooperative institute between CSU and NOAA.\n\nResponsibilities:\n- Design and development of AWIPS II applications in Java and Python\n- Build graphical tools assisting forecasters in generating digital forecasts\n- Transform weather information into text, graphics, and imagery output\n- Collaborate with scientists and software developers\n- Design, develop, test, and refine applications for operational weather entities\n\nRequired:\n- Bachelor's degree in Computer Science, Software Engineering, or related field\n- 3+ years of software development experience\n- Proficiency in Java and/or Python\n- Experience with software testing and version control (Git)\n- Ability to work in a collaborative research environment\n\nPreferred:\n- Experience with AWIPS II or similar meteorological software\n- GUI development experience\n- Scientific data visualization tools\n- REST API development\n- Agile development methodology\n\nSalary: $70,000 - $95,000\nLocation: Fort Collins, CO (option to work remotely)\n\nCSU is an equal opportunity employer. The university does not discriminate on the basis of national origin.",
+    "date_posted": "2026-02-25",
+    "salary": "$70,000 - $95,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "research-2026-02-25",
+    "score": 7.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+2.0 skills match (python, rest api, git, agile)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($70,000 - $95,000)"
+    ],
+    "app_id": "20260225_CO_csu-cira_awips-software-engineer",
+    "app_dir": "output/applications/20260225_CO_csu-cira_awips-software-engineer"
+  },
+  {
+    "id": "childrensmercy-mo-001",
+    "title": "Software Engineer - Research Informatics",
+    "company": "Children's Mercy Kansas City",
+    "location": "Kansas City, MO (Remote eligible - KC metro)",
+    "url": "https://www.childrensmercy.org/careers/job-detail/?jobId=JR0028813",
+    "description": "Children's Mercy Research Institute (CMRI) seeks a Software Engineer to support research informatics and data science teams. Children's Mercy is a nonprofit pediatric hospital system.\n\nThe Research Informatics and Data Science team works with high-volume, high-complexity clinical research data requiring world-class computational capabilities and custom application development.\n\nResponsibilities:\n- Create software solutions for the researcher community\n- Analyze requirements and design solutions for research software needs\n- Write high-quality code meeting team and industry standards\n- Ensure operational excellence of developed systems\n- Communicate project needs verbally and in writing\n\nRequired:\n- Bachelor's degree in Computer Science or related field + 1-2 years experience\n- OR High school/Associate's degree + 5-7 years experience\n- C# and .NET Platform\n- SQL or NoSQL databases\n- Software Development Lifecycle processes and tools\n- Source code management (Git)\n\nPreferred:\n- Azure cloud computing platforms\n- Access and Identity management tools\n- Healthcare IT experience\n\nStarting at $33.88/hour (~$70,000-$85,000 annually)\nThis position can be entirely remote, though must live in KC metro area.\n\nChildren's Mercy is an equal opportunity employer.",
+    "date_posted": "2026-02-25",
+    "salary": "$70,000 - $85,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "research-2026-02-25",
+    "score": 8.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+2.0 skills match (c#, .net, sql, git)",
+      "+2 experience level match (2 yrs)",
+      "+1 salary listed and \u2265$70k ($70,000 - $85,000)"
+    ],
+    "app_id": "20260225_MO_childrens-mercy_software-engineer",
+    "app_dir": "output/applications/20260225_MO_childrens-mercy_software-engineer"
+  },
+  {
+    "id": "umt-mt-001",
+    "title": "IT Applications Developer",
+    "company": "University of Montana",
+    "location": "Missoula, MT (Hybrid)",
+    "url": "https://umjobs.silkroad.com/",
+    "description": "The University of Montana seeks an IT Applications Developer to join our Information Technology department. UM is a public research university and cap-exempt employer.\n\nResponsibilities:\n- Develop and maintain web applications supporting university operations, student services, and academic programs\n- Build RESTful APIs and integrate with university enterprise systems\n- Work with SQL Server and PostgreSQL databases\n- Collaborate with faculty, staff, and students to understand and implement technical requirements\n- Participate in Agile development practices\n\nRequired:\n- Bachelor's degree in Computer Science or related field\n- 2+ years of software development experience\n- Proficiency in Python, PHP, or C#/.NET\n- SQL database design and query optimization\n- Git version control\n- REST API design\n\nPreferred:\n- JavaScript framework experience (Vue.js, React, or Angular)\n- Experience with higher education systems (Banner, Ellucian)\n- Docker and CI/CD experience\n\nSalary: $55,000 - $75,000\nLocation: Missoula, Montana (hybrid work eligible)\n\nThe University of Montana is an equal opportunity employer with a strong commitment to workforce diversity. UM does not discriminate on the basis of national origin.",
+    "date_posted": "2026-02-25",
+    "salary": "$55,000 - $75,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "research-2026-02-25",
+    "score": 7.0,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+4.0 skills match (python, c#, .net, php, javascript)",
+      "+1 no specific experience requirement stated",
+      "-1 salary below $70k ($55,000 - $75,000)"
+    ],
+    "app_id": "20260225_MT_univ-montana_it-applications-developer",
+    "app_dir": "output/applications/20260225_MT_univ-montana_it-applications-developer"
+  },
+  {
+    "id": "mt-gov-26140520",
+    "title": "Data Warehouse Architect",
+    "company": "Montana Board of Crime Control (State of Montana)",
+    "location": "Helena, MT",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26140520&lang=en",
+    "description": "Montana Board of Crime Control (MBCC), Statistical Analysis Center (SAC) seeks a Data Warehouse Architect to lead the Criminal Justice Data Warehouse (JDW) project. Responsibilities: architect and structure data in scalable models, conduct data analysis/profiling/validation, define data standards and warehouse models, develop data flow processes from source systems, integrate data from multiple sources. Required: Bachelor degree in IT or related field, substantial professional experience in complex database environments. Preferred: Tableau, AWS environment administration, criminal justice data background. Tech stack: Oracle/SQL Server/Snowflake, ETL products, XML/SOAP/NIEM, BI tools, SQL/PL-SQL, Agile. Salary: 3,720-8,712 annually. Telework eligible (part-time). PSLF eligible. Closing: March 10, 2026.",
+    "date_posted": "2026-02-25",
+    "salary": "$83,720 - $88,712",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "mt-gov-search-2026-02-25",
+    "score": 7.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+2.5 skills match (.net, sql, sql server, agile, etl)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($83,720 - $88,712)"
+    ],
+    "app_id": "20260225_MT_mt-board-crime-control_data-warehouse-architect",
+    "app_dir": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect"
+  },
+  {
+    "id": "mt-gov-26140488",
+    "title": "IT Systems Support Specialist",
+    "company": "Montana Department of Agriculture (State of Montana)",
+    "location": "Helena, MT",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26140488&lang=en",
+    "description": "Montana Department of Agriculture seeks an IT Systems Support Specialist for front-line technical assistance and website maintenance. Required: Associate degree in IT or 3 years experience supporting network/computer systems, Microsoft Active Directory, Windows, Group Policy Management, Office, Microsoft Server, PowerShell. Preferred: Cascade CMS for web development, security software. Salary: $32.00-$34.00/hour. First review March 3, 2026 (open until filled).",
+    "date_posted": "2026-02-25",
+    "salary": "$32.00-$34.00/hour (~$66,560-$70,720 annualized)",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "mt-gov-search-2026-02-25",
+    "score": 4.5,
+    "status": "filtered",
+    "skip_reason": "Score 4.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+0.5 skills match (.net)",
+      "+2 experience level match (3 yrs)",
+      "-1 salary below $70k ($32.00-$34.00/hour (~$66,560-$70,720 annualized))"
+    ]
+  },
+  {
+    "id": "mt-gov-26140498",
+    "title": "Business Systems Supervisor",
+    "company": "Montana Dept of Public Health and Human Services (State of Montana)",
+    "location": "Helena, MT (also Billings, Missoula, Kalispell, Anaconda, Bozeman, Great Falls)",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26140498&lang=en",
+    "description": "DPHHS Early Childhood and Family Support Division seeks a Business Systems Supervisor to oversee IT system design, development, testing, and implementation. Required: Bachelor in CS/business/project management/analytics, 5 years business analyst or related experience, 2 years supervisory experience, JAD and UAT methodologies, MS SQL Server or relational database. Preferred: Salesforce administration, DPHHS programs experience. Salary: $42.76/hour (~$88,941 annualized). Telework eligible (partial). PSLF eligible.",
+    "date_posted": "2026-02-25",
+    "salary": "$42.76/hour (~$88,941 annualized)",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "mt-gov-search-2026-02-25",
+    "score": 4.5,
+    "status": "filtered",
+    "skip_reason": "Score 4.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+1.5 skills match (.net, sql, sql server)",
+      "+1 no specific experience requirement stated",
+      "-1 salary below $70k ($42.76/hour (~$88,941 annualized))"
+    ]
+  },
+  {
+    "id": "mt-gov-26140454",
+    "title": "IT Security Analyst",
+    "company": "Montana Judicial Branch (State of Montana)",
+    "location": "Helena, MT",
+    "url": "https://mtstatejobs.taleo.net/careersection/200/jobdetail.ftl?job=26140454&lang=en",
+    "description": "Montana Judicial Branch seeks an IT Security Analyst. Required: Associate degree in IT/Cybersecurity or 2 years relevant experience, NIST/RMF familiarity, firewall and network security administration. Preferred: CompTIA Security+. Salary: $26.15/hour (~$54,392 annualized). Closing: March 8, 2026. Telework eligible (partial).",
+    "date_posted": "2026-02-25",
+    "salary": "$26.15/hour (~$54,392 annualized)",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "mt-gov-search-2026-02-25",
+    "score": 3.5,
+    "status": "filtered",
+    "skip_reason": "Score 3.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+0.5 skills match (.net)",
+      "+1 no specific experience requirement stated",
+      "-1 salary below $70k ($26.15/hour (~$54,392 annualized))"
+    ]
+  },
+  {
+    "id": "cu-taleo-38881",
+    "title": "I.T. Data Scientist (Open Rank: Senior - Principal)",
+    "company": "University of Colorado Anschutz Medical Campus",
+    "location": "Aurora, CO (Hybrid, 3 days/week on campus)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38881&lang=en",
+    "description": "Division of Artificial Medical Intelligence, Ophthalmology at CU Anschutz seeks an I.T. Data Scientist for deep learning algorithm development in medical imaging. Required: Python, scikit-learn/OpenCV/PyTorch/TensorFlow, ML/CV/NLP concepts, 2+ years (Senior) or 3+ years (Principal) ML research or engineering, Bachelor in CS/CE/IT or related. Preferred: Master/PhD in data science or biomedical engineering, medical imaging experience, Docker, SQL, Git, NIH grant writing. Salary: Senior $86,952-$110,602; Principal $99,993-$127,192. Best consideration: February 15, 2026 (screening ongoing).",
+    "date_posted": "2026-02-25",
+    "salary": "$86,952 - $127,192",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "cu-search-2026-02-25",
+    "score": 7.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+2.5 skills match (python, .net, sql, git, docker)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($86,952 - $127,192)"
+    ],
+    "app_id": "20260225_CO_cu-anschutz_it-data-scientist",
+    "app_dir": "output/applications/20260225_CO_cu-anschutz_it-data-scientist"
+  },
+  {
+    "id": "cu-taleo-38876",
+    "title": "Senior BI Developer",
+    "company": "University of Colorado Anschutz Medical Campus (Health Data Compass)",
+    "location": "Aurora, CO (Hybrid, 3 days/week on campus)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38876&lang=en",
+    "description": "Health Data Compass at CU Anschutz seeks a Senior BI Developer for expert-level BI and data analysis in a HIPAA-compliant cloud environment. Required: Bachelor in health science field, 4+ years healthcare enterprise data warehouse experience, 2+ years SQL programming. Preferred: Epic Certification (Caboodle/Clarity/Clinical Data Model), SNOMED CT, LOINC, RxNorm, OMOP, REDCap. Tech stack: SQL, Tableau, cloud computing, HIPAA compliance, Epic EMR. Salary: $90,000-$100,247. Deadline: March 30, 2026.",
+    "date_posted": "2026-02-25",
+    "salary": "$90,000 - $100,247",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "cu-search-2026-02-25",
+    "score": 6.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+1.5 skills match (.net, sql, data model)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($90,000 - $100,247)"
+    ],
+    "app_id": "20260225_CO_cu-anschutz_senior-bi-developer",
+    "app_dir": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer"
+  },
+  {
+    "id": "cu-taleo-38443",
+    "title": "IT Program Director",
+    "company": "University of Colorado Anschutz Medical Campus (Health Data COMPASS)",
+    "location": "Aurora, CO (Hybrid, 3 days/week on campus)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38443&lang=en",
+    "description": "Health Data COMPASS at CU Anschutz seeks an IT Program Director to lead cloud engineering program. Required: Bachelor in CS/Information Systems/Computer Engineering or related, 6+ years cloud computing/data engineering/data analysis or cloud platform management, 4+ years people management. Preferred: Master in Public Health/Data Science/Informatics, SQL/R/SAS/Python, Google Cloud Platform (BigQuery, Cloud Storage, Dataflow), Epic data system, healthcare research environment. Salary: $124,000-$135,000. Open until filled.",
+    "date_posted": "2026-02-25",
+    "salary": "$124,000 - $135,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "cu-search-2026-02-25",
+    "score": 6.5,
+    "status": "qualified",
+    "skip_reason": "",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+1.5 skills match (python, .net, sql)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($124,000 - $135,000)"
+    ]
+  },
+  {
+    "id": "cu-taleo-38966-skip",
+    "title": "Senior Network Engineer",
+    "company": "University of Colorado Colorado Springs",
+    "location": "Colorado Springs, CO (Hybrid, 60% on-site)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38966&lang=en",
+    "description": "UCCS OIT seeks a Senior Network Engineer for enterprise network design and management. Required: Bachelor in CS/IT/Engineering or related, Cisco IOS/NX-OS and HPE Aruba expertise, OSPF/BGP/EIGRP routing protocols, CCNP certification. Salary: $76,292-$101,723. SPONSORSHIP NOTE: This position does not include new visa sponsorship for individuals outside the U.S.",
+    "date_posted": "2026-02-25",
+    "salary": "$76,292 - $101,723",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "does not include new visa sponsorship"
+    ],
+    "source": "cu-search-2026-02-25",
+    "score": 5.5,
+    "status": "filtered",
+    "skip_reason": "Score 5.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+0.5 skills match (.net)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($76,292 - $101,723)"
+    ]
+  },
+  {
+    "id": "cu-boulder-70270",
+    "title": "Research Economist/Data Scientist",
+    "company": "University of Colorado Boulder (Leeds School of Business)",
+    "location": "Boulder, CO (Hybrid, min 3 days on-site)",
+    "url": "https://jobs.colorado.edu/jobs/JobDetail/Research-Economist-Data-Scientist/70270",
+    "description": "Leeds School of Business, Business Research Division at CU Boulder seeks a Research Economist/Data Scientist. Required: Bachelor in Economics/Business or related, 3+ years consulting/data analysis/policy advising experience, econometrics training. Preferred: R or Python, SPSS, EViews, IMPLAN, GIS (ArcGIS Pro), Tableau or Power BI, BLS/Census/BEA public data sources. Salary: $86,100-$88,000. Deadline: March 2, 2026.",
+    "date_posted": "2026-02-25",
+    "salary": "$86,100 - $88,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "cu-search-2026-02-25",
+    "score": 5.5,
+    "status": "filtered",
+    "skip_reason": "Score 5.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+0.5 skills match (python)",
+      "+1 no specific experience requirement stated",
+      "+1 salary listed and \u2265$70k ($86,100 - $88,000)"
+    ]
+  },
+  {
+    "id": "ornl-1337637100",
+    "title": "Kubernetes Platform Engineer",
+    "company": "Oak Ridge National Laboratory",
+    "location": "Oak Ridge, TN 37830 (Hybrid)",
+    "url": "https://jobs.ornl.gov/job/Oak-Ridge-Kubernetes-Platform-Engineer-TN-37830/1337637100/",
+    "description": "Oak Ridge National Laboratory seeks a Kubernetes Platform Engineer to operate and maintain on-premises Kubernetes clusters and develop critical infrastructure components.\n\nRequired:\n- Minimum 3 years Kubernetes cluster administration\n- Minimum 3 years Linux system administration\n- BS degree in scientific field + 5+ years relevant experience (or equivalent)\n- Data center hardware/infrastructure knowledge\n\nTech Stack:\n- Kubernetes, Red Hat OpenShift, ArgoCD (GitOps)\n- Terraform, Helm, Puppet, GitLab CI\n- Prometheus, Nagios, Grafana (monitoring)\n- Quay, Harbor (container registry)\n- Git, GitHub, GitLab\n- Bash, Python, Go scripting\n\nSecurity Requirements: Requires HSPD-12 PIV badge (Federal Tier 1 background check). Foreign nationals without 3 consecutive years US residency need LSSO determination instead - not outright disqualified.\n\nVisa Sponsorship: Not explicitly addressed in posting. No \"visa sponsorship is not available\" language found. Foreign nationals can apply via LSSO pathway.",
+    "date_posted": "2026-02-25",
+    "salary": "Not listed",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [],
+    "source": "ornl-search-2026-02-25",
+    "score": 5.0,
+    "status": "filtered",
+    "skip_reason": "Score 5.0 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+1.0 skills match (python, git)",
+      "+1 no specific experience requirement stated"
+    ]
+  },
+  {
+    "id": "ornl-1366337900-skip",
+    "title": "Software Systems Engineer",
+    "company": "Oak Ridge National Laboratory",
+    "location": "Oak Ridge, TN 37830",
+    "url": "https://jobs.ornl.gov/job/Oak-Ridge-Software-Systems-Engineer-TN-37830/1366337900/",
+    "description": "ORNL seeks a Software Systems Engineer. Tech: Python, C++, computer architecture, networking, virtualization. SPONSORSHIP NOTE: Requires ability to obtain and maintain a clearance from the Department of Energy, effectively requiring US citizenship.",
+    "date_posted": "2026-02-25",
+    "salary": "Not listed",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "ability to obtain and maintain a clearance from the Department of Energy"
+    ],
+    "source": "ornl-search-2026-02-25",
+    "score": 4.5,
+    "status": "filtered",
+    "skip_reason": "Score 4.5 < 6",
+    "score_reasons": [
+      "+3 cap-exempt employer",
+      "+0.5 skills match (python)",
+      "+1 no specific experience requirement stated"
+    ]
+  },
+  {
+    "id": "wisc-erp-dev-skip",
+    "title": "ERP Developer (PeopleSoft Campus Solutions)",
+    "company": "University of Wisconsin-Madison",
+    "location": "Madison, WI (Remote)",
+    "url": "https://jobs.wisc.edu/jobs/erp-developer-peoplesoft-campus-solutions-madison-wisconsin-united-states",
+    "description": "UW-Madison seeks an ERP Developer for PeopleSoft Campus Solutions. Required: PeopleCode, Application Engine, Integration Broker, SQR, PeopleSoft HCM/FCM/Campus Solutions experience. Preferred: PHP, Java, higher education background. Salary: $95,000 - $115,000. Remote eligible. Closing: February 26, 2026. SPONSORSHIP NOTE: Successful applicants must be authorized to work in the United States without need of employer sponsorship.",
+    "date_posted": "2026-02-25",
+    "salary": "$95,000 - $115,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "without need of employer sponsorship",
+      "authorized to work in the United States"
+    ],
+    "source": "wisc-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Dealbreaker phrase: must be authorized to work",
+    "score_reasons": []
+  },
+  {
+    "id": "cu-taleo-38605-skip",
+    "title": "Senior Database Administrator (Open Rank)",
+    "company": "University of Colorado Anschutz Medical Campus (ISS)",
+    "location": "Aurora, CO (Hybrid)",
+    "url": "https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38605&lang=en",
+    "description": "ISS at CU Anschutz seeks a Senior DBA for enterprise data systems. Required: Bachelor in IS/CS or related, 2-5 years MS SQL Server DBA, Windows/Linux/Unix, shell scripting. Preferred: Data warehouse, Data Lake, BI ecosystem, HIPAA/NIST 800-53, VMware, Oracle, GitHub. Salary: Senior $75,000-$95,000; Principal $90,000-$115,000. SPONSORSHIP NOTE: This position is not eligible for university-sponsored work authorization.",
+    "date_posted": "2026-02-25",
+    "salary": "$75,000 - $115,000",
+    "cap_exempt_likely": true,
+    "sponsorship_flags": [
+      "not eligible for university-sponsored work authorization",
+      "without current or future university sponsorship"
+    ],
+    "source": "cu-search-2026-02-25",
+    "score": 0,
+    "status": "skipped",
+    "skip_reason": "Sponsorship flag: not eligible for university-sponsored work authorization",
+    "score_reasons": []
   }
 ]
