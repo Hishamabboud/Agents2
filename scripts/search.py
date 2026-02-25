@@ -84,6 +84,18 @@ CAP_EXEMPT_SIGNALS = [
     ".edu",
 ]
 
+# ATSes that require JavaScript rendering (Playwright Tier 5 fallback)
+PLAYWRIGHT_ATSES = {"adp", "ultipro", "oracle_hcm", "paycom", "dayforce"}
+
+# ATS-specific CSS selectors to wait for after page load
+PLAYWRIGHT_WAIT_SELECTORS = {
+    "adp":        ".jobDetailsCard, #JobDetailsPanel, .job-description",
+    "ultipro":    ".job-page, #JobDescriptionDiv, .job-description",
+    "oracle_hcm": ".oj-flex, [data-bind*='jobDescription'], .job-requisition",
+    "paycom":     ".jobDescription, .job-description, #jobDescription",
+    "dayforce":   ".job-description, .jobDescription, .job-details",
+}
+
 # ATS patterns for detection
 ATS_PATTERNS = {
     "workday":         ["myworkdayjobs.com", "wd1.myworkdayjobs", "wd5.myworkdayjobs",
@@ -596,6 +608,138 @@ def fetch_jobvite(url: str) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# Playwright Tier 5 – JS-heavy ATSes (ADP, UltiPro, Oracle HCM, Paycom, Dayforce)
+# ---------------------------------------------------------------------------
+
+# Module-level browser/context, shared across all calls in one run
+_pw = None          # playwright instance
+_pw_browser = None  # browser instance
+_pw_context = None  # browser context (with proxy)
+
+
+def _get_playwright_proxy() -> dict | None:
+    """Parse proxy credentials from HTTPS_PROXY env var for Playwright."""
+    from urllib.parse import urlparse as _urlparse
+    raw = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy", "")
+    if not raw:
+        return None
+    p = _urlparse(raw)
+    if not p.hostname:
+        return None
+    proxy = {"server": f"http://{p.hostname}:{p.port}"}
+    if p.username:
+        proxy["username"] = p.username
+    if p.password:
+        proxy["password"] = p.password
+    return proxy
+
+
+def init_playwright():
+    """Launch a shared Playwright browser for JS-heavy scraping."""
+    global _pw, _pw_browser, _pw_context
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  [WARN] playwright not installed; JS-heavy ATSes will be skipped.",
+              file=sys.stderr)
+        return
+
+    import glob as _glob
+    # Find the chromium executable (support both headless-shell and full chrome)
+    candidates = sorted(_glob.glob(
+        "/root/.cache/ms-playwright/chromium*/chrome-linux/chrome"
+    ), reverse=True)
+    exe = candidates[0] if candidates else None
+
+    try:
+        _pw = sync_playwright().start()
+        launch_kwargs = {"headless": True}
+        if exe:
+            launch_kwargs["executable_path"] = exe
+        _pw_browser = _pw.chromium.launch(**launch_kwargs)
+        proxy = _get_playwright_proxy()
+        _pw_context = _pw_browser.new_context(
+            proxy=proxy or {},
+            ignore_https_errors=True,
+            user_agent=HEADERS["User-Agent"],
+            viewport={"width": 1280, "height": 800},
+        )
+        print("  [playwright] Browser ready" + (f" (exe: {exe})" if exe else ""),
+              flush=True)
+    except Exception as e:
+        print(f"  [WARN] Could not start Playwright browser: {e}", file=sys.stderr)
+        _pw = _pw_browser = _pw_context = None
+
+
+def close_playwright():
+    """Shut down the shared Playwright browser."""
+    global _pw, _pw_browser, _pw_context
+    try:
+        if _pw_browser:
+            _pw_browser.close()
+        if _pw:
+            _pw.stop()
+    except Exception:
+        pass
+    _pw = _pw_browser = _pw_context = None
+
+
+def fetch_with_playwright(url: str, ats: str) -> dict | None:
+    """
+    Use the shared Playwright browser to render a JS-heavy ATS page,
+    then extract content via JSON-LD → generic HTML parse.
+    """
+    if _pw_context is None:
+        return None
+
+    try:
+        from playwright.sync_api import TimeoutError as PWTimeout
+    except ImportError:
+        return None
+
+    try:
+        page = _pw_context.new_page()
+        try:
+            page.goto(url, wait_until="networkidle", timeout=30000)
+        except PWTimeout:
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=20000)
+            except PWTimeout:
+                page.close()
+                return None
+
+        # ATS-specific element wait (best-effort)
+        selector = PLAYWRIGHT_WAIT_SELECTORS.get(ats, "")
+        if selector:
+            try:
+                page.wait_for_selector(selector, timeout=8000)
+            except PWTimeout:
+                pass  # content may still be present
+
+        # Extra settle time for React/Angular hydration
+        page.wait_for_timeout(2000)
+        html = page.content()
+        page.close()
+    except Exception as e:
+        print(f"  [WARN] Playwright error ({ats}): {e}", file=sys.stderr)
+        return None
+
+    # Try JSON-LD first (some ATSes inject it after JS load)
+    job = extract_jsonld(url, html, ats)
+    if job:
+        job["extraction_method"] = "playwright-jsonld"
+        return job
+
+    # Generic rendered-HTML parse
+    job = _generic_html_parse(url, html, ats)
+    if job:
+        job["extraction_method"] = "playwright-html"
+        return job
+
+    return None
+
+
+# ---------------------------------------------------------------------------
 # Generic fetchers
 # ---------------------------------------------------------------------------
 
@@ -736,6 +880,12 @@ def fetch_job_page(url: str) -> dict | None:
     if job:
         return job
 
+    # Tier 5 – Playwright for JS-heavy ATSes
+    if ats in PLAYWRIGHT_ATSES:
+        job = fetch_with_playwright(url, ats)
+        if job:
+            return job
+
     print(f"  [SKIP] Could not extract meaningful content (JS-heavy ATS: {ats})",
           file=sys.stderr)
     return None
@@ -824,6 +974,9 @@ def read_target_orgs() -> list:
 def main():
     print("=== Phase 1: Job Discovery ===", flush=True)
 
+    # Start Playwright browser for JS-heavy ATSes
+    init_playwright()
+
     existing_app_urls = load_existing_urls()
     existing_raw = load_existing_raw_jobs()
     existing_raw_urls = {j["url"] for j in existing_raw}
@@ -896,6 +1049,9 @@ def main():
         if job["url"] not in seen:
             seen.add(job["url"])
             unique_jobs.append(job)
+
+    # Shut down Playwright browser
+    close_playwright()
 
     with open(RAW_JOBS_FILE, "w") as f:
         json.dump(unique_jobs, f, indent=2)
