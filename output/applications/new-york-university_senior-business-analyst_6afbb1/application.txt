@@ -1,0 +1,64 @@
+Senior Business Analyst at New York University
+https://uscareers-nyu.icims.com/jobs/15320/job?utm_source=hiringcafe_integration&iis=Job+Board&iisn=HiringCafe&mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-360&jun1offset=-300
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Senior Business Analyst role at New York University because I believe in what your Decision Support Group is doing: helping people across a large, complex institution make better decisions through reliable data. Growing up with a brother who is a physician and a sister who is a psychologist, I spent a lot of time around conversations where the quality of information genuinely mattered. That shaped how I think about data work. When reports are inconsistent or data flows are poorly documented, real decisions suffer, and I care deeply about getting that right.
+
+At Tekkii, I spent three years working across multiple business applications, building and maintaining SQL databases in PostgreSQL, SQL Server, and MySQL, writing complex queries and stored procedures, and creating automated reporting solutions for stakeholders who needed clear, trustworthy information. I researched and resolved data discrepancies regularly, documented ETL logic and data flows, and trained end users on how to use reporting tools and troubleshoot issues on their own. For Kansas City Drayage, I built an EDI processing system from the ground up that replaced entirely manual workflows. For KidsCloset.biz, I transformed the backend and database layer so thoroughly that the platform was successfully acquired. I also built the KC Sports Directory database, which involved designing a clean data model and making it accessible to community partners. Throughout all of it, I worked closely with stakeholders to translate what they needed into something that actually worked.
+
+Before that, at Allied Engineering Group in Beirut, I designed SQL Server schemas and built reports supporting data analysis for more than 400 financial institutions across more than 40 countries. I maintained data accuracy across high-volume SWIFT transaction databases, identified and resolved inconsistencies, and created custom reports and visualizations tailored to each client's specific needs. That environment taught me how to work carefully under pressure and communicate clearly with people who have no interest in technical details but need to trust their data completely. My master's degree in Computer Science from the University of Missouri-Kansas City deepened my technical foundation, with coursework in advanced database systems, and a capstone project where I built a pneumonia detection application using Python and medical imaging data.
+
+NYU's scale and mission make this role genuinely exciting to me. Supporting a university means the data work you do touches students, faculty, researchers, and administrators all at once, and the stakes are real. I am drawn to the idea of being part of a team that helps the institution understand itself better, resolving discrepancies before they affect decisions, building tools that make the whole team more efficient, and being the kind of resource that people actually trust. That is exactly the kind of work I want to be doing.
+
+Thank you for considering my application. I would love to discuss how my SQL, ETL, and business intelligence experience, along with my track record of user-centered documentation and training, can contribute to NYU's mission of enabling smarter, data-driven decisions across the university.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Business Intelligence and Reporting: ETL Pipelines, Data Analysis, Data Visualization, Report Generation, Microsoft Office Suite (Excel, Access, Word, PowerPoint)
+Database and Data Management: SQL (PostgreSQL, SQL Server, MySQL), Query Optimization, Stored Procedures, T-SQL, Data Quality and Validation, Data Modeling, Data Migration
+Programming Languages and Frameworks: Python, C#, JavaScript, PHP, Flask, ASP.NET, Vue.js, React
+Systems and Integration: REST APIs, Data Transformation, CI/CD, Docker, Git/GitHub, Agile/Scrum
+Project and Stakeholder Support: Requirements Gathering, Documentation, User Training, Process Improvement, Stakeholder Communication, Technical Support, Quality Assurance
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity and accuracy for reporting and decision making across multiple business applications.
+- Developed complex SQL queries, stored procedures, and automated reporting solutions to extract and present data insights for business stakeholders.
+- Researched and resolved high-priority data discrepancies, implementing validation rules and conducting regular data audits to maintain reliable databases.
+- Built and maintained ETL pipelines to support data transformation, migration, and integration across systems, ensuring seamless data flows with minimal disruption.
+- Created and maintained documentation for data flows, system integrations, ETL logic, and business processes to support team understanding of the information environment.
+- Delivered 1:1 training and developed user guides for clients on database systems and reporting tools, enabling independent troubleshooting and ad hoc report development.
+- Collaborated with stakeholders and subject matter experts to gather requirements for database enhancements, translating business requests into technical specifications.
+- Coordinated data migration projects between systems, verifying data accuracy and ensuring continuity of business operations throughout transitions.
+- Communicated complex technical concepts in plain language to clients and end users, ensuring alignment on project requirements and progress.
+- Developed automated data capture workflows to eliminate manual processing and improve data exchange efficiency across business operations.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting regular quality checks and resolving data inconsistencies to ensure reliable reporting.
+- Created custom reports and data visualizations tailored to client requirements, delivering actionable information in accessible formats to support business decision making.
+- Researched and documented complex data systems, monitoring SQL and application logs to identify errors and implement resolutions with minimal disruption to operations.
+- Provided technical support and 1:1 training to end users on database functionality and reporting tools, improving user-centered service across a large client base.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions aligned with operational needs.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development

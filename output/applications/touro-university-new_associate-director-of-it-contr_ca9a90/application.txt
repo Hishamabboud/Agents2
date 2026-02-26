@@ -1,0 +1,72 @@
+Associate Director of IT Contracts & ITSM Development at Touro University New York
+https://tcnycareers-touro.icims.com/jobs/12913/job?utm_source=hiringcafe_integration&iis=Job+Board&iisn=HiringCafe&mobile=false&width=1521&height=500&bga=true&needsRedirect=false&jan1offset=-360&jun1offset=-300
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Associate Director of IT Contracts and ITSM Development role at Touro University New York because higher education IT work genuinely matters to me, and Touro's commitment to serving a diverse student body makes that work feel even more meaningful. My brother is a physician and my sister is a psychologist, so I grew up around conversations where accurate information and reliable systems were never just technical concerns but real stakes for real people. That background shaped how I approach technology work: getting the data right, building integrations that actually hold together, and making sure the people who depend on those systems can trust them.
+
+At Tekkii, I spent three years building and maintaining the kind of integrations and automated workflows that map directly to what this role requires. I developed RESTful APIs connecting third-party platforms including PayPal, SendGrid, and OneSignal, which gave me hands-on experience with the API integration patterns central to connecting systems like MS Entra, Okta, and ServiceNow. For Kansas City Drayage, I built an EDI processing system from scratch that automated logistics data exchange and eliminated manual workflows entirely. I transformed the backend and database layer of KidsCloset.biz, work substantial enough that the platform was successfully acquired. I also built the KC Sports Directory database, coordinating requirements with stakeholders and delivering a clean, reliable data solution for a community-facing platform. Throughout all of this, I documented processes, trained end users, and translated technical details into plain language for clients and internal teams.
+
+At Allied Engineering Group, I supported financial data systems used by more than 400 institutions across 40 countries, writing optimized SQL Server queries and stored procedures and producing custom reports that clients relied on for business decisions. I maintained data accuracy across high-volume SWIFT transaction databases and provided ongoing technical support and training to users who needed to understand and trust their data. That experience taught me how to work carefully in environments where data integrity is non-negotiable and where stakeholder communication has to be clear and consistent. My master's degree in Computer Science from the University of Missouri-Kansas City deepened my foundation in enterprise application development and database systems, and I built a capstone pneumonia detection application in Python that reinforced how much I care about building tools that produce reliable, consequential outputs.
+
+What draws me specifically to this role at Touro is the combination of ServiceNow development, contract governance, and cross-campus coordination. The work of designing workflows, building integrations between an ITSM platform and identity management systems, and helping a university community get the IT services it needs is exactly the kind of meaningful, practical work I want to be doing. I am excited about the opportunity to contribute to a team that is building something lasting, and I believe my background in API integrations, database systems, stakeholder communication, and process automation positions me to add real value from day one.
+
+Thank you for considering my application. I would love to discuss how my experience in system integrations, workflow automation, and IT stakeholder collaboration can contribute to Touro University New York's goals of delivering reliable, well-governed IT services across its campuses.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+
+ITSM & Integration: REST APIs, ServiceNow Development & Administration, Workflow Automation, API Integration, Integration Hub, Workato
+
+Identity & Access Management: Okta Identity Management, Microsoft Entra, IAM Integration, Software Compliance, IT Security Documentation
+
+Database & Reporting: SQL (PostgreSQL, SQL Server, MySQL), ETL Pipelines, Data Modeling, Query Optimization, Stored Procedures, Report Generation, Data Analysis
+
+Development & Tools: Python, C#, JavaScript, PHP, Flask, ASP.NET, Vue.js, React, Git/GitHub, Docker, CI/CD
+
+IT Procurement & Governance: Software Contract Governance, Vendor Relationship Management, IT Procurement, Stakeholder Communication, Process Improvement
+
+Cloud & Infrastructure: Server Administration, SSH, SiteGround, Cloudways, Microsoft Office Suite
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Developed RESTful APIs integrating third-party systems and services, applying API integration techniques to automate data exchange and eliminate manual processing workflows.
+- Designed and maintained SQL databases ensuring data integrity, accuracy, and accessibility to support reporting, analysis, and compliance requirements across multiple business applications.
+- Created complex stored procedures, custom queries, and automated reporting solutions to deliver actionable insights to business stakeholders.
+- Collaborated with stakeholders to gather requirements, translating business requests into technical specifications and delivering solutions aligned with organizational goals.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving inconsistencies to maintain reliable enterprise databases.
+- Coordinated data migration projects between systems, verifying accuracy and ensuring seamless transitions with minimal disruption to operations.
+- Built automated EDI capture and transmission features, streamlining logistics data exchange workflows and reducing manual intervention.
+- Communicated complex technical concepts clearly to clients and end users, ensuring shared understanding of project requirements and progress.
+- Trained end users on systems and reporting tools, creating documentation and guides to support independent troubleshooting.
+- Collaborated with operational teams to identify automation opportunities and improve end-to-end service delivery workflows.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving inconsistencies to ensure reliable information for business operations.
+- Created custom reports and data visualizations based on client-specific requirements, delivering information in accessible formats to support business decision making.
+- Communicated with internal stakeholders and clients to gather data requirements, document business processes, and deliver database solutions tailored to operational needs.
+- Provided technical support and training to end users, helping them understand database functionality and effectively use reporting tools.
+- Monitored application and SQL logs to identify and resolve errors, ensuring uninterrupted operations for banking clients worldwide.
+
+Education
+
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development

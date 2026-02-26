@@ -3,14 +3,13 @@
 tailor.py - Resume & Cover Letter Generator
 
 For each qualified job in scored-jobs.json, generates a tailored resume and
-cover letter combined into a single .docx file:
-  output/applications/{app_id}/application.docx
+cover letter combined into a single plain-text file:
+  output/applications/{app_id}/application.txt
 
 App ID format: {company-slug}_{role-slug}_{6-char-url-hash}
 """
 
 import hashlib
-import io
 import json
 import os
 import re
@@ -227,124 +226,53 @@ OUTPUT: The complete cover letter."""
 
 
 # ---------------------------------------------------------------------------
-# DOCX builder
+# Plain-text builder
 # ---------------------------------------------------------------------------
 
-def _add_rich_paragraph(doc, text: str, style: str = None):
-    """Add a paragraph handling inline **bold** markers."""
-    from docx.shared import Pt
-    p = doc.add_paragraph(style=style) if style else doc.add_paragraph()
-    parts = re.split(r"(\*\*[^*]+\*\*)", text)
-    for part in parts:
-        if part.startswith("**") and part.endswith("**"):
-            run = p.add_run(part[2:-2])
-            run.bold = True
-        elif part:
-            p.add_run(part)
-    return p
+def _md_to_plain(text: str) -> str:
+    """Strip markdown markers so text reads cleanly in plain txt."""
+    lines = []
+    for line in text.split("\n"):
+        s = line.rstrip()
+        # Headings: keep the text, strip # prefix
+        if s.startswith("### "):
+            s = s[4:]
+        elif s.startswith("## "):
+            s = s[3:]
+        elif s.startswith("# "):
+            s = s[2:]
+        # Strip inline **bold** markers
+        s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
+        lines.append(s)
+    return "\n".join(lines)
 
 
-def build_docx(title: str, company: str, url: str,
-               cover_letter: str, resume_md: str) -> bytes:
-    """Build a single .docx: job ref + cover letter (page 1) + resume (page 2)."""
-    from docx import Document
-    from docx.shared import Pt, Inches, RGBColor
-    from docx.enum.text import WD_ALIGN_PARAGRAPH
+def build_txt(title: str, company: str, url: str,
+              cover_letter: str, resume_md: str) -> str:
+    """
+    Build a single plain-text file: job header + cover letter + resume.
+    Designed for easy copy-paste into Google Docs / any ATS.
+    """
+    sep = "=" * 60
 
-    doc = Document()
-
-    # Margins
-    for section in doc.sections:
-        section.top_margin = Inches(1)
-        section.bottom_margin = Inches(1)
-        section.left_margin = Inches(1)
-        section.right_margin = Inches(1)
-
-    # Set default font
-    style = doc.styles["Normal"]
-    style.font.name = "Calibri"
-    style.font.size = Pt(11)
-
-    # ── Job reference header ──────────────────────────────────────────────
-    ref = doc.add_paragraph()
-    ref.paragraph_format.space_after = Pt(2)
-    r = ref.add_run(f"{title} at {company}")
-    r.bold = True
-    r.font.size = Pt(11)
-
-    url_p = doc.add_paragraph()
-    url_p.paragraph_format.space_after = Pt(14)
-    ur = url_p.add_run(url)
-    ur.font.size = Pt(10)
-    ur.font.color.rgb = RGBColor(0x00, 0x56, 0xB3)
-
-    # Thin horizontal rule (simulate with underscores)
-    rule = doc.add_paragraph("_" * 80)
-    rule.paragraph_format.space_after = Pt(12)
-    rule.runs[0].font.size = Pt(6)
-
-    # ── Cover letter ─────────────────────────────────────────────────────
-    cl_heading = doc.add_paragraph()
-    cl_heading.paragraph_format.space_after = Pt(10)
-    clr = cl_heading.add_run("COVER LETTER")
-    clr.bold = True
-    clr.font.size = Pt(11)
-
-    for para in cover_letter.strip().split("\n\n"):
-        para = para.strip()
-        if not para:
-            continue
-        p = doc.add_paragraph(para)
-        p.paragraph_format.space_after = Pt(8)
-        p.paragraph_format.space_before = Pt(0)
-
-    # ── Page break before resume ──────────────────────────────────────────
-    doc.add_page_break()
-
-    # ── Resume ───────────────────────────────────────────────────────────
-    lines = resume_md.strip().split("\n")
-    i = 0
-    while i < len(lines):
-        line = lines[i].rstrip()
-
-        if not line:
-            i += 1
-            continue
-
-        if line.startswith("# "):
-            h = doc.add_heading(line[2:], level=1)
-            h.paragraph_format.space_after = Pt(4)
-        elif line.startswith("## "):
-            h = doc.add_heading(line[3:], level=2)
-            h.paragraph_format.space_after = Pt(4)
-        elif line.startswith("### "):
-            # Job title lines — bold paragraph, no heading style
-            p = doc.add_paragraph()
-            p.paragraph_format.space_before = Pt(8)
-            p.paragraph_format.space_after = Pt(2)
-            r = p.add_run(line[4:])
-            r.bold = True
-        elif line.startswith("- ") or line.startswith("* "):
-            p = doc.add_paragraph(style="List Bullet")
-            p.paragraph_format.space_after = Pt(1)
-            # Handle inline bold within bullets
-            parts = re.split(r"(\*\*[^*]+\*\*)", line[2:])
-            for part in parts:
-                if part.startswith("**") and part.endswith("**"):
-                    p.add_run(part[2:-2]).bold = True
-                elif part:
-                    p.add_run(part)
-        elif line.startswith("**") or "**" in line:
-            _add_rich_paragraph(doc, line)
-        else:
-            p = doc.add_paragraph(line)
-            p.paragraph_format.space_after = Pt(2)
-
-        i += 1
-
-    buf = io.BytesIO()
-    doc.save(buf)
-    return buf.getvalue()
+    parts = [
+        f"{title} at {company}",
+        url,
+        "",
+        sep,
+        "COVER LETTER",
+        sep,
+        "",
+        cover_letter.strip(),
+        "",
+        "",
+        sep,
+        "RESUME",
+        sep,
+        "",
+        _md_to_plain(resume_md).strip(),
+    ]
+    return "\n".join(parts)
 
 
 # ---------------------------------------------------------------------------
@@ -353,7 +281,7 @@ def build_docx(title: str, company: str, url: str,
 
 def main():
     print("=== Phase 3: Resume & Cover Letter Generation ===", flush=True)
-    print("Output: output/applications/{app_id}/application.docx", flush=True)
+    print("Output: output/applications/{app_id}/application.txt", flush=True)
 
     scored_jobs = load_json(SCORED_JOBS_FILE)
     qualified = [j for j in scored_jobs if j.get("status") == "qualified"]
@@ -381,14 +309,14 @@ def main():
 
         app_id = job.get("app_id") or make_app_id(job)
         app_dir = os.path.join(APPLICATIONS_OUTPUT_DIR, app_id)
-        docx_path = os.path.join(app_dir, "application.docx")
+        txt_path = os.path.join(app_dir, "application.txt")
 
         # Skip if already generated
-        if os.path.exists(docx_path):
+        if os.path.exists(txt_path):
             print(f"  SKIP (already generated): [{app_id}] {title} @ {company}")
             scored_jobs[i]["app_id"] = app_id
             scored_jobs[i]["app_dir"] = app_dir
-            scored_jobs[i]["docx_file"] = docx_path
+            scored_jobs[i]["txt_file"] = txt_path
             continue
 
         print(f"\n  [{app_id}]")
@@ -409,26 +337,26 @@ def main():
             print("    [ERROR] Failed to generate cover letter")
             continue
 
-        # Build combined .docx
-        print("    -> Building application.docx ...", flush=True)
+        # Build combined plain-text file
+        print("    -> Building application.txt ...", flush=True)
         try:
-            docx_bytes = build_docx(
+            txt_content = build_txt(
                 title=title,
                 company=company,
                 url=job.get("url", ""),
                 cover_letter=cover_letter,
                 resume_md=tailored_resume,
             )
-            with open(docx_path, "wb") as f:
-                f.write(docx_bytes)
-            print(f"    -> application.docx saved ({len(docx_bytes)//1024}KB)")
+            with open(txt_path, "w") as f:
+                f.write(txt_content)
+            print(f"    -> application.txt saved ({len(txt_content)} chars)")
         except Exception as e:
-            print(f"    [ERROR] Failed to build docx: {e}", file=sys.stderr)
+            print(f"    [ERROR] Failed to build txt: {e}", file=sys.stderr)
             continue
 
         scored_jobs[i]["app_id"] = app_id
         scored_jobs[i]["app_dir"] = app_dir
-        scored_jobs[i]["docx_file"] = docx_path
+        scored_jobs[i]["txt_file"] = txt_path
         generated += 1
 
         if i < len(scored_jobs) - 1:

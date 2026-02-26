@@ -1,0 +1,69 @@
+Administrative Project Specialist, SOM Compliance Office (School of Medicine Dean's Office) | Johns Hopkins University at Jhu
+https://hiring.jhu.edu/careers/job/1133911465418
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Administrative Project Specialist role at the Johns Hopkins University School of Medicine Compliance Office because I genuinely care about the kind of work that happens behind the scenes to keep healthcare institutions accountable and trustworthy. My brother is a physician and my sister is a psychologist, so I grew up around conversations about patient care, medical ethics, and the weight of decisions made in clinical settings. That upbringing gave me a deep appreciation for the systems and processes that support healthcare organizations in doing their work responsibly. Being part of a compliance team at a place like Johns Hopkins, where the stakes are real and the mission is serious, feels meaningful to me.
+
+At Tekkii, I handled a wide range of project coordination and administrative work alongside my technical responsibilities. I managed data across multiple systems, kept documentation organized and up to date, and served as the main point of contact between clients and internal teams when requirements needed to be gathered, clarified, or communicated. For the Kansas City Drayage project, I built an EDI processing system from scratch, which required careful coordination across stakeholders, thorough testing, and clear documentation at every stage. I also led the backend transformation of KidsCloset.biz, managing the full scope of that project from requirements to delivery, and the platform was successfully acquired. I regularly trained end users, created guides, and helped people understand complex systems in plain language, skills that translate directly into supporting a compliance office that needs things tracked, communicated, and documented accurately.
+
+At Allied Engineering Group, I worked with SQL Server databases supporting more than 400 financial institutions across more than 40 countries, maintaining data accuracy, generating custom reports, and resolving inconsistencies in high-volume transaction environments. I collaborated closely with clients to understand their needs, documented processes carefully, and delivered data in formats that were actually useful to the people relying on them. During my Master of Science program at the University of Missouri-Kansas City, I built a pneumonia detection application using Python and medical imaging data, which deepened my understanding of how data work in healthcare settings requires precision and care. That combination of technical rigor and healthcare awareness shapes how I approach every project I take on.
+
+What draws me to this specific role is the intersection of organization, detail, and purpose. Compliance work is only effective when the administrative foundation underneath it is solid, and I want to be someone who builds and maintains that foundation at Johns Hopkins. I am excited by the idea of supporting a team whose work directly protects the integrity of medical research and patient care, and I believe my background in project coordination, documentation, stakeholder communication, and data management positions me well to contribute from day one.
+
+Thank you for considering my application. I would love to discuss how my experience in project coordination, data management, and stakeholder communication can contribute to Johns Hopkins University's compliance and administrative goals.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Administrative and Project Coordination
+Documentation, Requirements Gathering, Stakeholder Communication, Process Improvement, User Training, Quality Assurance, System Testing, Agile/Scrum, ClickUp
+
+Data Management and Reporting
+SQL (PostgreSQL, SQL Server, MySQL), Data Quality and Validation, Data Analysis, ETL Pipelines, Data Migration, Report Generation, Microsoft Office Suite (Excel, Access, Word, PowerPoint), Data Visualization
+
+Programming and Development
+Python, C#, JavaScript, PHP, HTML, CSS, Flask, ASP.NET, Vue.js, React, REST APIs, Git/GitHub, Docker, CI/CD
+
+Cloud and Infrastructure
+SiteGround, Cloudways, SSH, FTP, Server Administration
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Coordinated data migration projects between systems, organizing records, verifying accuracy, and ensuring seamless transitions with minimal operational disruption.
+- Collaborated with stakeholders to gather requirements, translating business requests into technical specifications and delivering solutions aligned with organizational goals.
+- Communicated complex technical concepts in plain language to clients and end users, ensuring clear understanding of project requirements and progress.
+- Trained end users on database systems and reporting tools, creating documentation and guides that supported independent troubleshooting.
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and cleaning inconsistent records to maintain reliable databases.
+- Created complex SQL queries, stored procedures, and custom reports to extract and present data, delivering actionable insights for decision-making.
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, accuracy, and accessibility for reporting.
+- Built automated EDI capture and sending features, streamlining logistics data exchange and eliminating manual processing workflows.
+- Developed RESTful APIs integrating third-party services including PayPal, SendGrid, and OneSignal to support operational needs.
+- Transformed an e-commerce platform backend and database layer, resulting in the platform's successful acquisition.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions tailored to operational needs.
+- Provided technical support and training to end users, helping them understand database functionality and effectively use reporting tools.
+- Created custom reports and data visualizations for clients based on specific requirements, delivering information in accessible formats supporting decision-making.
+- Maintained data accuracy and integrity across high-volume SWIFT transaction databases, conducting quality checks and resolving data inconsistencies.
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted operations for banking clients worldwide.
+
+EDUCATION
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development

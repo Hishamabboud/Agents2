@@ -1,0 +1,75 @@
+Software Engineer-Data Engineering, Machine Learning (ML) at Workforcenow
+https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7f5baef3-9cee-4681-85f2-7d738f673786&jobId=606556
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Software Engineer, Data Engineering and Machine Learning role at AAMVA because the work of building intelligent systems that support motor vehicle and driver license administration across state and federal agencies is exactly the kind of meaningful, infrastructure-level challenge I want to be working on. There is something genuinely important about keeping these systems reliable and data-driven, and the focus on anomaly detection across high-volume messaging networks is a problem space I find technically compelling. I want to contribute to systems that real agencies and real people depend on every day.
+
+At Tekkii, I worked across the full data lifecycle in ways that map directly to what this role requires. I designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, built ETL pipelines, and created automated reporting solutions that turned raw data into decisions for business stakeholders. For Kansas City Drayage, I built an EDI capture and sending system from scratch, which meant taking a high-volume, structured data exchange process and making it reliable and automated. I also transformed the backend and database layer of KidsCloset.biz, which contributed to the platform being successfully acquired. These projects taught me how to move from messy, real-world data through to production-grade solutions that hold up under operational conditions.
+
+At Allied Engineering Group, I worked with SQL Server databases supporting SWIFT transaction data for more than 400 financial institutions across more than 40 countries. That environment demanded precision: data inconsistencies in a banking context have real consequences, so I built habits around validation, quality checks, and monitoring logs to catch problems early. I also learned how to translate technical findings into clear reports for clients who were not engineers themselves, which is a skill I rely on constantly. My master's program at UMKC deepened my foundation in machine learning and data systems, and I built a pneumonia detection application using Python and medical imaging data as a capstone project, which gave me direct experience with the full model lifecycle from dataset preparation through training, evaluation, and validation.
+
+What draws me specifically to this role is the combination of real engineering depth and real operational stakes. Building ML solutions that detect anomalies across high-volume networks, and then owning those systems in production, is the kind of work where you have to get it right. I am excited by the scope described here, from feature engineering and experimentation through to deployment and monitoring, and I want to be part of a team that takes all of that seriously. AAMVA's role in the infrastructure that states and federal agencies rely on makes this work matter in a way I genuinely care about.
+
+Thank you for considering my application. I would love to discuss how my data engineering, machine learning, and full-lifecycle development experience can contribute to AAMVA's mission of building reliable, intelligent systems for the agencies that depend on them.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+
+Machine Learning and Data Science: Deep Learning, Anomaly Detection, Model Training and Validation, Feature Engineering, Regression, Classification, Clustering, Structured Experimentation, Statistical Analysis
+
+Data Engineering and Pipelines: ETL Pipelines, Dataset Preparation, Data Acquisition, Data Transformation, Data Versioning, Data Quality and Validation, Data Migration, Time-Series Data, Semi-Structured Data
+
+Cloud and Infrastructure: Azure, AWS, Docker, CI/CD, REST APIs, SSH, Server Administration, SiteGround, Cloudways
+
+Programming and Frameworks: Python, SQL (PostgreSQL, SQL Server, MySQL), C#, JavaScript, Flask, ASP.NET, Vue.js, React
+
+Development and Tooling: Git/GitHub, Agile/Scrum, ClickUp, Query Optimization, Stored Procedures, T-SQL
+
+Stakeholder Communication and Documentation: Requirements Gathering, Technical Documentation, User Training, Process Improvement, Cross-Functional Collaboration
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed and built dataset preparation pipelines across PostgreSQL, SQL Server, and MySQL, including data acquisition, cleaning, transformation, and validation for enterprise reporting and analysis.
+- Engineered features by extracting meaningful signals from structured and semi-structured data sources, supporting data-driven decision-making across multiple business applications.
+- Developed automated ETL pipelines for EDI capture and logistics data exchange, eliminating manual workflows and operationalizing data flows at scale.
+- Built and deployed RESTful APIs integrating third-party services, designing production-grade backend systems with ongoing operational support across cloud-hosted infrastructure.
+- Conducted data quality initiatives by implementing validation rules, performing regular data audits, and resolving inconsistencies to maintain reliable datasets for enterprise operations.
+- Coordinated data migration projects between systems, verifying accuracy and ensuring seamless transitions with minimal disruption to business operations.
+- Managed full project lifecycle independently, from requirements gathering through deployment, consistently driving projects to successful completion.
+- Translated model behavior, data constraints, and engineering trade-offs into plain language for non-technical stakeholders, supporting clear decisions at each project phase.
+- Collaborated with stakeholders to gather data requirements, translating business needs into technical specifications and delivering solutions aligned with organizational goals.
+- Rebuilt e-commerce platform backend and database layer end-to-end, resulting in the platform's successful acquisition.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and optimized queries supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data accuracy and integrity across high-volume transaction databases, identifying and resolving inconsistencies to ensure reliable operational intelligence.
+- Monitored SQL and application logs to detect anomalies and resolve errors, ensuring uninterrupted operations for banking clients worldwide.
+- Created custom reports and data visualizations tailored to client requirements, delivering insights in accessible formats that supported business decision-making.
+- Collaborated with clients to gather data requirements, documented business processes, and delivered database solutions aligned with operational needs.
+- Provided technical support and training to end users on database functionality, reporting tools, and troubleshooting workflows.
+
+Education
+
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python, covering the full model lifecycle from data preparation through deployment.
