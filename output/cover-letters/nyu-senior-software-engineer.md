@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Senior Software Engineer position at New York University. Universities are the places where knowledge gets created and shared, and I believe the technology teams that support those institutions play an important role in making that mission possible. NYU's scale and global impact make this a particularly compelling opportunity for me.
+
+At Tekkii, I led backend and full-stack development across several production applications using Python, JavaScript, PHP, and SQL. I built RESTful APIs, managed SQL databases across PostgreSQL, SQL Server, and MySQL, and developed automated data processing systems. The Kansas City Drayage EDI system I built from scratch automated the capture and exchange of logistics data, eliminating entirely manual workflows. The KidsCloset.biz e-commerce transformation involved redesigning the backend architecture and database layer, and the platform was subsequently acquired - a direct result of the technical improvements we made. I also built the KC Sports Directory, a community-facing database application supported by the Kansas City Royals Foundation. Across all of these projects I worked closely with clients and stakeholders, gathered requirements, and delivered working systems on schedule. I maintained CI/CD pipelines, managed server infrastructure, and collaborated in Agile environments with sprint reviews and continuous deployment.
+
+At Allied Engineering Group, I designed and developed C#/ASP.NET applications with SQL Server integration for financial institutions across more than 40 countries. The systems handled SWIFT financial transactions at volume, which required rigorous database design, optimized queries, and constant attention to reliability. I wrote stored procedures for complex transaction processing, built custom reports and data interfaces for clients, and monitored application logs to proactively resolve issues. At the University of Missouri-Kansas City, I completed a Master of Science in Computer Science with coursework in Software Engineering, Advanced Database Systems, and Enterprise Application Development. My capstone project was a Python-based medical image analysis application for pneumonia detection, which strengthened my machine learning fundamentals.
+
+NYU's commitment to research, education, and global impact makes this a role I am genuinely enthusiastic about. I want to contribute to systems that support students, faculty, and the broader NYU community. My full-stack development experience, database expertise, and track record of building reliable systems align well with the demands of a senior engineering role at a large, complex university.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my experience and skills can contribute to NYU's technology goals.
+
+Sincerely,
+Mohamad Abboud

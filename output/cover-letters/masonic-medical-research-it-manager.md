@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am very interested in the IT Manager position at the Masonic Medical Research Institute. Research institutions depend on reliable, well-managed technology infrastructure, and I find real purpose in supporting environments where scientists and researchers can focus on discovery without being blocked by IT issues. The work of a medical research institution has clear stakes, and I want to be part of a team that keeps that work running smoothly.
+
+At Tekkii, I managed server infrastructure across multiple production environments using SSH and FTP, performing application migrations, configuring hosting platforms, and maintaining system uptime for business-critical applications. I integrated cloud services including SiteGround and Cloudways, worked with third-party APIs, and implemented version control workflows with Git across an entire development team. I also administered SQL databases across PostgreSQL, SQL Server, and MySQL, handling data integrity, security, and access management. One of the projects I'm most proud of is the College Basketball Experience installation, where I coordinated the integration of physical hardware - cameras, TVs, a teleprompter - with a custom-built application, which required careful systems thinking and attention to detail under deadline pressure. I also trained end users on our database and application systems, creating documentation that helped clients become self-sufficient and troubleshoot common issues independently.
+
+At Allied Engineering Group, I supported technology systems serving 400+ banking clients across 40+ countries. I monitored SQL and application logs daily to catch errors before they escalated, maintained SQL Server databases for high-volume SWIFT transaction processing, and provided technical support to users across multiple time zones. The experience taught me how to manage technology in a high-stakes environment where downtime has serious consequences. During my master's program at the University of Missouri-Kansas City, I studied systems administration concepts and enterprise application development, giving me a strong conceptual grounding that complements my hands-on experience.
+
+The Masonic Medical Research Institute's mission and the scale of the IT Manager role are a great match for where I am in my career. Managing Microsoft 365, cloud infrastructure, and network security for a research institution requires someone comfortable with both the technical details and the broader organizational context, and I am exactly that. I am excited about the opportunity to build and maintain a technology environment where researchers can do their best work.
+
+Thank you for considering my application. I would love to discuss how my systems administration, infrastructure management, and technical support experience can support the Masonic Medical Research Institute's IT operations.
+
+Sincerely,
+Mohamad Abboud
