@@ -1,0 +1,63 @@
+Senior Data Engineer at Life.Church
+https://jobs.lever.co/life/27b70020-c7f6-4026-848e-80524cd0c861
+
+NOTE: Job description could not be retrieved (JavaScript-rendered Lever portal). Life.Church is a large nonprofit religious organization (501c3) operating Church Online and YouVersion. Role title confirmed as Senior Data Engineer from page metadata. Materials generated based on known organization context and typical senior data engineering role requirements. Cap-exempt status: Religious nonprofits qualify as cap-exempt H-1B employers.
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Senior Data Engineer role at Life.Church because I want to build data infrastructure that directly supports the work of a mission-driven organization operating at real scale. Life.Church's digital reach - through Church Online and YouVersion - means your data systems are supporting millions of people, and the engineering challenges that come with that scale are ones I want to help solve.
+
+At Tekkii, I designed and built data systems from the ground up across several production environments. I built ETL pipelines for Kansas City Drayage that automated the entire data capture and exchange workflow for a complex logistics operation, replacing manual processes with reliable, automated systems. I designed databases in PostgreSQL, SQL Server, and MySQL, wrote complex stored procedures and queries, and built data migration pipelines that moved records accurately between systems with minimal disruption. I developed the KC Sports Directory's full data model and API architecture, and I created automated reporting solutions that transformed raw operational data into business intelligence for stakeholders. Across these projects, I worked with Python, C#, JavaScript, and SQL, and I maintained production environments using Git, Docker, CI/CD pipelines, and SSH-based server administration.
+
+At Allied Engineering Group, I built and maintained SQL Server schemas and stored procedures for 400+ financial institutions across more than 40 countries. That environment demanded consistency, reliability, and the kind of careful data architecture that scales across many different clients and use cases simultaneously. I also monitored and resolved data integrity issues proactively, ensuring the numbers organizations relied on were always accurate. My graduate capstone at the University of Missouri-Kansas City was a Python-based deep learning application for medical image analysis, which required building clean, reproducible data pipelines from raw imaging datasets to a trained diagnostic model.
+
+What excites me about Life.Church's data engineering work is the combination of meaningful mission and serious technical scale. Building data infrastructure that helps a global organization function and grow requires exactly the skills I have spent years developing - strong SQL foundations, ETL pipeline experience, cross-system data integration, and the discipline to build systems that other engineers and analysts can depend on.
+
+Thank you for considering my application. I would love to discuss how my data engineering experience and track record of building reliable production systems can contribute to Life.Church's mission and team.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Data Engineering: ETL Pipelines, Data Modeling, Data Warehouse, Data Migration, Data Transformation, Data Quality & Validation, Query Optimization
+Database Management: SQL Server, PostgreSQL, MySQL, T-SQL, Stored Procedures, SSMS, Database Design
+Programming Languages: Python, C#, JavaScript, PHP, HTML, CSS
+Frameworks & Libraries: Flask, ASP.NET, Vue.js, React, Bootstrap
+Development Tools: Git/GitHub, Docker, REST APIs, CI/CD, Agile/Scrum
+Data & Reporting: Report Generation, Data Visualization, Data Analysis, Microsoft Excel/Access
+Cloud & Infrastructure: SiteGround, Cloudways, SSH, Server Administration
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Built ETL pipelines for Kansas City Drayage, automating logistics data capture and exchange workflows that eliminated manual processing across a complex multi-party operation
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, accuracy, and accessibility for reporting and analysis across multiple business applications
+- Created complex SQL queries, stored procedures, and automated reporting solutions that transformed raw operational data into actionable business intelligence
+- Managed data quality initiatives by implementing validation rules, conducting regular data audits, and resolving inconsistent records in enterprise databases
+- Coordinated data migration projects between systems, organizing records, verifying accuracy, and ensuring seamless transitions with minimal business disruption
+- Developed KC Sports Directory full data model with API integrations, supporting stakeholder reporting and community data access
+- Maintained production environments using Git, Docker, CI/CD pipelines, and SSH-based server administration
+- Collaborated with stakeholders to gather data requirements and translate business needs into technical specifications
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Designed SQL Server database schemas, wrote optimized queries and stored procedures, and generated reports supporting data analysis for 400+ financial institutions across 40+ countries
+- Maintained data accuracy and integrity across high-volume SWIFT transaction databases, conducting quality checks and resolving inconsistencies proactively
+- Created custom data reports and visualizations for clients, delivering outputs in accessible formats supporting business decision-making
+- Monitored SQL and application logs to identify and resolve performance issues, ensuring uninterrupted operations for international banking clients
+
+EDUCATION
+University of Missouri-Kansas City - Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Pneumonia Detection App - Built deep learning application for medical image analysis using Python and reproducible data pipelines

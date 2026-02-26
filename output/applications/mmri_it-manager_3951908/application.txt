@@ -1,0 +1,60 @@
+IT Manager at Masonic Medical Research Institute
+https://recruiting.paylocity.com/Recruiting/Jobs/Details/3951908
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am very interested in the IT Manager position at the Masonic Medical Research Institute. Research institutions depend on reliable, well-managed technology infrastructure, and I find real purpose in supporting environments where scientists and researchers can focus on discovery without being blocked by IT issues. The work of a medical research institution has clear stakes, and I want to be part of a team that keeps that work running smoothly.
+
+At Tekkii, I managed server infrastructure across multiple production environments using SSH and FTP, performing application migrations, configuring hosting platforms, and maintaining system uptime for business-critical applications. I integrated cloud services including SiteGround and Cloudways, worked with third-party APIs, and implemented version control workflows with Git across an entire development team. I also administered SQL databases across PostgreSQL, SQL Server, and MySQL, handling data integrity, security, and access management. One of the projects I'm most proud of is the College Basketball Experience installation, where I coordinated the integration of physical hardware - cameras, TVs, a teleprompter - with a custom-built application, which required careful systems thinking and attention to detail under deadline pressure. I also trained end users on our database and application systems, creating documentation that helped clients become self-sufficient and troubleshoot common issues independently.
+
+At Allied Engineering Group, I supported technology systems serving 400+ banking clients across 40+ countries. I monitored SQL and application logs daily to catch errors before they escalated, maintained SQL Server databases for high-volume SWIFT transaction processing, and provided technical support to users across multiple time zones. The experience taught me how to manage technology in a high-stakes environment where downtime has serious consequences. During my master's program at the University of Missouri-Kansas City, I studied systems administration concepts and enterprise application development, giving me a strong conceptual grounding that complements my hands-on experience.
+
+The Masonic Medical Research Institute's mission and the scale of the IT Manager role are a great match for where I am in my career. Managing Microsoft 365, cloud infrastructure, and network security for a research institution requires someone comfortable with both the technical details and the broader organizational context, and I am exactly that. I am excited about the opportunity to build and maintain a technology environment where researchers can do their best work.
+
+Thank you for considering my application. I would love to discuss how my systems administration, infrastructure management, and technical support experience can support the Masonic Medical Research Institute's IT operations.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Infrastructure & Administration: Server Administration, SSH/FTP, Cloud Platforms (AWS, Cloudflare), Network Management, System Migrations, Disaster Recovery, CI/CD
+Programming Languages: Python, C#, JavaScript, SQL, PHP, HTML, CSS
+Development Tools: Git/GitHub, Docker, REST APIs, Agile/Scrum, Microsoft Office Suite
+Database Management: PostgreSQL, SQL Server, MySQL - design, query optimization, stored procedures
+Application Development: Flask, ASP.NET, Vue.js, React, Angular, Bootstrap
+User Support: Technical Training, Documentation, Requirements Gathering, Stakeholder Communication, Quality Assurance
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Managed server infrastructure using SSH and FTP, performed application migrations between servers, and maintained version control with Git across multiple business applications
+- Administered and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity, security, and accessibility for enterprise operations
+- Integrated cloud hosting platforms (SiteGround, Cloudways) and third-party services including PayPal, SendGrid, and OneSignal into production environments
+- Trained end users on database systems and applications, creating documentation and guides for client self-service and issue resolution
+- Coordinated data migration projects, organizing records and verifying accuracy to ensure seamless system transitions with minimal downtime
+- Built automated EDI capture features for Kansas City Drayage, streamlining logistics workflows and eliminating manual processing
+- Communicated complex technical concepts in plain language to clients, ensuring clear understanding of system capabilities and project progress
+- Collaborated in Agile Scrum environment with sprint reviews, using ClickUp to prioritize tasks and ensure on-time delivery
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Maintained and administered systems for SWIFT transaction handling applications serving 400+ banking clients across 40+ countries
+- Monitored SQL and application logs to identify and resolve system errors, ensuring uninterrupted operations for international banking clients
+- Provided technical support and training to end users, helping them understand system functionality and troubleshoot issues
+- Built and maintained SQL Server database schemas, stored procedures, and queries for high-volume, mission-critical transaction systems
+- Collaborated with clients to gather requirements, documented business processes, and delivered technology solutions aligned with operational needs
+
+EDUCATION
+University of Missouri-Kansas City - Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Software Engineering, Enterprise Application Development, Data Structures and Algorithms
