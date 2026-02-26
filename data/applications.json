@@ -7,13 +7,14 @@
     "cap_exempt": true,
     "salary": "$80,000 - $105,000",
     "date_applied": "2026-02-25",
-    "score": 10.0,
-    "status": "manual_required",
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/johns-hopkins-university-software-engineer-ii.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md",
+    "score": null,
+    "status": "failed",
+    "resume_file": "",
+    "cover_letter_file": "",
+    "app_file": "",
     "screenshot": "",
-    "notes": "Playwright not available. Apply manually at: https://careers.jhu.edu/job/software-engineer-ii-112345. Resume: /home/user/Agents2/output/tailored-resumes/johns-hopkins-university-software-engineer-ii.md. Cover letter: /home/user/Agents2/output/cover-letters/johns-hopkins-university-software-engineer-ii.md.",
-    "response": "pending",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 403 Forbidden (careers portal blocked automated access). Review manually at: https://careers.jhu.edu/job/software-engineer-ii-112345",
+    "response": "n/a",
     "title": "Software Engineer II",
     "app_id": "20260225_MD_johns-hopkins_software-engineer-ii",
     "app_dir": "output/applications/20260225_MD_johns-hopkins_software-engineer-ii"
@@ -26,13 +27,14 @@
     "cap_exempt": true,
     "salary": "$85,000 - $110,000",
     "date_applied": "2026-02-25",
-    "score": 9.0,
-    "status": "manual_required",
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/university-of-michigan-full-stack-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md",
+    "score": null,
+    "status": "failed",
+    "resume_file": "",
+    "cover_letter_file": "",
+    "app_file": "",
     "screenshot": "",
-    "notes": "Playwright not available. Apply manually at: https://jobs.umich.edu/full-stack-developer-98765. Resume: /home/user/Agents2/output/tailored-resumes/university-of-michigan-full-stack-developer.md. Cover letter: /home/user/Agents2/output/cover-letters/university-of-michigan-full-stack-developer.md.",
-    "response": "pending",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 403 Forbidden (careers portal blocked automated access). Review manually at: https://jobs.umich.edu/full-stack-developer-98765",
+    "response": "n/a",
     "title": "Full Stack Developer",
     "app_id": "20260225_MI_univ-michigan_full-stack-developer",
     "app_dir": "output/applications/20260225_MI_univ-michigan_full-stack-developer"
@@ -45,13 +47,14 @@
     "cap_exempt": true,
     "salary": "$90,000 - $120,000",
     "date_applied": "2026-02-25",
-    "score": 9.0,
-    "status": "manual_required",
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/mayo-clinic-data-engineer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md",
+    "score": null,
+    "status": "failed",
+    "resume_file": "",
+    "cover_letter_file": "",
+    "app_file": "",
     "screenshot": "",
-    "notes": "Playwright not available. Apply manually at: https://careers.mayoclinic.org/data-engineer-445566. Resume: /home/user/Agents2/output/tailored-resumes/mayo-clinic-data-engineer.md. Cover letter: /home/user/Agents2/output/cover-letters/mayo-clinic-data-engineer.md.",
-    "response": "pending",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 404 Not Found (posting may have been removed or URL is invalid). Review manually at: https://careers.mayoclinic.org/data-engineer-445566",
+    "response": "n/a",
     "title": "Data Engineer",
     "app_id": "20260225_MN_mayo-clinic_data-engineer",
     "app_dir": "output/applications/20260225_MN_mayo-clinic_data-engineer"
@@ -64,13 +67,14 @@
     "cap_exempt": true,
     "salary": "$95,000 - $125,000",
     "date_applied": "2026-02-25",
-    "score": 10.0,
-    "status": "manual_required",
-    "resume_file": "/home/user/Agents2/output/tailored-resumes/stanford-university-python-developer.md",
-    "cover_letter_file": "/home/user/Agents2/output/cover-letters/stanford-university-python-developer.md",
+    "score": null,
+    "status": "failed",
+    "resume_file": "",
+    "cover_letter_file": "",
+    "app_file": "",
     "screenshot": "",
-    "notes": "Playwright not available. Apply manually at: https://jobs.stanford.edu/python-developer-334455. Resume: /home/user/Agents2/output/tailored-resumes/stanford-university-python-developer.md. Cover letter: /home/user/Agents2/output/cover-letters/stanford-university-python-developer.md.",
-    "response": "pending",
+    "notes": "FAILED: Job description could not be retrieved — JavaScript-rendered portal (careersearch.stanford.edu returned only CSS/framework code, no job content). Review manually at: https://jobs.stanford.edu/python-developer-334455",
+    "response": "n/a",
     "title": "Python Developer",
     "app_id": "20260225_CA_stanford_python-developer",
     "app_dir": "output/applications/20260225_CA_stanford_python-developer"
@@ -83,12 +87,16 @@
     "app_id": "20260225_CA_lbl_full-stack-engineer-python",
     "app_dir": "output/applications/20260225_CA_lbl_full-stack-engineer-python",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$156,864 - $191,724",
+    "score": 5,
+    "status": "skipped",
+    "app_file": "",
+    "notes": "SKIPPED: Role requires 8 years related experience with Bachelor's degree (or 6 years with advanced degree). Candidate has approximately 5 years total professional experience. Significantly underqualified for stated requirements.",
     "materials": {
-      "resume": "output/applications/20260225_CA_lbl_full-stack-engineer-python/resume.md",
-      "cover_letter": "output/applications/20260225_CA_lbl_full-stack-engineer-python/cover-letter.md"
-    },
-    "notes": "Apply via jobs.lbl.gov"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Lawrence Berkeley National Laboratory",
@@ -98,12 +106,16 @@
     "app_id": "20260225_CA_lbl_data-access-engineer",
     "app_dir": "output/applications/20260225_CA_lbl_data-access-engineer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$105,000 - $161,000",
+    "score": 9,
+    "status": "materials_prepared",
+    "app_file": "/home/user/Agents2/output/applications/20260225_CA_lbl_data-access-engineer/application.txt",
+    "notes": "PRIORITY: Priority deadline Feb 27, 2026! No sponsorship dealbreaker found. National lab (cap-exempt). Level 1 requires 2+ years (qualifies), Level 2 requires 5+ years (borderline qualifies). Python APIs, REST, Git, MongoDB familiarity all match. Score: cap-exempt +3, Python/REST API match +3, database experience +2, experience level +1 = 9.",
     "materials": {
-      "resume": "output/applications/20260225_CA_lbl_data-access-engineer/resume.md",
-      "cover_letter": "output/applications/20260225_CA_lbl_data-access-engineer/cover-letter.md"
-    },
-    "notes": "PRIORITY: Priority deadline Feb 27, 2026! Apply via jobs.lbl.gov"
+      "resume": "output/applications/20260225_CA_lbl_data-access-engineer/application.txt",
+      "cover_letter": "output/applications/20260225_CA_lbl_data-access-engineer/application.txt"
+    }
   },
   {
     "company": "Lawrence Berkeley National Laboratory",
@@ -113,12 +125,16 @@
     "app_id": "20260225_CA_lbl_data-science-engineer",
     "app_dir": "output/applications/20260225_CA_lbl_data-science-engineer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$131,760 - $161,064",
+    "score": 7,
+    "status": "materials_prepared",
+    "app_file": "/home/user/Agents2/output/applications/20260225_CA_lbl_data-science-engineer/application.txt",
+    "notes": "No sponsorship dealbreaker found. National lab (cap-exempt). Requires 5 years with Bachelor's (meets threshold). Python, ML, Git, CI/CD match. Bioscience domain expertise preferred but not strictly required — Python ML capstone (medical imaging) is relevant anchor. Score: cap-exempt +3, Python/ML match +2, software engineering experience +1, data pipeline experience +1 = 7.",
     "materials": {
-      "resume": "output/applications/20260225_CA_lbl_data-science-engineer/resume.md",
-      "cover_letter": "output/applications/20260225_CA_lbl_data-science-engineer/cover-letter.md"
-    },
-    "notes": "Apply via jobs.lbl.gov"
+      "resume": "output/applications/20260225_CA_lbl_data-science-engineer/application.txt",
+      "cover_letter": "output/applications/20260225_CA_lbl_data-science-engineer/application.txt"
+    }
   },
   {
     "company": "Lawrence Berkeley National Laboratory (NERSC)",
@@ -128,12 +144,16 @@
     "app_id": "20260225_CA_lbl-nersc_software-api-engineer",
     "app_dir": "output/applications/20260225_CA_lbl-nersc_software-api-engineer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$153,492 - $187,596",
+    "score": 5,
+    "status": "skipped",
+    "app_file": "",
+    "notes": "SKIPPED: Level 3 requires 8+ years with Bachelor's degree (or 6+ with Master's). Candidate has approximately 5 years total professional experience. Also requires HPC/cloud environment API experience and Linux systems management. Significantly underqualified for stated experience requirements.",
     "materials": {
-      "resume": "output/applications/20260225_CA_lbl-nersc_software-api-engineer/resume.md",
-      "cover_letter": "output/applications/20260225_CA_lbl-nersc_software-api-engineer/cover-letter.md"
-    },
-    "notes": "Apply via jobs.lbl.gov"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Vanderbilt University Medical Center",
@@ -143,12 +163,16 @@
     "app_id": "20260225_TN_vumc_software-developer-iii",
     "app_dir": "output/applications/20260225_TN_vumc_software-developer-iii",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "Unknown",
+    "score": null,
+    "status": "failed",
+    "app_file": "",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 403 Forbidden (VUMC recruit portal blocked automated access). Review manually at: https://recruit.vumc.org/jobs/software-developer-iii",
     "materials": {
-      "resume": "output/applications/20260225_TN_vumc_software-developer-iii/resume.md",
-      "cover_letter": "output/applications/20260225_TN_vumc_software-developer-iii/cover-letter.md"
-    },
-    "notes": "Apply via VUMC careers portal"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Emory University",
@@ -158,12 +182,16 @@
     "app_id": "20260225_GA_emory_full-stack-developer-ai",
     "app_dir": "output/applications/20260225_GA_emory_full-stack-developer-ai",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "Unknown",
+    "score": null,
+    "status": "failed",
+    "app_file": "",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 410 Gone (posting has been removed from iCIMS portal). Listing may have closed. Review manually at: https://staff-emory.icims.com/jobs/131911/full-stack-developer/job",
     "materials": {
-      "resume": "output/applications/20260225_GA_emory_full-stack-developer-ai/resume.md",
-      "cover_letter": "output/applications/20260225_GA_emory_full-stack-developer-ai/cover-letter.md"
-    },
-    "notes": "Apply via iCIMS (staff-emory.icims.com). Note: GA residency required - discuss relocation"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Colorado State University - CIRA",
@@ -173,12 +201,16 @@
     "app_id": "20260225_CO_csu-cira_awips-software-engineer",
     "app_dir": "output/applications/20260225_CO_csu-cira_awips-software-engineer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "Unknown",
+    "score": null,
+    "status": "failed",
+    "app_file": "",
+    "notes": "FAILED: Job description could not be retrieved — CSU jobs portal URL redirects to generic HR landing page with no job-specific content. Individual posting not accessible via WebFetch. Review manually at: https://jobs.colostate.edu/postings/cira-awips-software-engineer",
     "materials": {
-      "resume": "output/applications/20260225_CO_csu-cira_awips-software-engineer/resume.md",
-      "cover_letter": "output/applications/20260225_CO_csu-cira_awips-software-engineer/cover-letter.md"
-    },
-    "notes": "Apply via CSU jobs portal"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Children's Mercy Kansas City",
@@ -188,12 +220,16 @@
     "app_id": "20260225_MO_childrens-mercy_software-engineer",
     "app_dir": "output/applications/20260225_MO_childrens-mercy_software-engineer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "Unknown",
+    "score": null,
+    "status": "failed",
+    "app_file": "",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 403 Forbidden (Children's Mercy careers portal blocked automated access). Review manually at: https://jobs.childrensmercy.org/postings/software-engineer-research-informatics",
     "materials": {
-      "resume": "output/applications/20260225_MO_childrens-mercy_software-engineer/resume.md",
-      "cover_letter": "output/applications/20260225_MO_childrens-mercy_software-engineer/cover-letter.md"
-    },
-    "notes": "Apply via Children's Mercy careers portal"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "University of Montana",
@@ -203,12 +239,16 @@
     "app_id": "20260225_MT_univ-montana_it-applications-developer",
     "app_dir": "output/applications/20260225_MT_univ-montana_it-applications-developer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "Unknown",
+    "score": null,
+    "status": "failed",
+    "app_file": "",
+    "notes": "FAILED: Job description could not be retrieved — HTTP 403 Forbidden (UMT careers portal blocked automated access). Review manually at: https://careers.umt.edu/jobs/it-applications-developer",
     "materials": {
-      "resume": "output/applications/20260225_MT_univ-montana_it-applications-developer/resume.md",
-      "cover_letter": "output/applications/20260225_MT_univ-montana_it-applications-developer/cover-letter.md"
-    },
-    "notes": "Apply via UMT careers portal"
+      "resume": "",
+      "cover_letter": ""
+    }
   },
   {
     "company": "Montana Board of Crime Control (State of Montana)",
@@ -218,12 +258,16 @@
     "app_id": "20260225_MT_mt-board-crime-control_data-warehouse-architect",
     "app_dir": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$83,720 - $88,712",
+    "score": 8,
+    "status": "materials_prepared",
+    "app_file": "/home/user/Agents2/output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/application.txt",
+    "notes": "No sponsorship dealbreaker found. State government agency (cap-exempt). Closing date March 10, 2026. Requires data warehouse architecture, SQL, SQL Server, data modeling, ETL, Agile. Strong SQL/database match. Prefers Tableau, AWS, criminal justice data experience (not all required). Score: cap-exempt +3, SQL/data warehouse match +3, database architecture experience +1, salary above $70k +1 = 8.",
     "materials": {
-      "resume": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/resume.md",
-      "cover_letter": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/cover-letter.md"
-    },
-    "notes": "Apply via mtstatejobs.taleo.net"
+      "resume": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/application.txt",
+      "cover_letter": "output/applications/20260225_MT_mt-board-crime-control_data-warehouse-architect/application.txt"
+    }
   },
   {
     "company": "University of Colorado Anschutz Medical Campus",
@@ -233,12 +277,16 @@
     "app_id": "20260225_CO_cu-anschutz_it-data-scientist",
     "app_dir": "output/applications/20260225_CO_cu-anschutz_it-data-scientist",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$86,952 - $127,192",
+    "score": 7,
+    "status": "materials_prepared",
+    "app_file": "/home/user/Agents2/output/applications/20260225_CO_cu-anschutz_it-data-scientist/application.txt",
+    "notes": "No sponsorship dealbreaker found (E-Verify mentioned but not a visa restriction). University (cap-exempt). Application deadline Feb 15 2026 noted but rolling review likely continues. Deep learning, Python, medical imaging focus. Candidate's MS capstone (Python pneumonia detection CNN) directly relevant. Applying at Senior level (2+ years ML). Score: cap-exempt +3, Python/ML match +2, medical imaging capstone +1, database/data experience +1 = 7.",
     "materials": {
-      "resume": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/resume.md",
-      "cover_letter": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/cover-letter.md"
-    },
-    "notes": "Apply via CU Taleo portal"
+      "resume": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/application.txt",
+      "cover_letter": "output/applications/20260225_CO_cu-anschutz_it-data-scientist/application.txt"
+    }
   },
   {
     "company": "University of Colorado Anschutz Medical Campus (Health Data Compass)",
@@ -248,12 +296,16 @@
     "app_id": "20260225_CO_cu-anschutz_senior-bi-developer",
     "app_dir": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer",
     "date_applied": "2026-02-25",
-    "status": "manual_required",
+    "cap_exempt": true,
+    "salary": "$90,000 - $100,247",
+    "score": 7,
+    "status": "materials_prepared",
+    "app_file": "/home/user/Agents2/output/applications/20260225_CO_cu-anschutz_senior-bi-developer/application.txt",
+    "notes": "No sponsorship dealbreaker found (E-Verify is employment authorization verification, not a visa bar). University (cap-exempt). Deadline March 30, 2026. Requires 4+ years healthcare data warehouse experience, 2+ years SQL, Epic certification within 6 months. Strong SQL match; Epic cert gap noted in cover letter with commitment to earn it. Score: cap-exempt +3, SQL/BI match +3, healthcare data experience +1 = 7.",
     "materials": {
-      "resume": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/resume.md",
-      "cover_letter": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/cover-letter.md"
-    },
-    "notes": "Deadline: March 30, 2026. Apply via CU Taleo portal"
+      "resume": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/application.txt",
+      "cover_letter": "output/applications/20260225_CO_cu-anschutz_senior-bi-developer/application.txt"
+    }
   },
   {
     "url": "https://careers.fairview.org/jobs/164003?lang=en-us",

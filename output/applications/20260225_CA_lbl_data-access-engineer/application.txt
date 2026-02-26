@@ -1,0 +1,57 @@
+Data Access Engineer at Lawrence Berkeley National Laboratory
+https://jobs.lbl.gov/jobs/data-access-engineer-7359
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am writing to apply for the Data Access Engineer position supporting the Materials Project at Lawrence Berkeley National Laboratory. The opportunity to help maintain and expand a platform that delivers computed materials data to over 700,000 researchers worldwide is exactly the kind of meaningful, high-impact work I want to do.
+
+My background aligns well with what this role demands. Over the past five years I have built and maintained Python APIs, designed database schemas, and developed RESTful interfaces across multiple production systems. At Tekkii, I built RESTful APIs integrating third-party services for live applications, and I designed and maintained SQL databases — PostgreSQL, SQL Server, and MySQL — with a focus on data integrity and reliable access patterns. At Allied Engineering Group, I wrote optimized queries and stored procedures supporting data access for over 400 financial institutions across 40 countries, which taught me how critical consistent, performant data delivery is to users who depend on it.
+
+The Materials Project stack maps directly to my experience. I am proficient in Python and have worked with REST API design patterns extensively. I am comfortable with Git and GitHub-based collaborative workflows, including pull requests and code reviews, and I have hands-on experience with CI/CD pipelines. While my MongoDB experience has been supporting rather than leading, I am a fast learner with strong object-oriented Python fundamentals, and I understand document-based data modeling concepts well enough to contribute meaningfully from day one.
+
+What draws me specifically to this role is the combination of scientific impact and engineering craft. The Materials Project is accelerating materials discovery in ways that touch everything from clean energy to semiconductors. I find it genuinely exciting to support research infrastructure at that scale. The work of maintaining Python client libraries, validating Pydantic models, monitoring API health, and improving developer documentation is the kind of careful, quality-focused engineering I do best. I take particular satisfaction in writing clear documentation and support content that makes complex systems accessible to the scientists who rely on them.
+
+During my graduate work at the University of Missouri-Kansas City, I built a Python-based deep learning application for medical image analysis, which gave me hands-on experience with scientific Python workflows and an appreciation for the rigor that research computing requires. I understand that reliability and correctness matter in ways that go beyond typical software projects.
+
+I am fully authorized to work in the United States and would be excited to contribute to Berkeley Lab's mission. The hybrid work arrangement based in the Bay Area works well for me. I look forward to the opportunity to discuss how my experience and enthusiasm for this work can support the Materials Project team.
+
+Thank you for your time and consideration.
+
+Sincerely,
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, MN | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Python (object-oriented, REST APIs, data pipelines) | PostgreSQL, SQL Server, MySQL, MongoDB (familiarity) | RESTful API design and consumption | Git/GitHub, CI/CD pipelines | Flask, Vue.js, React | Docker | ETL pipelines, data validation, data modeling | FastAPI, Pydantic (working knowledge) | Technical documentation (MkDocs-style) | Agile/Scrum
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Built and maintained RESTful APIs integrating PayPal, SendGrid, and OneSignal; designed Python-backed data pipelines for logistics and e-commerce platforms
+- Designed and maintained PostgreSQL, SQL Server, and MySQL databases with validation rules, stored procedures, and data integrity controls serving multiple production applications
+- Implemented automated EDI data capture workflows (Kansas City Drayage), eliminating manual processing and improving data reliability
+- Transformed KidsCloset.biz database and backend layer, resulting in successful platform acquisition
+- Created technical documentation and user training materials; managed Git repositories and coordinated deployments using CI/CD practices
+- Gathered stakeholder requirements and delivered database enhancements aligned with organizational data access needs
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Designed SQL Server schemas, optimized queries, and wrote stored procedures supporting programmatic data access for 400+ financial institutions across 40+ countries
+- Maintained data integrity across high-volume transaction databases; conducted quality audits and resolved data inconsistencies for uninterrupted operations
+- Developed custom reports and data extracts for clients; provided technical documentation and end-user support for database and API interfaces
+- Built and maintained C#/ASP.NET application layer integrating with SQL Server backends via RESTful and SOAP service patterns
+
+EDUCATION
+University of Missouri-Kansas City | MS Computer Science | 2021-2023
+Capstone: Python deep learning application for medical image analysis (pneumonia detection from chest X-rays using neural networks)
+Relevant Coursework: Advanced Database Systems, Software Engineering, Enterprise Application Development

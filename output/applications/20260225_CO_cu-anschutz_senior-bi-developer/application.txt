@@ -1,0 +1,59 @@
+Senior BI Developer at University of Colorado Anschutz Medical Campus (Health Data Compass)
+https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38876
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am writing to apply for the Senior BI Developer position with Health Data Compass at the University of Colorado Anschutz Medical Campus. The opportunity to deliver high-quality datasets and analytics to researchers and clinicians within a HIPAA-compliant healthcare data environment is work that combines my strongest technical skills with a mission I care about.
+
+My background is built on SQL. Over five years of professional experience, I have designed database schemas, written complex queries and stored procedures, built data pipelines, and delivered reports and data extracts to stakeholders across healthcare-adjacent and enterprise environments. At Tekkii, I maintained databases across PostgreSQL, SQL Server, and MySQL, creating automated reporting solutions and implementing data validation and quality controls. At Allied Engineering Group, I designed SQL Server systems supporting data access for over 400 financial institutions globally, optimizing queries for high-volume databases and delivering custom data outputs to clients. Both roles required exactly what Health Data Compass needs: reliable SQL, careful data quality management, and clear communication with people who depend on the data.
+
+I understand that this role centers on navigating electronic medical record databases, creating datasets for researchers, ensuring HIPAA compliance, and serving as a subject matter expert for the data delivery team. I take all of those responsibilities seriously. During my graduate work at the University of Missouri-Kansas City, I built a Python deep learning application using medical imaging data, which gave me firsthand experience with the care and discipline that working with healthcare data requires. My brother is a physician and my sister is a psychologist — I understand from a personal perspective how important accurate, trustworthy data is to clinical and research decisions.
+
+I am aware that Epic certification is required within six months of hire. I do not hold Epic certifications currently, but I am fully committed to earning them on the timeline the position requires. My SQL skills transfer directly to Clarity and Caboodle environments, and I have learned enterprise data systems quickly throughout my career. I am also familiar with Tableau as a visualization layer and am comfortable working with HIPAA-compliant data environments, data profiling, and documentation workflows.
+
+The Anschutz research community's need for expert-level BI support is exactly the kind of environment where I do my best work: technically demanding, mission-driven, and collaborative. I welcome the opportunity to discuss how my experience can serve the Health Data Compass team.
+
+Application deadline: March 30, 2026.
+
+Sincerely,
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, MN | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+SQL and Database: SQL Server, PostgreSQL, MySQL, complex queries, stored procedures, T-SQL, query optimization, data profiling, data validation, data quality management, enterprise data warehouse design
+BI and Analytics: ETL pipelines, data transformation, custom reporting, data visualization, data mart development, analytics dashboard development
+Healthcare Data: HIPAA-compliant data environments, medical data workflows, research data delivery
+Tools: Git/GitHub, Docker, Python/Flask, C#/ASP.NET, JavaScript, REST APIs, CI/CD, Agile/Scrum, technical documentation
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Designed and maintained SQL databases (PostgreSQL, SQL Server, MySQL) with complex queries, stored procedures, and automated reporting solutions delivering actionable insights to business stakeholders
+- Implemented data quality programs: validation rules, regular audits, and data cleaning across enterprise databases ensuring accurate and reliable data for operations and analytics
+- Built ETL pipelines for data migration between systems; coordinated data transformation and quality verification across multiple database environments
+- Developed custom SQL reports and data extracts meeting stakeholder-specific requirements; documented data systems and trained end users on database tools
+- Gathered data requirements from stakeholders and translated business needs into technical database specifications and BI solutions
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Designed SQL Server database schemas and data warehouse structures supporting analytics for 400+ financial institutions across 40+ countries
+- Wrote optimized SQL queries and stored procedures for high-volume financial transaction databases; conducted data quality audits and resolved data inconsistencies
+- Created custom reports and data extracts for clients; provided technical documentation and training on data access tools and reporting systems
+- Maintained data integrity standards across mission-critical databases; monitored system performance and resolved data anomalies
+
+EDUCATION
+University of Missouri-Kansas City | MS Computer Science | 2021-2023
+Capstone: Python deep learning application for medical image analysis (healthcare data, image processing pipeline)
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Note: Committed to completing Epic Clarity/Caboodle certification within 6 months of hire as required.

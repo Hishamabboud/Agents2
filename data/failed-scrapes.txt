@@ -55,6 +55,96 @@ app_id: crs_software-engineer_3002289
 JOB DESCRIPTION:
 [paste job description here]
 
+================================================================================
+[6] Johns Hopkins University — Software Engineer II
+URL: https://careers.jhu.edu/job/software-engineer-ii-112345
+Failure reason: HTTP 403 Forbidden — careers portal blocked automated access.
+Date added: 2026-02-26
+app_id: 20260225_MD_johns-hopkins_software-engineer-ii
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[7] University of Michigan — Full Stack Developer
+URL: https://jobs.umich.edu/full-stack-developer-98765
+Failure reason: HTTP 403 Forbidden — careers portal blocked automated access.
+Date added: 2026-02-26
+app_id: 20260225_MI_univ-michigan_full-stack-developer
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[8] Mayo Clinic — Data Engineer
+URL: https://careers.mayoclinic.org/data-engineer-445566
+Failure reason: HTTP 404 Not Found — posting may have been removed or URL is invalid.
+Date added: 2026-02-26
+app_id: 20260225_MN_mayo-clinic_data-engineer
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[9] Stanford University — Python Developer
+URL: https://jobs.stanford.edu/python-developer-334455
+Failure reason: JavaScript-rendered portal (careersearch.stanford.edu returned only CSS/framework markup — no job content accessible via WebFetch).
+Date added: 2026-02-26
+app_id: 20260225_CA_stanford_python-developer
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[10] Vanderbilt University Medical Center — Software Developer III
+URL: https://recruit.vumc.org/jobs/software-developer-iii
+Failure reason: HTTP 403 Forbidden — VUMC recruit portal blocked automated access.
+Date added: 2026-02-26
+app_id: 20260225_TN_vumc_software-developer-iii
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[11] Emory University — Full Stack Developer - University Data & AI
+URL: https://staff-emory.icims.com/jobs/131911/full-stack-developer/job
+Failure reason: HTTP 410 Gone — posting has been removed from iCIMS portal. Listing may have closed.
+Date added: 2026-02-26
+app_id: 20260225_GA_emory_full-stack-developer-ai
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[12] Colorado State University - CIRA — AWIPS II Software Engineer
+URL: https://jobs.colostate.edu/postings/cira-awips-software-engineer
+Failure reason: CSU jobs portal URL redirects to generic HR landing page. Individual posting not accessible via WebFetch.
+Date added: 2026-02-26
+app_id: 20260225_CO_csu-cira_awips-software-engineer
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[13] Children's Mercy Kansas City — Software Engineer - Research Informatics
+URL: https://jobs.childrensmercy.org/postings/software-engineer-research-informatics
+Failure reason: HTTP 403 Forbidden — Children's Mercy careers portal blocked automated access.
+Date added: 2026-02-26
+app_id: 20260225_MO_childrens-mercy_software-engineer
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[14] University of Montana — IT Applications Developer
+URL: https://careers.umt.edu/jobs/it-applications-developer
+Failure reason: HTTP 403 Forbidden — UMT careers portal blocked automated access.
+Date added: 2026-02-26
+app_id: 20260225_MT_univ-montana_it-applications-developer
+
+JOB DESCRIPTION:
+[paste job description here]
+
 ################################################################################
 # END OF FAILED SCRAPES
 ################################################################################
