@@ -1,0 +1,60 @@
+################################################################################
+# FAILED SCRAPES
+# Jobs where the description could not be retrieved automatically.
+# Review each link manually, paste the job description below it, then re-run
+# the agent to score and generate application materials.
+################################################################################
+
+================================================================================
+[1] Unknown (ADP Portal) — Unknown Role
+URL: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7f25e354-08af-4d9e-9b2f-62f4774515ff&jobId=607398
+Failure reason: ADP WorkforceNow requires JavaScript rendering. Company identity unknown — cannot assess cap-exempt status or dealbreakers.
+Date added: 2026-02-26
+app_id: adp_unknown_607398
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[2] Braven — Software Engineer
+URL: https://apply.workable.com/braven/j/EC3C8069BD/
+Failure reason: Workable portal is JavaScript-rendered. Job description not accessible via WebFetch.
+Date added: 2026-02-26
+app_id: braven_software-engineer_ec3c80
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[3] New York University (NYU) — Senior Software Engineer
+URL: https://uscareers-nyu.icims.com/jobs/15322/job
+Failure reason: iCIMS portal is JavaScript-rendered. Full job description not accessible via WebFetch.
+Date added: 2026-02-26
+app_id: nyu_senior-software-engineer_15322
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[4] Life.Church — Senior Data Engineer
+URL: https://jobs.lever.co/life/27b70020-c7f6-4026-848e-80524cd0c861
+Failure reason: Lever portal is JavaScript-rendered. Job description not accessible via WebFetch.
+Date added: 2026-02-26
+app_id: life-church_senior-data-engineer_27b700
+
+JOB DESCRIPTION:
+[paste job description here]
+
+================================================================================
+[5] Catholic Relief Services (CRS) — Software Engineer
+URL: https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002289
+Failure reason: Oracle HCM portal is JavaScript-rendered. Portal returned only configuration code — job details not accessible via WebFetch.
+Date added: 2026-02-26
+app_id: crs_software-engineer_3002289
+
+JOB DESCRIPTION:
+[paste job description here]
+
+################################################################################
+# END OF FAILED SCRAPES
+################################################################################
