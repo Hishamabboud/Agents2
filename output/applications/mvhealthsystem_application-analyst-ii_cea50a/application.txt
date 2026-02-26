@@ -1,0 +1,65 @@
+APPLICATION ANALYST II at Mvhealthsystem
+https://careers.mvhealthsystem.org/job/UTICA-APPLICATION-ANALYST-II-NY-13502/1367911000/
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Application Analyst II role at MVHealth System because I want to do technical work that directly supports patient care and the people who deliver it. My brother is a physician and my sister is a psychologist, so I grew up around healthcare conversations at the dinner table. That background shaped how I think about data and systems: when information is wrong or a workflow breaks down, real people are affected. That is why the work described in this posting feels meaningful to me, not just technically interesting.
+
+At Tekkii, I spent three years doing exactly the kind of work this role calls for: designing and maintaining databases, building and testing application features, supporting end users, and keeping systems running reliably. I worked directly with business stakeholders to gather requirements, translate them into technical solutions, and document everything clearly so teams could sustain what we built. For Kansas City Drayage, I built an EDI processing system from scratch that automated logistics data exchange and eliminated a manual, error-prone workflow. I also led the backend and database transformation of KidsCloset.biz, improving the platform's stability and data quality to the point where it was successfully acquired. Across these projects, I consistently coordinated across teams, managed timelines, and communicated progress in plain language that non-technical stakeholders could actually use.
+
+At Allied Engineering Group, I supported SQL Server databases and reporting systems used by more than 400 financial institutions across 40+ countries. I wrote optimized queries and stored procedures, monitored logs to catch and resolve errors before they became bigger problems, and built custom reports that helped clients make sense of their data. I also trained end users and created documentation to help them work independently. My master's work at the University of Missouri-Kansas City pushed me further into healthcare-relevant territory: I built a pneumonia detection application using Python and medical imaging data, which gave me a real appreciation for how much precision matters when technology intersects with clinical outcomes.
+
+What draws me to MVHealth System specifically is the combination of real clinical impact and the scale of the systems that support it. Supporting Epic and related healthcare applications means the work I do every day connects directly to how care is delivered and documented, and that matters to me deeply. I am excited by the opportunity to participate in version upgrades, work alongside clinical teams on workflow design, and contribute to a change control process where attention to detail genuinely makes a difference for patients and staff.
+
+Thank you for considering my application. I would love to discuss how my experience in application support, database management, and healthcare technology can contribute to MVHealth System's mission of delivering exceptional care to the communities it serves.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Healthcare IT and Application Support: System Configuration, Testing and Validation, Workflow Design, End User Training, Change Control, Documentation, Process Improvement
+Data and Reporting: SQL (PostgreSQL, SQL Server, MySQL), ETL Pipelines, Data Migration, Data Validation, Data Analysis, Report Generation, Microsoft Office Suite
+Programming and Development: Python, C#, JavaScript, PHP, REST APIs, Flask, ASP.NET, Vue.js, React
+Cloud and Infrastructure: Azure, AWS, Docker, CI/CD, SSH, Server Administration, SiteGround, Cloudways
+Project Coordination and ITSM: Requirements Gathering, Stakeholder Communication, Agile/Scrum, ClickUp, Change Request Management, Quality Assurance
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Designed, built, and configured software applications, conducting testing and validation to ensure system accuracy and reliability across multiple business platforms.
+- Investigated system and performance indicators to locate problems, recommended solutions, and implemented process improvements to reduce recurring issues.
+- Coordinated data migration projects between systems, organizing records and verifying accuracy to ensure seamless transitions with minimal workflow disruption.
+- Managed data quality initiatives by implementing validation rules, conducting regular audits, and correcting inconsistent records to maintain reliable enterprise databases.
+- Created complex SQL queries, stored procedures, and custom reports to extract and analyze data, delivering actionable insights to business stakeholders.
+- Collaborated with stakeholders to gather requirements for application enhancements, translating business needs into technical specifications and delivering aligned solutions.
+- Developed and maintained RESTful APIs integrating third-party services, expanding system functionality to serve new purposes and improve workflows.
+- Trained end users on systems and reporting tools, creating documentation and guides to support ongoing engagement and independent troubleshooting.
+- Maintained records for change requests, tracked approval stages, and coordinated live dates to keep applications and users current.
+- Communicated complex technical concepts clearly to clients and end users, ensuring shared understanding of project requirements, progress, and outcomes.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for 400+ financial institutions across 40+ countries.
+- Monitored SQL and application logs to identify and resolve errors, escalating issues to appropriate staff to ensure timely resolution for banking clients worldwide.
+- Maintained data accuracy and integrity across high-volume transaction databases, conducting quality checks and resolving inconsistencies to ensure reliable operations.
+- Created custom reports and data visualizations based on client-specific requirements, delivering information in accessible formats that supported business decision making.
+- Provided technical and functional support to end users, helping them troubleshoot issues and effectively use reporting tools to access their data.
+- Collaborated with clients to gather requirements, documented business processes, and delivered database solutions tailored to their operational needs.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+Project: Pneumonia Detection App, built a deep learning application for medical image analysis using Python
