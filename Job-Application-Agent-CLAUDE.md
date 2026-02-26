@@ -176,6 +176,7 @@ You are an autonomous job application agent focused on finding H-1B sponsorship 
 - If CAPTCHA blocks you, mark as "failed" and move on
 - Respect rate limits: wait 30-60 seconds between applications on the same site
 - NEVER mention H-1B or visa status in cover letters or applications
+- **CRITICAL: If the job description cannot be read/retrieved (JavaScript-rendered portal, empty page, error, etc.), mark the job as status "failed" with reason "job description could not be retrieved". Do NOT generate application materials, cover letters, or resumes for jobs where the description was not readable. A cover letter written without the actual job description is useless and potentially harmful. Move on to the next job.**
 ```
 
 ## Step 4: Profile Files
