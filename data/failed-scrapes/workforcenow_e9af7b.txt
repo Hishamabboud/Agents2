@@ -1,0 +1,17 @@
+# Failed scrape — paste job details below so the pipeline can process this posting
+# URL:    https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=763ab4b5-fa9c-4fbd-a3df-9e642ec1d02f&jobId=667938
+# REASON: Junk/placeholder title scraped: "Our Company"
+# DATE:   2026-02-26
+#
+# Instructions:
+#   1. Open the URL above in your browser
+#   2. Copy the job title, company, and full job description
+#   3. Fill in the fields below and save this file
+#   4. Move this file to data/manual-jobs/ and re-run the pipeline
+
+TITLE: 
+COMPANY: Workforcenow
+SALARY: 
+
+--- JOB DESCRIPTION ---
+

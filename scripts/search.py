@@ -35,6 +35,8 @@ JOB_LINKS_FILE = os.path.join(BASE_DIR, "data", "job-links.txt")
 TARGET_ORGS_FILE = os.path.join(BASE_DIR, "data", "target-orgs.txt")
 RAW_JOBS_FILE = os.path.join(BASE_DIR, "data", "raw-jobs.json")
 APPLICATIONS_FILE = os.path.join(BASE_DIR, "data", "applications.json")
+FAILED_SCRAPES_DIR = os.path.join(BASE_DIR, "data", "failed-scrapes")
+MANUAL_JOBS_DIR = os.path.join(BASE_DIR, "data", "manual-jobs")
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -86,6 +88,129 @@ CAP_EXEMPT_SIGNALS = [
 
 # ATSes that require JavaScript rendering (Playwright Tier 5 fallback)
 PLAYWRIGHT_ATSES = {"adp", "ultipro", "oracle_hcm", "paycom", "dayforce"}
+
+# Placeholder titles that indicate a failed/junk scrape (JS not rendered)
+JUNK_TITLE_FRAGMENTS = [
+    "{{",
+    "are you still with us",
+    "position description",
+    "job description",
+    "primary location",
+    "our company",
+    "description",
+    "loading",
+    "please wait",
+]
+
+
+def is_junk_job(job: dict) -> bool:
+    """Return True if the scraped job has a placeholder/junk title."""
+    title = (job.get("title") or "").strip().lower()
+    if not title:
+        return True
+    for frag in JUNK_TITLE_FRAGMENTS:
+        if title == frag or title.startswith(frag):
+            return True
+    return False
+
+
+def log_failed_scrape(url: str, reason: str) -> None:
+    """Write a stub file to data/failed-scrapes/ so the user can paste the job manually."""
+    os.makedirs(FAILED_SCRAPES_DIR, exist_ok=True)
+    # Derive a short filename from the domain + URL hash
+    domain = urlparse(url).netloc.replace("www.", "").split(".")[0]
+    url_hash = hashlib.md5(url.encode()).hexdigest()[:6]
+    filename = f"{domain}_{url_hash}.txt"
+    filepath = os.path.join(FAILED_SCRAPES_DIR, filename)
+    if os.path.exists(filepath):
+        return  # already logged
+    stub = (
+        f"# Failed scrape — paste job details below so the pipeline can process this posting\n"
+        f"# URL:    {url}\n"
+        f"# REASON: {reason}\n"
+        f"# DATE:   {datetime.now().strftime('%Y-%m-%d')}\n"
+        f"#\n"
+        f"# Instructions:\n"
+        f"#   1. Open the URL above in your browser\n"
+        f"#   2. Copy the job title, company, and full job description\n"
+        f"#   3. Fill in the fields below and save this file\n"
+        f"#   4. Move this file to data/manual-jobs/ and re-run the pipeline\n"
+        f"\n"
+        f"TITLE: \n"
+        f"COMPANY: \n"
+        f"SALARY: \n"
+        f"\n"
+        f"--- JOB DESCRIPTION ---\n"
+        f"\n"
+    )
+    with open(filepath, "w") as f:
+        f.write(stub)
+    print(f"  [FAILED] Stub saved → data/failed-scrapes/{filename}")
+
+
+def read_manual_jobs(existing_urls: set) -> list:
+    """
+    Read hand-pasted job descriptions from data/manual-jobs/*.txt.
+    Each file must have TITLE:, COMPANY:, and a description block after
+    '--- JOB DESCRIPTION ---'.  The original URL is read from the # URL: comment.
+    """
+    if not os.path.isdir(MANUAL_JOBS_DIR):
+        return []
+    jobs = []
+    for fname in sorted(os.listdir(MANUAL_JOBS_DIR)):
+        if not fname.endswith(".txt"):
+            continue
+        fpath = os.path.join(MANUAL_JOBS_DIR, fname)
+        with open(fpath) as f:
+            raw = f.read()
+
+        # Extract URL from comment line
+        url = ""
+        for line in raw.splitlines():
+            if line.startswith("# URL:"):
+                url = line.replace("# URL:", "").strip()
+                break
+
+        if not url or url in existing_urls:
+            continue
+
+        # Parse fields
+        title = ""
+        company = ""
+        salary = ""
+        description_lines = []
+        in_desc = False
+        for line in raw.splitlines():
+            if line.startswith("TITLE:") and not in_desc:
+                title = line.replace("TITLE:", "").strip()
+            elif line.startswith("COMPANY:") and not in_desc:
+                company = line.replace("COMPANY:", "").strip()
+            elif line.startswith("SALARY:") and not in_desc:
+                salary = line.replace("SALARY:", "").strip()
+            elif line.strip() == "--- JOB DESCRIPTION ---":
+                in_desc = True
+            elif in_desc:
+                description_lines.append(line)
+
+        description = "\n".join(description_lines).strip()
+        if not title or not description:
+            print(f"  [MANUAL] SKIP {fname} — missing TITLE or description")
+            continue
+
+        job = {
+            "url": url,
+            "title": title,
+            "company": company or urlparse(url).netloc,
+            "description": description,
+            "salary_text": salary,
+            "ats_platform": "manual",
+            "extraction_method": "manual",
+            "fetched_at": datetime.now().isoformat(),
+            "source_file": fname,
+        }
+        print(f"  [MANUAL] Loaded: {title} @ {company} ({fname})")
+        jobs.append(job)
+    return jobs
 
 # ATS-specific CSS selectors to wait for after page load
 PLAYWRIGHT_WAIT_SELECTORS = {
@@ -983,11 +1108,17 @@ def main():
 
     all_jobs = list(existing_raw)
 
+    # --- MANUAL JOBS: inject hand-pasted descriptions before primary scraping ---
+    manual_jobs = read_manual_jobs(existing_raw_urls | existing_app_urls)
+    for mj in manual_jobs:
+        all_jobs.append(mj)
+        existing_raw_urls.add(mj["url"])
+
     # --- PRIMARY: Process job-links.txt ---
     job_links = read_job_links()
     if job_links:
         print(f"\n[PRIMARY] Processing {len(job_links)} URL(s) from job-links.txt ...", flush=True)
-        stats = {"fetched": 0, "skipped_app": 0, "skipped_raw": 0, "failed": 0}
+        stats = {"fetched": 0, "skipped_app": 0, "skipped_raw": 0, "failed": 0, "junk": 0}
         ats_summary: dict[str, int] = {}
 
         for url in job_links:
@@ -1002,21 +1133,32 @@ def main():
 
             job = fetch_job_page(url)
             if job:
-                all_jobs.append(job)
-                existing_raw_urls.add(url)
-                ats = job.get("ats_platform", "generic")
-                ats_summary[ats] = ats_summary.get(ats, 0) + 1
-                method = job.get("extraction_method", "html")
-                print(f"  -> [{method}] {job['title'] or '(no title)'} @ {job['company']}")
-                stats["fetched"] += 1
+                if is_junk_job(job):
+                    junk_title = job.get("title", "(no title)")
+                    print(f"  [JUNK] '{junk_title}' — placeholder content detected")
+                    log_failed_scrape(url, f"Junk/placeholder title: '{junk_title}'")
+                    stats["junk"] += 1
+                    # Still add to raw-jobs so we don't re-fetch every run
+                    all_jobs.append(job)
+                    existing_raw_urls.add(url)
+                else:
+                    all_jobs.append(job)
+                    existing_raw_urls.add(url)
+                    ats = job.get("ats_platform", "generic")
+                    ats_summary[ats] = ats_summary.get(ats, 0) + 1
+                    method = job.get("extraction_method", "html")
+                    print(f"  -> [{method}] {job['title'] or '(no title)'} @ {job['company']}")
+                    stats["fetched"] += 1
             else:
+                log_failed_scrape(url, "Could not extract content (JS wall, auth, or 404)")
                 stats["failed"] += 1
 
             time.sleep(2)
 
         print(f"\n[PRIMARY SUMMARY]")
         print(f"  Fetched:   {stats['fetched']}")
-        print(f"  Failed:    {stats['failed']}")
+        print(f"  Junk:      {stats['junk']}  (stubs saved to data/failed-scrapes/)")
+        print(f"  Failed:    {stats['failed']}  (stubs saved to data/failed-scrapes/)")
         print(f"  Skipped:   {stats['skipped_app'] + stats['skipped_raw']}")
         if ats_summary:
             print("  By ATS:    " + ", ".join(f"{k}={v}" for k, v in sorted(ats_summary.items())))

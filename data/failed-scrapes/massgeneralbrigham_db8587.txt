@@ -1,0 +1,17 @@
+# Failed scrape — paste job details below so the pipeline can process this posting
+# URL:    https://massgeneralbrigham.wd1.myworkdayjobs.com/mgbexternal/job/Cambridge-MA/Data-Analyst-II_RQ4053133
+# REASON: Could not extract content (JS wall, auth, or 404)
+# DATE:   2026-02-26
+#
+# Instructions:
+#   1. Open the URL above in your browser
+#   2. Copy the job title, company, and full job description
+#   3. Fill in the fields below and save this file
+#   4. Move this file to data/manual-jobs/ and re-run the pipeline
+
+TITLE: 
+COMPANY: 
+SALARY: 
+
+--- JOB DESCRIPTION ---
+

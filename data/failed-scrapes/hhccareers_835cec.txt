@@ -1,0 +1,17 @@
+# Failed scrape — paste job details below so the pipeline can process this posting
+# URL:    https://hhccareers.taleo.net/careersection/hhc_ext/jobdetail.ftl?job=26152517&lang=en
+# REASON: Junk/placeholder title scraped: "Primary Location"
+# DATE:   2026-02-26
+#
+# Instructions:
+#   1. Open the URL above in your browser
+#   2. Copy the job title, company, and full job description
+#   3. Fill in the fields below and save this file
+#   4. Move this file to data/manual-jobs/ and re-run the pipeline
+
+TITLE: 
+COMPANY: Hhccareers
+SALARY: 
+
+--- JOB DESCRIPTION ---
+
