@@ -1,0 +1,55 @@
+Data Science Engineer at Lawrence Berkeley National Laboratory
+https://jobs.lbl.gov/jobs/data-science-engineer-7320
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am writing to apply for the Data Science Engineer position within the Scientific Data division's Computational Biosciences Group at Lawrence Berkeley National Laboratory. The opportunity to develop software tools that make biological data more accessible and to collaborate with domain scientists on machine learning workflows is one I find genuinely compelling.
+
+My technical background in Python development, machine learning, and data pipeline engineering maps directly to the core responsibilities of this role. My MS Computer Science capstone at the University of Missouri-Kansas City was a Python-based deep learning application for pneumonia detection from medical chest X-rays, which gave me hands-on experience with image classification, model training, and the workflow of scientific software development. I understand what it means to produce results that researchers need to trust.
+
+At Tekkii, I designed and maintained complex data systems serving multiple production applications — building ETL pipelines, implementing data validation and quality controls, and developing RESTful APIs that served as programmatic interfaces to underlying data. I am proficient in Python with experience in object-oriented design patterns, and I am familiar with Git-based collaborative development, CI/CD practices, and automated testing. These are the same foundations required to build and maintain the scientific software packages this role centers on.
+
+I am excited by the opportunity to work with communities like Neurodata Without Borders and the Joint Genome Institute, and to contribute to FAIR data principles in practice. The combination of software engineering discipline and scientific mission is exactly where I want to apply my skills. I am a careful, methodical engineer who takes documentation and testing seriously, which I understand is essential when the tools you build are used by scientists who depend on them for research outputs.
+
+My brother is a physician and my sister is a psychologist, so I have a personal appreciation for how advances in biological data analysis translate into real improvements in understanding and care. Working at the intersection of computation and life science is meaningful to me, not just technically interesting.
+
+I am fully authorized to work in the United States. I welcome the opportunity to discuss how my experience in scientific Python development and machine learning can support the Computational Biosciences Group's mission.
+
+Thank you for your consideration.
+
+Sincerely,
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, MN | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Python (scikit-learn, PyTorch, deep learning, OOP, data pipelines) | Machine Learning and AI model development | PostgreSQL, SQL Server, MySQL | RESTful APIs and web service integration | Git/GitHub, CI/CD, automated testing | Docker, containerization | ETL pipelines, data transformation, data validation | Data modeling and FAIR data principles | JavaScript, Vue.js, React | Technical documentation and scientific writing | Agile/Scrum
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Designed and maintained data pipeline and ETL systems across PostgreSQL, SQL Server, and MySQL databases, ensuring data quality, validation, and accessibility for analytics and reporting
+- Built RESTful APIs providing programmatic access to underlying data stores, integrating third-party services and enabling automated data workflows
+- Implemented automated data capture and processing workflows, eliminating manual data entry and improving reliability
+- Developed and maintained open-source style documentation and user training materials; coordinated Git-based collaborative development workflows
+- Gathered scientific and business requirements from domain stakeholders and translated them into technical software specifications
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Developed C#/ASP.NET software systems and SQL Server data infrastructure supporting analytics for 400+ financial institutions across 40+ countries
+- Wrote optimized queries, stored procedures, and data extraction logic for high-volume databases; conducted data quality audits and resolved inconsistencies
+- Created custom data visualizations and reports; provided technical documentation and training for end users of data analysis tools
+
+EDUCATION
+University of Missouri-Kansas City | MS Computer Science | 2021-2023
+Capstone: Python deep learning application — pneumonia detection from medical chest X-rays using convolutional neural networks (image classification, model training, validation pipeline)
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development

@@ -1,0 +1,57 @@
+I.T. Data Scientist (Senior/Principal) at University of Colorado Anschutz Medical Campus
+https://cu.taleo.net/careersection/2/jobdetail.ftl?job=38881
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the I.T. Data Scientist position in the Ophthalmology Department at the University of Colorado Anschutz Medical Campus. The opportunity to develop deep learning algorithms for medical image analysis — contributing to research that directly improves clinical diagnostics — is one I find both technically exciting and personally meaningful.
+
+My strongest connection to this role comes from my graduate capstone at the University of Missouri-Kansas City, where I built a Python deep learning application for pneumonia detection from chest X-rays. Working with medical imaging data gave me a concrete sense of how careful model design, validation, and reproducibility matter in clinical contexts. I used Python with libraries including scikit-learn and PyTorch for model training and evaluation, and I built the full pipeline from image preprocessing through to result visualization. That experience gave me a foundation in the workflows that medical imaging AI requires.
+
+Beyond the technical foundation, I bring five years of professional software development experience that makes me an effective contributor in applied research environments. At Tekkii, I designed and maintained complex data systems, built APIs, implemented automated workflows, and consistently translated ambiguous requirements into working solutions. At Allied Engineering Group, I developed database architectures serving hundreds of clients globally, which required both technical precision and the ability to communicate clearly with stakeholders who were not engineers. Research environments require that same combination: depth and communication together.
+
+I am also motivated by the broader mission. My brother is a physician and my sister is a psychologist. I have seen close-up how better diagnostic tools change what is possible in clinical care. The Quantitative Translational Imaging in Medicine Lab's goal of bridging machine learning research and clinical practice is exactly the kind of work that feels worth doing.
+
+I want to be transparent: the publications requirement for the Principal level is something I am still building toward, with my graduate research as the start of that trajectory. I am applying at the Senior level, where my technical skills and applied ML experience are a stronger match. I am eager to grow within the research environment that Anschutz provides.
+
+I am fully authorized to work in the United States. The hybrid schedule works well for me, and I am open to relocating to the Aurora area. I would welcome the opportunity to discuss how my background in Python, machine learning, and medical data analysis can support the lab's research goals.
+
+Sincerely,
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, MN | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Machine Learning and AI: Python (PyTorch, scikit-learn, opencv, deep learning), CNN model development, medical image analysis, model training and validation pipelines
+Data Engineering: SQL (PostgreSQL, SQL Server, MySQL), ETL pipelines, data validation, data quality management
+Software Development: Python/Flask, C#/ASP.NET, JavaScript, REST APIs, Git/GitHub, Docker, CI/CD
+Research and Documentation: Scientific methodology, experiment documentation, technical writing, stakeholder communication
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Designed and maintained PostgreSQL, SQL Server, and MySQL databases with data validation and quality controls; built ETL pipelines and automated data processing workflows
+- Developed RESTful APIs and integrated third-party services; built software systems translating complex business requirements into production applications
+- Implemented data integrity and quality monitoring across enterprise databases; created documentation and trained end users on technical systems
+- Collaborated with stakeholders to gather requirements and deliver solutions; used Git, CI/CD pipelines, and Agile/Scrum throughout development lifecycle
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Developed C#/ASP.NET enterprise applications and SQL Server data systems supporting 400+ financial institutions across 40+ countries
+- Wrote optimized SQL queries and stored procedures; maintained high-volume transaction databases with strong data integrity and reliability standards
+- Created custom reports and data analysis tools; provided technical documentation and end-user training
+
+EDUCATION
+University of Missouri-Kansas City | MS Computer Science | 2021-2023
+Capstone: Python deep learning application — pneumonia detection from medical chest X-rays
+- Built end-to-end pipeline: image preprocessing, CNN model architecture, training, validation, and result analysis
+- Applied computer vision techniques to medical imaging classification task using Python, PyTorch, and scikit-learn
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
