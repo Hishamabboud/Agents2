@@ -107,3 +107,8 @@ https://ccf.wd1.myworkdayjobs.com/clevelandcliniccareers/job/Cleveland-Clinic-Ad
 https://ccf.wd1.myworkdayjobs.com/clevelandcliniccareers/job/Remote-Location/IT-Process-Analyst-III---Change-Mgmt-Team_328230-1
 https://baystatehealth.wd12.myworkdayjobs.com/en-US/external_careers/details/Application-Data-Engineer-Assoc_R41056?jobFamilyGroup=9a983297f9f9011010d215e0cc00f201
 https://www.paycomonline.net/v4/ats/web.php/portal/C551B94FE5DB7F30C933A0DBE6F4D57F/jobs/199022
+
+# Canada jobs (sponsorship via Global Talent Stream)
+https://jobs.scotiabank.com/job/Toronto-Software-Engineer-(Python)-ON-M5H1H1/599978717/
+https://jobs.utoronto.ca/job/Toronto-Lead-Software-Developer-%28TERM%29-ON/599672917/
+https://careers.deloitte.ca/job/Toronto,-ON-BackEnd-Developer-(Python,-C_NET),-Global-Deloitte-Technology-ON-M5C-3G7/1328799100/

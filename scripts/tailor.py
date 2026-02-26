@@ -300,12 +300,24 @@ def main():
     Path(APPLICATIONS_OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
     generated = 0
 
+    # Load already-applied URLs so we never regenerate an applied job
+    # even if its application folder was archived/moved.
+    applied_urls = {
+        a["url"] for a in load_json(os.path.join(BASE_DIR, "data", "applications.json"))
+        if a.get("status") == "applied"
+    }
+
     for i, job in enumerate(scored_jobs):
         if job.get("status") != "qualified":
             continue
 
         title = job.get("title", "unknown")
         company = job.get("company", "unknown")
+
+        # Skip if already applied (covers archived folders too)
+        if job.get("url") in applied_urls:
+            print(f"  SKIP (already applied): {title} @ {company}")
+            continue
 
         app_id = job.get("app_id") or make_app_id(job)
         app_dir = os.path.join(APPLICATIONS_OUTPUT_DIR, app_id)
