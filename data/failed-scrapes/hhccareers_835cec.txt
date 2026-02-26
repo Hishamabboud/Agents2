@@ -9,9 +9,79 @@
 #   3. Fill in the fields below and save this file
 #   4. Move this file to data/manual-jobs/ and re-run the pipeline
 
-TITLE: 
-COMPANY: Hhccareers
+TITLE: Data Manager - Center for Education, Simulation and Innovation (CESI)
+COMPANY: Hartford HealthCare
 SALARY: 
 
 --- JOB DESCRIPTION ---
 
+Primary Location Connecticut-Hartford-560 Hudson St HH E&R Ctr (10058)
+Job Non-Medical
+Organization Hartford Hospital
+Job Posting Feb 20, 2026
+ 
+ 
+Data Manager - Center for Education, Simulation and Innovation (CESI)
+ - (26152517)
+ 
+ 
+Work where every moment matters.
+
+
+Every day, more than 40,000 Hartford HealthCare employees come to work with one thing in common: Pride in what we do, knowing every moment matters here. We invite you to become part of Connecticut’s most comprehensive healthcare network. 
+
+
+Hartford Hospital is one of the largest and most respected teaching hospitals in New England. We are a Level 1 Trauma Center that provides cutting edge treatment to its patients. This is made possible by being home to the largest robotic surgery center in the Northeast and the Center for Education, Simulation and Innovation (CESI), one of the most-advanced medical simulation training centers in the world. When hospitals cannot provide the advanced care, expertise and new treatment options their patients require, they turn to us.
+
+
+Job Summary:
+
+Provides operational support to the department by managing multiple platforms to consolidate, report, forecast and trend data to ensure business decisions are data driven and tracked for success. Proactively maintain and update current platforms and research new solutions to drive efficiencies and main lean processes. Be a resource to the team for training and best practice to ensure consistency in data entry and reporting. Partner with the leadership team to ensure financial strength of the department by tracking and reporting all revenue and expenses in a timely manner. Provides general operational support to all CESI operations.
+
+Reports to the CESI Operations and Business Development Manager.
+
+Job Responsibilities:
+
+·     Manage the multiple data sources across the department to consolidate data into actionable reports. Data sources include schedule software, user kiosks, CRM, application for inventory management, redcap, enrollment database, ACS AEI database, financial database, and purchasing requests. Proactively analyze the data to provide leadership team forecasts and trends to make informed business decisions.
+
+·     Partner with leadership team to drive financial strength for the department by analyzing and reporting revenue and expense management. Ensure full utilization of the CRM database for forecasting and complete revenue cycle, submit invoices and transfer requests, reconcile budgets and PCards, submit peoplesoft orders, manage inventory, and submit and track capital requests.
+
+·     Maintain, update and improve data platforms to ensure continued efficiency and growth opportunities for the department. Be a resource for the team for training and best practice to maintain data consistency. Manage process to track and report department utilization and customer satisfaction trends. Adopt and drive lean processes and reporting structure for department.
+
+·     Provides ultimate customer service to our clients by supporting program development and execution. Responsibilities may include scheduling programs, managing customer communication, providing quotes and invoices, driving deliverables to completion, concierge services, troubleshooting issues, marketing, and social media.
+
+·     Support data analytics across Academic Affairs business unit, including Research, Continuing Medical Education and Graduate Medical Education teams. Understand the data platforms utilized and be a resource for collaboration and optimization. Provide reports to leadership team as needed.
+
+·     Supports CESI operations, which may include support of evening and weekend programs as needed.
+
+ 
+ 
+Bachelor’s Degree required.  Bachelor’s Degree in Finance, Business Management, Data Analytics, or related field preferred.
+3 years of experience in data management, financial analysis, or a related role.  5 years of experience in data management, financial analysis, or a related role preferred.
+Knowledge, Skills and Ability Requirements 
+
+·        Proficient in Excel, SQL, and data visualization tools (e.g., Power BI, Google Sheets, Tableau) 
+
+·        Background in using data to drive decision making.
+
+·        Strong attention to detail and organizational skills
+
+ 
+
+We take great care of careers.
+
+ 
+
+With locations around the state, Hartford HealthCare offers exciting opportunities for career development and growth.  Here, you are part of an organization on the cutting edge – helping to bring new technologies, breakthrough treatments and community education to countless men, women and children.  We know that a thriving organization starts with thriving employees-- we provide a competitive benefits program designed to ensure work/life balance.  Every moment matters.  And this is your moment.
+
+ 
+
+As an Equal Opportunity Employer/Affirmative Action employer, the organization will not discriminate in its employment practices due to an applicant’s race, color, religion, sex, sexual orientation, gender identity, national origin, and veteran or disability status.
+
+ 
+
+ 
+ Regular
+Standard Hours Per Week 40
+Schedule Full-time (40 hours)
+Shift Details May require some nights and weekends

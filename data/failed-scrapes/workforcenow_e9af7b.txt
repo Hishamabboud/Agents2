@@ -9,9 +9,131 @@
 #   3. Fill in the fields below and save this file
 #   4. Move this file to data/manual-jobs/ and re-run the pipeline
 
-TITLE: 
-COMPANY: Workforcenow
-SALARY: 
+TITLE: Standards Developer
+COMPANY: North American Electric Reliability Corporation (NERC) 
+SALARY: $115,000.00 To $125,000.00 Annually
 
 --- JOB DESCRIPTION ---
 
+Standards Developer
+Full Time
+REG
+Remote - DC Area, US
+3 days ago
+Requisition ID: 1102
+
+Apply
+Salary Range:
+$115,000.00 To $125,000.00 Annually
+Our Company
+The North American Electric Reliability Corporation (NERC) is a not-for-profit international regulatory authority whose mission is to assure the effective and efficient reduction of risks to the reliability and security of the grid. NERC develops and enforces Reliability Standards; annually assesses seasonal and long‐ term reliability; monitors the bulk power system through system awareness; and educates, trains, and certifies industry personnel. NERC’s area of responsibility spans the continental United States, Canada, and the northern portion of Baja California, Mexico. NERC is the Electric Reliability Organization (ERO) for North America, subject to oversight by the Federal Energy Regulatory Commission (FERC) and provincial authorities in Canada. NERC’s jurisdiction includes users, owners, and operators of the bulk power system, which serves nearly 400 million people.
+
+ 
+
+Our Mission
+The vision for the ERO Enterprise, which is comprised of NERC and the six Regional Entities, is a highly reliable and secure North American bulk power system. Our mission is to assure the effective and efficient reduction of risks to the reliability and security of the grid.  
+
+ 
+
+Your Impact
+The Standards Developer will advance the reliability, resilience, and security of the North American Bulk Power System (BPS) by leading Reliability Standards projects through NERC’s open, transparent stakeholder process in alignment with NERC Rules of Procedure (ROP) Section 300, the Standard Processes Manual (SPM) and internal NERC processes.  
+
+ 
+
+This role will adapt to changes based on the Modernization of Standards Processes and Procedures (MSPP) recommendations aimed at transforming initiation, drafting, and balloting to increase speed, efficiency, and quality while preserving due process.
+
+ 
+
+This position reports to a Manager, Standards Development.  
+
+ 
+
+Your Role
+ 
+
+Lead Standards Development Projects
+
+Lead the full lifecycle of NERC Reliability Standards projects from the initial scoping and planning, through public postings, drafting revisions, and preparing final packages for the NERC Board of Trustees while owning the deliverable schedule and driving on-time milestones.
+Ensure each standard includes required elements (purpose, applicability, requirements, measures, VRFs/VSLs, and implementation plans) and is developed in accordance with the NERC processes.
+Provide progress updates, identify potential project risks, and ensure projects meet deadlines and regulatory expectations.
+Champion an open and transparent process, engaging stakeholders, documenting decisions and rationale, and maintaining clear public visibility into the project.   
+ 
+
+Author, Communicate, Educate
+
+Work with drafting teams and various NERC departments to author high‑quality draft standards, technical basis/rationale, implementation plans, FAQs, webinar content, Board/filing packages, and other necessary documentation.
+Demonstrate awareness of industry concerns, with the ability to clearly articulate issues and propose practical solutions that help advance project objectives
+Deliver clear and well thought-out presentations to internal and external stakeholders.
+As processes are modernized, create new handbooks and reference materials for implementation.   
+ 
+
+Initiate Projects & Guide Drafting Teams
+
+Prepare project nomination and comment forms, review and vet drafting team candidates, and conduct interviews to confirm qualifications.
+Coordinate appointment materials and onboarding for new team members.
+Lead drafting teams through well‑run, transparent meetings, helping them develop results‑based and measurable requirements supported by strong technical bases.
+Maintain thorough meeting notes, attendance, and records for future filings.
+ 
+
+Execute Postings, Comment Resolution & Ballot
+
+Administer project postings, ensuring auditable documentation and work with drafting teams to provide clear responses to stakeholder feedback.
+Support modernization efforts to streamline postings and balloting for more productive and efficient stakeholder engagement.
+ 
+
+Manage Supporting Standards Processes
+
+Support interpretation requests, regional variances, and appeals processes.
+Work with drafting teams and NERC’s technical and legal teams to develop technical rationale(s), and supporting materials to accompany standards.
+ 
+
+Collaboration and Continuous Learning
+
+Partner closely with NERC Committees and build relationships with internal and external stakeholders.
+Demonstrate a continuous‑learning mindset by staying current on technical topics affecting the bulk power system (e.g., system planning/operations, inverter‑based resources, cybersecurity, and grid modernization) and professional skills.  
+As processes are modernized, use streamlined drafting structures (including newly proposed support groups) and modern toolsets to accelerate quality and clarity of requirements and technical bases.
+ 
+
+ 
+
+Qualifications
+ 
+
+The successful candidate will have at a minimum:
+A Bachelor’s degree from an accredited four-year college or university, or equivalent experience.
+Engineer with a minimum of 8 years’ experience in the electric power industry and/or a J.D. licensed to practice law in at least one state with a minimum of 5 years’ experience in the electric power industry drafting policy, regulation, legislation or other guidance material.
+Minimum four years bulk power system experience, which may include equivalent regulatory experience (e.g. standards development, compliance oversight, legal, and/or regional experience). 
+Working knowledge of NERC’s standards is a plus.
+Demonstrated interpersonal and communications skills with the ability to interact with people from many levels of industry and government. 
+Demonstrated experience in writing technical documents or presentations used in the power industry such as training materials, job aids, or procedures.
+Proficiency using Microsoft Office tools such as Word, Outlook, Excel, PowerPoint, Visio, and TEAMS.
+Ability to build consensus across various stakeholders from diverse technical backgrounds.
+Ability to adapt to new tools and updated processes where appropriate.
+Demonstrated project management experience managing multiple concurrent projects.
+Ability to manage priorities and anticipate workload, in order to meet set milestones and deadlines.
+Ability and willingness to travel regularly.
+ 
+
+Other
+A background check will be conducted prior to employment.
+In compliance with federal law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification document form upon hire.
+This position has been classified as exempt.
+The position may be based remotely but must be able to travel to NERC offices, if needed. Reimbursement of travel expenses will be in accordance with the company’s travel and expense reimbursement policies.
+ 
+
+Our Culture Declarations
+Everyone at NERC is a leader.
+We are accountable personally and organizationally to deliver on commitments.
+We develop ourselves and people in the organization to ensure that NERC realizes its strategic objectives.
+We are resilient and adaptable to the challenges and needs of the business/people.
+We exude a growth mindset and empower teams to take risks.
+We build collaborative relationships within NERC, the ERO, and the stakeholders of NERC.
+We exemplify NERC cultural behaviors:
+We reward high-quality, creative, and innovative work.
+We attract, engage, and retain top talent.
+We value and respect diverse perspectives.
+We provide a safe, inclusive, and collaborative work environment.
+We form strong relationships within the company and with the ERO Enterprise.
+We demonstrate curiosity in a wide variety of areas and are open to exploring new situations, knowledge, and opportunities for growth and development.
+We demonstrate an anticipatory mindset by preventing problems and building contingencies where appropriate.
+We champion diversity and inclusion by seeking out and valuing diverse perspectives.

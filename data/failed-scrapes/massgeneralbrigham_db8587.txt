@@ -1,5 +1,5 @@
 # Failed scrape — paste job details below so the pipeline can process this posting
-# URL:    https://massgeneralbrigham.wd1.myworkdayjobs.com/mgbexternal/job/Cambridge-MA/Data-Analyst-II_RQ4053133
+# URL:   https://massgeneralbrigham.wd1.myworkdayjobs.com/en-US/mgbexternal/job/Boston-MA/Data-Analyst-II---PCS-Finance---Analytics---MGH_RQ4042519?q=data%20analyst
 # REASON: Could not extract content (JS wall, auth, or 404)
 # DATE:   2026-02-26
 #
@@ -9,9 +9,139 @@
 #   3. Fill in the fields below and save this file
 #   4. Move this file to data/manual-jobs/ and re-run the pipeline
 
-TITLE: 
-COMPANY: 
-SALARY: 
+TITLE: Data Analyst II - PCS Finance & Analytics - MGH
+COMPANY: Mass General Brigham 
+SALARY: $63,648.00 - $90,750.40/Annual
 
 --- JOB DESCRIPTION ---
 
+Data Analyst II - PCS Finance & Analytics - MGH
+Apply
+remote type
+Hybrid
+locations
+Boston-MA
+time type
+Full time
+posted on
+Posted 14 Days Ago
+job requisition id
+RQ4042519
+Site: The General Hospital Corporation
+
+ 
+
+Mass General Brigham relies on a wide range of professionals, including doctors, nurses, business people, tech experts, researchers, and systems analysts to advance our mission. As a not-for-profit, we support patient care, research, teaching, and community service, striving to provide exceptional care. We believe that high-performing teams drive groundbreaking medical discoveries and invite all applicants to join us and experience what it means to be part of Mass General Brigham.
+
+
+ 
+
+Full Time 40 hours, hybrid, Monday - Friday 
+
+The MGH Patient Care Services (PCS) Finance & Analytics team provides critical analytical, operational, and workforce-planning support for hospital leadership and frontline care teams. Our work enables data-driven staffing decisions, productivity evaluation, financial forecasting, and daily operational management across all inpatient and ambulatory Nursing units.
+
+Filling this vacant Data Analyst II role is essential to maintaining continuity of several high-visibility reporting workflows and datasets that the organization relies on for safe staffing, regulatory reporting, labor budgeting, and performance monitoring. The role will assume ownership of established analytic pipelines and dashboards that run on a variety of backend technologies, including SQL Server, Python, R, VBA, Power Query, and enterprise data sources such as Workday and UKG Dimensions. This position ensures these assets are refreshed, validated, documented, and delivered reliably to operational leaders.
+
+The position requires strong technical proficiency - specifically advanced Excel skills, SQL development and code management experience, and exposure to scripting languages such as Python, R, or VBA. Beyond technical competency, the role must apply critical thinking, attention to detail, and a commitment to data quality to meet the operational standards of PCS and maintain trust with nurse directors, executive leadership, and finance partners.
+
+As a hybrid role with limited on-site requirements and standard business hours, this position offers an excellent opportunity for an analyst to develop deep expertise in healthcare operations while contributing directly to patient care. By joining PCS Finance & Analytics, the selected candidate will help advance MGH’s mission and support one of the top hospital systems in the country.
+
+ 
+
+Job Summary
+
+Responsible for extracting knowledge and insights from data in order to investigate business/operational problems through a range of data preparation, modeling, analysis, and/or visualization techniques.
+
+Does this position require Patient Care? No
+
+Essential Functions
+-Collects, analyzes, and reports data to support decisions on day-to-day operations, strategic planning, and/or specific business performance issues.
+-Collates, models, interprets, and analyzes data. 
+-Explains variances and trends in data.
+-Identifies and documents enhancements to modeling techniques.
+-Completes thorough quality assurance procedures, ensuring accuracy, reliability, trustworthiness, and validity of work.
+-Performs data validation of source-to-target data for data visuals and dashboards.
+
+ 
+
+Qualifications
+
+Education
+Bachelor's Degree Analysis required or Bachelor's Degree Related Field of Study required
+
+Can this role accept experience in lieu of a degree?
+Yes
+
+Experience
+Experience working with data, preferably healthcare or financial data 2-3 years required
+
+Knowledge, Skills and Abilities
+- Healthcare knowledge, particularly as it pertains to electronic medical record data, is preferred but not required.
+- Working knowledge of relational databases, SQL, Python, data visualization, and Business Intelligence tools such as Tableau or Power BI.
+- Knowledge and application of statistical analyses, including variance analysis and statistical significance, are preferred.
+- Project management skills and/or experience are a plus.
+- Proficiency with Microsoft Office Suite, including Word, Excel and PowerPoint.
+
+
+ 
+
+Additional Job Details (if applicable)
+
+
+ 
+
+Remote Type
+
+Hybrid
+
+ 
+
+Work Location
+
+40 Blossom Street
+
+ 
+
+Scheduled Weekly Hours
+
+40
+
+ 
+
+Employee Type
+
+Regular
+
+ 
+
+Work Shift
+
+Day (United States of America)
+
+
+ 
+
+Pay Range
+
+$63,648.00 - $90,750.40/Annual
+
+ 
+
+Grade
+
+6
+
+ 
+
+At Mass General Brigham, we believe in recognizing and rewarding the unique value each team member brings to our organization. Our approach to determining base pay is comprehensive, and any offer extended will take into account your skills, relevant experience if applicable, education, certifications and other essential factors.   The base pay information provided offers an estimate based on the minimum job qualifications; however, it does not encompass all elements contributing to your total compensation package.   In addition to competitive base pay, we offer comprehensive benefits, career advancement opportunities, differentials, premiums and bonuses as applicable and recognition programs designed to celebrate your contributions and support your professional growth. We invite you to apply, and our Talent Acquisition team will provide an overview of your potential compensation and benefits package.
+
+ 
+
+EEO Statement:
+
+1200 The General Hospital Corporation is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religious creed, national origin, sex, age, gender identity, disability, sexual orientation, military service, genetic information, and/or other status protected under law. We will ensure that all individuals with a disability are provided a reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. To ensure reasonable accommodation for individuals protected by Section 503 of the Rehabilitation Act of 1973, the Vietnam Veteran’s Readjustment Act of 1974, and Title I of the Americans with Disabilities Act of 1990, applicants who require accommodation in the job application process may contact Human Resources at (857)-282-7642.
+
+ 
+
+Mass General Brigham Competency Framework
+At Mass General Brigham, our competency framework defines what effective leadership “looks like” by specifying which behaviors are most critical for successful performance at each job level. The framework is comprised of ten competencies (half People-Focused, half Performance-Focused) and are defined by observable and measurable skills and behaviors that contribute to workplace effectiveness and career success. These competencies are used to evaluate performance, make hiring decisions, identify development needs, mobilize employees across our system, and establish a strong talent pipeline.

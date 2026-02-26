@@ -1,5 +1,5 @@
 # Failed scrape — paste job details below so the pipeline can process this posting
-# URL:    https://phe.tbe.taleo.net/phe01/ats/careers/v2/viewRequisition?org=TMCAZ&cws=42&rid=39811
+# URL:    https://phe.tbe.taleo.net/phe01/ats/careers/v2/viewRequisition?org=TMCAZ&cws=42&rid=39887
 # REASON: Junk/placeholder title scraped: "Position Description"
 # DATE:   2026-02-26
 #
@@ -15,3 +15,74 @@ SALARY:
 
 --- JOB DESCRIPTION ---
 
+SUMMARY:
+
+Leads the development of enterprise applications scope and objectives based on user needs and a thorough understanding of business systems and industry requirements.  Devises or modifies systems procedures to solve complex problems considering computer equipment capacity and operational requirements by assigning work and directing staff as needed.  Responsibilities includes driving system assessments, process analysis, identifying and implementing information system solutions that support more efficient and effective work performance based on inherit knowledge of clinical or business function and processes.  Directs and defines system scope and objectives through research and fact-finding combined with an understanding of applicable IT systems and industry requirements.
+
+ 
+
+ESSENTIAL FUNCTIONS:
+
+Leads systems staff in solving problems, including development and documentation of most efficient method of accomplishing defined requirements. 
+
+Leads systems staff in solving complex systems related problems, including development and documentation of most efficient methods of accomplishing defined requirements. 
+
+Has a strong understanding of the strategy of functional areas and works with IS and customer teams to define business requirements.  Drives the design and implantation of new business processes and optimized system configuration.
+
+Established priorities, schedules activities and allocates resources to achieve results within set timeframes according to plan. 
+
+Influence business leadership and management decisions and drives ownership and acceptable of change to the business. 
+
+Observes performance and may provide input to evaluations, and makes recommendations for personnel actions; assists in staff selection and provides training and orientation of employees. 
+
+Leads the development of specifications that will support the design and successful implementation of information systems.
+
+Creates and communicates status reports in accordance with departmental standards.
+
+Updates documentation consistently, enforcing departmental policies and procedures.
+
+Facilitates, attends and/or participates in team, project, and department meetings to increase awareness and information flow.
+
+Solves advanced production and maintenance problems, documents processes and creates action plans delineating steps and procedures.  Analyzes tasks and problems and determines the most efficient and cost effective method of accomplishing defined requirements within a scheduled deadline.  Implements and modifies test plans for information technology systems including unit and system testing.
+
+Prepares SOWs that are complete and clearly understood, while appropriately setting customer expectations.
+
+Documents and prioritizes issues with vendor; stays current with vendor trends, strategic plans and technology.
+
+Demonstrates ongoing dedication to expanding clinical or business expertise and applies new skills and knowledge to TMC situations.
+
+Adheres to TMC organizational and department-specific safety, confidentiality, values, policies and standards.
+
+Performs related duties as assigned.
+
+ 
+
+MINIMUM QUALIFICATIONS
+
+ 
+
+EDUCATION:  Bachelor's degree or an equivalent combination of relevant education and experience.
+
+ 
+
+EXPERIENCE: Seven (7) years of clinical or business system analyst or operational experience with enterprise applications.  Healthcare application experience preferred. 
+
+ 
+
+LICENSURE OR CERTIFICATION: None Required. 
+
+ 
+
+KNOWLEDGE, SKILLS AND ABILITIES: 
+
+Thorough knowledge of information systems, business and/or clinical operations, requirements analysis, and assigned core application(s).
+Skill at problem definition and data collection by establishing faction and drawing valid conclusions; leads discussions with and acts as a resource for other staff. 
+Ability to create and effectively present information and respond to inquiries or complaints from employees, managers, directors, senior leaders, and business affiliates. 
+Ability to lead brainstorming sessions to solve practical problems and deal with a variety of concrete variables in situations where only limited standardization exists. 
+Ability to translate technical terminology for consumption by non-technical audiences.
+Advanced knowledge of system analysis and applications preferably used in a hospital setting.
+Expert skill in assessing needs and determining through documentation the best approach system design and issues resolution.
+Skill at problem definition and data collection by establishing facts and drawing valid conclusions.
+Ability to read, analyze, and interpret general business periodicals, professional journals, technical procedures, or governmental regulations.
+Ability to solve practical problems and deal with a variety of concrete variables in situations where only limited standardization exists.
+Ability to interpret a variety of instructions furnished in written, oral, diagram, or schedule form.
