@@ -9,9 +9,81 @@
 #   3. Fill in the fields below and save this file
 #   4. Move this file to data/manual-jobs/ and re-run the pipeline
 
-TITLE: 
-COMPANY: 
+TITLE: Senior Software Engineer
+COMPANY: PrePass
 SALARY: 
 
 --- JOB DESCRIPTION ---
+
+Description
+About PrePass
+PrePass® is North America's most trusted weigh station bypass and toll management platform. We’re transforming how the transportation industry operates—creating solutions that keep trucks moving safely, efficiently, and compliantly. This means making bold decisions and building systems that support not only fleets but the broader economy. It all starts with enabling commercial vehicles to keep rolling with seamless toll management, weigh station bypass, and safety solutions. It’s what we do best, and we do it to meet the demands of the road every day.
+
+That’s why people join us: our solutions are implemented in real-time, on highways and interstates across the nation, helping fleets go farther, faster. This work challenges and rewards, presenting complex problems that need ambitious answers. We hire bold thinkers with a heart for impact, a passion for progress, and the optimism to shape the future of transportation.
+
+About the Role
+We are seeking a Senior Software Engineer to contribute to the design, development, and implementation of scalable and secure software solutions. You will work alongside experienced engineers, gaining hands-on experience with modern development practices, cloud technologies, and enterprise systems. This role is ideal for someone eager to grow their technical skills while working in a collaborative environment.
+
+Essential Responsibilities
+Software Development & Implementation
+
+Develop, test, and maintain software applications using modern programming languages such as C#, Java, or Python.
+Build and integrate RESTful APIs and other backend services.
+Ensure code quality through unit testing, debugging, and code reviews.
+Work with databases (SQL, NoSQL) and optimize queries for performance.
+Collaboration & Learning
+
+Work closely with senior engineers, product managers, and designers to understand business requirements and implement technical solutions.
+Participate in agile development processes, including sprint planning and daily stand-ups.
+Engage in code reviews to receive and provide constructive feedback.
+Cloud & DevOps Exposure
+
+Gain experience working with cloud platforms (Azure, AWS, or GCP).
+Learn and contribute to CI/CD pipelines to automate deployments.
+Monitor and improve application performance and reliability.
+Best Practices & Continuous Improvement
+
+Follow coding standards, security guidelines, and system design principles.
+Document technical solutions and contribute to knowledge sharing within the team.
+Stay updated with emerging technologies and best practices.
+Requirements
+Qualifications
+Education & Experience
+Bachelor’s degree in Computer Science, Software Engineering, or equivalent experience.
+5-8 years of software engineering experience (internship experience considered).
+Technical Skills
+Experience with C#, Java, or Python and understanding of Object-Oriented Programming (OOP).
+Knowledge of API development, RESTful services, and database management (SQL/NoSQL).
+Familiarity with version control systems (Git) and software development methodologies (Agile, Scrum).
+Exposure to cloud services (Azure, AWS, or GCP) is a plus.
+Understanding of message brokers (Kafka, RabbitMQ) and enterprise systems is a plus.
+Understanding of high-level architectures and frameworks. Specifically distributed systems.
+Soft Skills
+Strong problem-solving and critical-thinking abilities.
+Ability to learn quickly and adapt to new technologies.
+Good communication and teamwork skills.
+Able to break complex problems down into manageable pieces.
+Critical problem-solving skills.
+Benefits
+How We Will Take Care of You
+Robust benefit package that includes medical, dental, and vision that start on date of hire.
+Paid Time Off, to include vacation, sick, holidays, and floating holidays.
+Paid parental leave.
+401(k) plan with employer match.
+Company-funded “lifestyle account” upon date of hire for you to apply toward your physical and mental well-being (i.e., ski passes, retreats, gym memberships).
+Tuition Reimbursement Program.
+Voluntary benefits, to include, but not limited to Legal and Pet Discounts.
+Employee Assistance Program (available at no cost to you).
+Company-sponsored and funded “Culture Team” that focuses on the Physical, Mental, and Professional well-being of employees.
+Community Give-Back initiatives.
+Culture that focuses on employee development initiatives.
+Company-wide bonus and commission plans.
+Join Us
+At PrePass, our mission drives us.
+
+We invest in relationships. We challenge ourselves to innovate and improve. We win together. Simply put, we live our Core Values.
+
+Ready to help move the transportation industry forward? Join us and let’s drive progress—together.
+
+
 
