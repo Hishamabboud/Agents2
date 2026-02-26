@@ -1,0 +1,71 @@
+Backend Developer (C#/.NET), Global Deloitte Technology at Deloitte
+https://careers.deloitte.ca/job/Toronto,-ON-BackEnd-Developer-(Python,-C_NET),-Global-Deloitte-Technology-ON-M5C-3G7/1328799100/
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am applying for the Backend Developer role at Deloitte because the work your Global Technology team is doing, building cloud-native infrastructure that powers one of the world's most trusted professional services networks, is exactly the kind of challenge I want to be part of. Deloitte's scale is rare, and so is the chance to write code that supports thousands of professionals across borders and industries. I am genuinely excited about contributing to a team that sits at the center of that.
+
+At Tekkii, I spent three years doing work that maps closely to what this role requires. I built and maintained RESTful APIs integrating third-party services like PayPal, SendGrid, and OneSignal, and I worked with both SQL and NoSQL data layers across multiple production applications. For Kansas City Drayage, I designed and built an automated EDI capture and sending system from scratch, which replaced entirely manual logistics workflows and gave the team reliable, real-time data exchange. I also led the backend transformation of the KidsCloset.biz e-commerce platform, improving the database layer and application architecture to a point where the platform was acquired. Throughout all of it, I worked in Agile environments, used Git and CI/CD pipelines, collaborated directly with stakeholders to translate requirements into working software, and wrote code with maintainability and scale in mind.
+
+Before Tekkii, I worked as a software engineer at Allied Engineering Group in Beirut, where I designed SQL Server schemas, wrote optimized queries and stored procedures, and built custom reports for over 400 financial institutions across more than 40 countries. That role taught me how to work with high-volume, high-stakes data and how to keep systems accurate and reliable under real pressure. I later earned my Master of Science in Computer Science from the University of Missouri-Kansas City, where my coursework covered advanced database systems, software engineering, and enterprise application development. That combination of hands-on financial systems experience and graduate-level training gave me a strong foundation in writing clean, scalable backend code that works in complex, real-world environments.
+
+What draws me to this specific role is the focus on microservices, cloud-native architecture, and the kind of infrastructure work that has real downstream impact. I am eager to go deeper into tools like Dapr and Kubernetes, and I want to do that inside an organization where the stakes are high and the standards are even higher. Deloitte's engineering team clearly takes quality seriously, and I want to be part of a group that holds that bar and keeps raising it. I am ready to contribute from day one and grow alongside the team.
+
+Thank you for considering my application. I would love to discuss how my backend development experience, database expertise, and passion for building reliable, scalable systems can contribute to Deloitte's global technology mission.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | St. Paul, Minnesota | GitHub: MoAbboud
+
+Technical Skills
+Languages and Frameworks: C#, ASP.NET, .NET Core, Python, JavaScript, PHP, Flask, Vue.js, React, Angular
+
+Cloud and Infrastructure: CI/CD pipelines, Docker, REST APIs, Server Administration, SSH, SiteGround, Cloudways
+
+Database Technologies: SQL Server, PostgreSQL, MySQL, T-SQL, Stored Procedures, Query Optimization, Data Modeling, Database Design
+
+Development Practices: Agile/Scrum, Git/GitHub, Requirements Gathering, Code Documentation, Stakeholder Communication, Technical Support
+
+Data and Reporting: ETL Pipelines, Data Migration, Data Transformation, Data Validation, Data Analysis, Microsoft Office Suite
+
+Experience
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+
+- Led development of RESTful APIs using C# and ASP.NET, integrating third-party services including PayPal, SendGrid, and OneSignal following scalable design principles.
+- Applied software design patterns to build maintainable, testable backend solutions aligned with architectural standards across multiple business applications.
+- Designed and maintained SQL Server, PostgreSQL, and MySQL databases, ensuring data integrity, performance, and accessibility for enterprise reporting.
+- Built automated EDI capture and sending features, eliminating manual processing workflows and streamlining logistics data exchange.
+- Drove data migration projects between systems, verifying accuracy and ensuring seamless transitions with minimal disruption to business operations.
+- Implemented CI/CD workflows and used Git/GitHub for version control, supporting automated release management pipelines.
+- Transformed the KidsCloset.biz e-commerce platform backend and database layer, contributing to the platform's successful acquisition.
+- Collaborated with stakeholders to clarify requirements, translate business needs into technical specifications, and deliver solutions on time.
+- Created complex SQL queries and stored procedures to extract, analyze, and present data, enabling actionable insights for business decision-making.
+- Mentored and trained end users on database systems and reporting tools, producing clear documentation and technical guides.
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+
+- Designed SQL Server database schemas and wrote optimized queries and stored procedures supporting data analysis for 400+ financial institutions across 40+ countries.
+- Maintained data integrity and accuracy across high-volume transaction databases, conducting quality checks and resolving data inconsistencies.
+- Collaborated with cross-functional teams to gather requirements, document business processes, and deliver database solutions aligned with client needs.
+- Delivered custom reports and data visualizations in accessible formats, supporting business decision-making for global banking clients.
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted operations for clients worldwide.
+- Provided technical support and training to end users on database functionality and reporting tools.
+
+Education
+University of Missouri-Kansas City | Master of Science in Computer Science | 2021 - 2023
+
+Relevant Coursework: Advanced Database Systems, Data Structures and Algorithms, Software Engineering, Enterprise Application Development
+
+Pneumonia Detection App: Built a deep learning application for medical image analysis using Python.
