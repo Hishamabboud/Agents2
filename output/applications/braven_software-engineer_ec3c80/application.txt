@@ -1,0 +1,63 @@
+Software Engineer at Braven
+https://apply.workable.com/braven/j/EC3C8069BD/
+
+NOTE: Job description could not be retrieved (JavaScript-rendered portal). Braven is a confirmed 501(c)(3) nonprofit focused on workforce development and economic mobility for college students. Materials generated based on Braven's mission and typical software engineering role requirements.
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am drawn to the Software Engineer role at Braven because the work is about something that matters: helping college students from underserved backgrounds build real career momentum. Technology that connects students to opportunity, resources, and community is some of the most impactful software a developer can build, and Braven's focus on equipping students with the skills and networks they need to land strong first jobs is a mission I find genuinely compelling.
+
+At Tekkii, I built and maintained full-stack web applications across several client projects using Python/Flask, JavaScript, Vue.js, React, and PHP on the frontend and backend. I built RESTful APIs, integrated third-party services, and designed database systems in PostgreSQL, SQL Server, and MySQL. One project I am particularly proud of is the KC Sports Directory, a community-facing database application that I built from data model to production, supporting a collaborative network of community organizations including the Kansas City Royals Foundation. I also built an EDI data capture and processing system for Kansas City Drayage from the ground up, automating a workflow that had previously been entirely manual. Across all of these projects, I worked directly with stakeholders who were not software engineers - I gathered requirements, communicated progress in plain language, and delivered systems that worked for real users, not just in the lab.
+
+At Allied Engineering Group, I built C#/ASP.NET applications with SQL Server for 400+ financial institutions across 40+ countries, where reliability and data integrity were non-negotiable. That experience gave me strong database fundamentals, a discipline for writing clean and maintainable code, and practice working under conditions where the software had to actually work. At the University of Missouri-Kansas City, I completed a Master of Science in Computer Science, with coursework in software engineering, enterprise application development, and advanced database systems. My capstone was a Python-based deep learning application for pneumonia detection using medical imaging data, which showed me how software can directly support high-stakes human outcomes.
+
+Braven's mission resonates with me because access to a strong professional network and practical guidance should not be determined by where someone grew up or how many connections their family already has. I want to build software that helps close that gap. My experience building production systems, working with community-facing data platforms, and delivering solutions that serve users who need things to work is exactly what I would bring to Braven's engineering team.
+
+Thank you for considering my application. I would love to discuss how my full-stack development experience and commitment to education and social impact can support Braven's work.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Programming Languages: Python, C#, JavaScript, PHP, HTML, CSS
+Frameworks & Libraries: Flask, ASP.NET, Vue.js, React, Angular, Bootstrap
+Databases: PostgreSQL, SQL Server, MySQL, T-SQL, Stored Procedures, Query Optimization, Data Modeling
+Development Tools: Git/GitHub, Docker, REST APIs, CI/CD, Agile/Scrum
+Data & Reporting: ETL Pipelines, Data Migration, Data Analysis, Report Generation, Data Visualization
+Cloud & Infrastructure: SiteGround, Cloudways, SSH, Server Administration
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity and accessibility for reporting and analysis across multiple business applications
+- Built RESTful APIs integrating third-party services including PayPal, SendGrid, and OneSignal; developed frontend features in JavaScript, Vue.js, React, and HTML/CSS
+- Built automated EDI capture and sending features for Kansas City Drayage, streamlining data exchange workflows and eliminating manual processing
+- Transformed KidsCloset.biz e-commerce platform backend and database architecture, resulting in the platform's successful acquisition
+- Developed KC Sports Directory database with full data modeling and API integrations, supporting community organizations and stakeholders
+- Managed server infrastructure via SSH and FTP, implemented CI/CD pipelines, and maintained Git version control across teams
+- Gathered requirements from stakeholders and clients, translated business needs into technical specifications, and communicated clearly to non-technical audiences
+- Collaborated in Agile Scrum environment with sprint planning, retrospectives, and ClickUp task management
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Designed and developed C#/ASP.NET applications with SQL Server integration for 400+ financial institutions across 40+ countries
+- Built and maintained database schemas, stored procedures, and optimized queries for high-volume financial transaction systems
+- Created custom reports and data visualizations for clients, delivering outputs supporting business decision-making
+- Monitored SQL and application logs to identify and resolve errors, ensuring uninterrupted operations for banking clients worldwide
+- Provided technical support and training to end users across diverse organizational contexts
+
+EDUCATION
+University of Missouri-Kansas City - Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Software Engineering, Advanced Database Systems, Data Structures and Algorithms, Enterprise Application Development
+Pneumonia Detection App - Built deep learning application for medical image analysis using Python

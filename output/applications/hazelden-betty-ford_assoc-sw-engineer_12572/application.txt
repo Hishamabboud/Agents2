@@ -1,0 +1,59 @@
+Associate Software Engineer - Mobile Platform at Hazelden Betty Ford Foundation
+https://jobs.hazeldenbettyford.org/careers-home/jobs/12572/job?utm_source=hiringcafe_integration&iis=Job%20Board&iisn=HiringCafe
+
+============================================================
+COVER LETTER
+============================================================
+
+Dear Hiring Manager,
+
+I am drawn to the Associate Software Engineer role at Hazelden Betty Ford Foundation because the work directly affects people in recovery and their families. My brother is a physician and my sister is a psychologist, and I grew up watching healthcare professionals make a real difference in people's lives. I have also seen how technology, when built thoughtfully, can expand access to care and support patients beyond clinical walls. The idea of helping build a modern mobile experience for people seeking treatment is meaningful to me in a very direct way.
+
+At Tekkii, I built and maintained RESTful APIs, integrated third-party services like PayPal, SendGrid, and OneSignal, and developed mobile application features with push notification support. I worked extensively with JavaScript, React, HTML, and CSS in component-based architectures. For KidsCloset.biz, I transformed the entire backend and database layer, and the platform was successfully acquired partly because of the technical improvements we made. The College Basketball Experience project required integrating live hardware - cameras, TVs, a teleprompter - with a custom application through APIs and real-time data connections, which demanded both technical precision and creative problem-solving. I also maintained CI/CD pipelines and managed server infrastructure, giving me strong DevOps fundamentals including Git, Docker, and cloud hosting environments. I collaborated closely with non-technical clients and stakeholders throughout, translating their needs into working software.
+
+At Allied Engineering Group, I built C#/ASP.NET applications integrated with SQL Server for financial institutions across 40+ countries. That experience strengthened my understanding of software architecture, data security, and working in environments where reliability matters. My graduate capstone project at the University of Missouri-Kansas City was a pneumonia detection application built in Python that analyzed medical imaging data - a project that gave me direct experience applying technology to a healthcare problem and reinforced my interest in health tech.
+
+Hazelden Betty Ford's mission is to reduce suffering and improve lives, and every line of code in your patient-facing mobile experience contributes to that. I want to be part of a team building technology that meets patients where they are. My JavaScript, React, and API integration experience aligns well with the role's requirements, and I am excited to grow within a development team doing work that matters.
+
+Thank you for considering my application. I would love to discuss how my full-stack development background and genuine interest in healthcare technology can contribute to Hazelden Betty Ford's mobile platform team.
+
+Sincerely,
+Mohamad Abboud
+
+
+============================================================
+RESUME
+============================================================
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | (406) 920-5162 | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Frontend & Mobile: JavaScript, React, HTML, CSS, Vue.js, Angular, Bootstrap, REST APIs, JSON, Component-based UI
+Backend: Python/Flask, C#/ASP.NET, PHP, Node.js
+DevOps & Tools: Git/GitHub, Docker, CI/CD Pipelines, REST APIs, Agile/Scrum
+Databases: PostgreSQL, SQL Server, MySQL, T-SQL, Stored Procedures, Data Modeling
+Cloud & Infrastructure: SiteGround, Cloudways, SSH, Server Administration
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS
+- Developed and maintained RESTful APIs integrating third-party services including PayPal, SendGrid, and OneSignal; built mobile application features with push notification integration
+- Built e-commerce platform backend transformation for KidsCloset.biz using component-based architecture, resulting in the platform's successful acquisition
+- Developed College Basketball Experience interactive display integration connecting hardware (cameras, TVs, teleprompter) to a custom application, using JavaScript and REST APIs
+- Designed and maintained SQL databases across PostgreSQL, SQL Server, and MySQL, ensuring data integrity and accessibility for multiple business applications
+- Built automated EDI capture and sending features for Kansas City Drayage, streamlining logistics data exchange and eliminating manual workflows
+- Implemented CI/CD pipelines and managed server infrastructure via SSH and FTP, performing application migrations and maintaining version control with Git
+- Collaborated in Agile Scrum environment with sprint reviews and ClickUp task management
+- Communicated complex technical concepts in plain language to clients and end users
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Developed C#/ASP.NET applications integrating with SQL Server for 400+ financial institutions across 40+ countries
+- Built and customized user interfaces based on client requirements, improving usability and client satisfaction
+- Wrote optimized SQL queries, stored procedures, and reports for high-volume transaction processing systems
+- Monitored system logs to identify and resolve application errors, ensuring uninterrupted operations
+
+EDUCATION
+University of Missouri-Kansas City - Master of Science in Computer Science | 2021 - 2023
+Relevant Coursework: Software Engineering, Advanced Database Systems, Enterprise Application Development, Data Structures and Algorithms
+Pneumonia Detection App - Built deep learning application for medical image analysis using Python (healthcare technology experience)
