@@ -86,11 +86,12 @@ https://www.jobs.ac.uk/job/DQQ956/data-architect
 # ============================================================
 # UNITED STATES — governmentjobs.com (all cap-exempt: state/local/county gov't)
 #
-# ⚠️  CRITICAL H-1B UPDATE (as of 2026-02-27):
-#   - $100,000 fee now required on new H-1B petitions (applies even to cap-exempt)
+# ℹ️  H-1B FEE NOTE (as of 2026-02-27):
+#   - $100,000 fee does NOT apply if changing status from F-1 to H-1B while inside the US
+#   - Fee only triggers if you're outside the US when petition is filed — stay in the US
 #   - Weighted lottery rule effective TODAY favors higher-wage/higher-skill petitions
 #   - Premium processing fee increases to $2,965 on March 1, 2026
-#   - Consult an immigration attorney before applying — confirm employer will cover fee
+#   - Sources: BakerHostetler, Yale OISS, PIE News (Oct 2025 USCIS clarification)
 #
 # WHY THESE ARE GOOD TARGETS:
 #   - 59% of states + 39% of local govts report IT roles hard to fill (GovTech 2025)
