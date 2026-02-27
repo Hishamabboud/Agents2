@@ -8,32 +8,36 @@
 # Full Stack Developer / Software Engineer roles
 # ============================================================
 
+8846 Pheasant Run Rd
+University of Missouri-Kansas City
+Computer Science
+
 # Full Stack Developer roles
-https://www.jobbank.gc.ca/jobsearch/jobposting/49001595
-https://www.jobbank.gc.ca/jobsearch/jobposting/48997989
-https://www.jobbank.gc.ca/jobsearch/jobposting/48997349
-https://www.jobbank.gc.ca/jobsearch/jobposting/48993892
-https://www.jobbank.gc.ca/jobsearch/jobposting/48990721
-https://www.jobbank.gc.ca/jobsearch/jobposting/48990872
-https://www.jobbank.gc.ca/jobsearch/jobposting/48986557
-https://www.jobbank.gc.ca/jobsearch/jobposting/48986672
-https://www.jobbank.gc.ca/jobsearch/jobposting/48970997
-https://www.jobbank.gc.ca/jobsearch/jobposting/48982434
-https://www.jobbank.gc.ca/jobsearch/jobposting/48960782
-https://www.jobbank.gc.ca/jobsearch/jobposting/48996316
-https://www.jobbank.gc.ca/jobsearch/jobposting/48944352
-https://www.jobbank.gc.ca/jobsearch/jobposting/48944321
-https://www.jobbank.gc.ca/jobsearch/jobposting/48944319
-https://www.jobbank.gc.ca/jobsearch/jobposting/49002079
-https://www.jobbank.gc.ca/jobsearch/jobposting/48909099
-https://www.jobbank.gc.ca/jobsearch/jobposting/48906653
-https://www.jobbank.gc.ca/jobsearch/jobposting/48906963
-https://www.jobbank.gc.ca/jobsearch/jobposting/48907088
-https://www.jobbank.gc.ca/jobsearch/jobposting/48907181
-https://www.jobbank.gc.ca/jobsearch/jobposting/48919309
-https://www.jobbank.gc.ca/jobsearch/jobposting/48897823
-https://www.jobbank.gc.ca/jobsearch/jobposting/48942099
-https://www.jobbank.gc.ca/jobsearch/jobposting/48630080
+https://www.jobbank.gc.ca/jobsearch/jobposting/49001595--- fnesc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48997989--- rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48997349 30 Pragmaclin Research Incorporated
+https://www.jobbank.gc.ca/jobsearch/jobposting/48993892 30 licensed third-party for Employer detailsCela
+https://www.jobbank.gc.ca/jobsearch/jobposting/48990721---rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48990872---rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48986557 rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48986672 rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48970997--- silverorange
+https://www.jobbank.gc.ca/jobsearch/jobposting/48982434--- detailsOnsite HQ
+https://www.jobbank.gc.ca/jobsearch/jobposting/48960782 30 detailsOnsite HQ
+https://www.jobbank.gc.ca/jobsearch/jobposting/48996316 --- Sapsol Technologies Inc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48944352 --- Annex IT Solutions
+https://www.jobbank.gc.ca/jobsearch/jobposting/48944321 --- HelpWear Inc.
+https://www.jobbank.gc.ca/jobsearch/jobposting/48944319 --- Doglas Trading Inc
+https://www.jobbank.gc.ca/jobsearch/jobposting/49002079 Bell Canada (needs French)
+https://www.jobbank.gc.ca/jobsearch/jobposting/48909099 rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48906653 --- Scotiabank
+https://www.jobbank.gc.ca/jobsearch/jobposting/48906963 Scotiabank (leading role)
+https://www.jobbank.gc.ca/jobsearch/jobposting/48907088 dupe
+https://www.jobbank.gc.ca/jobsearch/jobposting/48907181 Scotiabank 10+ years
+https://www.jobbank.gc.ca/jobsearch/jobposting/48919309 --- Wrapped Media
+https://www.jobbank.gc.ca/jobsearch/jobposting/48897823 30
+https://www.jobbank.gc.ca/jobsearch/jobposting/48942099 rbc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48630080 --- Codalio Inc
 
 # Software Engineer roles
 https://www.jobbank.gc.ca/jobsearch/jobposting/48996362
