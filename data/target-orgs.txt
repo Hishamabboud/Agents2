@@ -1,21 +1,129 @@
-# Target Organizations for Job Search (Secondary Method)
-# Agent will search these career pages for matching roles
+# Target Organizations — International Job Search
+# Mohamad Abboud | STEM OPT → Requires visa sponsorship in all countries
+# Agent searches these career pages for matching roles
 # Lines starting with # are comments
 
-# Universities
-https://jobs.stanford.edu
-https://careers.jhu.edu
+# ─────────────────────────────────────────────
+# UNITED STATES — Cap-Exempt Employers (H-1B eligible)
+# ─────────────────────────────────────────────
+
+# Ivy League & Top Research Universities
 https://careers.harvard.edu
-https://employment.columbia.edu
+https://careers.mit.edu
+https://jobs.stanford.edu
+https://hr.princeton.edu/careers
+https://careers.yale.edu
+https://hr.columbia.edu/careers
 https://jobs.umich.edu
-https://hr.mit.edu/careers
+https://careers.jhu.edu
+https://careers.northwestern.edu
+https://careers.uchicago.edu
 
-# Government
+# Major State Universities
+https://hr.utexas.edu/current/jobs
+https://jobs.uw.edu
+https://careers.ucla.edu
+https://careers.ucsd.edu
+https://employment.ucsf.edu
+https://careers.berkeley.edu
+https://jobs.psu.edu
+https://careers.osu.edu
+https://jobs.msu.edu
+https://careers.umn.edu
+https://jobs.colorado.edu
+https://jobs.wustl.edu
+https://jobs.emory.edu
+https://employment.vanderbilt.edu
+https://jobs.duke.edu
+
+# University Hospitals & Medical Centers
+https://careers.hopkinsmedicine.org
+https://jobs.mayoclinic.org
+https://careers.clevelandclinic.org
+https://jobs.ucsfhealth.org
+https://careers.stanfordhealthcare.org
+https://careers.pennmedicine.org
+
+# Government — Federal
 https://www.usajobs.gov
-https://www.governmentjobs.com/
 
-# University Hospitals & Nonprofits
+# Government Research Labs
+https://jobs.lbl.gov
+https://careers.anl.gov
+https://careers.llnl.gov
+https://careers.sandia.gov
+https://careers.pnnl.gov
+https://careers.nrel.gov
+
+# Nonprofit Research
+https://jobs.broadinstitute.org
+https://careers.allenai.org
+https://careers.mitre.org
 https://www.redcross.org/about-us/careers
-https://careers.mayoclinic.org
 
-# Add more organizations below:
+# ─────────────────────────────────────────────
+# CANADA — Employers open to work permit sponsorship
+# ─────────────────────────────────────────────
+
+# Canadian Government & Research
+https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800
+
+# Canadian Universities
+https://careers.utoronto.ca
+https://jobs.ubc.ca
+https://careers.mcgill.ca
+https://careers.uwaterloo.ca
+https://jobs.uottawa.ca
+https://jobs.ualberta.ca
+
+# Major Canadian Tech Employers (known to sponsor)
+https://shopify.com/careers
+https://careers.cgi.com
+https://careers.opentext.com
+https://careers.telus.com
+https://careers.rbc.com
+https://careers.td.com
+https://careers.bmo.com
+https://careers.manulife.com
+
+# ─────────────────────────────────────────────
+# NETHERLANDS — Kennismigrant / visa sponsor employers
+# ─────────────────────────────────────────────
+
+# Major Dutch Tech & Enterprise Companies (IND-recognized sponsors)
+https://jobs.asml.com
+https://careers.philips.com
+https://www.booking.com/jobs.html
+https://careers.adyen.com
+https://jobs.ing.com
+https://jobs.tomtom.com
+https://careers.wolterskluwer.com
+https://careers.nxp.com
+
+# Dutch Universities (Kennismigrant eligible)
+https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures
+https://www.uva.nl/en/about-the-uva/working-at-the-uva/vacancies
+https://www.universiteitleiden.nl/vacatures
+https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs
+
+# ─────────────────────────────────────────────
+# SCOTLAND — Skilled Worker visa / sponsor licence holders
+# ─────────────────────────────────────────────
+
+# Scottish Universities (strong Skilled Worker visa sponsors)
+https://www.ed.ac.uk/jobs
+https://www.gla.ac.uk/about/jobs
+https://www.st-andrews.ac.uk/vacancies
+https://www.hw.ac.uk/about/jobs
+https://www.dundee.ac.uk/jobs
+https://www.abdn.ac.uk/about/jobs
+https://jobs.strath.ac.uk
+https://jobs.gcu.ac.uk
+
+# Scottish Government & NHS
+https://www.myjobscotland.gov.uk/jobs
+https://jobs.nhs.scot
+
+# Scottish Tech Companies
+https://careers.skyscanner.net
+https://careers.fanduel.com

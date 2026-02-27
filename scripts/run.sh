@@ -1,87 +1,55 @@
 #!/bin/bash
-# run.sh - Orchestrator for the full job application pipeline
-# Usage: ./scripts/run.sh [--search-only] [--no-apply]
+# run.sh - Orchestrator for the job finder pipeline
+# Searches US, Canada, Netherlands, and Scotland for matching jobs
+# Output: output/job-leads.txt
+#
+# Usage:
+#   ./scripts/run.sh              — run full finder
+#   ./scripts/run.sh --agent      — launch Claude agent for richer browser-based search
 
 set -e
 
-# Navigate to project root (parent of scripts/)
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 
-LOG_FILE="logs/agent.log"
-mkdir -p logs
+LOG_FILE="logs/finder.log"
+mkdir -p logs output
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S'): $*" | tee -a "$LOG_FILE"
 }
 
 log "========================================="
-log "Starting job application pipeline cycle"
+log "JOB FINDER — Mohamad Abboud"
+log "Countries: US, Canada, Netherlands, Scotland"
+log "Visa sponsorship required in all"
 log "========================================="
 
-# Phase 1: Search / URL processing
-log "--- Phase 1: Search ---"
-python3 scripts/search.py 2>&1 | tee -a "$LOG_FILE"
+# Run the finder script
+log "--- Searching job boards ---"
+python3 scripts/find_jobs.py 2>&1 | tee -a "$LOG_FILE"
 log "Search complete"
 
-if [[ "$1" == "--search-only" ]]; then
-    log "Search-only mode. Stopping here."
-    exit 0
-fi
-
-# Phase 2: Score
-log "--- Phase 2: Score ---"
-python3 scripts/score.py 2>&1 | tee -a "$LOG_FILE"
-log "Scoring complete"
-
-# Phase 3: Tailor
-log "--- Phase 3: Tailor ---"
-python3 scripts/tailor.py 2>&1 | tee -a "$LOG_FILE"
-log "Tailoring complete"
-
-if [[ "$1" == "--no-apply" ]]; then
-    log "No-apply mode. Stopping before submission."
-    log "Review tailored materials in output/ before applying."
-    exit 0
-fi
-
-# Phase 4: Apply
-log "--- Phase 4: Apply ---"
-python3 scripts/apply.py 2>&1 | tee -a "$LOG_FILE"
-log "Applications processed"
-
-# Phase 5: Summary
-log "--- Phase 5: Summary ---"
-if command -v python3 &>/dev/null; then
-    python3 - <<'EOF' 2>&1 | tee -a "$LOG_FILE"
-import json, os
-
-base = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) if '__file__' in dir() else '.'
-apps_file = os.path.join('.', 'data', 'applications.json')
-if os.path.exists(apps_file):
-    with open(apps_file) as f:
-        apps = json.load(f)
-    print(f"Total applications logged: {len(apps)}")
-    by_status = {}
-    for a in apps:
-        s = a.get('status', 'unknown')
-        by_status[s] = by_status.get(s, 0) + 1
-    for status, count in sorted(by_status.items()):
-        print(f"  {status}: {count}")
-else:
-    print("No applications.json found yet.")
-EOF
+# Count results
+LEADS_FILE="output/job-leads.txt"
+if [ -f "$LEADS_FILE" ]; then
+    COUNT=$(grep -c "^Company:" "$LEADS_FILE" 2>/dev/null || echo 0)
+    log "Total leads collected so far: $COUNT"
+    echo ""
+    echo "Results saved to: $LEADS_FILE"
+    echo "Total job leads: $COUNT"
+else
+    log "No output file found — check for errors above"
 fi
 
 log "========================================="
-log "Pipeline cycle complete"
+log "Finder cycle complete"
 log "========================================="
 
 echo ""
-echo "Check output:"
-echo "  - data/applications.json  (application tracker)"
-echo "  - output/tailored-resumes/ (generated resumes)"
-echo "  - output/cover-letters/   (generated cover letters)"
-echo "  - output/screenshots/     (pre-submit screenshots)"
-echo "  - logs/agent.log          (full pipeline log)"
+echo "Next steps:"
+echo "  1. Review output/job-leads.txt"
+echo "  2. Pick roles you're interested in"
+echo "  3. Apply directly via the links provided"
+echo "  4. Run again to find more: ./scripts/run.sh"
