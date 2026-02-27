@@ -88,13 +88,151 @@ https://www.jobs.ac.uk/job/DQM736/data-curator-engineer
 https://www.jobs.ac.uk/job/DQQ956/data-architect
 
 # ============================================================
-# UNITED STATES — TODO
-# USAJobs API requires auth key — needs manual search or API key
-# Suggested search: https://www.usajobs.gov/Search/Results?k=software+engineer
+# UNITED STATES — governmentjobs.com (all cap-exempt: state/local/county gov't)
+#
+# ℹ️  H-1B FEE NOTE (as of 2026-02-27):
+#   - $100,000 fee does NOT apply if changing status from F-1 to H-1B while inside the US
+#   - Fee only triggers if you're outside the US when petition is filed — stay in the US
+#   - Weighted lottery rule effective TODAY favors higher-wage/higher-skill petitions
+#   - Premium processing fee increases to $2,965 on March 1, 2026
+#   - Sources: BakerHostetler, Yale OISS, PIE News (Oct 2025 USCIS clarification)
+#
+# WHY THESE ARE GOOD TARGETS:
+#   - 59% of states + 39% of local govts report IT roles hard to fill (GovTech 2025)
+#   - ~50% of state/local govts have more open IT positions than applicants
+#   - Wave of retirements expected — creating ongoing vacancies
+#   - Cannot compete on salary with private sector = less competition
+#   - All state/local government = cap-exempt by default
 # ============================================================
 
+# --- FULL STACK / SOFTWARE ENGINEER (strong stack match: C#, Python, SQL, JS) ---
+
+# Full Stack Developer — Colorado Community College System (CCCS)
+# React/Vue/Angular + Node.js/Python/C# + REST APIs | cap-exempt: community college
+https://www.governmentjobs.com/careers/colorado/jobs/newprint/5177726
+
+# Senior Software Developer (Full Stack) — Los Angeles Southwest College (LASC)
+# Angular + Azure DevOps + CI/CD | cap-exempt: community college
+https://www.governmentjobs.com/careers/lasc/jobs/newprint/5110416
+
+# Software Engineer — Utah State Board of Education (USBE)
+# .NET Core, C#, Azure, React, Angular | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/utah/jobs/newprint/4883192
+# (second posting, same employer)
+https://www.governmentjobs.com/careers/utah/jobs/newprint/5088572
+
+# Full Stack Developer II — Hennepin County, MN (Mohamad is in MN — local!)
+# Agile SDLC | cap-exempt: county government
+https://www.governmentjobs.com/careers/hennepin/jobs/4866731/full-stack-developer-ii
+
+# Software Engineer (x3 positions) — WA Dept. of Ecology (open until filled)
+# Environmental info systems | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/washington/jobs/4788551/software-engineer-it-application-development-journey-three-positions
+
+# Climate Pollution Reduction Lead Software Engineer — WA Dept. of Ecology
+# Lead-level, telework-eligible | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/washington/jobs/newprint/4824943
+
+# --- .NET / APPLICATION DEVELOPER (C#, ASP.NET, SQL Server — direct stack match) ---
+
+# Application Developer IV — SC Law Enforcement Division (SLED)
+# C#, ASP.NET, SQL Server stored procs — perfect stack match | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/sc/jobs/5225184-0/application-developer-iv
+
+# .NET Application Developer — South Carolina Dept. of Transportation (SCDOT)
+# .NET Core, C#, REST APIs, SQL Server | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/sc/jobs/4882800/net-application-developer-it-business-analyst-iii-61031780
+
+# IT Application Developer – Journey — WA Dept. of Ecology
+# C#, Web API, SQL Server, Microservices | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/washington/jobs/5056985-0/it-application-developer-journey
+
+# Full-Stack Web Developer (ITPA P11) — State of Michigan
+# VB.NET, SQL Server, MiDAS system | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/michigan/jobs/newprint/4603106
+
+# Application Developer — County of Santa Clara, CA
+# ⚠️ Exam window: Feb 27 – Mar 5, 2026 (APPLY NOW) | cap-exempt: county gov't
+https://www.governmentjobs.com/careers/santaclara/jobs/5200621/application-developer
+
+# Web Application Developer (Permitting Systems) — WA Dept. of Ecology
+# ASP.NET, SQL Server, stored procs | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/washington/jobs/4961713/web-application-developer-permitting-systems-it-application-developer-journe
+
+# Application Developer (Public Health Systems) — WA Dept. of Health
+# 220+ systems, Immunization Registry, ELR | cap-exempt: state gov't + healthcare mission
+https://www.governmentjobs.com/careers/washington/jobs/newprint/5118716
+
+# Senior Software Developer — WA Health Care Authority (HCA, multiple positions)
+# Public benefits systems, telework | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/washington/jobs/5103822/senior-software-developer-itad-ss-ets
+
+# --- PYTHON / DATA ENGINEER ---
+
+# Oracle APEX and Python Developer — San Francisco Fire Dept.
+# Python, Oracle APEX, data processing | cap-exempt: city gov't
+https://www.governmentjobs.com/careers/cpshrrs/jobs/newprint/5205847
+
+# Python Developer — NC Dept. of Information Technology
+# Python, Ansible, Git, network security | cap-exempt: state gov't
+https://www.governmentjobs.com/careers/northcarolina/jobs/newprint/2376063
+
+# Data Engineer (Technology Solutions Analyst IV) — City of Columbus, OH
+# ETL pipelines, SQL, data validation | cap-exempt: city gov't
+https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/5180973
+
+# --- GENERAL / OTHER ---
+
+# Software Engineer — Sacramento Regional Transit (SacRT, open until filled)
+# Transit authority | cap-exempt: public transit
+https://www.governmentjobs.com/careers/sacrt/jobs/newprint/5182287
+
+# Software Developer — Berkeley County, SC
+# Internal apps, small county gov't (less competition) | cap-exempt: county gov't
+https://www.governmentjobs.com/careers/berkeleycountysc/jobs/5120150/software-developer
+
+# Software Engineer — City of Columbus, OH (multiple vacancies)
+# Legacy modernization | cap-exempt: city gov't
+https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/4071410
+
 # ============================================================
-# NETHERLANDS — TODO
-# Suggested sources: https://www.werkenvoornederland.nl (government)
-# and https://www.academictransfer.com (universities)
+# NETHERLANDS — AcademicTransfer + Universities + SURF
+# Sources: academictransfer.com, uu.nl, werkenbij.surf.nl
 # ============================================================
+
+# TU Delft
+# Three Motivated Senior Software Engineers (Device-Aware Testing / POPCORN)
+https://www.academictransfer.com/en/jobs/358915/three-motivated-senior-software-engineers-with-understanding-of-computer-hardware/
+# Robotic Software Engineer
+https://www.academictransfer.com/en/jobs/358043/robotic-software-engineer/
+
+# Koninklijke Bibliotheek (KB — National Library of the Netherlands)
+# Lead Software Engineer (Java / IAM)
+https://www.academictransfer.com/en/jobs/358884/lead-software-engineer-java-iam/
+# Lead Software Engineer
+https://www.academictransfer.com/en/jobs/358669/lead-software-engineer/
+
+# Wageningen University & Research
+# Product Development Automation Lead (Python, PyTorch, TensorFlow, C#/.NET)
+https://www.academictransfer.com/en/jobs/358573/product-development-automation-lead/
+
+# Universiteit Utrecht
+# Wetenschappelijk Ontwikkelaar (Scientific Developer) — Centre for Digital Humanities
+https://www.academictransfer.com/en/jobs/358837/wetenschappelijk-ontwikkelaar-centre-for-digital-humanities/
+# Software Engineer — Faculty of Humanities (deadline: 13 Mar 2026)
+https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer
+
+# University of Amsterdam (UvA)
+# Research Engineer — Digital Data Donation & Computational Social Science
+https://www.academictransfer.com/en/jobs/358448/postdoc-and-research-engineer-position-digital-data-donation-and-computational-social-science/
+
+# SURF (Dutch national IT organisation for education and research)
+# Senior Solution Architect
+https://werkenbij.surf.nl/en/vacancies/senior-solution-architect
+# Senior Systems Engineer
+https://werkenbij.surf.nl/en/vacancies/senior-systems-engineer
+# Technical Specialist Education
+https://werkenbij.surf.nl/en/vacancies/technical-specialist-education
+# HPC Advisor
+https://werkenbij.surf.nl/en/vacancies/hpc-advisor
+https://werkenbij.surf.nl/en/vacancies/hpc-advisor-2
