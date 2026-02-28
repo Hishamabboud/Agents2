@@ -8,10 +8,6 @@
 # Full Stack Developer / Software Engineer roles
 # ============================================================
 
-8846 Pheasant Run Rd
-University of Missouri-Kansas City
-Computer Science
-
 # Full Stack Developer roles
 https://www.jobbank.gc.ca/jobsearch/jobposting/49001595--- fnesc
 https://www.jobbank.gc.ca/jobsearch/jobposting/48997989--- rbc
@@ -40,10 +36,10 @@ https://www.jobbank.gc.ca/jobsearch/jobposting/48942099 rbc
 https://www.jobbank.gc.ca/jobsearch/jobposting/48630080 --- Codalio Inc
 
 # Software Engineer roles
-https://www.jobbank.gc.ca/jobsearch/jobposting/48996362
-https://www.jobbank.gc.ca/jobsearch/jobposting/48967706
-https://www.jobbank.gc.ca/jobsearch/jobposting/48968186
-https://www.jobbank.gc.ca/jobsearch/jobposting/49005261
+https://www.jobbank.gc.ca/jobsearch/jobposting/48996362 detailsLarus Technologies
+https://www.jobbank.gc.ca/jobsearch/jobposting/48967706 detailsSpectrum Manufacturing Inc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48968186 detailsTimePlay
+https://www.jobbank.gc.ca/jobsearch/jobposting/49005261 detailseCapital
 https://www.jobbank.gc.ca/jobsearch/jobposting/48997953
 https://www.jobbank.gc.ca/jobsearch/jobposting/48902572
 https://www.jobbank.gc.ca/jobsearch/jobposting/48906505
@@ -107,93 +103,96 @@ https://www.jobs.ac.uk/job/DQQ956/data-architect
 
 # --- FULL STACK / SOFTWARE ENGINEER (strong stack match: C#, Python, SQL, JS) ---
 
-# Full Stack Developer — Colorado Community College System (CCCS)
+# Full Stack Developer — Colorado Community College System (CCCS) ---- CLOSED
 # React/Vue/Angular + Node.js/Python/C# + REST APIs | cap-exempt: community college
-https://www.governmentjobs.com/careers/colorado/jobs/newprint/5177726
+https://www.governmentjobs.com/careers/colorado/jobs/newprint/5177726 
 
-# Senior Software Developer (Full Stack) — Los Angeles Southwest College (LASC)
+# Senior Software Developer (Full Stack) — Los Angeles Southwest College (LASC) ---- CLOSED
 # Angular + Azure DevOps + CI/CD | cap-exempt: community college
 https://www.governmentjobs.com/careers/lasc/jobs/newprint/5110416
 
 # Software Engineer — Utah State Board of Education (USBE)
 # .NET Core, C#, Azure, React, Angular | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/utah/jobs/newprint/4883192
+https://www.governmentjobs.com/careers/utah/jobs/newprint/4883192  ---- CLOSED
 # (second posting, same employer)
-https://www.governmentjobs.com/careers/utah/jobs/newprint/5088572
+https://www.governmentjobs.com/careers/utah/jobs/newprint/5088572 ---- CLOSED
 
 # Full Stack Developer II — Hennepin County, MN (Mohamad is in MN — local!)
 # Agile SDLC | cap-exempt: county government
-https://www.governmentjobs.com/careers/hennepin/jobs/4866731/full-stack-developer-ii
+https://www.governmentjobs.com/careers/hennepin/jobs/4866731/full-stack-developer-ii ---- CLOSED
 
 # Software Engineer (x3 positions) — WA Dept. of Ecology (open until filled)
 # Environmental info systems | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/washington/jobs/4788551/software-engineer-it-application-development-journey-three-positions
+https://www.governmentjobs.com/careers/washington/jobs/4788551/software-engineer-it-application-development-journey-three-positions ---- CLOSED
 
 # Climate Pollution Reduction Lead Software Engineer — WA Dept. of Ecology
 # Lead-level, telework-eligible | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/washington/jobs/newprint/4824943
+https://www.governmentjobs.com/careers/washington/jobs/newprint/4824943 ---- CLOSED
 
 # --- .NET / APPLICATION DEVELOPER (C#, ASP.NET, SQL Server — direct stack match) ---
 
 # Application Developer IV — SC Law Enforcement Division (SLED)
 # C#, ASP.NET, SQL Server stored procs — perfect stack match | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/sc/jobs/5225184-0/application-developer-iv
+https://www.governmentjobs.com/careers/sc/jobs/5225184-0/application-developer-iv --- GOOD
 
 # .NET Application Developer — South Carolina Dept. of Transportation (SCDOT)
 # .NET Core, C#, REST APIs, SQL Server | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/sc/jobs/4882800/net-application-developer-it-business-analyst-iii-61031780
+https://www.governmentjobs.com/careers/sc/jobs/4882800/net-application-developer-it-business-analyst-iii-61031780 ---- CLOSED
 
 # IT Application Developer – Journey — WA Dept. of Ecology
 # C#, Web API, SQL Server, Microservices | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/washington/jobs/5056985-0/it-application-developer-journey
+https://www.governmentjobs.com/careers/washington/jobs/5056985-0/it-application-developer-journey ---- CLOSED
 
 # Full-Stack Web Developer (ITPA P11) — State of Michigan
 # VB.NET, SQL Server, MiDAS system | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/michigan/jobs/newprint/4603106
+https://www.governmentjobs.com/careers/michigan/jobs/newprint/4603106 ---- CLOSED
 
 # Application Developer — County of Santa Clara, CA
 # ⚠️ Exam window: Feb 27 – Mar 5, 2026 (APPLY NOW) | cap-exempt: county gov't
-https://www.governmentjobs.com/careers/santaclara/jobs/5200621/application-developer
+https://www.governmentjobs.com/careers/santaclara/jobs/5200621/application-developer --- GOOD
 
 # Web Application Developer (Permitting Systems) — WA Dept. of Ecology
 # ASP.NET, SQL Server, stored procs | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/washington/jobs/4961713/web-application-developer-permitting-systems-it-application-developer-journe
+https://www.governmentjobs.com/careers/washington/jobs/4961713/web-application-developer-permitting-systems-it-application-developer-journe ---- CLOSED
+
 
 # Application Developer (Public Health Systems) — WA Dept. of Health
 # 220+ systems, Immunization Registry, ELR | cap-exempt: state gov't + healthcare mission
-https://www.governmentjobs.com/careers/washington/jobs/newprint/5118716
+https://www.governmentjobs.com/careers/washington/jobs/newprint/5118716 ---- CLOSED
 
 # Senior Software Developer — WA Health Care Authority (HCA, multiple positions)
 # Public benefits systems, telework | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/washington/jobs/5103822/senior-software-developer-itad-ss-ets
+https://www.governmentjobs.com/careers/washington/jobs/5103822/senior-software-developer-itad-ss-ets ---- CLOSED
 
 # --- PYTHON / DATA ENGINEER ---
 
 # Oracle APEX and Python Developer — San Francisco Fire Dept.
 # Python, Oracle APEX, data processing | cap-exempt: city gov't
-https://www.governmentjobs.com/careers/cpshrrs/jobs/newprint/5205847
+https://www.governmentjobs.com/careers/cpshrrs/jobs/newprint/5205847 ---- CLOSED
 
 # Python Developer — NC Dept. of Information Technology
 # Python, Ansible, Git, network security | cap-exempt: state gov't
-https://www.governmentjobs.com/careers/northcarolina/jobs/newprint/2376063
+https://www.governmentjobs.com/careers/northcarolina/jobs/newprint/2376063 ---- CLOSED
+
 
 # Data Engineer (Technology Solutions Analyst IV) — City of Columbus, OH
 # ETL pipelines, SQL, data validation | cap-exempt: city gov't
-https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/5180973
+https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/5180973 ---- CLOSED
 
 # --- GENERAL / OTHER ---
 
 # Software Engineer — Sacramento Regional Transit (SacRT, open until filled)
 # Transit authority | cap-exempt: public transit
-https://www.governmentjobs.com/careers/sacrt/jobs/newprint/5182287
+https://www.governmentjobs.com/careers/sacrt/jobs/newprint/5182287 ---- CLOSED
 
 # Software Developer — Berkeley County, SC
 # Internal apps, small county gov't (less competition) | cap-exempt: county gov't
-https://www.governmentjobs.com/careers/berkeleycountysc/jobs/5120150/software-developer
+https://www.governmentjobs.com/careers/berkeleycountysc/jobs/5120150/software-developer ---- CLOSED
+
 
 # Software Engineer — City of Columbus, OH (multiple vacancies)
 # Legacy modernization | cap-exempt: city gov't
-https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/4071410
+https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/4071410 ---- CLOSED
 
 # ============================================================
 # NETHERLANDS — AcademicTransfer + Universities + SURF
