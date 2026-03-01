@@ -132,3 +132,11 @@ https://jobs.lever.co/life/27b70020-c7f6-4026-848e-80524cd0c861
 https://eipn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3002289
 https://jobs.hazeldenbettyford.org/careers-home/jobs/12572/job?utm_source=hiringcafe_integration&iis=Job%20Board&iisn=HiringCafe
 https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001181358100
+
+# Section 4 — State/County/City Government (cap-exempt) — added 3/1/2026
+# City of Fresno CA — Programmer/Analyst IV — closes 3/16/2026 — $95,952-$115,848/yr — C#/.NET/WPF/Blazor/SQL Server/SSRS
+https://www.governmentjobs.com/careers/cityoffresno/jobs/newprint/4986667
+# SC Dept of Probation Parole & Pardon — Software Application Architect #26-001 — opened 1/9/2026 no close date — $87,560-$127,400/yr — OOP/T-SQL/API/DevOps/MudBlazor
+https://www.governmentjobs.com/careers/sc/jobs/newprint/5116850
+# WA Administrative Office of the Courts — Senior Software Developer — open until filled — $91,068-$119,496/yr — C#/.NET Core/ASP.NET/jQuery — WA residency required
+https://www.governmentjobs.com/careers/courtswa/jobs/4735634/senior-software-developer
