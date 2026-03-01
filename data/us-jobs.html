@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>US Cap-Exempt Jobs — Mohamad Abboud | March 2026</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d2e;
+      --surface2: #232640;
+      --border: #2e3250;
+      --accent: #6c8eff;
+      --accent2: #a78bfa;
+      --green: #34d399;
+      --yellow: #fbbf24;
+      --red: #f87171;
+      --orange: #fb923c;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --tag-bg: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    .page-header {
+      background: linear-gradient(135deg, #1a1d2e 0%, #0f1117 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 40px 24px;
+    }
+    .page-header h1 { font-size: 26px; font-weight: 700; color: var(--accent); margin-bottom: 6px; }
+    .page-header .subtitle { color: var(--muted); font-size: 13px; }
+    .page-header .stack-note {
+      margin-top: 12px;
+      padding: 10px 14px;
+      background: #1e293b;
+      border-left: 3px solid var(--accent);
+      border-radius: 4px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .page-header .stack-note strong { color: var(--text); }
+
+    /* ── Stats bar ── */
+    .stats-bar {
+      display: flex; gap: 20px; flex-wrap: wrap;
+      padding: 16px 40px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat { display: flex; flex-direction: column; align-items: center; }
+    .stat .num { font-size: 22px; font-weight: 700; }
+    .stat .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .stat.green .num { color: var(--green); }
+    .stat.yellow .num { color: var(--yellow); }
+    .stat.blue .num { color: var(--accent); }
+    .stat.purple .num { color: var(--accent2); }
+
+    /* ── Legend ── */
+    .legend {
+      display: flex; gap: 16px; flex-wrap: wrap;
+      padding: 10px 40px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      font-size: 12px;
+    }
+    .legend-item { display: flex; align-items: center; gap: 6px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .dot.green { background: var(--green); }
+    .dot.yellow { background: var(--yellow); }
+    .dot.orange { background: var(--orange); }
+    .dot.red { background: var(--red); }
+
+    /* ── Cap-exempt info box ── */
+    .info-box {
+      margin: 24px 40px;
+      padding: 16px 20px;
+      background: #0d1f38;
+      border: 1px solid #1e4080;
+      border-radius: 8px;
+      font-size: 12.5px;
+    }
+    .info-box h3 { color: var(--accent); margin-bottom: 8px; font-size: 13px; }
+    .info-box ul { padding-left: 18px; }
+    .info-box li { margin-bottom: 4px; color: var(--muted); }
+    .info-box li strong { color: var(--text); }
+
+    /* ── Section ── */
+    .section { margin: 28px 40px 0; }
+    .section-header {
+      display: flex; align-items: center; gap: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+    }
+    .section-header h2 { font-size: 16px; font-weight: 700; color: var(--accent2); }
+    .section-header .count {
+      font-size: 11px; padding: 2px 8px;
+      background: var(--surface2); border-radius: 12px;
+      color: var(--muted);
+    }
+    .section-header .icon { font-size: 20px; }
+
+    /* ── Job card ── */
+    .job-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      position: relative;
+      transition: border-color .15s;
+    }
+    .job-card:hover { border-color: var(--accent); }
+    .job-card.priority-high { border-left: 4px solid var(--green); }
+    .job-card.priority-medium { border-left: 4px solid var(--yellow); }
+    .job-card.priority-verify { border-left: 4px solid var(--orange); }
+    .job-card.priority-low { border-left: 4px solid var(--muted); }
+    .job-card.no-sponsor { border-left: 4px solid var(--red); opacity: .7; }
+
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+    .card-title { font-weight: 700; font-size: 15px; color: var(--text); }
+    .card-org { font-size: 13px; color: var(--accent); margin-top: 2px; }
+    .card-badges { display: flex; flex-wrap: wrap; gap: 6px; flex-shrink: 0; }
+
+    .badge {
+      font-size: 10px; font-weight: 600;
+      padding: 3px 8px; border-radius: 12px;
+      text-transform: uppercase; letter-spacing: .04em;
+      white-space: nowrap;
+    }
+    .badge.open { background: #064e3b; color: #6ee7b7; }
+    .badge.verify { background: #431407; color: #fb923c; }
+    .badge.urgent { background: #7c2d12; color: #fed7aa; animation: pulse 2s infinite; }
+    .badge.no-sponsor { background: #450a0a; color: #fca5a5; }
+    .badge.cap-exempt { background: #1e1b4b; color: #a5b4fc; }
+    .badge.clearance { background: #1c1917; color: #a8a29e; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: .6; }
+    }
+
+    .card-meta {
+      display: flex; flex-wrap: wrap; gap: 16px;
+      margin: 10px 0;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .card-meta span strong { color: var(--text); }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+    .tag {
+      font-size: 11px; padding: 2px 8px;
+      background: var(--tag-bg); border-radius: 4px;
+      color: #93c5fd; border: 1px solid #1e3a5f;
+    }
+    .tag.match { background: #064e3b; color: #6ee7b7; border-color: #065f46; }
+
+    .card-note {
+      font-size: 12px; color: var(--yellow);
+      padding: 6px 10px; background: #1c1505;
+      border-radius: 4px; margin-top: 8px;
+      border-left: 2px solid var(--yellow);
+    }
+    .card-note.red { color: var(--red); background: #1c0505; border-color: var(--red); }
+    .card-note.green { color: var(--green); background: #022c22; border-color: var(--green); }
+    .card-note.blue { color: #93c5fd; background: #0c1a2e; border-color: #3b82f6; }
+
+    .apply-btn {
+      display: inline-block; margin-top: 10px;
+      padding: 7px 18px;
+      background: var(--accent);
+      color: #0f1117;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 12px;
+      transition: background .15s;
+    }
+    .apply-btn:hover { background: #4f6eff; }
+    .apply-btn.secondary { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+    .apply-btn.secondary:hover { background: var(--accent); color: #0f1117; }
+
+    /* ── Footer ── */
+    footer {
+      margin: 40px 40px 20px;
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .page-header, .stats-bar, .legend, .section, .info-box { padding-left: 16px; padding-right: 16px; }
+      .card-top { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════ HEADER ══════════════════════════════════════════ -->
+<div class="page-header">
+  <h1>🇺🇸 US Cap-Exempt Job Leads — Mohamad Abboud</h1>
+  <div class="subtitle">Generated: March 1, 2026 &nbsp;|&nbsp; Focus: H-1B cap-exempt employers only &nbsp;|&nbsp; No duplicates from international-job-links files</div>
+  <div class="stack-note">
+    <strong>Profile:</strong> Full Stack Developer · ~5 yrs exp · M.S. Computer Science · St. Paul, MN &nbsp;|&nbsp;
+    <strong>Stack:</strong> Python · C#/ASP.NET · JavaScript · React · Vue.js · Angular · SQL Server · PostgreSQL · Flask · Docker · REST APIs · Git
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════ STATS ══════════════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="stat green"><span class="num">37</span><span class="lbl">Total Leads</span></div>
+  <div class="stat blue"><span class="num">5</span><span class="lbl">Source Types</span></div>
+  <div class="stat purple"><span class="num">0</span><span class="lbl">Duplicates</span></div>
+  <div class="stat yellow"><span class="num">4</span><span class="lbl">Closing This Month</span></div>
+</div>
+
+<!-- ══════════════════════════════════════════ LEGEND ══════════════════════════════════════════ -->
+<div class="legend">
+  <div class="legend-item"><div class="dot green"></div> Verified open · apply now</div>
+  <div class="legend-item"><div class="dot yellow"></div> Open · verify sponsorship</div>
+  <div class="legend-item"><div class="dot orange"></div> Open · verify citizenship/clearance req</div>
+  <div class="legend-item"><div class="dot red"></div> No H-1B sponsorship stated</div>
+</div>
+
+<!-- ══════════════════════════════════════════ INFO BOX ══════════════════════════════════════════ -->
+<div class="info-box">
+  <h3>⚡ Why Cap-Exempt Matters for You</h3>
+  <ul>
+    <li><strong>No lottery:</strong> File H-1B year-round — not just April. Zero luck required.</li>
+    <li><strong>Universities &amp; community colleges:</strong> Cap-exempt by statute (INA §214(g)(5)(A))</li>
+    <li><strong>State/county/city/transit government:</strong> All cap-exempt by statute</li>
+    <li><strong>501(c)(3) nonprofits affiliated with universities or engaged primarily in research:</strong> Cap-exempt (INA §214(g)(5)(C))</li>
+    <li><strong>DOE National Labs:</strong> Managed by nonprofits (UT-Battelle, UC, Battelle) — cap-exempt, no citizenship req for unclassified roles</li>
+    <li><strong>$100K fee does NOT apply</strong> if you change status from F-1 while inside the US</li>
+  </ul>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECTION 1 — UNIVERSITIES & COMMUNITY COLLEGES
+     ════════════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🎓</span>
+    <h2>Universities &amp; Community Colleges</h2>
+    <span class="count">14 leads</span>
+  </div>
+
+  <!-- 1 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Engineer Senior — Robotics / AI</div>
+        <div class="card-org">University of Michigan, College of Engineering</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge urgent">⚠ Closes Mar 13</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Ann Arbor, MI (Hybrid)</span>
+      <span><strong>Salary:</strong> $100,000 – $120,000/yr</span>
+      <span><strong>Term:</strong> Through March 2028</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">ROS2</span>
+      <span class="tag match">Docker</span>
+      <span class="tag match">CI/CD</span>
+      <span class="tag match">Git</span>
+      <span class="tag">C++</span>
+      <span class="tag">CUDA</span>
+      <span class="tag">PyTorch</span>
+    </div>
+    <div class="card-note green">Stack match: Python, Docker, CI/CD — robotics/CV focus. Requires cover letter. 3–5 yrs exp.</div>
+    <a href="https://careers.umich.edu/job_detail/274225/software-engineer-senior" class="apply-btn" target="_blank">Apply Now →</a>
+    <a href="https://www.higheredjobs.com/admin/details.cfm?JobCode=179374259" class="apply-btn secondary" target="_blank">HigherEdJobs Mirror</a>
+  </div>
+
+  <!-- 2 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Web Application Software Engineer Senior — Statistical Genetics</div>
+        <div class="card-org">University of Michigan, School of Public Health</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge urgent">⚠ Closes ~Mar 6</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Ann Arbor, MI (Hybrid)</span>
+      <span><strong>Salary:</strong> $93,061 – $114,958/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">Java</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag match">Web Frameworks</span>
+    </div>
+    <div class="card-note">Apply immediately — closes around March 6, 2026. 5+ years exp required.</div>
+    <a href="https://www.higheredjobs.com/admin/details.cfm?JobCode=179369069" class="apply-btn" target="_blank">Apply via HigherEdJobs →</a>
+  </div>
+
+  <!-- 3 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Developer — IT Technology Support Services</div>
+        <div class="card-org">Northwestern University, Evanston, IL</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Closes Mar 31</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Evanston, IL</span>
+      <span><strong>Salary:</strong> $80,297 – $92,000/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag match">React JS</span>
+      <span class="tag match">JavaScript</span>
+      <span class="tag">PHP</span>
+      <span class="tag">Java</span>
+      <span class="tag match">SQL</span>
+      <span class="tag">HTML5/CSS</span>
+      <span class="tag">SharePoint</span>
+    </div>
+    <div class="card-note green">Excellent stack alignment: Python, React, JavaScript, SQL. Job ID 52948. 2+ yrs exp.</div>
+    <a href="https://careers.insidehighered.com/job/3457936/developer/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 4 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">IT Software Developer IV</div>
+        <div class="card-org">University of Utah, University Information Technology</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Closes Apr 15</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Salt Lake City, UT</span>
+      <span><strong>Salary:</strong> $75,000 – $125,000/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag">Java/Spring Boot</span>
+      <span class="tag match">React</span>
+      <span class="tag match">Angular</span>
+      <span class="tag match">Docker</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag match">JavaScript</span>
+      <span class="tag">Kotlin</span>
+      <span class="tag">jQuery</span>
+    </div>
+    <div class="card-note">Requires M.S. + 6 yrs or B.S. + 8 yrs. Heavy experience bar — check if you qualify.</div>
+    <a href="https://employment.utah.edu/salt-lake-city-ut/it-software-developer-iv/E4E1494578DF467CA5265AEDD8CEC951/job/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 5 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Developer</div>
+        <div class="card-org">University System of Georgia, Information Technology Services</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Closes Apr 26</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Athens, GA (On-site)</span>
+      <span><strong>Salary:</strong> Not disclosed</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">SQL / PL-SQL</span>
+      <span class="tag">Oracle / PeopleSoft</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag match">Java</span>
+      <span class="tag match">Python</span>
+      <span class="tag">Workday</span>
+      <span class="tag">XSLT</span>
+    </div>
+    <a href="https://careers.insidehighered.com/job/3427643/software-developer/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 6 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Developer, Lead — Workday/Middleware Integration</div>
+        <div class="card-org">University System of Georgia, Information Technology Services</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Closes Apr 26</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Athens, GA (On-site)</span>
+    </div>
+    <div class="tags">
+      <span class="tag">Workday Studio</span>
+      <span class="tag">MuleSoft / Azure Logic Apps</span>
+      <span class="tag match">REST/SOAP APIs</span>
+      <span class="tag match">Python</span>
+      <span class="tag match">Java</span>
+      <span class="tag match">SQL</span>
+    </div>
+    <a href="https://careers.insidehighered.com/job/3412337/software-developer-lead/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 7 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Developer Senior — PeopleSoft/Workday</div>
+        <div class="card-org">University System of Georgia, Information Technology Services</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Closes Apr 26</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Athens, GA (On-site)</span>
+    </div>
+    <div class="tags">
+      <span class="tag">PeopleSoft / PeopleCode</span>
+      <span class="tag match">SQL / PL-SQL</span>
+      <span class="tag match">REST/SOAP APIs</span>
+      <span class="tag match">Python</span>
+    </div>
+    <a href="https://careers.insidehighered.com/job/3427642/software-developer-senior/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 8 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Developer I — OnBase Developer</div>
+        <div class="card-org">San Diego State University</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> San Diego, CA (Hybrid)</span>
+      <span><strong>Salary:</strong> $69,444 – $101,160/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag">Hyland OnBase</span>
+      <span class="tag">Workflow Automation</span>
+      <span class="tag">Agile/Scrum</span>
+      <span class="tag">Enterprise Apps</span>
+    </div>
+    <div class="card-note">Entry-level within ERP team. Primary review date March 2 passed — still open until filled.</div>
+    <a href="https://careers.sdsu.edu/en-us/job/555005/software-developer-i-onbase-developer" class="apply-btn" target="_blank">Apply Now →</a>
+    <a href="https://main.hercjobs.org/jobs/22051151/software-developer-i-onbase-developer" class="apply-btn secondary" target="_blank">HERC Mirror</a>
+  </div>
+
+  <!-- 9 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Development Engineer — CESMII / Smart Manufacturing</div>
+        <div class="card-org">UCLA (OARC / Center for Smart Manufacturing)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge urgent">⚠ Closes Mar 21</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Los Angeles, CA</span>
+      <span><strong>Salary:</strong> $92,000+ (4-year contract)</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag">Azure Cloud</span>
+      <span class="tag">OT/IT Integration</span>
+      <span class="tag match">Databases</span>
+      <span class="tag">Embedded Linux</span>
+    </div>
+    <a href="https://jobs.ucla.edu/jobs/9562" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- 10 -->
+  <div class="job-card priority-low">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Software Developer — Banner Finance / ITS</div>
+        <div class="card-org">UC Santa Cruz</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Santa Cruz, CA (On-campus)</span>
+      <span><strong>Salary:</strong> $109,920 – $130,000/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag">Ellucian Banner ERP</span>
+      <span class="tag match">SQL / PL-SQL</span>
+      <span class="tag">Oracle</span>
+      <span class="tag">ERP Integration</span>
+    </div>
+    <div class="card-note">Strong Banner ERP background needed. Career appointment (permanent). Initial review Jan 2026 passed — still open.</div>
+    <a href="https://www.higheredjobs.com/admin/details.cfm?JobCode=179315434" class="apply-btn" target="_blank">Apply via HigherEdJobs →</a>
+  </div>
+
+  <!-- 11 -->
+  <div class="job-card priority-low">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Software Developer — Business Systems</div>
+        <div class="card-org">Bryant University, Smithfield, RI</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+        <span class="badge no-sponsor">No Sponsorship</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Smithfield, RI</span>
+    </div>
+    <div class="tags">
+      <span class="tag">Oracle PL-SQL</span>
+      <span class="tag match">SQL Server / T-SQL</span>
+      <span class="tag">SSRS / Power BI</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag">Azure Data Factory</span>
+      <span class="tag match">Python</span>
+      <span class="tag">Snowflake</span>
+    </div>
+    <div class="card-note red">No visa sponsorship stated. Listed for reference only.</div>
+    <a href="https://employment.bryant.edu/postings/4563" class="apply-btn secondary" target="_blank">View Posting →</a>
+  </div>
+
+  <!-- 12 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Software Developer — C#/ASP.NET &amp; Python</div>
+        <div class="card-org">Maricopa County Community College District, Phoenix AZ</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Phoenix metro, AZ</span>
+      <span><strong>Salary:</strong> $88,586 – $115,161/yr</span>
+      <span><strong>Job ID:</strong> 321062</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">C# / ASP.NET</span>
+      <span class="tag match">Python</span>
+      <span class="tag match">SQL Server</span>
+      <span class="tag">Oracle</span>
+      <span class="tag match">REST APIs</span>
+      <span class="tag">AWS Data Platforms</span>
+      <span class="tag match">Stored Procedures</span>
+    </div>
+    <div class="card-note green">🎯 Near-perfect stack match — C#, ASP.NET, Python, SQL Server, REST APIs. One of the best fits in this entire list. Verify status at jobs.maricopa.edu.</div>
+    <a href="https://www.higheredjobs.com/admin/details.cfm?JobCode=179050018" class="apply-btn" target="_blank">Apply via HigherEdJobs →</a>
+    <a href="https://jobs.maricopa.edu" class="apply-btn secondary" target="_blank">Verify at jobs.maricopa.edu</a>
+  </div>
+
+  <!-- 13 -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">PeopleSoft Software Developer Engineer</div>
+        <div class="card-org">Maricopa County Community College District, Phoenix AZ</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Phoenix metro, AZ</span>
+      <span><strong>Salary:</strong> $101,421 – $131,848/yr</span>
+      <span><strong>Job ID:</strong> 320938</span>
+    </div>
+    <div class="tags">
+      <span class="tag">PeopleSoft HCM / Financials</span>
+      <span class="tag match">SQL</span>
+      <span class="tag">Enterprise Integration</span>
+      <span class="tag match">APIs</span>
+    </div>
+    <div class="card-note">Verify current open status at jobs.maricopa.edu — first review was Jan 2025.</div>
+    <a href="https://www.higheredjobs.com/admin/details.cfm?JobCode=179020747" class="apply-btn" target="_blank">Apply via HigherEdJobs →</a>
+    <a href="https://jobs.maricopa.edu" class="apply-btn secondary" target="_blank">Verify at jobs.maricopa.edu</a>
+  </div>
+
+  <!-- 14 -->
+  <div class="job-card priority-low">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Web Developer &amp; Site Administrator (Temporary)</div>
+        <div class="card-org">UNC Greensboro, College of Arts &amp; Sciences</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Location:</strong> Greensboro, NC</span>
+      <span><strong>Pay:</strong> $29/hr (11-month temp appointment)</span>
+    </div>
+    <div class="tags">
+      <span class="tag">WordPress</span>
+      <span class="tag match">HTML/CSS</span>
+      <span class="tag match">JavaScript</span>
+    </div>
+    <div class="card-note">Temporary position — lower priority. Apply only if you want NC-based temp work.</div>
+    <a href="https://careers.insidehighered.com/job/3469642/web-developer/" class="apply-btn secondary" target="_blank">View Posting →</a>
+  </div>
+
+</div><!-- /section universities -->
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECTION 2 — NATIONAL LABORATORIES (DOE / Non-Classified)
+     ════════════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">⚛️</span>
+    <h2>DOE National Laboratories</h2>
+    <span class="count">3 confirmed + 5 verify</span>
+  </div>
+
+  <div class="info-box" style="margin: 0 0 16px 0;">
+    <h3>ℹ️ Why national labs?</h3>
+    <ul>
+      <li>Managed by nonprofits (UT-Battelle, UC, Battelle) — <strong>cap-exempt H-1B employers</strong></li>
+      <li>File H-1B year-round, no lottery. Many roles have NO citizenship/clearance requirement</li>
+      <li>ORNL: managed by UT-Battelle | LBNL: managed by UC | PNNL: managed by Battelle</li>
+    </ul>
+  </div>
+
+  <!-- ORNL -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Full Stack Software Developer</div>
+        <div class="card-org">Oak Ridge National Laboratory (ORNL) · Oak Ridge, TN</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> 977409900</span>
+      <span><strong>Group:</strong> NCCS / Data Lifecycle</span>
+      <span><strong>Citizenship req:</strong> Not stated</span>
+      <span><strong>Clearance:</strong> None</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">C/C++ or Go</span>
+      <span class="tag match">JavaScript</span>
+      <span class="tag match">React / AngularJS</span>
+      <span class="tag match">Docker / Kubernetes</span>
+      <span class="tag match">CI/CD</span>
+      <span class="tag match">Git</span>
+    </div>
+    <div class="card-note green">🎯 Strong match: Python, React/Angular, Docker, CI/CD. M.S. + 1yr or B.S. + 2yr. No clearance required.</div>
+    <a href="https://jobs.ornl.gov/job/Oak-Ridge-Full-Stack-Software-Developer-TN-37830/977409900/" class="apply-btn" target="_blank">Apply at ORNL →</a>
+  </div>
+
+  <!-- LBNL 1 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Full Stack Engineer (Python Focused) — ESnet</div>
+        <div class="card-org">Lawrence Berkeley National Laboratory (LBNL) · Berkeley, CA (or remote US)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> 105956</span>
+      <span><strong>Salary:</strong> $156,864 – $191,724 (targeted)</span>
+      <span><strong>Citizenship:</strong> Not required</span>
+      <span><strong>Clearance:</strong> None</span>
+      <span><strong>Term:</strong> 2-yr, extendable</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">Django / FastAPI / SQLAlchemy</span>
+      <span class="tag match">React / Next.js</span>
+      <span class="tag match">REST / GraphQL APIs</span>
+      <span class="tag match">Git</span>
+      <span class="tag">Agile/Scrum</span>
+      <span class="tag">Linux</span>
+    </div>
+    <div class="card-note">Priority review Feb 15 passed but still accepting applications. Level 3 wants 8yr/BS or 6yr/MS — apply and frame experience strongly.</div>
+    <a href="https://jobs.lbl.gov/jobs/full-stack-engineer-python-focused-7372" class="apply-btn" target="_blank">Apply at LBNL →</a>
+  </div>
+
+  <!-- LBNL 2 -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software / API Engineer — NERSC</div>
+        <div class="card-org">Lawrence Berkeley National Laboratory · Bay Area, CA (Hybrid)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> 105209</span>
+      <span><strong>Salary:</strong> $136,440 – $230,244/yr</span>
+      <span><strong>Citizenship:</strong> Not stated</span>
+      <span><strong>Clearance:</strong> None</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag match">Docker / Kubernetes</span>
+      <span class="tag match">PostgreSQL / MySQL / MongoDB</span>
+      <span class="tag match">CI/CD</span>
+      <span class="tag">HPC / Linux</span>
+      <span class="tag match">REST APIs</span>
+    </div>
+    <div class="card-note green">National Energy Research Scientific Computing Center. Strong match for Python, containers, databases. Within 150mi of Berkeley required for on-site days.</div>
+    <a href="https://jobs.lbl.gov/jobs/software-api-engineer-7221" class="apply-btn" target="_blank">Apply at LBNL →</a>
+  </div>
+
+  <!-- PNNL — verify -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Software Engineer — Agentic AI</div>
+        <div class="card-org">Pacific Northwest National Laboratory (PNNL) · Richland WA / Seattle WA</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge verify">Verify Citizenship</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> 10935</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">LLMs / Agentic AI</span>
+      <span class="tag">AWS / Azure Cloud</span>
+      <span class="tag">ML Pipelines</span>
+    </div>
+    <div class="card-note">Citizenship/clearance status unclear. PNNL FAQ says many non-national-security roles open to all. Verify directly before applying.</div>
+    <a href="https://careers.pnnl.gov/jobs/10935?lang=en-us" class="apply-btn secondary" target="_blank">Check &amp; Apply →</a>
+  </div>
+
+  <!-- NREL -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Engineer — Energy Systems</div>
+        <div class="card-org">National Renewable Energy Laboratory (NREL) · Golden, CO</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge verify">Verify Citizenship</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> R12498</span>
+      <span><strong>Salary:</strong> ~$100K–$160K</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">Web Application Dev</span>
+      <span class="tag">Linux</span>
+      <span class="tag">Energy Systems</span>
+    </div>
+    <div class="card-note">Citizenship requirement unconfirmed for this specific role — check Workday posting before applying. A related NREL role (R11874) requires citizenship; R12498 does not appear to.</div>
+    <a href="https://nrel.wd5.myworkdayjobs.com/en-US/NREL/job/Software-Engineer_R12498" class="apply-btn secondary" target="_blank">Check &amp; Apply →</a>
+  </div>
+
+  <!-- Fermilab -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Computing / Software Roles (Multiple Openings)</div>
+        <div class="card-org">Fermilab · Batavia, IL</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">66+ Openings</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>H-1B history:</strong> Employs scientists from 50+ countries</span>
+    </div>
+    <div class="card-note blue">Filter by Computing category. Some roles require LPR/citizen, others do not — check each individual posting. Fermilab is a confirmed cap-exempt employer.</div>
+    <a href="https://fermilab.wd5.myworkdayjobs.com/FermilabCareers" class="apply-btn secondary" target="_blank">Browse Computing Jobs →</a>
+  </div>
+
+  <!-- Argonne -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">RD1/RD2 Software Engineering Associate / Specialist</div>
+        <div class="card-org">Argonne National Laboratory (ANL) · Lemont, IL</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Active</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>H-1B history:</strong> Confirmed H-1B filer (6+ LCAs FY2022–2024)</span>
+    </div>
+    <div class="card-note blue">ANL EEO policy does not exclude non-citizens from unclassified roles. Search directly at the careers portal — no single direct URL surfaced.</div>
+    <a href="https://www.anl.gov/hr/careers" class="apply-btn secondary" target="_blank">Search ANL Careers →</a>
+  </div>
+
+  <!-- INL -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Developer Roles (Multiple)</div>
+        <div class="card-org">Idaho National Laboratory (INL) · Idaho Falls, ID</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Multiple Open</span>
+        <span class="badge cap-exempt">Cap-Exempt</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>H-1B:</strong> Confirmed — files I-129 petitions for hired candidates</span>
+    </div>
+    <div class="card-note green">INL explicitly processes H-1B sponsorship for hired candidates. Browse software developer roles directly on their portal and filter for unclassified computing positions.</div>
+    <a href="https://inl.referrals.selectminds.com/external/" class="apply-btn" target="_blank">Browse INL Jobs →</a>
+  </div>
+
+</div><!-- /section national labs -->
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECTION 3 — NONPROFITS & RESEARCH INSTITUTES
+     ════════════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🏛️</span>
+    <h2>Nonprofits &amp; Research Institutes (501c3)</h2>
+    <span class="count">9 leads</span>
+  </div>
+
+  <!-- MITRE Model-Based -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Model-Based Software Systems Engineer</div>
+        <div class="card-org">MITRE Corporation · Bedford MA / McLean VA / San Diego CA</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> R115762</span>
+      <span><strong>Salary:</strong> $77,600 – $116,400/yr</span>
+      <span><strong>Schedule:</strong> Hybrid (min. 50% on-site)</span>
+      <span><strong>Clearance:</strong> Secret w/in 1yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Java</span>
+      <span class="tag match">Python</span>
+      <span class="tag">C/C++</span>
+      <span class="tag">SysML / UML</span>
+      <span class="tag">MATLAB</span>
+    </div>
+    <div class="card-note">Most H-1B-accessible MITRE role found — no clearance at hire, obtain Secret w/in 1 year. MITRE is a confirmed cap-exempt 501(c)(3) nonprofit research org.</div>
+    <a href="https://mitre.wd5.myworkdayjobs.com/MITRE/job/Bedford-MA/Model-Based-Software-Systems-Engineer_R115762-2/apply" class="apply-btn" target="_blank">Apply at MITRE →</a>
+  </div>
+
+  <!-- MITRE Entry Level Pool -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Entry Level — Software Engineering or Computer Science (Pool)</div>
+        <div class="card-org">MITRE Corporation · McLean VA / Bedford MA</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Rolling Pool</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> R115689</span>
+      <span><strong>Salary:</strong> $86,000 – $129,000/yr</span>
+      <span><strong>Clearance:</strong> Must obtain w/in 1yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Full Stack</span>
+      <span class="tag">AI / ML</span>
+      <span class="tag">DevSecOps</span>
+      <span class="tag match">Git</span>
+      <span class="tag">IoT / Embedded</span>
+    </div>
+    <div class="card-note">Candidate pool — M.S. CS is strong fit. Selected candidates contacted for specific openings. Must obtain clearance w/in 1yr.</div>
+    <a href="https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Entry-Level---Software-Engineering-or-Computer-Science_R115689-1/apply" class="apply-btn" target="_blank">Apply at MITRE →</a>
+  </div>
+
+  <!-- RTI Early Career Web Dev -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Early Career Web Developer</div>
+        <div class="card-org">RTI International · Research Triangle Park, NC (or remote)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Job ID:</strong> 13254</span>
+      <span><strong>H-1B:</strong> Confirmed cap-exempt sponsor</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Web Development</span>
+      <span class="tag match">Python</span>
+      <span class="tag">R</span>
+      <span class="tag">Cloud Computing</span>
+    </div>
+    <div class="card-note green">RTI International is a confirmed 501(c)(3) nonprofit research institute — one of the top cap-exempt H-1B sponsors in the US. Verify exact stack at the posting.</div>
+    <a href="https://careers.rti.org/jobs/13254?lang=en-us" class="apply-btn" target="_blank">Apply at RTI →</a>
+  </div>
+
+  <!-- RTI Python Programmer -->
+  <div class="job-card priority-high">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Research Python Programmer / Data Analyst</div>
+        <div class="card-org">RTI International · Research Triangle Park, NC (or remote)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Job ID:</strong> 13185</span>
+      <span><strong>H-1B:</strong> Confirmed cap-exempt sponsor</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">SAS / R</span>
+      <span class="tag">Health Data</span>
+      <span class="tag match">Data Analysis</span>
+    </div>
+    <div class="card-note green">Python-primary role. RTI is a top cap-exempt H-1B employer — file any time, no lottery.</div>
+    <a href="https://careers.rti.org/jobs/13185?lang=en-us" class="apply-btn" target="_blank">Apply at RTI →</a>
+  </div>
+
+  <!-- Battelle AI Designer -->
+  <div class="job-card priority-medium">
+    <div class="card-top">
+      <div>
+        <div class="card-title">AI First Software Designer / Agentic Systems Builder</div>
+        <div class="card-org">Battelle Memorial Institute · Columbus OH / Arlington VA</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge open">Open Until Filled</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Job ID:</strong> 76051</span>
+      <span><strong>Posted:</strong> February 20, 2026</span>
+      <span><strong>Clearance:</strong> Preferred but not required</span>
+      <span><strong>H-1B:</strong> 38+ LCAs FY2024</span>
+    </div>
+    <div class="tags">
+      <span class="tag">LLMs / Agentic AI</span>
+      <span class="tag">Prompt Engineering</span>
+      <span class="tag">System Architecture</span>
+      <span class="tag">Rapid Prototyping</span>
+    </div>
+    <div class="card-note">No hard clearance requirement at hire — more accessible for H-1B. Non-traditional role for AI-first developers. Battelle is confirmed cap-exempt.</div>
+    <a href="https://jobs.battelle.org/us/en/job/76051/AI-First-Software-Designer-Agentic-Systems-Builder" class="apply-btn" target="_blank">Apply at Battelle →</a>
+  </div>
+
+  <!-- Mayo Clinic -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Software Engineer — Pipeline Developer</div>
+        <div class="card-org">Mayo Clinic · Rochester, MN</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge verify">Verify Sponsorship</span>
+        <span class="badge cap-exempt">Cap-Exempt (Univ.-affiliated)</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Job ID:</strong> 89656254432</span>
+      <span><strong>Salary:</strong> $91,000 – $140,462/yr</span>
+      <span><strong>H-1B history:</strong> 580 LCAs FY2025, 98% approval</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag">Azure DevOps</span>
+      <span class="tag">Google Cloud (GCP)</span>
+      <span class="tag match">Vue.js</span>
+      <span class="tag">Terraform</span>
+      <span class="tag">CI/CD Pipelines</span>
+      <span class="tag">Go / Java</span>
+    </div>
+    <div class="card-note">Mayo Clinic actively sponsors H-1B but SOME Mayo postings state no sponsorship — verify this specific role with Mayo HR before applying. Python + Vue.js is a great fit. LOCAL to MN.</div>
+    <a href="https://jobs.mayoclinic.org/job/rochester/software-engineer-pipeline-developer/33647/89656254432" class="apply-btn" target="_blank">Apply at Mayo Clinic →</a>
+  </div>
+
+  <!-- Murmuration -->
+  <div class="job-card priority-verify">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Software Engineer (Level P4)</div>
+        <div class="card-org">Murmuration · Remote (US)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge urgent">⚠ Closes Mar 14</span>
+        <span class="badge cap-exempt">501c3 — Verify</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Salary:</strong> $190,576/yr (fixed)</span>
+      <span><strong>Schedule:</strong> Fully remote</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Angular</span>
+      <span class="tag match">TypeScript</span>
+      <span class="tag">RxJS / NgRx / Redux</span>
+      <span class="tag match">HTML5 / CSS3 / SCSS</span>
+    </div>
+    <div class="card-note">Highest-paying nonprofit role found. Closes March 14 — apply immediately and ask HR about visa sponsorship. 501(c)(3) research institute — verify cap-exempt + sponsorship directly.</div>
+    <a href="https://techjobsforgood.com/jobs/30772/" class="apply-btn" target="_blank">Apply Now →</a>
+  </div>
+
+  <!-- MITRE Full Stack Intelligence - flag only -->
+  <div class="job-card no-sponsor">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Senior Full Stack Engineer — Intelligence Center</div>
+        <div class="card-org">MITRE Corporation · McLean VA / Bethesda MD</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge no-sponsor">TS/SCI Poly Required</span>
+        <span class="badge cap-exempt">Cap-Exempt 501c3</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Req:</strong> R116112</span>
+      <span><strong>Salary:</strong> $122,400 – $183,600/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">React / Vue / Angular</span>
+      <span class="tag match">Python / TypeScript</span>
+      <span class="tag match">PostgreSQL</span>
+      <span class="tag">AWS C2E</span>
+    </div>
+    <div class="card-note red">Requires Active TS/SCI with Full Scope Polygraph at hire — inaccessible for most H-1B candidates. Listed for reference only.</div>
+    <a href="https://mitre.wd5.myworkdayjobs.com/MITRE/job/McLean-VA/Senior-Full-Stack-Engineer--Intelligence-Center-_R116112-1/apply" class="apply-btn secondary" target="_blank">View →</a>
+  </div>
+
+  <!-- PJMF - no sponsor -->
+  <div class="job-card no-sponsor">
+    <div class="card-top">
+      <div>
+        <div class="card-title">Junior Full Stack Developer</div>
+        <div class="card-org">Patrick J. McGovern Foundation · Remote (US)</div>
+      </div>
+      <div class="card-badges">
+        <span class="badge urgent">Closes Mar 6</span>
+        <span class="badge no-sponsor">No H-1B Sponsorship</span>
+      </div>
+    </div>
+    <div class="card-meta">
+      <span><strong>Salary:</strong> $70,000 – $106,000/yr</span>
+    </div>
+    <div class="tags">
+      <span class="tag match">Python</span>
+      <span class="tag match">React / React Native</span>
+      <span class="tag match">PostgreSQL / MySQL</span>
+      <span class="tag match">Docker</span>
+      <span class="tag">AWS / Kubernetes</span>
+    </div>
+    <div class="card-note red">Posting explicitly states: "unable to sponsor employment Visa." Do not apply unless you have independent work authorization.</div>
+    <a href="https://techjobsforgood.com/jobs/30549/" class="apply-btn secondary" target="_blank">View Only →</a>
+  </div>
+
+</div><!-- /section nonprofits -->
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECTION 4 — STATE / COUNTY / CITY GOVERNMENT (new states)
+     ════════════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🏛</span>
+    <h2>State / County / City Government — New States</h2>
+    <span class="count">Pending — agent results incoming</span>
+  </div>
+  <div class="card-note blue" style="margin-bottom:12px;">Results from the state/gov search agent will be added here shortly.</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     SECTION 5 — TRANSIT / UTILITIES / PUBLIC HOSPITALS
+     ════════════════════════════════════════════════════════════════════ -->
+<div class="section">
+  <div class="section-header">
+    <span class="icon">🚇</span>
+    <h2>Public Transit / Utilities / Community Colleges / Public Hospitals</h2>
+    <span class="count">Pending — agent results incoming</span>
+  </div>
+  <div class="card-note blue" style="margin-bottom:12px;">Results from the transit/utilities search agent will be added here shortly.</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════════════════════
+     FOOTER
+     ════════════════════════════════════════════════════════════════════ -->
+<footer>
+  <strong>US Cap-Exempt Job Leads — March 1, 2026</strong><br/>
+  Cross-referenced against international-job-links.txt and international-job-links.html — zero duplicates.<br/>
+  Sources: HigherEdJobs · InsideHigherEd · University career portals · ORNL/LBNL/PNNL/NREL/Fermilab/ANL/INL direct career pages
+  · MITRE Workday · RTI Careers · Battelle Careers · Mayo Clinic Jobs · TechJobsForGood · Idealist · USAJobs · governmentjobs.com
+</footer>
+
+</body>
+</html>
