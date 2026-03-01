@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamad Abboud — International Job Links</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    h1 { font-size: 1.6rem; color: #f8fafc; margin-bottom: 4px; }
+    .meta { font-size: 0.8rem; color: #64748b; margin-bottom: 32px; }
+    h2 {
+      font-size: 1.15rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 8px;
+      margin: 36px 0 16px;
+    }
+    h3 {
+      font-size: 0.9rem;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 24px 0 10px;
+    }
+    .job {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .job.urgent { border-left: 4px solid #ef4444; }
+    .job.priority { border-left: 4px solid #f59e0b; }
+    .job.new { border-left: 4px solid #22c55e; }
+    .job.verify { border-left: 4px solid #8b5cf6; }
+    .job-body { flex: 1; }
+    .job-title {
+      font-size: 0.97rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 4px;
+    }
+    .job-title a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    .job-title a:hover { text-decoration: underline; color: #93c5fd; }
+    .job-employer { font-size: 0.85rem; color: #94a3b8; margin-bottom: 6px; }
+    .job-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .tag {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 99px;
+      font-weight: 500;
+    }
+    .tag-urgent   { background: #450a0a; color: #fca5a5; border: 1px solid #7f1d1d; }
+    .tag-priority { background: #451a03; color: #fcd34d; border: 1px solid #78350f; }
+    .tag-new      { background: #052e16; color: #86efac; border: 1px solid #14532d; }
+    .tag-verify   { background: #2e1065; color: #c4b5fd; border: 1px solid #4c1d95; }
+    .tag-existing { background: #0f172a; color: #64748b; border: 1px solid #1e293b; }
+    .tag-capex    { background: #083344; color: #67e8f9; border: 1px solid #164e63; }
+    .tag-closes   { background: #1c1917; color: #a8a29e; border: 1px solid #292524; }
+    .tag-stack    { background: #1a1a2e; color: #a5b4fc; border: 1px solid #312e81; }
+    .tag-warn     { background: #3b0764; color: #e9d5ff; border: 1px solid #581c87; }
+
+    /* legend */
+    .legend {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      background: #1e293b; border: 1px solid #334155;
+      border-radius: 8px; padding: 14px 16px; margin-bottom: 32px;
+    }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: #94a3b8; }
+    .legend-dot { width: 12px; height: 12px; border-radius: 2px; flex-shrink: 0; }
+    .dot-urgent   { background: #ef4444; }
+    .dot-priority { background: #f59e0b; }
+    .dot-new      { background: #22c55e; }
+    .dot-verify   { background: #8b5cf6; }
+    .dot-existing { background: #334155; }
+
+    /* research box */
+    .research-box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+    }
+    .research-box h4 { font-size: 0.95rem; color: #f1f5f9; margin-bottom: 8px; }
+    .research-box p  { font-size: 0.85rem; color: #94a3b8; margin-bottom: 8px; }
+    .research-box ul { font-size: 0.85rem; color: #94a3b8; padding-left: 18px; }
+    .research-box li { margin-bottom: 4px; }
+    .research-box a  { color: #60a5fa; text-decoration: none; }
+    .research-box a:hover { text-decoration: underline; }
+
+    /* summary bar */
+    .summary {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      background: #1e293b; border: 1px solid #334155;
+      border-radius: 8px; padding: 14px 18px; margin-bottom: 28px;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-size: 1.5rem; font-weight: 700; color: #60a5fa; }
+    .stat-label { font-size: 0.72rem; color: #64748b; text-transform: uppercase; }
+    .divider { width: 1px; background: #334155; align-self: stretch; }
+
+    footer { margin-top: 40px; font-size: 0.75rem; color: #475569; text-align: center; }
+  </style>
+</head>
+<body>
+
+<h1>Mohamad Abboud — International Job Links</h1>
+<p class="meta">
+  Last compiled: 2026-03-01 &nbsp;|&nbsp;
+  Countries: Canada, United States, Netherlands, Scotland/UK &nbsp;|&nbsp;
+  Visa sponsorship required in all &nbsp;|&nbsp;
+  OPT deadline: May 2026
+</p>
+
+<!-- LEGEND -->
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot dot-urgent"></div>URGENT — closes within 2 weeks</div>
+  <div class="legend-item"><div class="legend-dot dot-priority"></div>NEW — found Mar 2026 research</div>
+  <div class="legend-item"><div class="legend-dot dot-new"></div>HIGH PRIORITY match</div>
+  <div class="legend-item"><div class="legend-dot dot-verify"></div>VERIFY — confirm still open</div>
+  <div class="legend-item"><div class="legend-dot dot-existing"></div>Carried from original list</div>
+</div>
+
+<!-- SUMMARY -->
+<div class="summary">
+  <div class="stat"><div class="stat-num">9</div><div class="stat-label">Canada New</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">36</div><div class="stat-label">Canada Existing</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">6</div><div class="stat-label">Scotland New</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">23</div><div class="stat-label">Scotland Existing</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">5</div><div class="stat-label">US New</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">2</div><div class="stat-label">US Existing</div></div>
+  <div class="divider"></div>
+  <div class="stat"><div class="stat-num">14</div><div class="stat-label">Netherlands</div></div>
+</div>
+
+<!-- ============================================================ -->
+<!-- CANADA -->
+<!-- ============================================================ -->
+<h2>🇨🇦 Canada — Job Bank (jobbank.gc.ca)</h2>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:16px;">
+  Work permit sponsorship: LMIA or Global Talent Stream (GTS) — RBC, TD, Scotiabank are all proven GTS employers.
+  GTS Category B (NOC 21231) processes in ~2 weeks. Minimum ~$86,000 CAD/yr.
+</p>
+
+<h3>NEW — Found March 2026 Research</h3>
+
+<div class="job urgent">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49021715" target="_blank">Lead Full Stack Developer</a></div>
+    <div class="job-employer">RBC Dominion Securities — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">CLOSES MAR 3 — URGENT</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">.NET Core · React · REST APIs · Docker · Azure · SQL</span>
+    </div>
+  </div>
+</div>
+
+<div class="job priority">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48965935" target="_blank">Lead Full Stack Developer — C#/.NET/React/Azure</a></div>
+    <div class="job-employer">RBC Dominion Securities — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-priority">TOP PRIORITY — closes Mar 20</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">C#/.NET Core · React · Azure DevOps · Docker · SQL</span>
+    </div>
+  </div>
+</div>
+
+<div class="job priority">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48990694" target="_blank">Senior Software Developer — Python / Vue.js / AI Security</a></div>
+    <div class="job-employer">RBC Dominion Securities — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-priority">Closes Mar 16</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">Python · Django · Vue.js · Angular · React · PostgreSQL · Azure</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49007727" target="_blank">Software Engineer III (Guidewire ClaimCenter)</a></div>
+    <div class="job-employer">TD Bank — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 27</span>
+      <span class="tag tag-stack">Guidewire ClaimCenter · Architecture</span>
+      <span class="tag tag-warn">Specialized — only apply w/ ClaimCenter exp.</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49021162" target="_blank">Software Engineer I</a></div>
+    <div class="job-employer">TD Bank — Montreal, QC (on-site)</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 29</span>
+      <span class="tag tag-stack">Full-stack · Security · CI/CD · $81,600–$115,200 CAD</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49021570" target="_blank">Lead AI Application Developer — Python / MLOps</a></div>
+    <div class="job-employer">RBC Dominion Securities — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 30</span>
+      <span class="tag tag-stack">Python · PySpark · LLMs · Docker · Kubernetes · Airflow</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49019920" target="_blank">Senior Software Developer — Java / Spring Boot / React</a></div>
+    <div class="job-employer">Scotiabank — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 29</span>
+      <span class="tag tag-stack">Java 17 · Spring Boot · MongoDB · Kubernetes · React · REST API</span>
+      <span class="tag tag-warn">Java-heavy — partial match</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49021666" target="_blank">Senior Full Stack Mobile Developer — React Native / Node.js</a></div>
+    <div class="job-employer">RBC (Mydoh) — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 30</span>
+      <span class="tag tag-stack">React Native · TypeScript · Node.js · PostgreSQL · AWS</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49004152" target="_blank">Software Development Manager — AppSec (Python / JS / React)</a></div>
+    <div class="job-employer">RBC Dominion Securities — Toronto, ON</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — may be expired</span>
+      <span class="tag tag-stack">Python · JavaScript · React · DevSecOps</span>
+      <span class="tag tag-warn">Management/AppSec level — check req.</span>
+    </div>
+  </div>
+</div>
+
+<h3>EXISTING — Full Stack Developer Roles</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49001595" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">FNESC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48997989" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48997349" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Pragmaclin Research Incorporated</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48993892" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Cela (licensed third-party)</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48990721" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48990872" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48986557" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48986672" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48970997" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">silverorange — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48982434" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">OnSite HQ — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48960782" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">OnSite HQ — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48996316" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Sapsol Technologies Inc — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48944352" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Annex IT Solutions — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48944321" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">HelpWear Inc — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48944319" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Doglas Trading Inc — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49002079" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Bell Canada</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-warn">Requires French</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48909099" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48906653" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Scotiabank — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48906963" target="_blank">Full Stack Developer (Leading Role)</a></div>
+    <div class="job-employer">Scotiabank — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48919309" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Wrapped Media — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48897823" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48942099" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">RBC — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48630080" target="_blank">Full Stack Developer</a></div>
+    <div class="job-employer">Codalio Inc — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<h3>EXISTING — Software Engineer Roles</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48996362" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Larus Technologies — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48967706" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Spectrum Manufacturing Inc — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48968186" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">TimePlay — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49005261" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">eCapital — Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48997953" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48902572" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48906505" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48996169" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48901011" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48970397" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/49002600" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobbank.gc.ca/jobsearch/jobposting/48981840" target="_blank">Software Engineer</a></div>
+    <div class="job-employer">Canada</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SCOTLAND / UK -->
+<!-- ============================================================ -->
+<h2>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland / United Kingdom — jobs.ac.uk + MyJobScotland + NHS</h2>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:16px;">
+  Skilled Worker visa — employer must hold sponsor licence. Min salary £41,700/yr (2026 threshold). English B2 required.
+  Software/App Developers = SOC 2134 — eligible for Skilled Worker route.
+</p>
+
+<h3>NEW — Found March 2026 Research</h3>
+
+<div class="job urgent">
+  <div class="job-body">
+    <div class="job-title"><a href="https://apply.jobs.scot.nhs.uk/Job/JobDetail?JobId=251422" target="_blank">Software Engineer (Specialist Analyst) — MyCare.Scot</a></div>
+    <div class="job-employer">NHS Education for Scotland (NES) — Scotland-wide / Remote-friendly</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">CLOSES MAR 9 — URGENT</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">Skilled Worker mentioned in posting</span>
+      <span class="tag tag-stack">AWS/Azure · SQL Server · MySQL · Agile · Web apps · £50,861–£59,159</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.s1jobs.com/jobs/?CompanyName=university+of+stirling" target="_blank">Senior Developer (x2 posts) — University of Stirling</a></div>
+    <div class="job-employer">University of Stirling — Stirling, Scotland</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 26 — Interviews Apr 1</span>
+      <span class="tag tag-capex">SOC 2134 sponsorship eligible</span>
+      <span class="tag tag-stack">Java · APIs · Docker · Kubernetes · Azure/AWS · CI/CD · Git</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.myjobscotland.gov.uk/organisations/care-inspectorate/jobs/software-developer-282340" target="_blank">Software Developer</a></div>
+    <div class="job-employer">Care Inspectorate — Scotland</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY closing date</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">Microsoft Azure · .NET · Full SDLC · design patterns</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.myjobscotland.gov.uk/emergency-services/police-scotland/jobs/data-engineering-and-integration-developer-265494" target="_blank">Data Engineering &amp; Integration Developer</a></div>
+    <div class="job-employer">Police Scotland — Scotland</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — temp 24 months</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">Python · SQL · PostgreSQL · ETL · REST APIs · Docker</span>
+      <span class="tag tag-warn">Security vetting may be required — verify sponsorship</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://myjobscotland.gov.uk/education/glasgow-caledonian-university/jobs/sits-analyst-developer-10fte-440209" target="_blank">SITS Analyst Developer</a></div>
+    <div class="job-employer">Glasgow Caledonian University — Glasgow, Scotland</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY closing date</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">GCU is licensed Skilled Worker sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DPB065/senior-developer" target="_blank">Senior Developer</a></div>
+    <div class="job-employer">Edinburgh Napier University — Edinburgh, Scotland</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — may be closed</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-stack">Azure · Data Factory · Logic Apps · Python · .NET</span>
+    </div>
+  </div>
+</div>
+
+<h3>EXISTING — Software Engineer / Full Stack Developer (jobs.ac.uk)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQN549/software-engineer-full-stack-developer" target="_blank">Software Engineer — Full Stack Developer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ976/engineer-development" target="_blank">Engineer (Development)</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ051/ai-software-engineer" target="_blank">AI Software Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ113/research-software-engineer" target="_blank">Research Software Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQD254/research-software-engineer" target="_blank">Research Software Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ898/ai-research-software-engineer" target="_blank">AI Research Software Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQK650/space-research-software-engineer" target="_blank">Space Research Software Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQL926/research-software-engineer-in-computational-mechanics" target="_blank">Research Software Engineer — Computational Mechanics</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQK549/scientific-software-engineer-in-earth-system-modelling" target="_blank">Scientific Software Engineer — Earth System Modelling</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQP594/senior-research-software-engineer-iccs-fixed-term" target="_blank">Senior Research Software Engineer — ICCS (Fixed Term)</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ303/devops-engineer" target="_blank">DevOps Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQO326/research-assistant-in-neuro-ai-software-and-infrastructure" target="_blank">Research Assistant — Neuro-AI Software &amp; Infrastructure</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ049/lead-ai-platform-engineer" target="_blank">Lead AI Platform Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ998/front-end-engineer-x2-posts" target="_blank">Front-End Engineer (x2 Posts)</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQM587/tech-lead-and-engineering-manager" target="_blank">Tech Lead &amp; Engineering Manager</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<h3>EXISTING — Web / Application Developer (jobs.ac.uk)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQO308/senior-web-developer" target="_blank">Senior Web Developer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQM557/senior-front-end-web-developer" target="_blank">Senior Front-End Web Developer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQN568/associate-technical-developer" target="_blank">Associate Technical Developer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQP665/senior-developer-integrations" target="_blank">Senior Developer — Integrations</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQN567/senior-microsoft-365-sharepoint-developer" target="_blank">Senior Microsoft 365 / SharePoint Developer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<h3>EXISTING — Data Engineer (jobs.ac.uk)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ110/data-engineer" target="_blank">Data Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQM736/data-curator-engineer" target="_blank">Data Curator Engineer</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.jobs.ac.uk/job/DQQ956/data-architect" target="_blank">Data Architect</a></div>
+    <div class="job-employer">jobs.ac.uk — UK</div>
+    <div class="job-tags"><span class="tag tag-existing">Existing</span></div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- UNITED STATES -->
+<!-- ============================================================ -->
+<h2>🇺🇸 United States — Cap-Exempt H-1B Employers</h2>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:16px;">
+  Cap-exempt = no lottery, no $100K fee (if staying in US on OPT), file year-round.
+  State/county/city government, public transit, universities, 501(c)3 nonprofits all qualify.
+  59% of state governments report IT hard to fill — strong position for sponsorship.
+</p>
+
+<h3>NEW — Found March 2026 Research</h3>
+
+<div class="job priority">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.governmentjobs.com/careers/harriscountytx/jobs/5241413-0/applications-developer" target="_blank">Applications Developer — C#/ASP.NET/MVC</a></div>
+    <div class="job-employer">Harris County Office of Court Management — Houston, TX (county government)</div>
+    <div class="job-tags">
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-closes">Closes Mar 31</span>
+      <span class="tag tag-capex">Cap-Exempt — County Gov't</span>
+      <span class="tag tag-stack">C# · ASP.NET MVC · .NET · JavaScript · TypeScript · SQL · Azure DevOps</span>
+    </div>
+  </div>
+</div>
+
+<div class="job urgent">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.governmentjobs.com/careers/houston/jobs/newprint/5251631" target="_blank">Full Stack .NET Application Developer</a></div>
+    <div class="job-employer">City of Houston — Houston, TX (municipal government)</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">CLOSES MAR 12 — URGENT</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">Cap-Exempt — City Gov't</span>
+      <span class="tag tag-stack">C# · .NET Core · ASP.NET MVC · SQL Server · T-SQL · SSRS · Power BI · Git · $75,800–$96,500</span>
+    </div>
+  </div>
+</div>
+
+<div class="job urgent">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.idealist.org/en/nonprofit-job/d42432e32dd74fd5a09dae1fb3e808bf-associate-software-engineer-pro-bono-net-new-york" target="_blank">Associate Software Engineer — Legal Tech</a></div>
+    <div class="job-employer">Pro Bono Net — Remote / New York (501c3 nonprofit)</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">CLOSES MAR 17</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">501c3 nonprofit — likely cap-exempt · confirm H-1B w/ HR</span>
+      <span class="tag tag-stack">C# · .NET · JavaScript · SQL Server · Azure · $85,000–$100,000 · REMOTE</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://careers.mta.org/jobs/17092785-specialist-software-engineer-c" target="_blank">Specialist Software Engineer (C)</a></div>
+    <div class="job-employer">MTA (Metropolitan Transportation Authority) — New York, NY (public transit)</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — confirm still open</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">Cap-Exempt — Public Transit Authority</span>
+      <span class="tag tag-stack">Ruby · Python · Java · C# · .NET · JavaScript · SQL</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://careers.umich.edu" target="_blank">Web Application Software Engineer (Senior)</a></div>
+    <div class="job-employer">University of Michigan — Ann Arbor, MI (major cap-exempt university)</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — may close ~Mar 2</span>
+      <span class="tag tag-new">NEW</span>
+      <span class="tag tag-capex">Cap-Exempt — University (top H-1B sponsor)</span>
+      <span class="tag tag-stack">HTML5 · CSS3 · JavaScript · D3.js · REST APIs</span>
+    </div>
+  </div>
+</div>
+
+<h3>EXISTING — Good Matches (Originally Marked)</h3>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.governmentjobs.com/careers/sc/jobs/5225184-0/application-developer-iv" target="_blank">Application Developer IV</a></div>
+    <div class="job-employer">SC Law Enforcement Division (SLED) — South Carolina (state gov't)</div>
+    <div class="job-tags">
+      <span class="tag tag-new">GOOD — from original list</span>
+      <span class="tag tag-capex">Cap-Exempt — State Gov't</span>
+      <span class="tag tag-stack">C# · ASP.NET · SQL Server · Stored Procedures — perfect stack match</span>
+    </div>
+  </div>
+</div>
+
+<div class="job new">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.governmentjobs.com/careers/santaclara/jobs/5200621/application-developer" target="_blank">Application Developer</a></div>
+    <div class="job-employer">County of Santa Clara — CA (county gov't)</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">Exam window: Feb 27 – Mar 5 — APPLY NOW</span>
+      <span class="tag tag-new">GOOD — from original list</span>
+      <span class="tag tag-capex">Cap-Exempt — County Gov't</span>
+    </div>
+  </div>
+</div>
+
+<div class="job verify">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.governmentjobs.com/careers/sacrt/jobs/newprint/5182287" target="_blank">Software Developer — Transit Systems</a></div>
+    <div class="job-employer">Sacramento Regional Transit (SacRT) — CA (public transit)</div>
+    <div class="job-tags">
+      <span class="tag tag-verify">VERIFY — was marked CLOSED but agent found "open until filled"</span>
+      <span class="tag tag-capex">Cap-Exempt — Public Transit</span>
+      <span class="tag tag-stack">VB.NET · C# · ASP.NET · Python · Azure · SQL Server · $108,979–$142,193</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- NETHERLANDS -->
+<!-- ============================================================ -->
+<h2>🇳🇱 Netherlands — AcademicTransfer + Universities + SURF</h2>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:16px;">
+  Kennismigrant (Knowledge Migrant) visa — employer must be IND-recognized sponsor. No labour market test.
+  ~2-week processing. Min salary ≈ €5,400/month (age 30+). 30% tax ruling available.
+  250,000+ skilled worker shortage in NL — one of the best sponsorship climates in Europe.
+</p>
+
+<h3>TU Delft</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358915/three-motivated-senior-software-engineers-with-understanding-of-computer-hardware/" target="_blank">Senior Software Engineers x3 — Device-Aware Testing / POPCORN</a></div>
+    <div class="job-employer">TU Delft — Delft, Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358043/robotic-software-engineer/" target="_blank">Robotic Software Engineer</a></div>
+    <div class="job-employer">TU Delft — Delft, Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<h3>Koninklijke Bibliotheek (KB — National Library of the Netherlands)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358884/lead-software-engineer-java-iam/" target="_blank">Lead Software Engineer — Java / IAM</a></div>
+    <div class="job-employer">Koninklijke Bibliotheek (KB) — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+      <span class="tag tag-stack">Java · IAM</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358669/lead-software-engineer/" target="_blank">Lead Software Engineer</a></div>
+    <div class="job-employer">Koninklijke Bibliotheek (KB) — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<h3>Wageningen University &amp; Research</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358573/product-development-automation-lead/" target="_blank">Product Development Automation Lead</a></div>
+    <div class="job-employer">Wageningen University &amp; Research — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+      <span class="tag tag-stack">Python · PyTorch · TensorFlow · C#/.NET</span>
+    </div>
+  </div>
+</div>
+
+<h3>Universiteit Utrecht</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358837/wetenschappelijk-ontwikkelaar-centre-for-digital-humanities/" target="_blank">Wetenschappelijk Ontwikkelaar (Scientific Developer) — Digital Humanities</a></div>
+    <div class="job-employer">Universiteit Utrecht — Utrecht, Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job urgent">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer" target="_blank">Software Engineer — Faculty of Humanities</a></div>
+    <div class="job-employer">Utrecht University — Utrecht, Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-urgent">DEADLINE MAR 13 — URGENT</span>
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<h3>University of Amsterdam (UvA)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://www.academictransfer.com/en/jobs/358448/postdoc-and-research-engineer-position-digital-data-donation-and-computational-social-science/" target="_blank">Research Engineer — Digital Data Donation &amp; Computational Social Science</a></div>
+    <div class="job-employer">University of Amsterdam (UvA) — Amsterdam, Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<h3>SURF (Dutch national IT for education &amp; research)</h3>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://werkenbij.surf.nl/en/vacancies/senior-solution-architect" target="_blank">Senior Solution Architect</a></div>
+    <div class="job-employer">SURF — Netherlands (serves 100+ Dutch research institutions)</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://werkenbij.surf.nl/en/vacancies/senior-systems-engineer" target="_blank">Senior Systems Engineer</a></div>
+    <div class="job-employer">SURF — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://werkenbij.surf.nl/en/vacancies/technical-specialist-education" target="_blank">Technical Specialist Education</a></div>
+    <div class="job-employer">SURF — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://werkenbij.surf.nl/en/vacancies/hpc-advisor" target="_blank">HPC Advisor</a></div>
+    <div class="job-employer">SURF — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-body">
+    <div class="job-title"><a href="https://werkenbij.surf.nl/en/vacancies/hpc-advisor-2" target="_blank">HPC Advisor (2)</a></div>
+    <div class="job-employer">SURF — Netherlands</div>
+    <div class="job-tags">
+      <span class="tag tag-existing">Existing</span>
+      <span class="tag tag-capex">IND Recognized Sponsor</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SHORT-STAFFED INSTITUTIONS RESEARCH -->
+<!-- ============================================================ -->
+<h2>🎯 Short-Staffed Institutions &amp; Sponsor-Desperate Employers</h2>
+<p style="font-size:0.82rem;color:#64748b;margin-bottom:16px;">
+  Research into which institutions/sectors are most short-staffed and therefore most likely to sponsor.
+  Based on NASCIO 2025, CBC/Canada.ca, IND NL data, and Scottish Gov digital reports.
+</p>
+
+<div class="research-box">
+  <h4>🇺🇸 United States — Cap-Exempt Targets Most Likely to Sponsor</h4>
+  <p><strong>93% of state government IT orgs</strong> can't fill application development roles (NASCIO 2025 CIO Survey). Legacy system retirements + DOGE layoffs created severe gaps.</p>
+  <ul>
+    <li><strong>NIH (National Institutes of Health)</strong> — Bethesda, MD. Confirmed cap-exempt. Python for data pipelines &amp; scientific software. <a href="https://www.usajobs.gov" target="_blank">usajobs.gov → search "IT Specialist" or "Software Developer"</a></li>
+    <li><strong>DOE National Labs</strong> — Argonne (IL), Oak Ridge (TN), Lawrence Berkeley (CA), Pacific NW (WA). Cap-exempt government research. Python + REST APIs core requirements. <a href="https://www.usajobs.gov" target="_blank">usajobs.gov</a></li>
+    <li><strong>University of Michigan</strong> — Ann Arbor, MI (local!). Top H-1B filing volume university. <a href="https://careers.umich.edu" target="_blank">careers.umich.edu</a></li>
+    <li><strong>Johns Hopkins University</strong>, <strong>Washington Univ. St. Louis</strong>, <strong>Columbia University</strong> — top cap-exempt sponsors by H-1B volume</li>
+    <li><strong>Battelle Memorial Institute</strong> (Columbus, OH) &amp; <strong>SRI International</strong> (Menlo Park, CA) — gov-funded nonprofits, cap-exempt, full-stack roles</li>
+    <li><a href="https://h1bgrader.com/h1b-cap-exempt-sponsors" target="_blank">h1bgrader.com/h1b-cap-exempt-sponsors</a> — searchable database of cap-exempt sponsors by state</li>
+  </ul>
+</div>
+
+<div class="research-box">
+  <h4>🇨🇦 Canada — Most Likely to Sponsor via Global Talent Stream (GTS)</h4>
+  <p><strong>~7,000 of 21,000 Government of Canada IT positions are unfilled</strong> (30% vacancy rate — Chief Information Officer of Canada). GTS Category B (NOC 21231) processes in ~2 weeks. Min ~$86,000 CAD.</p>
+  <ul>
+    <li><strong>Shared Services Canada (SSC)</strong> — Ottawa. Canada's IT backbone for 400,000 federal workers. Cloud migration + digital services = Python, REST APIs, cloud. <a href="https://www.canada.ca/en/shared-services/corporate/about-us/careers.html" target="_blank">SSC Careers</a></li>
+    <li><strong>Canadian Digital Service (CDS)</strong> — Ottawa. GC's startup-style delivery unit. React + Python + REST APIs. History of recruiting international talent. <a href="https://digital.canada.ca/jobs/" target="_blank">digital.canada.ca/jobs</a></li>
+    <li><strong>Ontario &amp; BC employers</strong> — primary GTS hubs; 2-week LMIA-exempt processing via Category B for NOC 21231</li>
+    <li><strong>RBC, TD Bank, Scotiabank</strong> — Canada's top three banks have established GTS / LMIA immigration teams; apply directly and flag sponsorship need early</li>
+  </ul>
+</div>
+
+<div class="research-box">
+  <h4>🇳🇱 Netherlands — IND-Recognized Sponsors Most Likely to Hire</h4>
+  <p><strong>250,000+ skilled worker shortage by 2026. 101 vacancies per 100 unemployed.</strong> Software developers are among top 3 most in-demand roles. Kennismigrant visa processes in ~2 weeks; no labour market test.</p>
+  <ul>
+    <li><strong>ASML</strong> — Veldhoven/Eindhoven. Europe's most valuable tech company. IND recognized sponsor. C#/.NET, Python, REST APIs in demand. <a href="https://www.asml.com/en/careers/find-your-job" target="_blank">asml.com/en/careers</a></li>
+    <li><strong>Booking.com</strong> &amp; <strong>Adyen</strong> — Amsterdam. Both established IND sponsors. English-first engineering teams.</li>
+    <li><strong>SURF</strong> — Utrecht. IT cooperative for 100+ Dutch universities and research institutions. Already in your list. Highly likely to sponsor.</li>
+    <li><strong>TU/e (Eindhoven University of Technology)</strong> — IND recognized sponsor; quantum/high-tech research; Python-heavy</li>
+    <li>Search: <a href="https://ind.nl/en/public-register-recognised-sponsors" target="_blank">ind.nl public register</a> · <a href="https://devitjobs.nl/en/with-visa-sponsorship" target="_blank">devitjobs.nl/visa-sponsorship</a> · Agencies: Undutchables, Adams Recruitment</li>
+  </ul>
+</div>
+
+<div class="research-box">
+  <h4>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland/UK — Sponsor-Licensed Institutions Most Likely to Hire</h4>
+  <p><strong>12,800 digital tech jobs open annually in Scotland vs. ~5,000–6,000 graduates</strong> — a 2x demand/supply gap. Software/App Developers = SOC 2134, eligible for Skilled Worker route. Min salary £41,700/yr.</p>
+  <ul>
+    <li><strong>Scottish Government Digital</strong> — Actively building cloud, digital identity, and digital payments platforms. Python + REST APIs + Docker = direct match. Licensed sponsor. <a href="https://digital.jobs.gov.scot/vacancies" target="_blank">digital.jobs.gov.scot/vacancies</a></li>
+    <li><strong>NHS Scotland (Digital roles)</strong> — Licensed sponsor. Band 7+ (£50,861+) clears the 2026 threshold. Healthcare IT developer roles most viable. <a href="https://www.careers.nhs.scot/" target="_blank">careers.nhs.scot</a></li>
+    <li><strong>University of Edinburgh</strong> &amp; <strong>University of Glasgow</strong> — Both licensed sponsors; digital health research + research computing IT staff</li>
+    <li><strong>Heriot-Watt University</strong> (Edinburgh/Glasgow) &amp; <strong>University of Strathclyde</strong> (Glasgow) — Licensed sponsors, applied research computing</li>
+    <li>Search: <a href="https://www.myjobscotland.gov.uk/categories/it-telecommunications" target="_blank">myjobscotland.gov.uk/IT</a> · <a href="https://workintech.scot" target="_blank">workintech.scot</a> · <a href="https://uk.jooble.org/jobs-visa-sponsorship-engineer/Scotland" target="_blank">Jooble Scotland visa sponsorship</a></li>
+  </ul>
+</div>
+
+<footer>
+  Generated: 2026-03-01 &nbsp;|&nbsp; Mohamad Abboud — International Job Search &nbsp;|&nbsp;
+  Original links preserved in <code>data/international-job-links.txt</code> &nbsp;|&nbsp;
+  All CLOSED postings from original file excluded from this HTML
+</footer>
+
+</body>
+</html>
