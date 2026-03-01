@@ -41,13 +41,13 @@ https://www.jobbank.gc.ca/jobsearch/jobposting/48967706 detailsSpectrum Manufact
 https://www.jobbank.gc.ca/jobsearch/jobposting/48968186 detailsTimePlay
 https://www.jobbank.gc.ca/jobsearch/jobposting/49005261 detailseCapital
 https://www.jobbank.gc.ca/jobsearch/jobposting/48997953
-https://www.jobbank.gc.ca/jobsearch/jobposting/48902572
-https://www.jobbank.gc.ca/jobsearch/jobposting/48906505
-https://www.jobbank.gc.ca/jobsearch/jobposting/48996169
-https://www.jobbank.gc.ca/jobsearch/jobposting/48901011
-https://www.jobbank.gc.ca/jobsearch/jobposting/48970397
-https://www.jobbank.gc.ca/jobsearch/jobposting/49002600
-https://www.jobbank.gc.ca/jobsearch/jobposting/48981840
+https://www.jobbank.gc.ca/jobsearch/jobposting/48902572 Scotiabank ai
+https://www.jobbank.gc.ca/jobsearch/jobposting/48906505 Delphi Development Scotiabank 
+https://www.jobbank.gc.ca/jobsearch/jobposting/48996169 detailsThe Brand Power Company
+https://www.jobbank.gc.ca/jobsearch/jobposting/48901011 detailsSense & Respond Software Inc
+https://www.jobbank.gc.ca/jobsearch/jobposting/48970397 30
+https://www.jobbank.gc.ca/jobsearch/jobposting/49002600 ----- detailsAssetPool
+https://www.jobbank.gc.ca/jobsearch/jobposting/48981840 -----
 
 # ============================================================
 # UNITED KINGDOM / SCOTLAND — jobs.ac.uk
@@ -72,11 +72,11 @@ https://www.jobs.ac.uk/job/DQQ998/front-end-engineer-x2-posts
 https://www.jobs.ac.uk/job/DQM587/tech-lead-and-engineering-manager
 
 # Web Developer / Application Developer
-https://www.jobs.ac.uk/job/DQO308/senior-web-developer
-https://www.jobs.ac.uk/job/DQM557/senior-front-end-web-developer
-https://www.jobs.ac.uk/job/DQN568/associate-technical-developer
-https://www.jobs.ac.uk/job/DQP665/senior-developer-integrations
-https://www.jobs.ac.uk/job/DQN567/senior-microsoft-365-sharepoint-developer
+https://www.jobs.ac.uk/job/DQO308/senior-web-developer ---------
+https://www.jobs.ac.uk/job/DQM557/senior-front-end-web-developer---------
+https://www.jobs.ac.uk/job/DQN568/associate-technical-developer---------
+https://www.jobs.ac.uk/job/DQP665/senior-developer-integrations---------
+https://www.jobs.ac.uk/job/DQN567/senior-microsoft-365-sharepoint-developer-----
 
 # Data Engineer
 https://www.jobs.ac.uk/job/DQQ110/data-engineer
@@ -105,7 +105,7 @@ https://www.jobs.ac.uk/job/DQQ956/data-architect
 
 # Full Stack Developer — Colorado Community College System (CCCS) ---- CLOSED
 # React/Vue/Angular + Node.js/Python/C# + REST APIs | cap-exempt: community college
-https://www.governmentjobs.com/careers/colorado/jobs/newprint/5177726 
+https://www.governmentjobs.com/careers/colorado/jobs/newprint/5177726 ---- CLOSED
 
 # Senior Software Developer (Full Stack) — Los Angeles Southwest College (LASC) ---- CLOSED
 # Angular + Azure DevOps + CI/CD | cap-exempt: community college
@@ -201,37 +201,37 @@ https://www.governmentjobs.com/careers/columbusoh/jobs/newprint/4071410 ---- CLO
 
 # TU Delft
 # Three Motivated Senior Software Engineers (Device-Aware Testing / POPCORN)
-https://www.academictransfer.com/en/jobs/358915/three-motivated-senior-software-engineers-with-understanding-of-computer-hardware/
+https://www.academictransfer.com/en/jobs/358915/three-motivated-senior-software-engineers-with-understanding-of-computer-hardware/----------------
 # Robotic Software Engineer
-https://www.academictransfer.com/en/jobs/358043/robotic-software-engineer/
+https://www.academictransfer.com/en/jobs/358043/robotic-software-engineer/---------------
 
 # Koninklijke Bibliotheek (KB — National Library of the Netherlands)
 # Lead Software Engineer (Java / IAM)
-https://www.academictransfer.com/en/jobs/358884/lead-software-engineer-java-iam/
+https://www.academictransfer.com/en/jobs/358884/lead-software-engineer-java-iam/---------------
 # Lead Software Engineer
-https://www.academictransfer.com/en/jobs/358669/lead-software-engineer/
+https://www.academictransfer.com/en/jobs/358669/lead-software-engineer/-----------
 
 # Wageningen University & Research
 # Product Development Automation Lead (Python, PyTorch, TensorFlow, C#/.NET)
-https://www.academictransfer.com/en/jobs/358573/product-development-automation-lead/
+https://www.academictransfer.com/en/jobs/358573/product-development-automation-lead/------------------
 
 # Universiteit Utrecht
 # Wetenschappelijk Ontwikkelaar (Scientific Developer) — Centre for Digital Humanities
-https://www.academictransfer.com/en/jobs/358837/wetenschappelijk-ontwikkelaar-centre-for-digital-humanities/
+https://www.academictransfer.com/en/jobs/358837/wetenschappelijk-ontwikkelaar-centre-for-digital-humanities/-----------
 # Software Engineer — Faculty of Humanities (deadline: 13 Mar 2026)
-https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer
+https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer-------------
 
 # University of Amsterdam (UvA)
 # Research Engineer — Digital Data Donation & Computational Social Science
-https://www.academictransfer.com/en/jobs/358448/postdoc-and-research-engineer-position-digital-data-donation-and-computational-social-science/
+https://www.academictransfer.com/en/jobs/358448/postdoc-and-research-engineer-position-digital-data-donation-and-computational-social-science/ ----------------------
 
 # SURF (Dutch national IT organisation for education and research)
 # Senior Solution Architect
-https://werkenbij.surf.nl/en/vacancies/senior-solution-architect
+https://werkenbij.surf.nl/en/vacancies/senior-solution-architect-------------
 # Senior Systems Engineer
-https://werkenbij.surf.nl/en/vacancies/senior-systems-engineer
+https://werkenbij.surf.nl/en/vacancies/senior-systems-engineer-------------
 # Technical Specialist Education
-https://werkenbij.surf.nl/en/vacancies/technical-specialist-education
+https://werkenbij.surf.nl/en/vacancies/technical-specialist-education---------------
 # HPC Advisor
-https://werkenbij.surf.nl/en/vacancies/hpc-advisor
-https://werkenbij.surf.nl/en/vacancies/hpc-advisor-2
+https://werkenbij.surf.nl/en/vacancies/hpc-advisor---------------
+https://werkenbij.surf.nl/en/vacancies/hpc-advisor-2---------------
