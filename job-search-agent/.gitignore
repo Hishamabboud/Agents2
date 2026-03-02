@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+logs/*.txt
+logs/*.log
+output/applications/*.docx
+output/applications/*.txt
+output/tracker.html
+data/jobs_found.json
+data/jobs_evaluated.json
