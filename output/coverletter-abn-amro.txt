@@ -1,0 +1,29 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+ABN AMRO Bank N.V.
+Utrecht, Netherlands
+
+Re: Software Engineer (Asset Based Finance)
+
+Dear Hiring Team,
+
+I am applying for the Software Engineer position in the Asset Based Finance reporting team. The role - C# and .NET development in a financial services environment, working on data processing and reporting systems - is a strong match for my background in both the technical stack and the domain.
+
+I spent two years at Allied Engineering Group in Beirut building C# and ASP.NET applications for SWIFT financial transaction platforms. The client base was over 400 banking institutions across 40+ countries, including Qatar National Bank. My work there included writing complex SQL Server stored procedures and T-SQL queries for real-time financial data, building SSIS ETL pipelines, and developing SSRS reports for financial reporting - which maps directly to the data modeling, processing, and reporting focus described in your posting. Working in financial software taught me to care about data correctness and audit trails in a way that general application development does not always force.
+
+At Tekkii, I have continued working in C# and .NET, building backend services, REST APIs, and SQL Server database layers for government and commercial clients. I am comfortable with Azure DevOps and CI/CD pipelines, and I work in Agile teams as a matter of course.
+
+Your posting emphasizes fluent English written and spoken, which is my primary professional language. I bring five years of .NET development experience, a background in financial systems, and the ability to step into a team and contribute quickly.
+
+I am planning a move to the Netherlands and would be available to start after completing standard visa and relocation processes. I look forward to the possibility of discussing the role.
+
+Thank you.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

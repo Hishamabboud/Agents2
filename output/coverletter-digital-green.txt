@@ -1,0 +1,27 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Digital Green B.V.
+Utrecht, Netherlands
+
+Re: Full Stack Developer
+
+Dear Hiring Team,
+
+I am applying for the Full Stack Developer role at Digital Green B.V. The stack - Python backend, React frontend, Bootstrap, REST APIs, AWS, Git - maps closely to tools I have been using professionally, and the Utrecht location is one I am actively targeting in my job search.
+
+At Tekkii, I worked as a full stack developer building Python and PHP backend services paired with JavaScript and React/Vue.js frontends for ecommerce and logistics clients. I designed REST APIs, managed relational databases (MySQL, PostgreSQL, SQL Server), used Bootstrap and jQuery for frontend styling, integrated third-party APIs (PayPal, SendGrid), and worked in Docker/Git/Agile environments throughout. One project involved rebuilding the backend and database layer of an ecommerce platform that was later acquired, which required optimizing both the Python service layer and the underlying MySQL schema for performance.
+
+Before Tekkii, I was at Allied Engineering Group building C# and ASP.NET applications for financial platforms serving 400+ banking institutions across 40+ countries. That gave me experience with the rigor required when systems handle real transactions at scale.
+
+I am fluent in English, available to relocate to Utrecht, and genuinely interested in the kind of work Digital Green does. I am ready to start as soon as logistics allow.
+
+Thank you for considering my application.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

@@ -1,0 +1,29 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Wypoon Technologies
+Amsterdam, Netherlands
+
+Re: Generative AI Engineer - Python | Azure | RAG | FastAPI
+
+Dear Hiring Team,
+
+I am applying for the Generative AI Engineer role at Wypoon Technologies. My primary qualifications for this position are my Python backend development experience and my background building production REST APIs and data pipelines - the engineering fundamentals that underlie the GenAI application layer described in your posting.
+
+At Tekkii, I built Python backend services and APIs for ecommerce and logistics applications, including integrations with third-party services and data processing pipelines. I work with Docker, Git, and CI/CD in my regular development workflow. At Allied Engineering Group, I developed data processing systems for SWIFT financial transaction platforms, which gave me experience building reliable, high-throughput data services.
+
+I am honest about where my experience ends: I have not worked with FastAPI in production, and RAG/vector search pipelines are areas I am actively learning rather than shipping. I am familiar with Python's broader ecosystem and have worked with ML (my Master's project involved training CNN and VGG16 models for medical image classification), which gives me a foundation for the AI/ML adjacent work in this role. If you are building a team and looking for a strong Python backend engineer who can grow into the GenAI application layer, I would contribute meaningfully from the start and develop quickly in the new areas.
+
+The sponsorship package you offer is exceptional - full visa support, 30% tax ruling, temporary housing, family visa assistance. It reflects a company that is serious about building an international team and supporting people through the relocation process. That is the kind of organization I want to work for.
+
+I am available for an interview at any time and ready to relocate to Amsterdam.
+
+Thank you.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

@@ -1,0 +1,27 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Yasen Dinkov / Hiring Team
+Shipcloud
+Rotterdam, Netherlands
+
+Re: .NET Developer
+
+Dear Yasen,
+
+The .NET Developer role at Shipcloud caught my attention because the technical stack you are working with - C#, ASP.NET Core, REST APIs, PostgreSQL, Docker, Vue.js - is almost exactly what I have been building with professionally for the past five years.
+
+At Tekkii, I designed and maintained ASP.NET Core REST APIs for ecommerce and logistics clients, worked with PostgreSQL and SQL Server for data storage and retrieval, containerized deployments with Docker, and built frontend components in Vue.js, React, and JavaScript. The logistics angle is particularly relevant - I built a full EDI (Electronic Data Interchange) processing system from scratch for supply chain automation, which gave me real exposure to the challenges of integrating with carrier and partner systems, handling structured data exchange reliably, and building backend services that process high transaction volumes without error. Shipcloud's focus on shipping API integrations is a domain I understand and find genuinely interesting.
+
+Before Tekkii, I was at Allied Engineering Group in Beirut developing C# and ASP.NET applications for SWIFT financial platforms - 400+ banking institutions across 40+ countries. That background shaped how I think about API reliability, data integrity, and writing backend code that handles edge cases correctly.
+
+I have solid English proficiency and am comfortable working in international teams - most of my professional experience has involved cross-border clients and distributed collaboration. I am prepared to relocate to Rotterdam and am excited about the city specifically, given its scale, international character, and the kind of tech ecosystem it supports.
+
+Thank you for your time. I would be glad to discuss the role further.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

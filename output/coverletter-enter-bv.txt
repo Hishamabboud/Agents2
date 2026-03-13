@@ -1,0 +1,30 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Dieka van den Eijnde
+dieka.vandeneijnde@enter-group.nl
+ENTER BV
+Eindhoven, Netherlands
+
+Re: C# .NET Developer
+
+Dear Dieka,
+
+I am writing to apply for the C# .NET Developer role at ENTER BV in Eindhoven. The posting description - scalable data-intensive applications in C# and .NET using OOP and design patterns, with a Kubernetes/DevOps environment - fits well with my five years of professional .NET development experience.
+
+My core stack is C#, ASP.NET, and .NET Framework/Core, which I have used throughout my career to build backend services, REST APIs, and data processing applications. At Tekkii, I developed applications for logistics (EDI processing), ecommerce (KidsCloset.biz backend overhaul), and government (Kansas City Election System), all using C#, ASP.NET, and SQL Server with a focus on OOP and clean architecture. Before that, at Allied Engineering Group in Beirut, I spent two years building C# and ASP.NET applications for SWIFT financial transaction platforms serving 400+ banking institutions across 40+ countries - a rigorous environment that required solid design patterns and reliable, well-tested code.
+
+I have hands-on experience with SQL Server (stored procedures, complex queries, schema design), PostgreSQL, MySQL, Docker, Git, and Agile/Scrum workflows. Kubernetes and Grafana/Prometheus are areas I have used in a more limited capacity and would develop further in this role.
+
+Your posting notes that the minimum experience is five years - I am at exactly that point in my career, at a stage where I am looking to apply my experience in a new environment and deepen my technical skills.
+
+Eindhoven is specifically one of my preferred target cities in the Netherlands. I am ready to relocate, available to start promptly, and committed to making the move.
+
+Thank you for considering my application. I would be glad to discuss further.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

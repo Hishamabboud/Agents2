@@ -1,0 +1,31 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+BIQH
+Amersfoort, Netherlands
+
+Re: Dot Net Backend Developer
+
+Dear Hiring Team,
+
+I am applying for the Dot Net Backend Developer role at BIQH. The combination of .NET backend development, MS SQL with stored procedures, Vue.js frontend work, and a fintech/financial data context aligns well with my professional background.
+
+My core stack is C#, ASP.NET, and .NET, which I have worked with for five years. At Tekkii, I built REST APIs and backend services in C# and ASP.NET for logistics and ecommerce platforms, managed SQL Server databases with stored procedures and complex T-SQL queries, and developed frontend components in Vue.js, React, and JavaScript. I worked in Agile/Scrum teams using Jira-style sprint planning and Git for version control throughout.
+
+My most relevant prior role was at Allied Engineering Group in Beirut, where I spent two years building C# and ASP.NET applications for SWIFT financial transaction platforms - serving 400+ banking institutions across 40+ countries. Working in financial data at scale gave me experience with the kind of correctness, performance, and data integrity requirements that a financial data services company like BIQH requires daily.
+
+I note that GraphQL is listed as a key requirement - this is an area I have not worked with in production but understand conceptually, and I am prepared to develop that competency. The remaining stack (MS SQL, stored procedures, .NET, Vue, Scrum, Git) is work I do regularly.
+
+The role offers workation in Italy which is a genuinely interesting perk. More importantly, the 70/20/10 split of new development, code review, and design work matches the kind of balanced engineering role I am looking for.
+
+I am available to relocate to the Netherlands and prepared to start following a standard transition period.
+
+Thank you.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

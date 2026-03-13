@@ -1,0 +1,34 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162 | Available for relocation to the Netherlands | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+C# | ASP.NET | ASP.NET Core | .NET Framework | .NET 6/7/8 | REST APIs | SQL Server | T-SQL | Stored Procedures
+PostgreSQL | MySQL | Entity Framework | OOP | Design Patterns | MVC | Microservices
+JavaScript | Vue.js | React | Angular | HTML | CSS | Bootstrap | jQuery
+Git | Docker | CI/CD | Azure DevOps | Agile/Scrum | SSIS | SSRS | EDI | SWIFT
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS, USA
+- Designed and maintained RESTful APIs and backend services using C#, ASP.NET, and PHP for ecommerce and logistics applications
+- Built EDI processing system from scratch to automate supply chain document exchange (856, 850, 810 transaction sets), handling high-volume data flows reliably
+- Rebuilt backend and database layer for KidsCloset.biz ecommerce platform (C#, SQL Server), contributing to a successful acquisition of the application
+- Developed Kansas City Election System update (government client) and KC Sports Directory (community database platform) using full stack ASP.NET and SQL Server
+- Integrated third-party APIs including PayPal, SendGrid, and OneSignal into backend services, implementing payment flows and notification systems
+- Managed SQL Server databases: schema design, stored procedures, views, and query optimization for data-intensive workloads
+- Applied OOP and design patterns in all development work; participated in Agile/Scrum sprints with Git version control
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Developed C# and ASP.NET Core applications for SWIFT financial transaction platforms serving 400+ banking clients across 40+ countries including QNB
+- Designed and optimized SQL Server stored procedures, indexed views, and complex T-SQL queries for real-time financial data processing
+- Built SSIS ETL pipelines for cross-system data migration and SSRS reports for client-facing financial dashboards
+- Integrated Telerik UI components and third-party banking APIs into enterprise .NET applications
+- Worked in Agile development teams, delivering features against sprint goals and maintaining high code quality standards
+
+EDUCATION
+University of Missouri-Kansas City
+Master of Science in Computer Science | 2021-2023
+Relevant Coursework: Software Engineering, Advanced Database Systems, Data Structures and Algorithms, Enterprise Application Development
+Project: Pneumonia Detection App - CNN (92% accuracy), VGG16 (95% accuracy)
+
+Languages: English (fluent), Arabic (native), French (basic)

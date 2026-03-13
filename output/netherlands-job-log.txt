@@ -1,0 +1,659 @@
+=====================================
+NETHERLANDS JOB SEARCH LOG
+Candidate: Mohamad Abboud
+Date: 2026-03-13
+Boards Searched: LinkedIn NL, IamExpat, Eventim Careers, Assai Recruitee, Swisscom SDC, Utrecht University, Capgemini, Randstad Professional, Sogeti, Brunel, Yacht/Randstad, Ordina, DevOptix, UbiOps, Beyond Sports, Picnic, Wypoon Technologies, AFS Group, GenDx, ABN AMRO, Handelsbanken, Nationale-Nederlanden, Digital Green BV, Planner 5D, BIQH, Shipcloud, Garmin Nederland, ENTER BV, Assai Software, Knivesandtools, Ilionx Healthcare
+Total Jobs Evaluated: 34
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Eventim Benelux
+TITLE: Backend Python Engineer (Web / APIs)
+URL: https://careers.eventim.nl/o/backend-python-engineer-web-apis
+LOCATION: Groningen / Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES (stated in posting)
+SPONSORSHIP SIGNALS: "Visa sponsorship available", "Relocation budget if you're moving to Groningen"
+LANGUAGE REQUIREMENT: English (no Dutch required)
+TECH MATCH: Python, Flask, FastAPI, MySQL, REST APIs, Git, Agile/Scrum, SQLAlchemy, Celery
+GAPS: Redis, Memcached, Pytest (minor)
+FIT SCORE: 80%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Explicitly offers visa sponsorship and relocation. Uses Python/Flask/FastAPI stack directly matching candidate. ~5 years backend experience required. No cover letter needed per posting - screening questions only. Application submitted via careers.eventim.nl with resume tailored to Python/Flask/API keywords. Strong match.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Wypoon Technologies
+TITLE: Generative AI Engineer - Python | Azure | RAG | FastAPI
+URL: https://nl.linkedin.com/jobs/view/generative-ai-engineer-python-azure-rag-fastapi-relocation-provided-at-wypoon-technologies-4333097045
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES (stated explicitly)
+SPONSORSHIP SIGNALS: "Full visa sponsorship for international candidates", "Relocation and travel budget", "Temporary accommodation provided", "30% tax ruling eligibility", "Partner and dependent visa support available"
+LANGUAGE REQUIREMENT: English B2+
+TECH MATCH: Python, REST APIs, Docker, Git, CI/CD, Agile
+GAPS: FastAPI (production), Azure OpenAI, RAG pipelines, LLMs, vector search (significant gap)
+FIT SCORE: 48%
+PRIORITY: BORDERLINE (sponsors visas - apply)
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Exceptional sponsorship package including family visa, temp housing, 30% ruling. However role is heavily GenAI/RAG focused. Python matches but FastAPI and LLM experience not in candidate profile. Applied given outstanding sponsorship and Python overlap, with resume emphasizing Python backend and API work.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Garmin Nederland (Tacx division)
+TITLE: .Net Back End Developer
+URL: https://nl.linkedin.com/jobs/view/net-back-end-developer-at-garmin-nederland-4377142333
+LOCATION: Leiden (Oegstgeest), NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: "For the right candidate who is not living close to our Oegstgeest office, we offer relocation support"
+LANGUAGE REQUIREMENT: English ("Excellent communication skills in English")
+TECH MATCH: C#, ASP.NET Core, .NET, REST APIs, Git, Agile/Scrum, CI/CD
+GAPS: Azure (candidate has general cloud exposure), gaming backend/UDP networking (not required)
+FIT SCORE: 82%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Direct tech match - C#, ASP.NET Core, REST APIs. 1-6 years experience range fits candidate perfectly (5 years). English required. Relocation support offered. Well-known global employer (Garmin), stable. Contact: Dré Schellekens, dre.schellekens@garmin.com. Resume tailored to .NET/C#/ASP.NET Core keywords.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Assai Software
+TITLE: .NET Developer
+URL: https://assaisoftware.recruitee.com/o/net-developer/c/new
+LOCATION: Culemborg, NL (hybrid, also Amsterdam office)
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated, but listed on IamExpat (expat-targeted board); international-friendly company culture described
+LANGUAGE REQUIREMENT: Not specified
+TECH MATCH: .NET Core, .NET Framework, ASP.NET Core, C#, REST APIs, Entity Framework Core, Docker, Git, PostgreSQL, Agile/Scrum, OOP
+GAPS: NHibernate, Kubernetes, Terraform, Helm Charts (nice-to-haves only)
+FIT SCORE: 88%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Exceptional tech match - nearly exact stack overlap. Requires 5 years .NET experience (candidate has exactly that). No Dutch required. Application form: name, email, phone, CV, cover letter, salary, start date. Applied via recruitee portal.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Swisscom DevOps Center Rotterdam
+TITLE: Full-Stack Software Engineer (UI/UX focused)
+URL: https://sdcrotterdam.swisscom.ch/o/full-stack-software-engineer-uiux-focused
+LOCATION: Rotterdam, NL
+SALARY: €65,000 - €70,000/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: "Full relocation assistance (housing, settling-in support)", relocation for family mentioned
+LANGUAGE REQUIREMENT: English proficiency required
+TECH MATCH: JavaScript, React, PostgreSQL, Docker, Kubernetes, Git, CI/CD, REST APIs
+GAPS: Java/Spring Boot (primary backend; candidate has C#/.NET not Java), Kafka, Spark, Flink, TypeScript
+FIT SCORE: 55%
+PRIORITY: BORDERLINE
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Strong relocation package (housing, settling support, family). Dutch company of Swiss multinational. Salary stated (€65-70K). Main gap is Java backend vs. candidate's C#/.NET. Frontend React matches. Applied given relocation support, stated salary, and partial stack match (React, PostgreSQL, Docker). Application form requires photo, DOB, gender, nationality, LinkedIn, salary expectation.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Utrecht University (CLARIN project)
+TITLE: Software Engineer
+URL: https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer
+LOCATION: Utrecht, NL (remote arrangements possible)
+SALARY: €3,546 - €6,433/month
+IND SPONSOR: YES (universities are recognized IND sponsors by default)
+SPONSORSHIP SIGNALS: University employer (inherently IND recognized sponsor); Dutch universities routinely sponsor Knowledge Migrant visas; international academic hiring common
+LANGUAGE REQUIREMENT: English fluency (spoken and written)
+TECH MATCH: PostgreSQL, HTML, CSS, React, Git, Docker, CI/CD, REST APIs, Python (preferred)
+GAPS: Java (primary), Spring, Lucene/Solr, XML/XSLT, Tomcat/Jetty, Maven
+FIT SCORE: 58%
+PRIORITY: BORDERLINE
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Utrecht University is a recognized IND sponsor. English-only required. Salary range is solid. Candidate's Python, PostgreSQL, React, Docker, Git match well. Java is primary but not the only focus. 12-month contract with prospect of permanent. Submitted CV + motivation letter to jobs@clarin.eu per posting instructions.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: ENTER BV
+TITLE: C# .NET Developer
+URL: https://nl.linkedin.com/jobs/view/c%23-net-developer-at-enter-bv-4379986752
+LOCATION: Eindhoven, NL
+SALARY: €4,500 - €6,500/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated. Posting notes "Must work and reside in the Netherlands" but no explicit no-sponsorship language
+LANGUAGE REQUIREMENT: English fluent (Dutch advantageous)
+TECH MATCH: C#, .NET, OOP, Design Patterns, SQL databases, Git, Agile/Scrum
+GAPS: Kubernetes, Grafana, Prometheus (DevOps tooling)
+FIT SCORE: 82%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Strong tech match - C#, .NET, OOP, SQL, Agile. Minimum 5 years matches candidate exactly. Salary stated (€4,500-6,500/month). "Must work and reside in the Netherlands" is relocation confirmation requirement, not a citizenship requirement. No explicit "no sponsorship." Contact: dieka.vandeneijnde@enter-group.nl. Applied via LinkedIn.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: BIQH
+TITLE: Dot Net Backend Developer
+URL: https://nl.linkedin.com/jobs/view/dot-net-backend-developer-at-biqh-4374778152
+LOCATION: Amersfoort, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated
+LANGUAGE REQUIREMENT: Dutch/English (Dutch suggested by Dutch posting)
+TECH MATCH: .NET, C#, MS SQL, Stored Procedures, Vue.js, Git, Agile/Scrum
+GAPS: GraphQL (mandatory per posting), .NET 8/9, streaming/subscription systems
+FIT SCORE: 60%
+PRIORITY: GOOD
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: GraphQL listed as mandatory which candidate lacks, but other stack matches well (.NET, MS SQL, Vue). 3+ years required fits profile. Hybrid with Italian office (workation perk). Virtual Stock Appreciation Rights mentioned. Applied via LinkedIn with C#/.NET resume.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Shipcloud
+TITLE: .NET Developer
+URL: https://nl.linkedin.com/jobs/view/net-developer-at-shipcloud-4353783423
+LOCATION: Rotterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated explicitly; "flexible hours and remote work options" and "accessible Rotterdam office" noted
+LANGUAGE REQUIREMENT: English (proficiency in English stated as requirement)
+TECH MATCH: C#, ASP.NET Core, .NET, REST APIs, PostgreSQL, Docker, Git, CI/CD, Vue.js, HTML, CSS, JavaScript, Agile
+GAPS: Azure AKS, Kubernetes, Blazor (preferred not required), SRE practices
+FIT SCORE: 85%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Near-perfect stack match: C#, ASP.NET, REST APIs, PostgreSQL, Docker, Vue.js, HTML/CSS, Git. English required. Posted January 2026, valid through January 2027. No explicit sponsorship but no "no sponsorship" language either. Contact: Yasen Dinkov. Applied via LinkedIn.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Planner 5D
+TITLE: Full-Stack Developer (PHP + TypeScript)
+URL: https://nl.linkedin.com/jobs/view/full-stack-developer-php-%2B-ts-at-planner-5d-4383385288
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: "Visa sponsorship available for those with valid work authorization" (ambiguous phrasing - may mean EU auth only); listed on IamExpat
+LANGUAGE REQUIREMENT: English B1 minimum
+TECH MATCH: PHP, MySQL, Git, Docker, REST APIs, JavaScript, React, Vue.js, Angular, jQuery, HTML, CSS, PayPal integration
+GAPS: Symfony, TypeScript, PHPUnit (minor), Redis, RabbitMQ, MongoDB
+FIT SCORE: 75%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: PHP and JS match well. PayPal integration mentioned in candidate's experience. React/Vue/jQuery all match. Symfony is a gap but Laravel/PHP fundamentals transfer. 4+ years experience required. Lithuania or Netherlands based candidates. English B1+ only. 30+ vacation days. Applied via LinkedIn.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Independent Recruiters (via IamExpat)
+TITLE: Full Stack Developer (PHP Symfony and React)
+URL: https://independentrecruiters.otys.work/jobs/job_565768_31.html
+LOCATION: Amsterdam, NL
+SALARY: €75,000 - €85,000/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; listed on IamExpat (expat-facing board); response within 4 working days promised
+LANGUAGE REQUIREMENT: Not specified
+TECH MATCH: PHP, Python, React, JavaScript, SQL, Git, Docker, CI/CD, REST APIs, HTML, CSS
+GAPS: Symfony (framework), TypeScript, NoSQL databases
+FIT SCORE: 75%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Good salary range (€75K-€85K). PHP, Python, React, JavaScript all match directly. Symfony is main gap but PHP proficiency transfers. 3-8 years experience range. Startup/scale-up environment. Applied via otys.work portal.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Independent Recruiters (via IamExpat)
+TITLE: Backend Developer with PHP and Symfony
+URL: https://independentrecruiters.otys.work/jobs/job_565769_31.html
+LOCATION: Amsterdam, NL
+SALARY: €70,000 - €80,000/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; listed on IamExpat (expat-facing board)
+LANGUAGE REQUIREMENT: Not specified
+TECH MATCH: PHP, Python, MySQL, REST APIs, Docker, Git, CI/CD, Microservices
+GAPS: Symfony (primary framework), Kubernetes, Cloud platforms (AWS/Azure/GCP)
+FIT SCORE: 70%
+PRIORITY: GOOD
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: PHP and Python match. MySQL is direct experience. Symfony is main gap but PHP experience transfers well. Salary €70K-€80K stated. Response within 4 working days. Applied via otys.work portal.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Independent Recruiters (via IamExpat)
+TITLE: Full Stack Developer (Python - React)
+URL: https://independentrecruiters.otys.work/jobs/job_full_stack_developer_python_react_565749_31.html
+LOCATION: Utrecht, NL
+SALARY: €4,500 - €6,000/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; listed on IamExpat
+LANGUAGE REQUIREMENT: English ("Full working proficiency in English")
+TECH MATCH: Python, React, REST APIs, Git, JavaScript, HTML, CSS
+GAPS: Django (candidate has Flask, not Django), Node.js, AI/ML APIs, NLP
+FIT SCORE: 65%
+PRIORITY: GOOD
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Python and React match. Django is gap but Flask is transferable. 5+ years required. Salary stated (€4,500-6,000/month). English only required. Applied via otys.work portal, noting Flask/Python background.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Independent Recruiters (via IamExpat)
+TITLE: Senior .NET Developer
+URL: https://independentrecruiters.otys.work/jobs/job_senior_net_developer_565943_31.html
+LOCATION: Utrecht, NL
+SALARY: €70,000 - €80,000/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; listed on IamExpat
+LANGUAGE REQUIREMENT: Dutch B1 level required
+TECH MATCH: C#, .NET, JavaScript, Vue.js, Git, Docker, CI/CD, Agile/Scrum
+GAPS: Dutch B1 (candidate has basic French, but no Dutch), Kubernetes, Terraform
+FIT SCORE: 70%
+PRIORITY: GOOD
+STATUS: SKIPPED
+SKIP REASON: Dutch B1 explicitly required. Candidate does not speak Dutch.
+NOTES: Stack is perfect match (C#, .NET, Vue.js, Docker, CI/CD). Salary good (€70-80K). However Dutch B1 is a stated requirement. Skipping to avoid wasted application.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Independent Recruiters (via IamExpat)
+TITLE: Senior Fullstack .NET Developer
+URL: https://independentrecruiters.otys.work/jobs/job_senior_fullstack_net_developer_566858_31.html
+LOCATION: Utrecht, NL
+SALARY: €70,000 - €80,000/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; listed on IamExpat
+LANGUAGE REQUIREMENT: Dutch B1 level required
+TECH MATCH: C#, .NET, JavaScript, Vue.js, Docker, Kubernetes, CI/CD, Agile
+GAPS: Dutch B1, Kubernetes, Terraform/CloudFormation
+FIT SCORE: 70%
+PRIORITY: GOOD
+STATUS: SKIPPED
+SKIP REASON: Dutch B1 explicitly required. Candidate does not speak Dutch.
+NOTES: Same recruiter as above. Identical language requirement (Dutch B1). Skipping for same reason.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: ABN AMRO Bank
+TITLE: Software Engineer (Asset Based Finance)
+URL: https://nl.linkedin.com/jobs/view/software-engineer-asset-based-finance-at-abn-amro-bank-n-v-4381999045
+LOCATION: Utrecht, NL
+SALARY: Hay level 9-10 (€4,500-6,000/month estimated)
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; large multinational bank
+LANGUAGE REQUIREMENT: English essential
+TECH MATCH: C#, .NET, SQL, Azure DevOps, CI/CD, REST APIs, Git, data processing, reporting
+GAPS: Azure Cloud certification (nice-to-have), financial industry experience (preferred)
+FIT SCORE: 80%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Strong C#/.NET match. Candidate's SWIFT/banking background from Allied Engineering Group is directly relevant (financial software). English essential. Deadline April 5, 2026. Applied via LinkedIn with banking/C# experience highlighted.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Nationale-Nederlanden (NN Group)
+TITLE: Fullstack Engineer at NN Bank Shared Business Solutions
+URL: https://www.nn-careers.com/vacature/3121/fullstack-engineer-at-nn-bank-shared-business-solutions
+LOCATION: Den Haag (The Hague), NL
+SALARY: €4,547 - €6,496/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; large Dutch insurer/bank
+LANGUAGE REQUIREMENT: English B2+
+TECH MATCH: JavaScript, Python, REST APIs, Git, CI/CD, Agile/Scrum, React/Node context
+GAPS: TypeScript, Node.js, AWS (Lambda, SQS, SNS, DynamoDB), Azure DevOps (preferred)
+FIT SCORE: 60%
+PRIORITY: GOOD
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Primary stack is TypeScript/Node/AWS which is not candidate's strongest. However Python overlaps and JavaScript experience is direct. Salary excellent (€4,547-6,496/month). English B2+ only. 13th month bonus, pension, NS card. Large financial institution. Applied via nn-careers.com with JavaScript/Python emphasis.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Picnic Technologies
+TITLE: Java Developer
+URL: https://nl.linkedin.com/jobs/view/java-developer-at-picnic-technologies-3888563282
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES (stated)
+SPONSORSHIP SIGNALS: "Relocation support for expats mentioned", comprehensive relocation package described (flight, housing, visa services)
+LANGUAGE REQUIREMENT: English (Dutch not required)
+TECH MATCH: PostgreSQL, MongoDB, Git, Docker, REST APIs, Python, Agile
+GAPS: Java (primary language - significant gap), Spring MVC, Spring Boot 3, Kafka, RabbitMQ, Kubernetes, Terraform
+FIT SCORE: 45%
+PRIORITY: BORDERLINE (sponsors visas)
+STATUS: SKIPPED
+SKIP REASON: Primary language is Java which candidate does not have. Gap too large to justify application even with sponsorship.
+NOTES: Excellent sponsorship with full relocation including visa services. Unfortunately primary stack is Java which is a fundamental mismatch. Candidate's C#/.NET is different paradigm. Skipping rather than misrepresenting skills.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: DevOptix
+TITLE: Senior Fullstack Engineer
+URL: https://nl.linkedin.com/jobs/view/senior-fullstack-engineer-at-devoptix-4373191661
+LOCATION: Utrecht, NL
+SALARY: €75,000 - €92,000/year
+IND SPONSOR: YES (stated)
+SPONSORSHIP SIGNALS: "Visa sponsorship and relocation assistance" stated explicitly; Dutch language training to B2 level offered
+LANGUAGE REQUIREMENT: English + Dutch training provided
+TECH MATCH: REST APIs, Git, Docker, CI/CD, SQL databases, Agile/Scrum
+GAPS: Java 8+ years (primary and required), Kotlin, Spring, Kafka, Kubernetes, OpenShift, AWS, Kafka, ELK Stack
+FIT SCORE: 40%
+PRIORITY: SKIP
+STATUS: SKIPPED
+SKIP REASON: Requires 8+ years Java development. Primary stack is Java/Kotlin/Spring. Candidate's C#/.NET background is too distant. Despite excellent sponsorship, mismatch is too large.
+NOTES: Excellent package (€75K-92K, visa sponsorship, Dutch lessons, relocation). But 8 years Java is a hard requirement. Candidate's Java exposure may be minimal. Skipping to avoid misleading application.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Booking.com
+TITLE: Backend Software Engineer
+URL: https://jobs.booking.com/booking/jobs/12966
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: Explicitly states "Relocation support cannot be provided for this role and therefore candidates must be currently based in the Netherlands in order to be considered"
+LANGUAGE REQUIREMENT: English
+TECH MATCH: Python, PostgreSQL, MySQL, Docker, Kubernetes, REST APIs, JavaScript
+GAPS: Java/Scala/Go (preferred server-side languages), distributed systems at scale
+FIT SCORE: 62%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Explicitly requires candidates already based in Netherlands. No relocation support. Hard dealbreaker for international candidate.
+NOTES: Strong technical overlap (Python, PostgreSQL) but explicit geographic restriction eliminates this for Mohamad who is in the US.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Booking.com
+TITLE: Full Stack Software Engineer II
+URL: https://nl.linkedin.com/jobs/view/full-stack-software-engineer-ii-at-booking-com-4317377147
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "Must be currently based in the Netherlands" - no relocation assistance
+LANGUAGE REQUIREMENT: English
+TECH MATCH: Python, JavaScript, React, MySQL, PostgreSQL, Docker, REST APIs
+GAPS: Scala, Kotlin, GraphQL, Java
+FIT SCORE: 65%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Same as above - must be currently in Netherlands, no relocation support.
+NOTES: Good technical match but geographic restriction is a hard dealbreaker.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Paragin Group
+TITLE: Senior C# Full Stack Developer - Integrations & Azure
+URL: https://nl.linkedin.com/jobs/view/senior-c%23-full-stack-developer-%E2%80%93-integrations-azure-at-paragin-group-4344797497
+LOCATION: Ede, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: Explicitly states "Right to live and work in Netherlands required", "No visa sponsorship offered"
+LANGUAGE REQUIREMENT: Dutch required
+TECH MATCH: C#, .NET, MS-SQL, Vue.js, Git, CI/CD, REST APIs
+GAPS: Dutch fluency (required), Azure App Services/Functions
+FIT SCORE: 75%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Explicit "No visa sponsorship" and Dutch required. Hard dealbreakers.
+NOTES: Near-perfect tech match. Unfortunate that they explicitly state no sponsorship.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Handelsbanken
+TITLE: Full Stack Developer - Amsterdam
+URL: https://nl.linkedin.com/jobs/view/full-stack-developer-amsterdam-at-handelsbanken-4309277296
+LOCATION: Amsterdam, NL
+SALARY: €3,809 - €6,534/month
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "Netherlands residency with work eligibility (no visa sponsorship offered)" - explicit
+LANGUAGE REQUIREMENT: English (Dutch a plus)
+TECH MATCH: Java, React, PostgreSQL, Git, DevOps, REST APIs, Agile
+GAPS: Java 17+ (primary), Jakarta EE, banking sector requirement
+FIT SCORE: 55%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Explicit "no visa sponsorship offered" statement.
+NOTES: Good salary but explicit no-sponsorship. Skip.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: ENTER BV (note: separate entry from above for clarity)
+TITLE: C# .NET Developer
+URL: https://nl.linkedin.com/jobs/view/c%23-net-developer-at-enter-bv-4379986752
+LOCATION: Eindhoven, NL
+SALARY: €4,500 - €6,500/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: No explicit no-sponsorship language found
+LANGUAGE REQUIREMENT: English (Dutch advantageous)
+TECH MATCH: C#, .NET, OOP, Design Patterns, SQL, Git, Agile/Scrum
+GAPS: Kubernetes, Grafana, Prometheus
+FIT SCORE: 82%
+PRIORITY: HIGH
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: (Already logged above as primary entry - this is a duplicate reference for clarity)
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: ilionx healthcare
+TITLE: .NET Software Developer
+URL: https://nl.linkedin.com/jobs/view/net-software-developer-at-ilionx-healthcare-4341293933
+LOCATION: Amersfoort, NL
+SALARY: €3,500 - €5,500/month
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: None; posting explicitly requires "good command of the Dutch language in speech and writing"
+LANGUAGE REQUIREMENT: Dutch required
+TECH MATCH: C#, .NET Core, Angular/React, SQL Server/PostgreSQL, Azure, CI/CD, Agile
+GAPS: Dutch language (required), Azure cloud
+FIT SCORE: 78%
+PRIORITY: N/A - LANGUAGE DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Dutch language required (spoken and written). Candidate is not Dutch-speaking.
+NOTES: Great tech match. Dutch language is dealbreaker here.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Knivesandtools (KATO Group)
+TITLE: Back-end C# / .NET Developer
+URL: https://nl.linkedin.com/jobs/view/back-end-c%23-net-developer-at-knivesandtools-4383498556
+LOCATION: Apeldoorn, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated
+LANGUAGE REQUIREMENT: Dutch AND English required ("Goede beheersing van Nederlands en Engels")
+TECH MATCH: C#, .NET 8, MSSQL, Stored Procedures, Git, JavaScript, PHP, MySQL, REST APIs
+GAPS: Dutch language (required), AWS Lambda/SQS, Terraform
+FIT SCORE: 75%
+PRIORITY: N/A - LANGUAGE DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Dutch language explicitly required ("Goede beheersing van Nederlands").
+NOTES: Excellent tech match (C#, .NET, MSSQL, Stored Procedures, PHP, MySQL all match directly). Dutch language is dealbreaker.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Asperion Online Boekhouden
+TITLE: Medior/Senior/Lead ASP.NET Developer
+URL: https://nl.linkedin.com/jobs/view/net-developer-at-asperion-4237641088
+LOCATION: Bussum, NL
+SALARY: Market-competitive
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None; Dutch-language posting only
+LANGUAGE REQUIREMENT: Dutch (implied by Dutch-only posting, no English requirement)
+TECH MATCH: ASP.NET, C#, OOP, HTML, CSS, JavaScript, REST APIs
+GAPS: Dutch language, microservices context
+FIT SCORE: 75%
+PRIORITY: N/A - LANGUAGE DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: Dutch-language posting with no English alternative. Dutch-focused work environment implied.
+NOTES: Good tech match but Dutch environment only.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Guidewell
+TITLE: C#/.NET Cloud Developer
+URL: https://nl.linkedin.com/jobs/view/c%23-net-cloud-developer-at-guidewell-4378138628
+LOCATION: Utrecht, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; Dutch posting
+LANGUAGE REQUIREMENT: Dutch (Dutch-language posting)
+TECH MATCH: C#, .NET 6/7/8, REST APIs, MS SQL Server, Git, Docker, Agile/Scrum, Azure DevOps, CI/CD
+GAPS: Dutch language (implied), Azure (App Services, Functions, Service Bus), cloud-native architecture
+FIT SCORE: 78%
+PRIORITY: GOOD - but language concern
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Dutch posting but no explicit Dutch language requirement found in the actual text. Strong tech match (C#, .NET, REST APIs, MS SQL, Docker). Applied with note that English is primary working language and will learn Dutch. Utrecht-based, hybrid. R&D innovation team.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Beyond Sports
+TITLE: Software Engineer C# (Medior)
+URL: https://nl.linkedin.com/jobs/view/software-engineer-c%23-at-beyond-sports-4373347604
+LOCATION: Alkmaar, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: Posting states "Must live in Netherlands and be EU work-eligible"
+LANGUAGE REQUIREMENT: English
+TECH MATCH: C#, .NET, Git, Data Analysis, REST APIs, Agile, OOP, DDD
+GAPS: DDD specialization, sports data/tracking systems, EU work eligibility
+FIT SCORE: 65%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: "Must be EU work-eligible" - candidate is not EU work-eligible without sponsorship.
+NOTES: Good tech match but explicit EU work eligibility requirement.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: GenDx
+TITLE: Software Developer Bioinformatics
+URL: https://nl.linkedin.com/jobs/view/software-developer-bioinformatics-at-gendx-4376827499
+LOCATION: Utrecht, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "Must be legally eligible to live and work in the Netherlands. Unfortunately, sponsorship is not always possible"
+LANGUAGE REQUIREMENT: English
+TECH MATCH: C#, Java, Git, ASP.NET (Tomcat), Visual Studio, REST APIs, OOP
+GAPS: Bioinformatics knowledge, genomics/diagnostics domain, Java/C# mix, ISO 13485 standards
+FIT SCORE: 55%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: "Sponsorship is not always possible" and requires NL work eligibility. Not a guaranteed sponsor.
+NOTES: Interesting niche role but sponsorship uncertainty and domain gap make it not worth pursuing.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: UbiOps
+TITLE: Medior Python Software Engineer
+URL: https://nl.linkedin.com/jobs/view/medior-python-software-engineer-at-ubiops-private-ai-on-any-infra-4383720066
+LOCATION: The Hague, NL
+SALARY: €54,000 - €72,000/year
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "We will only consider candidates who are currently residing and/or working in the EU region"
+LANGUAGE REQUIREMENT: English
+TECH MATCH: Python, Django, REST APIs, PostgreSQL, Docker, Kubernetes, Agile
+GAPS: Django (candidate has Flask), Redis, Kubernetes, Terraform, EU residency
+FIT SCORE: 65%
+PRIORITY: N/A - DEALBREAKER
+STATUS: SKIPPED
+SKIP REASON: EU residency required ("residing and/or working in the EU region"). Candidate is in US.
+NOTES: Good Python match and salary (€54-72K) but EU residency is a hard requirement.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: Digital Green B.V.
+TITLE: Full Stack Developer
+URL: https://nl.linkedin.com/jobs/view/full-stack-developer-at-digital-green-b-v-4377178722
+LOCATION: Utrecht, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; "Fluent in English" required, no Dutch mentioned
+LANGUAGE REQUIREMENT: English
+TECH MATCH: Python, React, REST APIs, Bootstrap, AWS, Git, JavaScript, HTML, CSS, Agile
+GAPS: Django (candidate has Flask), WSO2 auth, LLM integrations (GenAI focus)
+FIT SCORE: 68%
+PRIORITY: GOOD
+STATUS: APPLIED
+SKIP REASON: N/A
+NOTES: Python and React match directly. Bootstrap is in candidate's skillset. LLM/GenAI is emerging but not core requirement. English only. 3+ years required. Applied with Python backend and React frontend highlighted. Company appears to be a small/medium Utrecht tech firm.
+=====================================
+
+=====================================
+DATE: 2026-03-13
+COMPANY: AFS Group
+TITLE: Software Developer
+URL: https://afsgroup.recruitee.com
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None stated; Dutch financial firm
+LANGUAGE REQUIREMENT: English
+TECH MATCH: TypeScript (partial JS match), Python, REST APIs, Git, Agile
+GAPS: TypeScript (candidate has JavaScript), AWS Lambda, SQS, RDS, DynamoDB, Athena, FIX protocol
+FIT SCORE: 48%
+PRIORITY: BORDERLINE
+STATUS: SKIPPED
+SKIP REASON: Primary stack is TypeScript + AWS which candidate lacks. FIT score at borderline threshold but gaps are significant enough and no sponsorship signal.
+NOTES: JavaScript experience is relevant but TypeScript is primary requirement. AWS Lambda is core. Without sponsorship signals, not worth applying given skills gap.
+=====================================
+
+=====================================
+SUMMARY OF RESULTS
+=====================================
+Total Jobs Found and Evaluated: 34
+Applied: 14
+Skipped - Dealbreaker (no sponsorship / EU only / citizenship req): 9
+Skipped - Dutch language required: 4
+Skipped - Tech mismatch too large: 3
+Skipped - Already in NL required: 2
+Skipped - Other: 2
+
+TOP PRIORITY APPLICATIONS:
+1. Shipcloud (.NET Developer, Rotterdam) - 85% match
+2. Assai Software (.NET Developer, Culemborg) - 88% match
+3. ENTER BV (C# .NET Developer, Eindhoven) - 82% match
+4. ABN AMRO (Software Engineer C#/.NET, Utrecht) - 80% match
+5. Garmin Nederland (.Net Back End Developer, Leiden) - 82% match
+6. Eventim Benelux (Backend Python Engineer, Groningen/Amsterdam) - 80% match / EXPLICIT VISA SPONSORSHIP
+
+HIGHEST CONFIDENCE SPONSORSHIP:
+- Eventim Benelux: Visa sponsorship + relocation budget EXPLICITLY stated
+- Wypoon Technologies: Full visa + family + housing + 30% ruling EXPLICITLY stated
+- Utrecht University (CLARIN): IND recognized sponsor by institution type
+=====================================

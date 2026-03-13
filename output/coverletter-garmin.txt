@@ -1,0 +1,28 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Dré Schellekens
+Talent Acquisition
+Garmin Nederland (Tacx Division)
+Oegstgeest, Netherlands
+
+Re: .Net Back End Developer
+
+Dear Dré,
+
+I am writing to apply for the .Net Back End Developer role at Garmin Nederland. The combination of a well-known global technology brand, a meaningful product in the cycling and fitness space, and a technical stack that matches my background closely - C#, ASP.NET Core, REST APIs, Git, Agile/Scrum - made this posting stand out immediately.
+
+The role description maps well to what I have been doing for the past five years. At Tekkii, I built and maintained ASP.NET Core REST APIs for ecommerce and logistics platforms, managed SQL Server and PostgreSQL databases (schema design, stored procedures, query optimization), integrated third-party APIs (PayPal, SendGrid), and worked in Agile/Scrum sprints with Git throughout. I also built a government application update for the Kansas City Election System, which gave me experience with the kind of correctness requirements that backend systems in regulated or high-stakes environments demand.
+
+Prior to that, at Allied Engineering Group in Beirut, I spent two years developing C# and ASP.NET applications for SWIFT financial transaction platforms serving 400+ banking institutions in 40+ countries. That was a rigorous environment for backend .NET development - high transaction volumes, strict data integrity requirements, and clients who depended on the system running correctly every day.
+
+Your posting notes that the ideal candidate has 1-6 years of experience - I am at 5 years of professional .NET development, which I believe sits in the right range. I have solid English communication skills and no requirement for Dutch initially (though I intend to learn). I am available to relocate to the Oegstgeest/Leiden area and am genuinely excited about the Netherlands as a place to live and work.
+
+I would welcome the chance to speak further. Thank you for your consideration.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

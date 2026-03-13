@@ -1,0 +1,27 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Guidewell
+Utrecht, Netherlands
+
+Re: C#/.NET Cloud Developer
+
+Dear Hiring Team,
+
+I am applying for the C#/.NET Cloud Developer role at Guidewell. The focus on C#, .NET 6/7/8, REST APIs, MS SQL Server, Azure DevOps, and microservices architecture covers the core of my professional experience, and the R&D innovation context is the kind of work I want to be doing.
+
+Over five years, my development work has been centered on C# and ASP.NET. At Tekkii, I built REST APIs and backend services for logistics and ecommerce clients, managed SQL Server databases with complex stored procedures and T-SQL queries, and used Git and CI/CD pipelines throughout. At Allied Engineering Group, I built C# and ASP.NET applications for SWIFT financial transaction platforms serving 400+ banking institutions across 40+ countries - rigorous work that required writing correct, maintainable, and secure backend code under production constraints.
+
+On the cloud and Azure DevOps side: I have worked with CI/CD pipelines and Docker in deployment workflows. Azure-specific services (App Services, Functions, Service Bus) represent areas I have worked around rather than deeply in, and I am actively building that knowledge. Given your description of the role as cloud-native architecture development and cloud transition support, this seems like an environment where I would develop those skills quickly.
+
+I am comfortable working in English and planning a move to the Netherlands. Utrecht is one of my preferred target cities. I am available to relocate and ready to start as soon as the process allows.
+
+Thank you for your time.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud
