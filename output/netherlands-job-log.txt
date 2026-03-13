@@ -7,7 +7,7 @@ Total Jobs Evaluated: 34
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 APPLIED
 COMPANY: Eventim Benelux
 TITLE: Backend Python Engineer (Web / APIs)
 URL: https://careers.eventim.nl/o/backend-python-engineer-web-apis
@@ -26,7 +26,7 @@ NOTES: Explicitly offers visa sponsorship and relocation. Uses Python/Flask/Fast
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Wypoon Technologies
 TITLE: Generative AI Engineer - Python | Azure | RAG | FastAPI
 URL: https://nl.linkedin.com/jobs/view/generative-ai-engineer-python-azure-rag-fastapi-relocation-provided-at-wypoon-technologies-4333097045
@@ -45,7 +45,7 @@ NOTES: Exceptional sponsorship package including family visa, temp housing, 30% 
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Garmin Nederland (Tacx division)
 TITLE: .Net Back End Developer
 URL: https://nl.linkedin.com/jobs/view/net-back-end-developer-at-garmin-nederland-4377142333
@@ -64,7 +64,7 @@ NOTES: Direct tech match - C#, ASP.NET Core, REST APIs. 1-6 years experience ran
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: Assai Software
 TITLE: .NET Developer
 URL: https://assaisoftware.recruitee.com/o/net-developer/c/new
@@ -83,7 +83,7 @@ NOTES: Exceptional tech match - nearly exact stack overlap. Requires 5 years .NE
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Swisscom DevOps Center Rotterdam
 TITLE: Full-Stack Software Engineer (UI/UX focused)
 URL: https://sdcrotterdam.swisscom.ch/o/full-stack-software-engineer-uiux-focused
@@ -102,7 +102,7 @@ NOTES: Strong relocation package (housing, settling support, family). Dutch comp
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: Utrecht University (CLARIN project)
 TITLE: Software Engineer
 URL: https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/software-engineer
@@ -121,7 +121,7 @@ NOTES: Utrecht University is a recognized IND sponsor. English-only required. Sa
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: ENTER BV
 TITLE: C# .NET Developer
 URL: https://nl.linkedin.com/jobs/view/c%23-net-developer-at-enter-bv-4379986752
@@ -140,7 +140,7 @@ NOTES: Strong tech match - C#, .NET, OOP, SQL, Agile. Minimum 5 years matches ca
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: BIQH
 TITLE: Dot Net Backend Developer
 URL: https://nl.linkedin.com/jobs/view/dot-net-backend-developer-at-biqh-4374778152
@@ -159,7 +159,7 @@ NOTES: GraphQL listed as mandatory which candidate lacks, but other stack matche
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: Shipcloud
 TITLE: .NET Developer
 URL: https://nl.linkedin.com/jobs/view/net-developer-at-shipcloud-4353783423
@@ -178,7 +178,7 @@ NOTES: Near-perfect stack match: C#, ASP.NET, REST APIs, PostgreSQL, Docker, Vue
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Planner 5D
 TITLE: Full-Stack Developer (PHP + TypeScript)
 URL: https://nl.linkedin.com/jobs/view/full-stack-developer-php-%2B-ts-at-planner-5d-4383385288
@@ -197,7 +197,7 @@ NOTES: PHP and JS match well. PayPal integration mentioned in candidate's experi
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Independent Recruiters (via IamExpat)
 TITLE: Full Stack Developer (PHP Symfony and React)
 URL: https://independentrecruiters.otys.work/jobs/job_565768_31.html
@@ -216,7 +216,7 @@ NOTES: Good salary range (€75K-€85K). PHP, Python, React, JavaScript all mat
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Independent Recruiters (via IamExpat)
 TITLE: Backend Developer with PHP and Symfony
 URL: https://independentrecruiters.otys.work/jobs/job_565769_31.html
@@ -235,7 +235,7 @@ NOTES: PHP and Python match. MySQL is direct experience. Symfony is main gap but
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Independent Recruiters (via IamExpat)
 TITLE: Full Stack Developer (Python - React)
 URL: https://independentrecruiters.otys.work/jobs/job_full_stack_developer_python_react_565749_31.html
@@ -273,7 +273,7 @@ NOTES: Stack is perfect match (C#, .NET, Vue.js, Docker, CI/CD). Salary good (�
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Independent Recruiters (via IamExpat)
 TITLE: Senior Fullstack .NET Developer
 URL: https://independentrecruiters.otys.work/jobs/job_senior_fullstack_net_developer_566858_31.html
@@ -292,7 +292,7 @@ NOTES: Same recruiter as above. Identical language requirement (Dutch B1). Skipp
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 APPLIED
 COMPANY: ABN AMRO Bank
 TITLE: Software Engineer (Asset Based Finance)
 URL: https://nl.linkedin.com/jobs/view/software-engineer-asset-based-finance-at-abn-amro-bank-n-v-4381999045
@@ -311,7 +311,7 @@ NOTES: Strong C#/.NET match. Candidate's SWIFT/banking background from Allied En
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: Nationale-Nederlanden (NN Group)
 TITLE: Fullstack Engineer at NN Bank Shared Business Solutions
 URL: https://www.nn-careers.com/vacature/3121/fullstack-engineer-at-nn-bank-shared-business-solutions
@@ -330,7 +330,7 @@ NOTES: Primary stack is TypeScript/Node/AWS which is not candidate's strongest. 
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Picnic Technologies
 TITLE: Java Developer
 URL: https://nl.linkedin.com/jobs/view/java-developer-at-picnic-technologies-3888563282
@@ -349,7 +349,7 @@ NOTES: Excellent sponsorship with full relocation including visa services. Unfor
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: DevOptix
 TITLE: Senior Fullstack Engineer
 URL: https://nl.linkedin.com/jobs/view/senior-fullstack-engineer-at-devoptix-4373191661
@@ -368,7 +368,7 @@ NOTES: Excellent package (€75K-92K, visa sponsorship, Dutch lessons, relocatio
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Booking.com
 TITLE: Backend Software Engineer
 URL: https://jobs.booking.com/booking/jobs/12966
@@ -387,7 +387,7 @@ NOTES: Strong technical overlap (Python, PostgreSQL) but explicit geographic res
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Booking.com
 TITLE: Full Stack Software Engineer II
 URL: https://nl.linkedin.com/jobs/view/full-stack-software-engineer-ii-at-booking-com-4317377147
@@ -406,7 +406,7 @@ NOTES: Good technical match but geographic restriction is a hard dealbreaker.
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Paragin Group
 TITLE: Senior C# Full Stack Developer - Integrations & Azure
 URL: https://nl.linkedin.com/jobs/view/senior-c%23-full-stack-developer-%E2%80%93-integrations-azure-at-paragin-group-4344797497
@@ -425,7 +425,7 @@ NOTES: Near-perfect tech match. Unfortunate that they explicitly state no sponso
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Handelsbanken
 TITLE: Full Stack Developer - Amsterdam
 URL: https://nl.linkedin.com/jobs/view/full-stack-developer-amsterdam-at-handelsbanken-4309277296
@@ -444,7 +444,7 @@ NOTES: Good salary but explicit no-sponsorship. Skip.
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: ENTER BV (note: separate entry from above for clarity)
 TITLE: C# .NET Developer
 URL: https://nl.linkedin.com/jobs/view/c%23-net-developer-at-enter-bv-4379986752
@@ -463,7 +463,7 @@ NOTES: (Already logged above as primary entry - this is a duplicate reference fo
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: ilionx healthcare
 TITLE: .NET Software Developer
 URL: https://nl.linkedin.com/jobs/view/net-software-developer-at-ilionx-healthcare-4341293933
@@ -482,7 +482,7 @@ NOTES: Great tech match. Dutch language is dealbreaker here.
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Knivesandtools (KATO Group)
 TITLE: Back-end C# / .NET Developer
 URL: https://nl.linkedin.com/jobs/view/back-end-c%23-net-developer-at-knivesandtools-4383498556
@@ -501,7 +501,7 @@ NOTES: Excellent tech match (C#, .NET, MSSQL, Stored Procedures, PHP, MySQL all 
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: Asperion Online Boekhouden
 TITLE: Medior/Senior/Lead ASP.NET Developer
 URL: https://nl.linkedin.com/jobs/view/net-developer-at-asperion-4237641088
@@ -520,7 +520,7 @@ NOTES: Good tech match but Dutch environment only.
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13  SKIPPED
 COMPANY: Guidewell
 TITLE: C#/.NET Cloud Developer
 URL: https://nl.linkedin.com/jobs/view/c%23-net-cloud-developer-at-guidewell-4378138628
@@ -539,7 +539,7 @@ NOTES: Dutch posting but no explicit Dutch language requirement found in the act
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: Beyond Sports
 TITLE: Software Engineer C# (Medior)
 URL: https://nl.linkedin.com/jobs/view/software-engineer-c%23-at-beyond-sports-4373347604
@@ -558,7 +558,7 @@ NOTES: Good tech match but explicit EU work eligibility requirement.
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: GenDx
 TITLE: Software Developer Bioinformatics
 URL: https://nl.linkedin.com/jobs/view/software-developer-bioinformatics-at-gendx-4376827499
@@ -577,7 +577,7 @@ NOTES: Interesting niche role but sponsorship uncertainty and domain gap make it
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 SKIPPED
 COMPANY: UbiOps
 TITLE: Medior Python Software Engineer
 URL: https://nl.linkedin.com/jobs/view/medior-python-software-engineer-at-ubiops-private-ai-on-any-infra-4383720066
@@ -596,7 +596,7 @@ NOTES: Good Python match and salary (€54-72K) but EU residency is a hard requi
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Applied
 COMPANY: Digital Green B.V.
 TITLE: Full Stack Developer
 URL: https://nl.linkedin.com/jobs/view/full-stack-developer-at-digital-green-b-v-4377178722
@@ -615,7 +615,7 @@ NOTES: Python and React match directly. Bootstrap is in candidate's skillset. LL
 =====================================
 
 =====================================
-DATE: 2026-03-13
+DATE: 2026-03-13 Skipped
 COMPANY: AFS Group
 TITLE: Software Developer
 URL: https://afsgroup.recruitee.com
