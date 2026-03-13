@@ -1,0 +1,682 @@
+# Netherlands Job Search — Mohamad Abboud
+# Batch 2 — New listings only (not in previous batch)
+# Date: March 13, 2026
+# Search boards: IamExpat.nl, LinkedIn Netherlands, Indeed.nl, Glassdoor NL, Relocate.me, Honeypot.io
+# Focus: C#/.NET, Python, Full Stack, Backend roles — English-speaking, visa/relocation friendly
+
+=====================================
+COMPANY: ZooStation (via Relocate.me/YourExpats)
+TITLE: Python Developer [Relocation Paid and Supported to Netherlands]
+URL: https://nl.linkedin.com/jobs/view/python-developer-relocation-paid-and-supported-to-the-netherlands-at-relocate-me-4385548135
+LOCATION: Den Haag (The Hague), NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Relocation paid and supported by YourExpats. This includes travel, visa, search for a house, support in Holland with everything that needs to be arranged like insurances, health care, registration, bank account. Also for your family members."
+LANGUAGE REQUIREMENT: English required ("Excellent verbal and written communication skills (English (must)"). No Dutch required.
+TECH MATCH: Python, FastAPI, microservices, Docker, Kubernetes, GitHub Actions, Agile
+GAPS: Django listed as preferred (candidate has Flask/FastAPI); Kubernetes (minor gap)
+FIT SCORE: 82%
+PRIORITY: HIGH
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Xccelerated | Part of Xebia
+TITLE: Data Engineer (Relocation to the Netherlands)
+URL: https://nl.linkedin.com/jobs/view/data-engineer-relocation-to-the-netherlands-at-xccelerated-part-of-xebia-4379649815
+LOCATION: Randstad (Amsterdam metro), NL
+SALARY: Competitive (not listed)
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Relocation support for candidates moving to the Netherlands." Requires "proactive mindset and willingness to relocate to the Netherlands." Explicit relocation program. After one year, transition to direct client contract.
+LANGUAGE REQUIREMENT: English-speaking environment. No Dutch requirement mentioned.
+TECH MATCH: Python, SQL, data pipelines, CI/CD, cloud (AWS/Azure/GCP), ETL experience
+GAPS: Spark/Databricks/Airflow not in core profile (candidate has ETL/data migration background which is transferable)
+FIT SCORE: 75%
+PRIORITY: HIGH
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Xccelerated | Part of Xebia
+TITLE: Analytics Engineer (Relocation to the Netherlands)
+URL: https://nl.linkedin.com/jobs/view/analytics-engineer-relocation-to-the-netherlands-at-xccelerated-part-of-xebia-4379650811
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Relocation support for candidates moving from abroad." English-speaking environment. 60+ days structured training included.
+LANGUAGE REQUIREMENT: English-speaking environment. No Dutch required.
+TECH MATCH: SQL, data modeling, Python (optional), CI/CD, cloud platforms
+GAPS: dbt, Snowflake, Data Vault not in core profile; analytics focus vs candidate's backend/dev focus
+FIT SCORE: 62%
+PRIORITY: GOOD
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Catawiki (via Relocate.me)
+TITLE: Software Engineer - Data Engineering
+URL: https://nl.linkedin.com/jobs/view/software-engineer-data-engineering-relocation-offered-at-relocate-me-4380512545
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Advanced relocation package" including "Flight ticket," "Money for moving expenses," "Housing search assistance," and "Visa services."
+LANGUAGE REQUIREMENT: Not explicitly stated. No Dutch requirement found.
+TECH MATCH: Python, SQL, FastAPI, CI/CD, Terraform, Docker, PostgreSQL, ETL/data pipelines
+GAPS: GCP/BigQuery/Pub/Sub preferred (candidate has Azure/PostgreSQL); Kafka/Airflow/Fivetran (newer tools)
+FIT SCORE: 72%
+PRIORITY: HIGH
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Swisscom SDC Rotterdam
+TITLE: DevOps Engineer – Applied GenAI and Software Engineering (Junior)
+URL: https://www.iamexpat.nl/career/jobs-netherlands/it-technology-positions/devops-engineer-–-applied-genai-and-software-engineering-junior/61vEYCBdfFQM5dNH7CM3tR
+LOCATION: Rotterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Full relocation support (Housing, settling in, etc.) for you and your family." Listed on IamExpat (expat-targeted board).
+LANGUAGE REQUIREMENT: English required. Dutch not mentioned.
+TECH MATCH: Python, RESTful APIs, Docker, Kubernetes (intro level), distributed systems/Kafka (intro), CI/CD
+GAPS: Kafka/Spark/Flink experience listed (candidate has background in ETL/data pipelines which partially overlaps); GenAI/AI tools are nice-to-have
+FIT SCORE: 70%
+PRIORITY: GOOD
+SKIP REASON: N/A
+NOTE: This is the Junior DevOps/Software Engineering variant — different from the previously logged Swisscom SDC Rotterdam full-stack role. The senior variant is also listed below.
+=====================================
+
+=====================================
+COMPANY: Swisscom SDC Rotterdam
+TITLE: DevOps Engineer – Applied GenAI and Software Engineering (Senior)
+URL: https://www.iamexpat.nl/career/jobs-netherlands/it-technology-positions/devops-engineer-–-applied-genai-and-software-engineering-senior/rx1ZTMYK5ihRcLBdFvMKdw
+LOCATION: Rotterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Full relocation support (Housing, settling in, etc.) for you and your family" plus €200/month telephone/internet allowance, €500 home office allowance.
+LANGUAGE REQUIREMENT: English required. Dutch not mentioned.
+TECH MATCH: Python, RESTful APIs, Docker, Kubernetes, distributed systems (Kafka/Spark/Flink), CI/CD
+GAPS: Java/Go/Rust/Scala preferred for backend (candidate has Python/C#); Kafka and Flink experience required at senior level
+FIT SCORE: 65%
+PRIORITY: GOOD
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Swisscom SDC Rotterdam
+TITLE: DevOps Engineer Fullstack Developer
+URL: https://www.iamexpat.nl/career/jobs-netherlands/it-technology-positions/devops-engineer-fullstack-developer/sSKhLPaAYnjY8fVyge6AfY
+LOCATION: Rotterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Full relocation support (Housing, settling in, etc.) for you and your family."
+LANGUAGE REQUIREMENT: "Good written and spoken English" required. Dutch not required.
+TECH MATCH: Java/Spring Boot (gap), TypeScript, React/Next.js, SQL/NoSQL, Docker, CI/CD (GitLab), PostgreSQL
+GAPS: Java and Spring Boot are primary backend (candidate has Python/C# not Java); Kubernetes as a plus
+FIT SCORE: 60%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — Java is primary backend gap but candidate has strong full-stack transferable skills; relocation makes it worth flagging
+=====================================
+
+=====================================
+COMPANY: Saxo Bank
+TITLE: Senior C#/.NET Developer
+URL: https://nl.linkedin.com/jobs/view/senior-c%23-net-developer-at-saxo-bank-4367887923
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None found in posting. No dealbreaker language either. Saxo Bank is a major international financial institution that historically sponsors international tech talent (kennismigrant-eligible employer).
+LANGUAGE REQUIREMENT: Not stated. No Dutch requirement found.
+TECH MATCH: C#, .NET, Azure, Docker, Kubernetes, Kafka, Redis, React (optional), financial systems/FinTech background matches perfectly
+GAPS: Kafka and Redis experience (candidate has SQL/PostgreSQL focus); senior level implied
+FIT SCORE: 83%
+PRIORITY: HIGH
+SKIP REASON: N/A — FinTech background + C#/.NET stack is excellent match for a bank. Strong candidate fit.
+=====================================
+
+=====================================
+COMPANY: Yellowtail Conclusion
+TITLE: Senior C# Developer
+URL: https://nl.linkedin.com/jobs/view/senior-c%23-developer-at-yellowtail-conclusion-4383768917
+LOCATION: Naarden, NL
+SALARY: €3,900–€5,300 gross/month + €767 mobility budget
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language found. English is mandatory; Dutch listed as advantage only.
+LANGUAGE REQUIREMENT: English mandatory; Dutch is "an advantage" only — not required.
+TECH MATCH: C#, .NET Framework/.NET Core, ASP.NET, Entity Framework, MS SQL Server, Azure, CI/CD, REST APIs, Agile
+GAPS: Angular/Blazor frontend (candidate has React/Vue); jQuery (minor)
+FIT SCORE: 85%
+PRIORITY: HIGH
+SKIP REASON: N/A — Exceptional stack match. English-only acceptable. 5+ years experience aligns.
+=====================================
+
+=====================================
+COMPANY: Tibber
+TITLE: Backend Engineer (Trading)
+URL: https://nl.linkedin.com/jobs/view/backend-engineer-trading-at-tibber-4367015789
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language found. English-first company with Nordic culture.
+LANGUAGE REQUIREMENT: "You're fluent in English, communicating transparently with colleagues both IRL and digitally." Dutch not required.
+TECH MATCH: C#/.NET, Python, PostgreSQL, Docker, Kubernetes, AWS, Kafka, REST APIs, Agile
+GAPS: Energy trading domain knowledge (nice-to-have); Kafka (candidate has ETL/data pipeline experience)
+FIT SCORE: 80%
+PRIORITY: HIGH
+SKIP REASON: N/A — Tech stack is ideal match. English-only. International company.
+=====================================
+
+=====================================
+COMPANY: Vivid Resourcing (client: unnamed SaaS company)
+TITLE: .NET Developer
+URL: https://nl.linkedin.com/jobs/view/net-developer-at-vivid-resourcing-4371896813
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. Recruitment agency placing candidates internationally.
+LANGUAGE REQUIREMENT: No Dutch requirement mentioned. Posting in Dutch but no language mandate stated.
+TECH MATCH: C#, ASP.NET, .NET Core, Entity Framework, SQL Server, REST APIs, Git, Agile, design patterns
+GAPS: None significant — direct stack match
+FIT SCORE: 88%
+PRIORITY: HIGH
+SKIP REASON: N/A — Near-perfect stack alignment. Contact: david.tran@vividresourcing.com
+=====================================
+
+=====================================
+COMPANY: Oakwell Hampton Group (for financial risk management client)
+TITLE: Dotnet Developer / C# Developer
+URL: https://nl.linkedin.com/jobs/view/dotnet-developer-at-oakwell-hampton-group-4372230860
+LOCATION: Naarden, NL
+SALARY: Up to €70,000 + benefits, mobility allowance
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. International recruiting agency.
+LANGUAGE REQUIREMENT: "Fluency in English" required. Dutch not mentioned.
+TECH MATCH: C#, ASP.NET, MS SQL Server, Azure, CI/CD pipelines, financial domain (FinTech background relevant)
+GAPS: None significant; 5 years C# experience aligns
+FIT SCORE: 85%
+PRIORITY: HIGH
+SKIP REASON: N/A — Strong stack and domain match (financial risk management aligns with candidate's FinTech background)
+=====================================
+
+=====================================
+COMPANY: PwC Nederland
+TITLE: Web Application Developer
+URL: https://nl.linkedin.com/jobs/view/web-application-developer-at-pwc-nederland-4328117666
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. PwC is a major global firm — historically sponsors skilled workers. No "no sponsorship" language. Dutch is listed as "an advantage" only.
+LANGUAGE REQUIREMENT: "Fluent in English; Dutch is an advantage." Dutch not mandatory.
+TECH MATCH: Python, FastAPI, React, PostgreSQL, Docker, Kubernetes, Git, Scrum/Agile, REST APIs, Azure
+GAPS: GenAI/RAG experience listed (nice-to-have); Azure AI Search (candidate familiar with Azure ecosystem generally)
+FIT SCORE: 80%
+PRIORITY: HIGH
+SKIP REASON: N/A — PwC Tech is a strong international employer. Python/FastAPI/React is a direct match.
+=====================================
+
+=====================================
+COMPANY: myTomorrows
+TITLE: Backend Engineer
+URL: https://nl.linkedin.com/jobs/view/backend-engineer-at-mytomorrows-4271591996
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language found. Requirement is to be within commuting distance — does NOT explicitly prohibit relocation.
+LANGUAGE REQUIREMENT: "Excellent English communication skills" required. Dutch not required.
+TECH MATCH: Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, Docker, Kubernetes, AWS, CI/CD, GitHub Actions
+GAPS: Healthcare/pharma domain (nice-to-have); candidates must be Amsterdam commute-range (requires relocation)
+FIT SCORE: 82%
+PRIORITY: GOOD
+SKIP REASON: N/A — Perfect Python/FastAPI stack match. "Commuting distance" clause may limit if not already in NL, but is not explicit no-sponsorship.
+=====================================
+
+=====================================
+COMPANY: Fashion Cloud
+TITLE: Senior Python Engineer
+URL: https://nl.linkedin.com/jobs/view/senior-python-engineer-at-fashion-cloud-4344003008
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. International tech company. "20 Days Remote Working Program" listed.
+LANGUAGE REQUIREMENT: No Dutch requirement mentioned.
+TECH MATCH: Python, Django/Flask/FastAPI, PostgreSQL, MongoDB, AWS (S3, ECS, Lambda), Docker, Terraform, CI/CD
+GAPS: ClickHouse/Cube experience (new tools); Terraform (minor gap)
+FIT SCORE: 78%
+PRIORITY: GOOD
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Capgemini
+TITLE: Python Backend Engineer
+URL: https://nl.linkedin.com/jobs/view/python-backend-engineer-nl-at-capgemini-4345314154
+LOCATION: Utrecht, NL
+SALARY: Not listed (negotiable)
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. Capgemini is a major global IT services firm — strong track record of sponsoring skilled workers in Netherlands (IND-recognized sponsor). No "no sponsorship" language found.
+LANGUAGE REQUIREMENT: Not explicitly stated. Posted as "NL" role but no Dutch language mandate found.
+TECH MATCH: Python 3.x, FastAPI, REST APIs, Docker, CI/CD (Azure DevOps), Azure cloud, unit testing (pytest)
+GAPS: Azure-specific services (EntraID, Graph API) — candidate has general Azure experience; Agentic AI is just a plus
+FIT SCORE: 80%
+PRIORITY: HIGH
+SKIP REASON: N/A — Capgemini NL is a very likely IND sponsor. Permanent contract offered immediately.
+=====================================
+
+=====================================
+COMPANY: Doghouse Recruitment (client: unnamed SaaS/online learning company)
+TITLE: Software Engineer / Full Stack Developer
+URL: https://nl.linkedin.com/jobs/view/software-engineer-at-doghouse-recruitment-4378272222
+LOCATION: Utrecht, NL
+SALARY: Up to €75,000/year
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Visa sponsorship and 30% ruling support (if eligible)" explicitly listed in job posting.
+LANGUAGE REQUIREMENT: No Dutch requirement explicitly stated. "Based in the Netherlands" requirement noted.
+TECH MATCH: Node.js/TypeScript (backend), React (frontend), GCP/AWS, CI/CD (GitLab), REST APIs
+GAPS: Primary stack is Node.js/TypeScript not Python/C# — candidate's background is backend Python/C#; GCP experience (candidate has Azure); 5+ years required (candidate matches)
+FIT SCORE: 62%
+PRIORITY: GOOD
+SKIP REASON: N/A — Explicit visa sponsorship mention is very rare. Despite stack gap (Node.js vs C#/Python), worth applying given sponsorship guarantee. Full-stack skills in React directly match.
+=====================================
+
+=====================================
+COMPANY: Mistral AI
+TITLE: Software Engineer, Compute Infrastructure
+URL: https://nl.linkedin.com/jobs/view/software-engineer-compute-infrastructure-at-mistral-ai-4323919223
+LOCATION: Remote in Netherlands (primary offices in Paris/London)
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Visa sponsorship" explicitly listed under benefits. "We will prioritize candidates who either reside there or are open to relocating." Accommodation/travel covered for onboarding in Paris.
+LANGUAGE REQUIREMENT: No Dutch requirement. English-language company (French AI startup, English-first engineering).
+TECH MATCH: Python, Docker, Kubernetes, CI/CD, REST APIs, infrastructure engineering
+GAPS: Primary language is Golang (candidate has Python/C# — no Go experience); Kubernetes/Terraform are a partial match
+FIT SCORE: 55%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — Golang is primary language gap. However, explicit visa sponsorship + remote option makes it worth flagging. Infrastructure role may suit if candidate is open to DevOps-adjacent work.
+=====================================
+
+=====================================
+COMPANY: IMC Trading
+TITLE: Python Software Engineer
+URL: https://nl.linkedin.com/jobs/view/python-software-engineer-at-imc-trading-4329479385
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. IMC Trading is a top-tier algorithmic trading firm known to sponsor international talent at scale. No "no sponsorship" or "EU only" language. "Experience working with financial data is a must" — candidate's FinTech/banking/SWIFT background directly relevant.
+LANGUAGE REQUIREMENT: No Dutch requirement mentioned.
+TECH MATCH: Python, FastAPI, AsyncIO, PostgreSQL, Docker, Kubernetes, REST APIs, financial domain (SWIFT/banking background)
+GAPS: Trading-specific Python libraries (APScheduler, Polars, Pandas advanced use); Redis, Kafka; 4+ years Python (candidate may have some gap if most Python experience is recent)
+FIT SCORE: 72%
+PRIORITY: GOOD
+SKIP REASON: N/A — Financial domain experience is a strong differentiator. IMC is known IND sponsor.
+=====================================
+
+=====================================
+COMPANY: Just Eat Takeaway.com
+TITLE: Junior FullStack .NET Software Engineer
+URL: https://nl.linkedin.com/jobs/view/junior-fullstack-net-software-engineer-at-just-eat-takeaway-com-4356722585
+LOCATION: Enschede, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. Just Eat Takeaway is a major multinational — historically sponsors skilled workers in NL. "Multi-country team" language suggests international environment. No "no sponsorship" language.
+LANGUAGE REQUIREMENT: No Dutch requirement stated. Posting in English.
+TECH MATCH: C#, .NET ecosystem, Vue.js/React/Angular, Python (scripting), REST APIs, CI/CD
+GAPS: Junior-level role — may be below candidate's experience; Python listed as "nice to have" not core
+FIT SCORE: 70%
+PRIORITY: GOOD
+SKIP REASON: N/A — Multinational with international teams. Despite "junior" title, tech stack aligns perfectly. Worth applying at medior/junior-senior boundary.
+=====================================
+
+=====================================
+COMPANY: Deliverect
+TITLE: Backend Developer II
+URL: https://nl.linkedin.com/jobs/view/backend-developer-ii-at-deliverect-4382844902
+LOCATION: Amersfoort, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "Applicants must possess the legal right to work in the country where the role is based, as we are currently unable to provide financial assistance for relocation or travel."
+LANGUAGE REQUIREMENT: "Fluency in English is required." Dutch not required.
+TECH MATCH: Python/Node.js, REST APIs, Docker, Kubernetes (nice-to-have), PostgreSQL, Git, SOLID
+GAPS: N/A — stack matches
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Explicit "legal right to work" requirement + "unable to provide financial assistance for relocation." Effectively no sponsorship.
+=====================================
+
+=====================================
+COMPANY: New Orange
+TITLE: Senior Software Engineer (Senior .NET Developer)
+URL: https://nl.linkedin.com/jobs/view/senior-software-engineer-at-new-orange-4377826898
+LOCATION: 's-Hertogenbosch, NL
+SALARY: €4,500–€6,500/month
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: Explicitly states: "Je woont in Nederland (we bieden geen visa sponsorship)." — "You live in Netherlands (we offer no visa sponsorship)."
+LANGUAGE REQUIREMENT: Dutch required.
+TECH MATCH: .NET 8, C#, Azure, React, Next.js, TypeScript
+GAPS: N/A (skip)
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Explicit "no visa sponsorship" language in posting. Dutch required. Hard disqualification.
+=====================================
+
+=====================================
+COMPANY: Idella
+TITLE: Senior .NET Developer
+URL: https://nl.linkedin.com/jobs/view/senior-net-developer-at-idella-4375168185
+LOCATION: Amersfoort, NL
+SALARY: Up to €7,500 gross/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None found. No "no sponsorship" language either.
+LANGUAGE REQUIREMENT: "Goede beheersing van de Nederlandse en Engelse taal" — Dutch AND English required. Dutch is mandatory.
+TECH MATCH: .NET Framework/.NET 6/7/8, C#, React, Azure, microservices, CI/CD, Domain-Driven Design
+GAPS: 10 years minimum experience required (candidate has ~5 years); Dutch required
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Dutch language required. Also requires minimum 10 years experience — significantly above candidate's ~5 years.
+=====================================
+
+=====================================
+COMPANY: Sopra Steria
+TITLE: .NET Developer
+URL: https://nl.linkedin.com/jobs/view/net-developer-at-sopra-steria-4377256582
+LOCATION: Nieuwegein, NL
+SALARY: €4,000–€6,000/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None found.
+LANGUAGE REQUIREMENT: "Je communiceert goed in het Nederlands" — Dutch proficiency required.
+TECH MATCH: C#, .NET Core, Azure DevOps, GitHub, CI/CD, cloud
+GAPS: Dutch required
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Dutch language is explicitly required ("communicates well in Dutch"). Hard disqualification per candidate criteria.
+=====================================
+
+=====================================
+COMPANY: Tebi
+TITLE: Senior Full-Stack Engineer
+URL: https://nl.linkedin.com/jobs/view/senior-full-stack-engineer-at-tebi-4371833074
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "We are looking for candidates who hold EU citizenship." Relocation package offered but only to EU citizens.
+LANGUAGE REQUIREMENT: English-first; no Dutch required.
+TECH MATCH: Vue.js/React, Kotlin/Java (backend gap), APIs, Docker, relational databases
+GAPS: EU citizenship required; primary backend is Kotlin/Java not Python/C#; 8+ years required
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: EU citizenship explicitly required. Hard disqualification.
+=====================================
+
+=====================================
+COMPANY: Booking.com
+TITLE: Software Engineer I - Backend
+URL: https://nl.linkedin.com/jobs/view/software-engineer-i-backend-at-booking-com-4240310364
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: NO
+SPONSORSHIP SIGNALS: "Relocation support cannot be provided for this role and therefore candidates must be currently based in the Netherlands in order to be considered."
+LANGUAGE REQUIREMENT: Not stated.
+TECH MATCH: Python/Perl/Java, PostgreSQL, MySQL, Git — partial match
+GAPS: N/A (skip)
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Explicit "must currently be based in Netherlands" + no relocation support. Effectively no sponsorship available.
+=====================================
+
+=====================================
+COMPANY: Primio
+TITLE: Backend Developer
+URL: https://nl.linkedin.com/jobs/view/backend-developer-at-primio-4375521608
+LOCATION: Rotterdam, NL
+SALARY: €3,400–€4,100/month
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None found.
+LANGUAGE REQUIREMENT: "Goede beheersing van de Nederlandse en Engelse taal" — Dutch AND English required.
+TECH MATCH: Node.js, PostgreSQL, AWS, Terraform, CI/CD — partial stack match
+GAPS: Dutch required; Node.js primary (candidate has Python/C#)
+FIT SCORE: 0% (SKIP)
+PRIORITY: SKIP
+SKIP REASON: Dutch language explicitly required. Hard disqualification.
+=====================================
+
+=====================================
+COMPANY: Swisscom SDC Rotterdam
+TITLE: AI Data Engineer and BI Specialist
+URL: https://www.iamexpat.nl/career/jobs-netherlands/it-technology-positions/ai-data-engineer-and-bi-specialist/tmAKzq5j33WrPu15G3vBbX
+LOCATION: Rotterdam, NL
+SALARY: Not listed
+IND SPONSOR: YES (implied — same Swisscom SDC office as other confirmed relocation roles)
+SPONSORSHIP SIGNALS: Listed on IamExpat.nl expat board. "Excellent written and spoken English" required. Same employer (Swisscom SDC Rotterdam) as confirmed relocation roles. Fixed-term contract (1 year).
+LANGUAGE REQUIREMENT: English required. Dutch not mentioned.
+TECH MATCH: Python, SQL, REST APIs, data pipelines, AWS, Pandas, data modeling, ETL
+GAPS: AWS Glue/Athena/SageMaker (AWS-specific data services; candidate has Azure background); Apache Spark (nice-to-have)
+FIT SCORE: 70%
+PRIORITY: GOOD
+SKIP REASON: N/A — Same employer as confirmed relocation-sponsoring Swisscom SDC roles. Very likely same package applies.
+=====================================
+
+=====================================
+COMPANY: TripleTen
+TITLE: Senior Backend Developer
+URL: https://nl.linkedin.com/jobs/view/senior-backend-developer-at-tripleten-4378394457
+LOCATION: Amsterdam, NL (fully remote)
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" language. Fully remote. Note: TripleTen specifically states it cannot offer US H-1B/L-1 sponsorship — but this is a Netherlands-based role, not US.
+LANGUAGE REQUIREMENT: "Fluent in English." Dutch not mentioned.
+TECH MATCH: Python 3.x, FastAPI, PostgreSQL, Kafka, AWS, Kubernetes, CI/CD (GitLab), Docker, C# background (listed as relevant experience for statically typed language familiarity)
+GAPS: DDD/Onion Architecture (candidate may have exposure via ASP.NET); Kafka (data pipeline background partially transferable)
+FIT SCORE: 75%
+PRIORITY: GOOD
+SKIP REASON: N/A — The H-1B note is US-specific and irrelevant for NL visa. Fully remote, English-only, strong Python/FastAPI match.
+=====================================
+
+=====================================
+COMPANY: GeekSoft Consulting
+TITLE: Senior Python Developer
+URL: https://nl.linkedin.com/jobs/view/senior-python-developer-at-geeksoft-consulting-4377757764
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None found. No "no sponsorship" or "EU only" language.
+LANGUAGE REQUIREMENT: Not explicitly stated. No Dutch requirement found.
+TECH MATCH: Python, Django/FastAPI, REST APIs, Kafka, Azure DevOps, CI/CD, SQL, data processing
+GAPS: Kafka (candidate has ETL/data pipeline background); Django (candidate has Flask/FastAPI)
+FIT SCORE: 75%
+PRIORITY: GOOD
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Eneco
+TITLE: Python Engineer IoT Platform (Senior Software Engineer)
+URL: https://nl.linkedin.com/jobs/view/python-engineer-iot-platform-at-eneco-4331001802
+LOCATION: Rotterdam, NL
+SALARY: €86,000–€128,000 gross/year
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. Eneco is a major Dutch energy company and well-known IND-recognized sponsor. Salary range suggests they recruit internationally.
+LANGUAGE REQUIREMENT: No Dutch requirement explicitly stated. English-language job posting.
+TECH MATCH: Python (production, 4+ years), Docker, CI/CD, Azure DevOps, REST APIs, Azure IoT Edge, testing
+GAPS: IoT/networking domain (candidate has FinTech background — different domain); Azure IoT Edge (specific tool)
+FIT SCORE: 72%
+PRIORITY: GOOD
+SKIP REASON: N/A — Exceptional salary. Eneco is a likely IND sponsor. Strong Python match.
+=====================================
+
+=====================================
+COMPANY: ParaPy
+TITLE: Python Developer
+URL: https://nl.linkedin.com/jobs/view/python-developer-at-parapy-4296248474
+LOCATION: Delft, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. Tech/engineering startup at Yes!Delft incubator — known for international hiring.
+LANGUAGE REQUIREMENT: Not stated. No Dutch requirement found.
+TECH MATCH: Python (primary), OOP, client-server architecture; C# listed as nice-to-have (candidate has this)
+GAPS: Geometric modeling/engineering math domain (specialized niche); candidate's web/API background is different
+FIT SCORE: 65%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — Domain is specialized (engineering software), but Python + C# background makes candidate competitive.
+=====================================
+
+=====================================
+COMPANY: My Jewellery
+TITLE: Medior Python Developer
+URL: https://nl.linkedin.com/jobs/view/medior-python-developer-at-my-jewellery-4379831223
+LOCATION: 's-Hertogenbosch, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language.
+LANGUAGE REQUIREMENT: Not explicitly stated. No Dutch requirement found.
+TECH MATCH: Python, APIs, CI/CD, testing frameworks, Google Cloud, microservices
+GAPS: Google Cloud (candidate has Azure/AWS background — transferable); e-commerce domain
+FIT SCORE: 72%
+PRIORITY: GOOD
+SKIP REASON: N/A
+=====================================
+
+=====================================
+COMPANY: Eagle Eye Networks (Brivo)
+TITLE: Python Developer
+URL: https://nl.linkedin.com/jobs/view/python-developer-at-eagle-eye-networks-4377580361
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. US-based company (Eagle Eye Networks / Brivo) with Amsterdam office — US companies with NL offices commonly sponsor kennismigrant visas. No "no sponsorship" language.
+LANGUAGE REQUIREMENT: No Dutch requirement found.
+TECH MATCH: Python 2 & 3, Django Rest Framework, PostgreSQL, Redis, Git, CI/CD, Docker/Kubernetes (plus)
+GAPS: 5-days in office mandate (full on-site); Django DRF (candidate has Flask/FastAPI — transferable)
+FIT SCORE: 70%
+PRIORITY: GOOD
+SKIP REASON: N/A — US parent company historically sponsors. Full on-site is a lifestyle consideration but not a disqualifier.
+=====================================
+
+=====================================
+COMPANY: InterEx Group (contract role)
+TITLE: Python Developer
+URL: https://nl.linkedin.com/jobs/view/python-developer-at-interex-group-4371920182
+LOCATION: Almere, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. International recruitment firm placing candidates.
+LANGUAGE REQUIREMENT: "English fluency is a hard requirement." Dutch is "a bonus" only.
+TECH MATCH: Python (senior), data/SQL, Linux environment
+GAPS: Team leadership experience required (candidate has some mentoring but limited formal lead experience); SALT/Linux admin (minor); 12-month contract only
+FIT SCORE: 65%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — English-only, no Dutch needed. Contract role, lower barrier to sponsorship.
+=====================================
+
+=====================================
+COMPANY: Next Force Recruitment (for automotive software client)
+TITLE: .NET Fullstack Developer – Automotive Software
+URL: https://nl.linkedin.com/jobs/view/net-developer-at-next-force-recruitment-4381845056
+LOCATION: Amersfoort, NL
+SALARY: Market rate (not specified)
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. International recruitment agency.
+LANGUAGE REQUIREMENT: No explicit Dutch requirement stated. Posting partially in Dutch but no language mandate.
+TECH MATCH: C#, .NET Core, Entity Framework, SQL, React/Angular, Azure DevOps, REST APIs, Node.js
+GAPS: GraphQL (nice-to-have); ML.Net (nice-to-have); automotive domain
+FIT SCORE: 82%
+PRIORITY: HIGH
+SKIP REASON: N/A — Near-perfect stack match: C#, .NET Core, Entity Framework, SQL, React, Azure DevOps are all core candidate skills.
+=====================================
+
+=====================================
+COMPANY: Levy Professionals (for unnamed client)
+TITLE: Python Developer (Backend Developer)
+URL: https://nl.linkedin.com/jobs/view/python-developer-at-levy-professionals-4373510557
+LOCATION: Amstelveen, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. No "no sponsorship" or "EU only" language. International staffing firm.
+LANGUAGE REQUIREMENT: Not explicitly stated. No Dutch requirement.
+TECH MATCH: Python, FastAPI, Pydantic, REST APIs, Azure cloud, databases, API design/architecture
+GAPS: None significant — strong alignment
+FIT SCORE: 82%
+PRIORITY: HIGH
+SKIP REASON: N/A — FastAPI/Pydantic/Python backend is a direct match. Azure experience aligns.
+=====================================
+
+=====================================
+COMPANY: Bunq
+TITLE: Backend Engineer
+URL: https://www.iamexpat.nl/career/jobs-netherlands/it-technology-positions/backend-engineer/ghebiMsJrUd63jbwVMUGfP
+LOCATION: Amsterdam, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. Bunq is a neobank known for a highly international team and "Digital Nomad Program." No "no sponsorship" language found. IamExpat listing signals expat-friendly.
+LANGUAGE REQUIREMENT: "You're fluent in English, both speaking and writing." Dutch not required.
+TECH MATCH: PHP (primary — minor gap; candidate has Python/C# OOP background), MySQL, Redis, Elasticsearch
+GAPS: PHP is primary language (candidate has no PHP); Redis and Elasticsearch not in core profile
+FIT SCORE: 55%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — PHP is the primary gap but bunq explicitly says "no prior PHP experience needed while experience in any object-oriented language will do." Candidate's C#/Python OOP background satisfies this. Listed on IamExpat. Worth flagging.
+=====================================
+
+=====================================
+COMPANY: TOPdesk
+TITLE: Experienced Full-Stack Software Engineer
+URL: https://nl.linkedin.com/jobs/view/experienced-full-stack-software-engineer-at-topdesk-4383723206
+LOCATION: Delft, NL
+SALARY: Not listed
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: None explicit. TOPdesk is a major international ITSM software company with offices in 10+ countries — known for international hiring. No "no sponsorship" language.
+LANGUAGE REQUIREMENT: "You're proficient in Java and Typescript, and of course in English." Dutch not required.
+TECH MATCH: TypeScript/JavaScript (candidate has JS experience), SQL Server, Docker, CI/CD, REST APIs, Agile/Scrum, Vue (frontend listed — candidate has Vue.js)
+GAPS: Java is the primary backend language (candidate has Python/C# not Java); jOOQ/JUnit (Java-specific)
+FIT SCORE: 60%
+PRIORITY: BORDERLINE
+SKIP REASON: N/A — Java gap is significant but TypeScript/Vue.js/SQL Server are strong matches. TOPdesk is an established IND sponsor. Worth monitoring/applying.
+=====================================
+
+# -------------------------
+# SUMMARY
+# -------------------------
+# Total roles evaluated: 34
+# SKIP (hard disqualification): 7
+#   - New Orange: explicit "no visa sponsorship" + Dutch required
+#   - Tebi: EU citizenship required
+#   - Booking.com: must already be in NL
+#   - Deliverect: explicit no relocation/legal right to work required
+#   - Sopra Steria: Dutch required
+#   - Primio: Dutch required
+#   - Idella: Dutch required + 10 years experience
+#
+# QUALIFYING LEADS (HIGH + GOOD + BORDERLINE): 27
+#
+# HIGH PRIORITY (score 80%+, strong sponsorship signals or top stack match):
+#   1. ZooStation/Relocate.me — Python, explicit visa+relocation
+#   2. Xccelerated/Xebia — Data Engineer, explicit relocation support
+#   3. Catawiki/Relocate.me — Data Engineer, explicit visa+relocation
+#   4. Saxo Bank — C#/.NET, FinTech match, international bank
+#   5. Yellowtail Conclusion — Senior C#, English-only, excellent stack match
+#   6. Tibber — C#/.NET + Python, backend trading, English-only
+#   7. Vivid Resourcing — .NET, near-perfect stack, English-only
+#   8. Oakwell Hampton — C#/.NET, financial domain, English-only
+#   9. PwC Nederland — Python/FastAPI/React, English-first
+#   10. Capgemini — Python/FastAPI, likely IND sponsor, permanent contract
+#   11. Doghouse Recruitment — explicit "visa sponsorship and 30% ruling" mentioned
+#   12. Next Force Recruitment — .NET Fullstack, near-perfect stack
+#   13. Levy Professionals — Python/FastAPI/Azure, direct match
+#
+# GOOD PRIORITY (score 62–79%):
+#   14. Xccelerated — Analytics Engineer, relocation support
+#   15. Swisscom (Junior DevOps/GenAI) — relocation support confirmed
+#   16. Swisscom (Senior DevOps/GenAI) — relocation support confirmed
+#   17. myTomorrows — Python/FastAPI, English-only, strong match
+#   18. Fashion Cloud — Senior Python, English-only
+#   19. Swisscom AI Data Engineer — same employer as relocation roles
+#   20. TripleTen — Python/FastAPI, fully remote, English-only
+#   21. GeekSoft — Python/FastAPI/Django, English-friendly
+#   22. Eneco — Python senior, excellent salary, likely IND sponsor
+#   23. Eagle Eye Networks — Python/Django, US parent company
+#   24. My Jewellery — Python/APIs, English-friendly
+#   25. IMC Trading — Python/financial domain, likely IND sponsor
+#
+# BORDERLINE (score 55–61%):
+#   26. Swisscom Fullstack (Java/React) — relocation yes, Java gap
+#   27. Mistral AI — explicit visa sponsorship, Golang gap
+#   28. ParaPy — Python, specialized domain, English-friendly
+#   29. InterEx Group — Python contract, English-only
+#   30. bunq — PHP "no prior experience needed," IamExpat listed
+#   31. TOPdesk — Java gap, but TypeScript/Vue match, IND sponsor likely
