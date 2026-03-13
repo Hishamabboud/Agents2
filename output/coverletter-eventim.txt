@@ -1,0 +1,29 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Eventim Benelux
+Groningen / Amsterdam, Netherlands
+
+Re: Backend Python Engineer (Web / APIs)
+
+Dear Hiring Team,
+
+I came across the Backend Python Engineer role at Eventim Benelux and it stopped me mid-scroll. A Python backend position building ticketing infrastructure that processes millions of transactions, at a company that genuinely works at the intersection of technology and live events - that is exactly the kind of work I want to be doing, in exactly the part of the world I want to be doing it in.
+
+Over the past three years at Tekkii, I have worked primarily as a backend developer building Python services, REST APIs, and database layers for ecommerce and logistics platforms. One of the projects I am most proud of is the backend overhaul of KidsCloset.biz - I rebuilt the database structure, rewrote the API layer in Python, and integrated payment and notification services (PayPal, SendGrid) to handle real transaction flows. The platform was later acquired, which I take as a reasonable sign the work held up. I have also built EDI processing systems handling automated data exchange between supply chain partners, which gave me deep experience with designing reliable, scalable backend services that cannot afford to fail. Your stack - Python, FastAPI, Flask, Celery, MySQL - maps directly to what I have been working with. I am comfortable building and maintaining exactly this kind of high-throughput API backend.
+
+Before Tekkii, I spent two years at Allied Engineering Group in Beirut building financial transaction software in C# and ASP.NET for SWIFT banking platforms. The client base was 400+ institutions across 40+ countries including Qatar National Bank. That experience gave me a strong appreciation for systems where correctness matters and downtime is not an option - which is the mindset I bring to backend API development. It also taught me how to work across teams and time zones, which I have continued doing throughout my career.
+
+On why the Netherlands: I have a close friend based in Eindhoven who has been living and working there for several years. He has spoken highly of the professional culture - direct, collaborative, focused on results rather than process. That matches how I prefer to work. I have been actively looking to make the move to Europe, and the Netherlands specifically feels right both professionally and personally. I am ready to relocate immediately and fully committed to settling in.
+
+I would love the chance to talk about the role in more detail. I am available for a call or video interview at any time that works for your team.
+
+Thank you for your consideration.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

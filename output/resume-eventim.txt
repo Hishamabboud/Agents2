@@ -1,0 +1,33 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162 | Available for relocation to the Netherlands | GitHub: MoAbboud
+
+TECHNICAL SKILLS
+Python | Flask | FastAPI | REST APIs | MySQL | SQLAlchemy | PostgreSQL | JavaScript | Vue.js | React | Angular
+PHP | C# | ASP.NET Core | HTML | CSS | Bootstrap | jQuery | SQL Server | T-SQL | Stored Procedures
+Git | Docker | CI/CD | Agile/Scrum | SendGrid | PayPal API | EDI | SSIS | SSRS
+
+EXPERIENCE
+
+Full Stack Developer | Tekkii | January 2023 - January 2026 | Kansas City, KS, USA
+- Designed and implemented RESTful APIs in Python and PHP to support ecommerce and logistics platforms, handling thousands of daily transactions
+- Built EDI (Electronic Data Interchange) processing system from scratch to automate supply chain data exchange between trading partners
+- Developed backend services and database layer for KidsCloset.biz ecommerce platform using Python and SQL, resulting in successful acquisition of the application
+- Integrated third-party services including PayPal, SendGrid, and OneSignal APIs into backend systems, mirroring the payment and notification integration patterns common in ticketing platforms
+- Managed relational databases (MySQL, PostgreSQL, SQL Server) including schema design, query optimization, and stored procedures
+- Delivered features across sprints in Agile/Scrum teams using Git for version control and CI/CD for deployment workflows
+- Built backend and REST API components for Kansas City Election System (government application) and KC Sports Directory (community database)
+
+Software Engineer | Allied Engineering Group | June 2019 - June 2021 | Beirut, Lebanon
+- Developed C# and ASP.NET applications for SWIFT financial transaction processing platforms serving 400+ banking institutions across 40+ countries
+- Designed and optimized SQL Server stored procedures, views, and complex queries for high-volume financial data processing
+- Built reporting solutions using SSRS and SSIS ETL pipelines for cross-bank data flows
+- Integrated Telerik UI components into enterprise web applications for banking clients including QNB (Qatar National Bank)
+- Collaborated in Agile development cycles, contributing to scalable backend systems processing millions of financial messages
+
+EDUCATION
+University of Missouri-Kansas City
+Master of Science in Computer Science | 2021-2023
+Relevant Coursework: Software Engineering, Advanced Database Systems, Data Structures and Algorithms, Enterprise Application Development
+Project: Pneumonia Detection App using CNN (92% accuracy) and VGG16 (95% accuracy)
+
+Languages: English (fluent), Arabic (native), French (basic)

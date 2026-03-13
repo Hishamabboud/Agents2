@@ -1,0 +1,27 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Swisscom DevOps Center Rotterdam
+Rotterdam, Netherlands
+
+Re: Full-Stack Software Engineer (UI/UX focused)
+
+Dear Hiring Team,
+
+I am applying for the Full-Stack Software Engineer role at Swisscom DevOps Center Rotterdam. The position involves React/TypeScript frontend development, PostgreSQL databases, Docker/Kubernetes, GitLab CI/CD, and AWS - areas where my experience is either direct or closely adjacent.
+
+My frontend experience includes building applications in React, Vue.js, Angular, and JavaScript, with an emphasis on REST API integration and responsive UI development. I am comfortable with PostgreSQL, Docker, Git/CI-CD pipelines, and have worked in Agile/Scrum teams throughout my career. On the backend, my primary experience is C#/ASP.NET and Python rather than Java/Spring Boot, which is the primary backend used at your center - I acknowledge this gap honestly. However, the posting emphasizes the UI/UX side of this full-stack role, which is where my strengths align most directly.
+
+At Tekkii, I worked on frontend and backend components for ecommerce, logistics, and government applications, integrating third-party APIs and building user-facing features from design specs. At Allied Engineering Group, I built enterprise web applications in C#/ASP.NET for financial clients across 40+ countries, including UI work using Telerik components.
+
+The relocation support offered (housing assistance, settling support, family relocation) is specifically what makes international applicants able to take roles seriously, and I appreciate that Swisscom provides it. I am fully prepared to relocate to Rotterdam and committed to making the transition successfully.
+
+Rotterdam is my first-choice Dutch city. I would be glad to discuss the role.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

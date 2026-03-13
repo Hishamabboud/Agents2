@@ -1,0 +1,32 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Dieter Van Uytvanck
+jobs@clarin.eu
+CLARIN ERIC / Utrecht University
+Utrecht, Netherlands
+
+Re: Software Engineer - CLARIN Project
+
+Dear Dieter,
+
+I am applying for the Software Engineer position with the CLARIN project at Utrecht University. The role - maintaining and extending Java-based web applications for European digital language infrastructure, using Docker, PostgreSQL, React, Git, and CI/CD - is one where I can contribute meaningfully from day one on several parts of the stack, and grow into the Java-specific components quickly.
+
+My background is primarily in full stack backend development: Python, C#/ASP.NET, REST APIs, PostgreSQL, HTML/CSS, React, and Git. At Tekkii, I built and maintained backend services and APIs for a range of clients including government and ecommerce applications, containerizing services with Docker and managing relational databases including PostgreSQL. I am comfortable with the web development lifecycle from database schema through API design to frontend integration, which covers a substantial part of what the CLARIN role involves.
+
+The Java portions of the role - Tomcat/Jetty, Spring, Maven, Lucene/Solr - represent areas where I have adjacent experience rather than direct: I have worked with application server deployments, dependency management, and search system integration in other contexts. I am a quick learner with a practical approach to new technologies, and I am prepared to come up to speed on the CLARIN-specific Java applications rapidly.
+
+My Python experience is directly relevant given the posting's note that Python is valued. I have used Python for backend services, scripting, and data processing tasks throughout my career. I also note that the role description mentions potential for a permanent position after the initial 12-month contract, which aligns with my goal of building a long-term career in the Netherlands.
+
+I am fluent in English (my primary professional and academic language), available to relocate to Utrecht immediately, and genuinely interested in working on open research infrastructure at an academic institution.
+
+I have attached my CV. I am happy to discuss the role at your convenience.
+
+Thank you for your consideration.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud

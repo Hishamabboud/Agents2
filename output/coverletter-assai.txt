@@ -1,0 +1,27 @@
+Mohamad Abboud
+mohammad.a.abboud@gmail.com | +1 (406) 920-5162
+
+March 13, 2026
+
+Hiring Team
+Assai Software
+Culemborg, Netherlands
+
+Re: .NET Developer
+
+Dear Hiring Team,
+
+The .NET Developer role at Assai Software is a strong match for where I am in my career and what I am looking for next. Your stack - C#, ASP.NET Core, Entity Framework Core, REST APIs, PostgreSQL, Docker - is the same stack I have been working with for the past five years, and the product focus on document management for capital-intensive industries is the kind of domain problem I find genuinely interesting.
+
+At Tekkii in Kansas City, my day-to-day work has been exactly what your posting describes: building and maintaining ASP.NET Core APIs, designing relational database schemas and stored procedures in SQL Server and PostgreSQL, working with Docker for containerized deployments, and contributing to Agile teams using Git workflows. I built a full EDI processing system from scratch for supply chain automation and rebuilt the backend and database layer for an ecommerce platform that was later acquired. Before Tekkii, I spent two years at Allied Engineering Group in Beirut working in C# and ASP.NET on SWIFT financial transaction platforms for over 400 banking institutions across 40+ countries. That included writing heavy SQL Server stored procedures and T-SQL queries for real-time financial data, which gave me a solid foundation in writing code that handles large, critical datasets correctly.
+
+With five years of .NET development, I match the experience level you are looking for. I am comfortable with the full lifecycle - design, implementation, code review, and the messier work of debugging and performance tuning in production systems.
+
+I have been actively planning a move to the Netherlands. I have a close friend in Eindhoven and have spent time learning about life and work there. I am committed to relocating and available to start as soon as logistics allow.
+
+I would be glad to discuss the role further. Thank you for your time.
+
+Mohamad Abboud
+mohammad.a.abboud@gmail.com
++1 (406) 920-5162
+GitHub: MoAbboud
