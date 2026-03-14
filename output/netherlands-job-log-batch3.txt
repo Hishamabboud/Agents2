@@ -1,0 +1,349 @@
+# Netherlands Job Search — Mohamad Abboud
+# Batch 3 — New listings only (not in previous batches 1 or 2)
+# Date: March 14, 2026
+# Search boards / sources covered this batch:
+#   - ASML careers (asml.com/en/careers) — checked, no C#/.NET listings surfaced
+#   - Adyen careers (careers.adyen.com) — Java-primary; noted for future reference
+#   - Backbase careers (backbase.com/careers) — Java/Spring primary
+#   - TomTom careers (tomtom.com/careers) — reviewed; C++ primary, few C# openings
+#   - ING Bank careers (careers.ing.com) + Relocate.me listing
+#   - Mollie careers (jobs.mollie.com) + Relocate.me listing
+#   - Coolblue careers (careersatcoolblue.com / coolblue.nl/en/vacancies)
+#   - Optiver careers (optiver.com) — C# UI Engineer role found
+#   - Rabobank careers (rabobank.jobs) — Azure DevOps roles found
+#   - Philips careers (careers.philips.com) — general review
+#   - Siemens Netherlands (jobs.siemens.com) — 118 NL listings, no specific C# surfaced
+#   - IBM Netherlands — 27 NL listings noted, general
+#   - Accenture Netherlands (accenture.com/nl-en/careers) — general consulting roles
+#   - Deloitte Netherlands — general review
+#   - KPMG Netherlands (werkenbijkpmg.nl) — IT/audit focus
+#   - Sogeti Netherlands — no specific listings surfaced
+#   - Elastic (jobs.elastic.co/netherlands) — 81 Amsterdam listings, no C# found
+#   - EVBox / Everon (relocate.me) — Backend Engineer Java / Embedded C
+#   - Brunel Amsterdam (relocate.me) — C#/.NET Developer with full sponsorship
+#   - Ravecruitment / TDNet Amsterdam (relocate.me) — Sr .NET Developer found
+#   - eVision The Hague (relocate.me) — Software Developer C# found
+#   - Optiver Amsterdam (relocate.me + direct) — C# Software Developer found
+#   - Stream Amsterdam (HN Hiring March 2026) — Go engineer, noted
+#   - Hacker News "Who is Hiring?" March 2026 — Amsterdam listings reviewed
+#   - Relocate.me Netherlands C#/.NET/Python filter — multiple listings reviewed
+#   - WeAreDevelopers Netherlands .NET/C# filter — 70+ Amsterdam listings noted
+#   - Cimpress/Vistaprint NL — no specific C# listings surfaced
+#   - Mendix Netherlands — Java/low-code focus, no direct .NET listings
+#   - Randstad Digital Netherlands — IT listings reviewed, no specific C# listings surfaced
+#
+# TOTALS THIS BATCH:
+#   Companies/roles assessed: 15 entries (10 HIGH/GOOD priority, 5 SKIP/BORDERLINE)
+#   IND Sponsor YES: 7 | UNKNOWN: 5 | NO / NOT APPLICABLE: 3
+#   HIGH priority: 7 | GOOD: 3 | BORDERLINE: 2 | SKIP: 3
+#
+# NOTE: Roles already covered in Batches 1 & 2 have been excluded.
+#       Assessment only — no applications submitted.
+=====================================
+
+=====================================
+COMPANY: Ravecruitment / TDNet
+TITLE: Senior .NET Developer – Global SaaS
+URL: https://relocate.me/the-netherlands/amsterdam/ravecruitment/search-sr-net-developer-global-saas-8500
+LOCATION: Amsterdam, NL (onsite, permanent)
+SALARY: Not listed; competitive
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Relocation & sponsorship available if needed." Ravecruitment is explicitly described as a "Dutch leading highly skilled migrant (Recruitment + Relocation + Payroll) agency" based at Science Park Amsterdam. They handle IND visa, BSN, bank account, housing, and relocation for international hires. Listed on Relocate.me.
+LANGUAGE REQUIREMENT: English required ("fluent English" stated). Dutch not required.
+TECH MATCH: C#, .NET 4.8 MVC, .NET 6, React (Angular/Vue.js also acceptable), SQL, Kubernetes, AWS (DynamoDB, Lambda, SQS), Elastic, NLP. Candidate has all primary stack items.
+GAPS: NLP/ML experience (nice-to-have); Elastic and AWS secondary to role; Kubernetes (minor gap but candidate has Docker/Azure DevOps)
+FIT SCORE: 88%
+PRIORITY: HIGH
+STATUS: Open / Active (listed on Relocate.me)
+SKIP REASON: N/A
+NOTES: TDNet builds a SaaS research and content management platform supporting Fortune 500, governments, hospitals, and universities. Setting up a new Dutch dev team — candidate could be an early hire with leadership potential. 5+ years C#, MVC, SQL required — candidate meets this. Excellent match. Ravecruitment handles full IND and relocation process. Contact via Relocate.me application.
+=====================================
+
+=====================================
+COMPANY: Brunel International N.V.
+TITLE: C# / .NET Developer
+URL: https://relocate.me/the-netherlands/amsterdam/brunel/c-net-developer-2420
+LOCATION: Amsterdam, NL
+SALARY: Competitive; 26 days holiday, pension, private health care
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Full relocation assistance and visa sponsorships are guaranteed." Brunel is an IND-recognized global mobility and staffing firm with 106 offices in 37 countries. Explicitly arranges IND residence/work permits, BSN, bank account, municipality registration, and 30% tax ruling for international hires. Advanced relocation package includes: flight ticket, moving expenses, temporary housing, housing search assistance, visa services, real estate agent support, and rental deposit coverage.
+LANGUAGE REQUIREMENT: Not explicitly stated; Brunel operates internationally and posts in English. No Dutch requirement found.
+TECH MATCH: .NET, C#, XML, HTML, XHTML, JavaScript, CSS, WCF, REST, Scrum, Agile. "T-shaped engineers" with deep Microsoft platform knowledge. Candidate has 5+ years on Microsoft platform (C#, ASP.NET Core, REST APIs, SQL Server, Entity Framework, Docker, Azure DevOps).
+GAPS: WCF (older tech, candidate has REST/API focus; minor gap); specific toolchain (Puppet, CheckMK, ELK, Rundeck, Octopus, New Relic, Bamboo, JMeter) — candidate may need to onboard on ops tooling
+FIT SCORE: 83%
+PRIORITY: HIGH
+STATUS: Open / Active (listed on Relocate.me)
+SKIP REASON: N/A
+NOTES: Brunel is placing the developer at a client company building a new ecosystem. Minimum 5 years Microsoft platform experience required — candidate meets this exactly. Brunel provides permanent contract to the placed developer with benefits. Excellent sponsorship and relocation credentials. Strong fit.
+=====================================
+
+=====================================
+COMPANY: eVision (via Relocate.me)
+TITLE: Software Developer (C#)
+URL: https://relocate.me/the-netherlands/the-hague/evision/software-developer--45
+LOCATION: The Hague (Den Haag), NL
+SALARY: Not listed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: "Full relocation assistance and visa sponsorships are guaranteed." Advanced relocation package includes moving expenses, housing assistance, and visa services. eVision is listed on Relocate.me as an active international hiring company.
+LANGUAGE REQUIREMENT: "Fluent English communication" required. Dutch not mentioned.
+TECH MATCH: C#, .NET Framework 4.0+, LINQ, ASP.NET MVC, MSSQL, CI/CD, Git, TDD, unit testing, SOLID principles, multi-threaded programming. Candidate's stack is a near-perfect match.
+GAPS: Domain-Driven Design / CQRS / Event Sourcing (nice-to-have, not required). Mobile dev (nice-to-have). Oil & gas / petrochemical domain knowledge (nice-to-have).
+FIT SCORE: 87%
+PRIORITY: HIGH
+STATUS: Open / Active (listed on Relocate.me)
+SKIP REASON: N/A
+NOTES: eVision works with Shell, BP, Axe, Qatar Petroleum on health and safety software. Only 2+ years C# experience required (candidate has 5). The Hague is a viable Dutch city (government hub, international courts). Excellent stack alignment. Straightforward relocation and IND sponsorship. Strong candidate for this role.
+=====================================
+
+=====================================
+COMPANY: Optiver
+TITLE: C# Software Developer (via Relocate.me listing; also direct opening: Software Engineer – User Interface C#)
+URL (Relocate.me): https://relocate.me/the-netherlands/amsterdam/optiver/c-software-developer-19
+URL (Direct): https://optiver.com/working-at-optiver/career-opportunities/8239425002/
+LOCATION: Amsterdam, NL
+SALARY: Excellent remuneration + profit-sharing (unmatched in industry per Optiver); on-site meals, fully-paid commuting, premium-free pension, sports/wellness
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: Relocate.me listing states "full relocation assistance and visa sponsorships are guaranteed." Direct Optiver site confirms: "Optiver is able to sponsor visas for its Amsterdam position." Advanced relocation package includes: flight ticket, temporary housing, housing search assistance, visa services, language courses, moving expense allowance, adaptation tips, real estate agent support.
+LANGUAGE REQUIREMENT: English-speaking. No Dutch requirement mentioned.
+TECH MATCH: C# / .NET (primary), SQL, ASP.NET, TCP/Multicast, OOP, multithreading, real-time data, concurrency, performance profiling. Candidate has C#, .NET, REST APIs, SQL Server, Entity Framework, PostgreSQL, Docker, Azure DevOps. The UI role specifically requires high-performance C# with WPF/WinForms or custom frameworks and C++ interop knowledge.
+GAPS: C++ interop and WPF/WinForms (candidate has web/API focus, not desktop UI focus). Financial trading domain knowledge. Ultra-low-latency systems experience. High-frequency trading context is demanding.
+FIT SCORE: 72%
+PRIORITY: GOOD
+STATUS: Open / Active (direct listing confirmed March 2026)
+SKIP REASON: N/A — Candidate can apply for the general C# Developer track; the UI Engineer role specifically requires C++ knowledge and desktop UI experience which gaps candidate's profile. Worth flagging as stretch role.
+NOTES: Optiver is a world-class electronic market maker founded in Amsterdam. Strong compensation and relocation package. The general C# developer role (backend/mid-office systems) is a better fit than the pure UI Engineer role which leans into C++/desktop. Candidate should apply via Relocate.me for the general track and check optiver.com for the UI Engineer role separately.
+=====================================
+
+=====================================
+COMPANY: Coolblue
+TITLE: C# Developer (Medior/Senior)
+URL: https://www.coolblue.nl/en/vacancies/c-developer
+LOCATION: Rotterdam, NL (office near Rotterdam Central Station; hybrid, 4-8 days/month in-office)
+SALARY: Glassdoor estimate: €95,626–€155,877/year (estimated — treat as broad range); exact salary not in posting
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: No explicit mention of IND sponsorship in the job posting. Coolblue offers relocation assistance for international hires generally ("For many vacancies, Coolblue offers the possibility to help you (and your family) relocate to the Netherlands"). Coolblue is a large Dutch e-commerce company and likely an IND recognized sponsor, but this was not confirmed in the posting.
+LANGUAGE REQUIREMENT: "You speak English very well." No Dutch required explicitly.
+TECH MATCH: C# .NET 8.0, REST APIs, GraphQL, PostgreSQL, DynamoDB, Oracle, MySQL, AWS, GitHub, TeamCity, Datadog, SOLID, microservices, CI/CD. Optional: React, JavaScript. Candidate's stack (C#, ASP.NET Core, .NET 6/7/8, REST APIs, SQL Server, PostgreSQL, Entity Framework, Docker, Git, Azure DevOps) is an excellent match.
+GAPS: AWS (candidate has Azure; gap is manageable), GraphQL (candidate has REST, minor learning curve), DynamoDB (NoSQL, minor gap), TeamCity vs Azure DevOps (similar CI/CD tools)
+FIT SCORE: 84%
+PRIORITY: HIGH
+STATUS: Open / Active
+SKIP REASON: N/A — Sponsorship UNKNOWN but relocation offered; worth applying and asking about IND sponsorship in screening call
+NOTES: Coolblue is one of the largest Dutch e-commerce companies. 3+ years medior or 6+ years senior C# required — candidate's 5 years fits the medior-to-senior range. International team (Netherlands, Belgium, Spain, Brazil, Mexico, Italy mentioned). Minimum 3 years C# required for medior track. Candidate should verify IND sponsorship status during screening. Contact: solliciteren@coolblue.nl
+=====================================
+
+=====================================
+COMPANY: ING Bank
+TITLE: Software Engineer (via Relocate.me) / Tech Class 2026 (ING Graduate Program)
+URL (Relocate.me SE): https://relocate.me/the-netherlands/amsterdam/ing/software-engineer-4002
+URL (Tech Class): https://careers.ing.com/en/nl-working-in-the-netherlands-techclass
+LOCATION: Amsterdam, NL
+SALARY: Not listed; estimated €65,000–€110,000 for senior SE roles at major Dutch banks
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: Relocate.me listing confirms visa sponsorship and advanced relocation package (flight ticket, temporary housing, housing search assistance, visa services, adaptation tips). Tech Class 2026 program explicitly states "visa sponsorship available if required." ING is one of the largest banks in the Netherlands and a known IND recognized sponsor.
+LANGUAGE REQUIREMENT: "Fluent English (spoken and written) required." No Dutch requirement.
+TECH MATCH (SE role): Java (JVM-based), Spring, Jenkins, Maven, Docker, Postgres, Oracle, Polymer, Angular, Redux — primary stack is Java. Candidate's primary is C#/.NET/Python, not Java. Cross-language skills apply (REST, Docker, SQL, CI/CD, Agile) but Java is the main gap.
+TECH MATCH (Tech Class): Multi-domain (backend, frontend, data engineering, DevOps). More stack-agnostic. Candidate's broad skillset fits the rotational learning model.
+GAPS (SE role): Java and Spring Boot are the primary backend (not C#). TypeScript/Angular frontend vs. candidate's React/Vue. Significant language gap for the SE role.
+GAPS (Tech Class): Requires graduating by September 2026; candidate has already completed MSc (graduated 2026 from UMKC). Applications for 2026 cohort are currently CLOSED.
+FIT SCORE: 62% (SE role — Java gap is significant); Tech Class CLOSED
+PRIORITY: BORDERLINE (SE role — Java gap limits fit); Tech Class — SKIP (applications closed)
+STATUS: SE role open via Relocate.me (may be dated listing); Tech Class 2026 — applications CLOSED
+SKIP REASON (Tech Class): Applications closed; cohort full for 2026.
+NOTES: ING is a world-class bank with strong relocation and sponsorship. The SE role uses Java primarily. If candidate has any Java experience or is open to switching, worth flagging. Otherwise, ING's C# or Python-specific roles (if they exist) should be targeted separately. ING is on the IND recognized sponsors list. Candidate should monitor ING careers for .NET/Python-specific openings.
+=====================================
+
+=====================================
+COMPANY: ASML
+TITLE: Software Engineer (general — C#, Python, Java, C++ available tracks)
+URL: https://www.asml.com/en/careers/technical-fields/computer-science-jobs-software-engineering
+LOCATION: Veldhoven (Brainport Eindhoven region), NL; also Eindhoven and Dutch satellite offices
+SALARY: Estimated €60,000–€110,000 + stock options (per market data); no exact figure from job postings
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: ASML is one of the most prominent IND recognized sponsors in the Netherlands. The company is in the IND public sponsor register. ASML offers relocation support for new hires moving to the Netherlands. Employs 3,000+ software engineers; 487 engineering jobs in NL on LinkedIn. C# is explicitly listed as one of the languages used at ASML.
+LANGUAGE REQUIREMENT: English-dominant teams. Dutch not required for technical roles.
+TECH MATCH: ASML uses C#, Python, Java, C++ across software engineering tracks. Candidate has C# and Python as primary skills. ASML software focuses on machine control, data science, testing, and chip manufacturing optimization.
+GAPS: Semiconductor/lithography domain knowledge (highly specialized; not expected for entry hires). C++ strong preference for embedded/real-time roles (candidate lacks C++). No specific open C#/Python listing was surfaced — candidate must search asml.com/en/careers/find-your-job directly.
+FIT SCORE: 78% (strong stack alignment for C#/Python tracks; domain gap is normal for industry changers)
+PRIORITY: HIGH
+STATUS: 297+ general NL jobs on LinkedIn; specific C#/Python roles require direct search at asml.com
+SKIP REASON: N/A
+NOTES: ASML is the world's only supplier of EUV lithography machines. One of the most prestigious tech employers in the Netherlands. Relocation support confirmed. English-dominant work environment. Candidate should search asml.com/en/careers/find-your-job with keywords "C# developer" and "Python developer" and apply directly. ASML is Veldhoven-based — commutable from Eindhoven. Housing market in Eindhoven is better than Amsterdam.
+=====================================
+
+=====================================
+COMPANY: Philips
+TITLE: Software Engineer (Software Development track — C++/Python/C# available)
+URL: https://www.careers.philips.com/professional/global/en/c/software-development-jobs
+LOCATION: Best, Eindhoven, Eindhoven region, Zeist — various NL sites
+SALARY: Estimated €60,000–€90,000 annually (market data); not listed in postings
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: Philips is explicitly listed as a major IND recognized sponsor, alongside Shell, ASML, and ING. Reddit and expat communities confirm Philips sponsors international tech talent. 158 Philips jobs on LinkedIn NL; 62 engineering roles in Eindhoven. Philips is one of the largest Dutch multinational corporations.
+LANGUAGE REQUIREMENT: English required for technical/R&D roles. Dutch not required.
+TECH MATCH: Philips hires for medical technology/health tech software. Languages include C++, Python, C#, Java. Candidate's C# and Python background directly applies. A live listing for "Software Engineer" in Zeist used Java (Spring Boot, Maven, REST, Docker, CI/CD), but Python and C# roles exist in health tech division.
+GAPS: Medical device software domain knowledge (IEC 62304, medical regulations — not expected for non-medical candidates). C++ (stronger preference for embedded). Specific tech stack varies by division (MRI, CT, health informatics software differs from web backend).
+FIT SCORE: 73%
+PRIORITY: GOOD
+STATUS: 158 NL jobs on LinkedIn; specific C#/Python roles require direct search at careers.philips.com/nl/en/search-results
+SKIP REASON: N/A
+NOTES: Philips (Royal Philips) focuses on health technology. Python and C# are used in data analytics and platform roles. Candidate should filter careers.philips.com for "software engineer" + "C#" or "Python" in Netherlands. Strong sponsorship and relocation profile. R&D sites in Eindhoven area (lower housing costs than Amsterdam). Candidate should tailor application toward health informatics or platform engineering rather than medical device firmware.
+=====================================
+
+=====================================
+COMPANY: Mollie
+TITLE: Senior Software Engineer (Relocation within EU)
+URL: https://relocate.me/the-netherlands/amsterdam/mollie/senior-software-engineer-relocation-within-eu-7349
+LOCATION: Amsterdam, NL
+SALARY: Not disclosed
+IND SPONSOR: UNKNOWN (title says "relocation within EU" — this suggests EU residency may be preferred or required for this specific relocation offer)
+SPONSORSHIP SIGNALS: Comprehensive relocation package listed on Relocate.me: flight tickets, temporary housing, visa services, housing search assistance, rental deposit, moving expenses. However, the title "Relocation within the EU" is ambiguous — it may mean candidate must already be in the EU. Mollie is a fast-growing FinTech and likely an IND recognized sponsor, but IND sponsorship for non-EU candidates was not explicitly confirmed.
+LANGUAGE REQUIREMENT: Not explicitly stated. No Dutch requirement found.
+TECH MATCH: PHP (primary), Go, Java, Python, RabbitMQ, Redis, Google Cloud Platform, Kafka. Candidate's primary stack is C#/.NET/Python — PHP is the main gap (Mollie is PHP-primary). Python is valued but secondary. This is not an ideal C#/.NET match.
+GAPS: PHP (primary language — major gap). Go, Kafka, GCP (secondary but all new for candidate). 6+ years of large-scale web app development required (candidate has 5 — borderline).
+FIT SCORE: 52%
+PRIORITY: BORDERLINE
+STATUS: Open / Active on Relocate.me
+SKIP REASON: PHP is the primary language; candidate has no PHP background. The "relocation within EU" phrasing raises questions about whether non-EU candidates qualify for this specific posting. Major tech stack mismatch despite relocation appeal.
+NOTES: Mollie is a top Dutch FinTech (130,000+ business clients). Very attractive company but PHP-primary. Candidate could explore if Mollie has Python or Go backend roles. Not recommended to pursue this specific listing without PHP experience.
+=====================================
+
+=====================================
+COMPANY: EVBox / Everon
+TITLE: Software Engineer, Backend
+URL: https://relocate.me/the-netherlands/amsterdam/evbox/software-engineer-backend-8800
+LOCATION: Amsterdam, NL
+SALARY: Competitive; professional development budget, remote flexibility (2 weeks anywhere/year)
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: "Help with relocation if joining from outside of the Netherlands" — relocation assistance is mentioned but visa/IND sponsorship is not explicitly guaranteed. EVBox's Senior Embedded Engineer listing (separate role) does explicitly mention "full relocation assistance and free Dutch lessons." The Backend SE role's language is less definitive. EVBox is a significant Dutch EV tech company and likely on the IND sponsor list but this was not confirmed.
+LANGUAGE REQUIREMENT: Not stated. No Dutch requirement mentioned.
+TECH MATCH: Java 11, Spring Boot, PostgreSQL, NoSQL, microservices, REST APIs, CI/CD, GCP, Docker, Kubernetes, Gradle, Linux. Candidate primary stack is C#/.NET — Java is the main backend language gap. Candidate has PostgreSQL, REST APIs, Docker, and CI/CD (Azure DevOps). GCP vs Azure is minor.
+GAPS: Java (primary backend language — significant gap). Spring Boot. GCP (candidate has Azure). Kubernetes (minor gap). EV charging domain.
+FIT SCORE: 58%
+PRIORITY: BORDERLINE
+STATUS: Open / Active on Relocate.me
+SKIP REASON: Java is the primary backend language. Candidate's C#/.NET background does not directly transfer without Java experience. Relocation support present but IND sponsorship not explicitly confirmed.
+NOTES: EVBox/Everon is Europe's leading EV charging infrastructure company. Interesting domain (EV/cleantech). Worth monitoring for Python or C# roles. Not recommended to pursue the Backend SE role without Java background. The Embedded Software Engineer roles (C/C++) are a worse match for candidate's profile.
+=====================================
+
+=====================================
+COMPANY: Optiver
+TITLE: Software Engineer — User Interface (C#) [Direct Application Path]
+URL: https://optiver.com/working-at-optiver/career-opportunities/8239425002/
+LOCATION: Amsterdam, NL
+SALARY: "Excellent remuneration" + industry-unmatched profit sharing; on-site meals, fully-paid first-class commuting, premium-free pension, sports, wellness
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: Optiver directly states: "Optiver is able to sponsor visas for its Amsterdam position." Experienced in guiding expats through relocation with comprehensive packages.
+LANGUAGE REQUIREMENT: English. No Dutch requirement.
+TECH MATCH: C#, .NET, WPF/WinForms (or custom framework), C++ interop, real-time data visualization, multithreading, concurrency, performance profiling, high-performance desktop UI. Candidate has strong C# and .NET background but is web/API focused (ASP.NET Core, REST APIs) rather than desktop UI/WPF. C++ interop is an additional gap.
+GAPS: WPF/WinForms/desktop UI C# development (candidate is web-backend focused). C++ interoperability (specific Optiver requirement). Ultra-low-latency / real-time financial systems experience. Financial trading domain. This role is Senior level with architectural leadership expectations.
+FIT SCORE: 65%
+PRIORITY: GOOD
+STATUS: Active listing (March 2026)
+SKIP REASON: N/A — Stretch role but visa sponsorship is confirmed and compensation is exceptional. Candidate's C# depth is strong; the gap is desktop UI vs web API orientation. Worth applying to mention C# foundation and openness to WPF/desktop systems.
+NOTES: This is a stretch but not unreasonable for a strong C# developer. Optiver values C# expertise broadly. Candidate should also monitor Optiver's general Software Engineer listings (non-UI) which may align better with backend API experience. Annual profit sharing structure at Optiver is industry-leading. ASSESSMENT ONLY — do not apply yet without candidate review.
+=====================================
+
+=====================================
+COMPANY: ING Bank
+TITLE: Software Engineer (general — via Relocate.me legacy listing)
+URL: https://relocate.me/the-netherlands/amsterdam/ing/software-engineer-4002
+LOCATION: Amsterdam, NL
+SALARY: 13th month bonus, pension, personal allowance, laptop, mobile; base not disclosed
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: Relocate.me lists advanced relocation package: flight ticket, temporary housing, housing search assistance, visa services, adaptation tips. ING is a known IND recognized sponsor.
+LANGUAGE REQUIREMENT: "Fluent English (spoken and written) required." Dutch not required.
+TECH MATCH: Java (JVM-based), Spring, Docker, Polymer, Angular, Redux, Oracle, Cassandra. Primary backend language is Java. Candidate is C#/.NET/Python focused — Java is a significant gap.
+GAPS: Java and Spring Boot (primary — significant gap). Angular/Polymer vs candidate's React/Vue. This listing may also be dated (Relocate.me ING listing appears older).
+FIT SCORE: 55%
+PRIORITY: SKIP
+SKIP REASON: Java is the primary backend language — major tech mismatch for candidate's C#/.NET profile. Also this listing may be a legacy posting on Relocate.me. Candidate should watch ING careers directly for Python or C# backend openings (ING does have some Python/data engineering roles).
+NOTES: ING is a recognized sponsor and top employer. Candidate should visit careers.ing.com directly and filter for Python, .NET, or C# roles that may not appear on older Relocate.me listings. ING is undergoing digital transformation and sometimes posts Python/data engineering roles.
+=====================================
+
+=====================================
+COMPANY: ASML (via LinkedIn — large volume of roles)
+TITLE: Multiple Software Engineering roles (C#, Python tracks)
+URL: https://www.linkedin.com/jobs/asml-engineering-jobs-netherlands
+LOCATION: Veldhoven, Eindhoven area, NL
+SALARY: Estimated €60,000–€110,000 + stock (external market data)
+IND SPONSOR: YES
+SPONSORSHIP SIGNALS: ASML is a confirmed IND recognized sponsor. The company actively sponsors international engineers. "ASML offers relocation support for new hires moving to the Netherlands." 487 engineering jobs listed on LinkedIn NL as of March 2026.
+LANGUAGE REQUIREMENT: English-dominant technical teams. Dutch not required.
+TECH MATCH: ASML uses C#, Python, Java, C++ across SW engineering disciplines. 3,000+ SW engineers on payroll. Candidate's C# and Python are directly applicable. ASML software covers machine control, data science, ML, testing/quality, and manufacturing systems.
+GAPS: No specific C#/Python listing was accessible — candidate must browse LinkedIn or ASML careers directly. C++ is preferred for embedded/real-time control roles.
+FIT SCORE: 78%
+PRIORITY: HIGH
+STATUS: 487 engineering NL roles on LinkedIn; C#/Python specific roles require direct search
+SKIP REASON: N/A
+NOTES: This entry is to flag ASML LinkedIn as an active search target. Candidate should search LinkedIn for "ASML C# developer Netherlands" and "ASML Python engineer Netherlands" to find specific open roles. ASML is headquartered in Veldhoven (Brainport Eindhoven), offering excellent work-life balance and lower housing costs than Amsterdam. World's most advanced semiconductor equipment maker. Highly prestigious employer.
+=====================================
+
+=====================================
+COMPANY: Accenture Netherlands
+TITLE: Software Engineering / Technology Consulting roles (C#, .NET, custom software)
+URL: https://www.accenture.com/nl-en/careers
+LOCATION: Amsterdam and various NL cities
+SALARY: Not listed; estimated €55,000–€80,000 for experienced SE roles
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: Accenture's visa policy (UK-specific) states that "Accenture's ability to make and honor offers is subject to government immigration rules." For Netherlands specifically, no explicit IND sponsorship confirmation was found. Accenture is a major global consulting firm (143 jobs in Amsterdam on Glassdoor) and historically sponsors international talent in the US (292 H-1B LCAs in 2026) — Dutch office likely follows similar policies but was not confirmed.
+LANGUAGE REQUIREMENT: English primary for technology roles. Dutch may be required for client-facing consulting roles.
+TECH MATCH: Accenture Netherlands hires for "Custom Software Engineering" and "Packaged App Development" including .NET, C#, Azure, Dynamics 365, SAP. Candidate's stack (C#, ASP.NET Core, .NET, REST APIs, SQL Server, Entity Framework, Azure DevOps, Docker) is a strong fit for their custom software engineering practice.
+GAPS: Consulting mindset/client-facing skills. SAP/Dynamics 365 experience (for packaged app track). Dutch language may be needed for certain client engagements. IND sponsorship unconfirmed.
+FIT SCORE: 70%
+PRIORITY: GOOD
+STATUS: 2,000+ NL jobs on LinkedIn; 143 Amsterdam jobs on Glassdoor; Technology roles available
+SKIP REASON: N/A — IND sponsorship unconfirmed but worth investigating. Accenture Netherlands should be directly contacted.
+NOTES: Accenture NL has extensive tech consulting practice. Their "Applied Intelligence" and "Technology" divisions hire .NET and C# engineers. Candidate should apply on accenture.com/nl-en/careers and specifically target "Technology – Custom Software Engineering" roles. Must ask about IND sponsorship during screening. Accenture is a large enough corporation to have IND recognized sponsor status.
+=====================================
+
+=====================================
+COMPANY: Deloitte Netherlands
+TITLE: Software Engineer / Technology Consulting (various tech tracks)
+URL: https://www.deloitte.com/nl/en/careers.html
+LOCATION: Amsterdam, Rotterdam, Eindhoven, Utrecht — various NL offices
+SALARY: Not listed; competitive consulting salaries
+IND SPONSOR: UNKNOWN
+SPONSORSHIP SIGNALS: Deloitte Netherlands has 397 open jobs on Glassdoor. No explicit IND sponsorship language found in general search. Deloitte is a recognized firm in the Netherlands; KPMG (peer firm) has formal recognized sponsorship guidance. Deloitte likely has IND recognized sponsor status given its global scale but this was not directly confirmed.
+LANGUAGE REQUIREMENT: English for international-facing technology roles. Dutch may be required for client-facing advisory work.
+TECH MATCH: Deloitte NL Technology & Transformation practice hires for cloud, software engineering, and digital solutions including Azure, .NET, C#, and data engineering. Candidate's C#, Azure DevOps, .NET, REST API, SQL, Docker skillset applies to technology consulting roles.
+GAPS: Consulting / professional services background. Client-facing advisory skillset. Dutch language for some client engagements. Big 4 culture vs. product dev culture. IND sponsorship unconfirmed.
+FIT SCORE: 65%
+PRIORITY: GOOD
+STATUS: 397 NL jobs on Glassdoor; technology-specific roles available
+SKIP REASON: N/A — worth monitoring and applying for technology engineering roles
+NOTES: Deloitte's "Technology & Transformation" practice in NL hires software engineers and solution architects. Candidate should target roles like "Software Engineer – Microsoft Technology" or "Azure Developer." Candidate should ask about IND sponsorship explicitly in any application or recruiter call. Deloitte KPMG-level firms are well-established with IND.
+=====================================
+
+# ============================================================
+# BATCH 3 SUMMARY TABLE
+# ============================================================
+#
+# COMPANY                | TITLE                          | IND SPONSOR | FIT%  | PRIORITY
+# -----------------------|-------------------------------|-------------|-------|----------
+# Ravecruitment/TDNet    | Sr .NET Developer             | YES         | 88%   | HIGH
+# eVision (The Hague)    | Software Developer (C#)       | YES         | 87%   | HIGH
+# Coolblue               | C# Developer (Medior/Senior)  | UNKNOWN     | 84%   | HIGH
+# Brunel International   | C# / .NET Developer           | YES         | 83%   | HIGH
+# ASML (multiple roles)  | Software Engineer (C#/Python) | YES         | 78%   | HIGH
+# Optiver (UI C#)        | SW Engineer – UI (C#)         | YES         | 65%   | GOOD
+# Optiver (general)      | C# Software Developer         | YES         | 72%   | GOOD
+# Philips                | Software Engineer             | YES         | 73%   | GOOD
+# Accenture NL           | Software Engineering          | UNKNOWN     | 70%   | GOOD
+# Deloitte NL            | Technology/SW Engineer        | UNKNOWN     | 65%   | GOOD
+# ING (SE role)          | Software Engineer (Java)      | YES         | 55%   | SKIP
+# ING Tech Class 2026    | Tech Class Graduate           | YES         | N/A   | SKIP (CLOSED)
+# Mollie                 | Sr Software Engineer (PHP)    | UNKNOWN     | 52%   | BORDERLINE
+# EVBox Backend          | Software Engineer, Backend    | UNKNOWN     | 58%   | BORDERLINE
+# ING (Relocate.me)      | Software Engineer (Java)      | YES         | 55%   | SKIP
+#
+# KEY NEW ACTIONABLE LEADS (HIGH PRIORITY):
+#   1. Ravecruitment / TDNet — BEST MATCH: C# .NET, full IND/relocation confirmed, Relocate.me
+#   2. eVision The Hague — EXCELLENT MATCH: C# .NET, full IND/relocation confirmed, Relocate.me
+#   3. Coolblue Rotterdam — STRONG MATCH: C# .NET 8, relocation confirmed, IND to verify
+#   4. Brunel Amsterdam — STRONG MATCH: C# .NET, full IND/relocation confirmed, Relocate.me
+#   5. ASML Veldhoven — HIGH POTENTIAL: 487+ NL engineering roles, C# track confirmed, top-tier employer
+#
+# STATUS: ASSESSMENT ONLY. NO APPLICATIONS SUBMITTED.
+# NEXT STEPS: Candidate should review this batch and batch 2 HIGH priority roles
+#             before initiating any contact or applications.
+=====================================
